@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/sjoerdbootsma/Airline_Planning/Assignment 1/Airline_planning_2.0/airline2.0/Airline_Planning_2.0/bin/python3.11" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
