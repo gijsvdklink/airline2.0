@@ -24,7 +24,7 @@ aircraft_data = pd.DataFrame({
     'Time_Cost': [750, 775, 1400, 2800],  # Time cost parameter in EUR/hr
     'Fuel_Cost': [1.0, 2.0, 3.75, 9.0],  # Fuel cost parameter
     'LF': [0.75, 0.75, 0.75, 0.75],  # Load Factor
-    'BT': [70, 70, 70, 70]  # Maximum daily operational hours
+    'BT': [70, 70, 70, 70]  # Maximum weekly operational hours
 }, columns=['Type', 'Speed', 'Seats', 'TAT', 'Max_Range', 'RQ', 
             'Lease_Cost', 'Fixed_Cost', 'Time_Cost', 'Fuel_Cost', 'LF', 'BT'])
 
@@ -120,6 +120,7 @@ z = model.addVars(aircraft_types, airports, airports, name="z_kij", lb=0, vtype=
 w = model.addVars(airports, airports, name="w_ij", lb=0, vtype=GRB.INTEGER)  # Transfer passengers
 AC = model.addVars(aircraft_types, name="AC_k", lb=0, vtype=GRB.INTEGER)  # Aircraft leased
 y = model.addVars(aircraft_types, airports, vtype=GRB.BINARY, name="y_ki")
+y_feas = model.addVars(aircraft_types, airports, airports, vtype=GRB.BINARY, name="y_feas_kij")
 
 
 # Print variable structure for verification
@@ -247,12 +248,13 @@ for k in aircraft_types:
         quicksum(
             (
                 (distance_matrix[i][j] / aircraft_properties[k]['Speed']) +  # Flight time
-                (aircraft_properties[k]['TAT'] / 60) * hub_adjustment[j]  # Precomputed adjustment
-            ) * z[k, i, j]
+                aircraft_properties[k]['TAT'] / 60 * ( 1 + 0.5 * (1- g[j]))    # Turnaround time and hub adjustment
+            ) * z[k, i, j]  # Total time for aircraft k between airports i and j
             for i in airports for j in airports if i != j
-        ) <= aircraft_properties[k]['BT'] * AC[k],  # Available time
+        ) <= aircraft_properties[k]['BT'] * AC[k],  # Total time should be less than or equal to available time
         name=f"TotalTime_{k}"
     )
+
 
 
 
@@ -271,24 +273,23 @@ for k in aircraft_types:
                     name=f"RangeConstraint_{k}_{i}_{j}"
                 )
 
-# Print confirmation
-# runway constraint (C6)
-# Runway Requirement Constraint and Linking Constraint
 for k in aircraft_types:
     for i in airports:
-        # Ensure y[k, i] = 1 only if the runway length is sufficient
-        model.addConstr(
-            runway_lengths[i] >= aircraft_properties[k]['Runway Requirement'] * y[k, i],
-            name=f"RunwayRequirement_{k}_{i}"
-        )
-        
         for j in airports:
             if i != j:
-                # Link flights z[k, i, j] to the runway feasibility variable y[k, i]
-                model.addConstr(
-                    z[k, i, j] <= y[k, i] * 10000,  # Big-M formulation
-                    name=f"LinkFlightsToRunway_{k}_{i}_{j}"
-                )
+                # Check the minimum runway length and required runway length
+                runway_requirement = aircraft_properties[k]['Runway Requirement']
+                min_runway_length = min(runway_lengths[i], runway_lengths[j])
+
+                # Enforce the feasibility binary variable y_feas
+                if min_runway_length >= runway_requirement:
+                    model.addConstr(y_feas[k, i, j] == 1, name=f"RunwayFeasible_{k}_{i}_{j}")
+                else:
+                    model.addConstr(y_feas[k, i, j] == 0, name=f"RunwayNotFeasible_{k}_{i}_{j}")
+
+                # Link feasibility to flight variable z[k,i,j]
+                model.addConstr(z[k, i, j] <= 1000 * y_feas[k, i, j], name=f"RunwayLink_{k}_{i}_{j}")
+
 
 
 
@@ -298,10 +299,10 @@ for i in airports:
     for j in airports:
         if i != j:  # Exclude same airport pairs
             model.addConstr(
-                quicksum(z[k, i, j] for k in aircraft_types) <= 
-                available_slots[i] * (1 - g[i]) + available_slots[j] * (1 - g[j]),
+                quicksum(z[k, i, j] for k in aircraft_types) <= min(available_slots[i], available_slots[j]),
                 name=f"SlotLimitation_{i}_{j}"
-            ) 
+            )
+
 
 # Print confirmation
 print("Slot Limitation Constraints (C7) added successfully.")
@@ -309,52 +310,101 @@ print("Slot Limitation Constraints (C7) added successfully.")
 print(f"Runway Length for EPWA: {runway_lengths['EPWA']}")
 print(f"Runway Requirement for Aircraft 4: {aircraft_properties['Aircraft 4']['Runway Requirement']}")
 
-
 model.optimize()
 
-
-
-
-model.write("model.lp")
-# Check the optimization status
 if model.status == GRB.OPTIMAL:
-    for var in model.getVars():
-        print(f"{var.varName}: {var.x}")
-    print(f"Optimal Objective Value: €{model.objVal:,.2f}")
+    # Print the optimal objective value
+    print(f"\nOptimal Objective Value: €{model.objVal:,.2f}")
 
+    # Print the leased aircraft of each type
+    print("\nNumber of Aircraft Leased:")
+    for k in aircraft_types:
+        print(f" - {k}: {AC[k].x}")
 
-elif model.status == GRB.INFEASIBLE:
-    print("The model is infeasible.")
-    model.computeIIS()  # Compute Irreducible Inconsistent Subsystem
-    model.write("infeasibility_report.ilp")  # Write report for debugging
-
-elif model.status == GRB.UNBOUNDED:
-    print("The model is unbounded. Check constraints and objective function.")
-else:
-    print(f"Optimization ended with status {model.status}")
-
-
-if model.status == GRB.OPTIMAL:
-    print("\nFrequency Flight Plan (Weekly Flights):")
+    # Print the operated network (flight frequencies)
+    print("\nFlight Frequencies (Weekly):")
     for k in aircraft_types:
         for i in airports:
             for j in airports:
-                if i != j:  # Exclude same airport pairs
-                    flights = z[k, i, j].x  # Get the optimized value of z[k, i, j]
-                    if flights > 0:  # Only print non-zero values
-                        print(f"Aircraft Type: {k}, Route: {i} → {j}, Weekly Flights: {flights:.1f}")
+                if i != j and z[k, i, j].x > 0:  # Only show flights with non-zero frequency
+                    print(f"Aircraft {k}: {i} → {j}, Flights: {z[k, i, j].x}")
+
+
+else:
+    print("\nNo optimal solution found.")
 
 
 if model.status == GRB.OPTIMAL:
-    print("\nFleet Plan:")
+    total_flights = 0
+    total_flight_time = 0
+
+    # Loop through all aircraft types and airport pairs to calculate total flights and total flight time
     for k in aircraft_types:
-        fleet_size = AC[k].x  # Get the optimized value of AC[k]
-        if fleet_size > 0:  # Only print non-zero values
-            print(f"Aircraft Type: {k}, Number Leased: {int(fleet_size)}")
+        for i in airports:
+            for j in airports:
+                if i != j and z[k, i, j].x > 0:  # Only consider non-zero flights
+                    total_flights += z[k, i, j].x  # Total number of flights
+                    flight_time = distance_matrix[i][j] / aircraft_properties[k]['Speed']  # Flight time
+                    total_flight_time += flight_time * z[k, i, j].x  # Add weighted flight time
+
+    # Calculate average flight time
+    if total_flights > 0:
+        avg_flight_time = total_flight_time / total_flights
+    else:
+        avg_flight_time = 0
+
+    # Print results
+    print(f"\nTotal Number of Flights: {int(total_flights)}")
+    print(f"Average Flight Time: {avg_flight_time:.2f} hours")
+else:
+    print("No optimal solution found.")
 
 
-# Print g[j] voor elke airport j
-for j in airports:
-    print(f"g[{j}] = {g[j]}")
-print(f"Aantal luchthavens: {len(airports)}")
-print(f"Aantal vliegtuigtypes: {len(aircraft_types)}")
+if model.status == GRB.OPTIMAL:
+    print("\nOperational Hours per Aircraft Type (Optimal Solution):")
+    
+    for k in aircraft_types:
+        total_hours = 0
+        
+        # Calculate operational hours
+        for i in airports:
+            for j in airports:
+                if i != j and z[k, i, j].x > 0:  # Only consider active routes
+                    flight_time = distance_matrix[i][j] / aircraft_properties[k]['Speed']  # Flight time in hours
+                    turnaround_time = aircraft_properties[k]['TAT'] / 60  # Turnaround time in hours
+                    total_hours += (flight_time + turnaround_time) * z[k, i, j].x  # Total time
+        
+        # Total hours for all leased aircraft of type k
+        total_hours_all_aircraft = total_hours / AC[k].x if AC[k].x > 0 else 0
+        
+        # Print the result for the current aircraft type
+        max_hours = aircraft_properties[k]['BT']  # Maximum allowed operational hours per aircraft
+        print(f" - {k}: {total_hours_all_aircraft:.2f} hours per aircraft "
+              f"(Max: {max_hours} hours, Used: {total_hours_all_aircraft/max_hours:.1%})")
+else:
+    print("No optimal solution found.")
+
+if model.status == GRB.OPTIMAL:
+    total_distance = 0
+    total_flights = 0
+
+    # Loop through all aircraft types and airport pairs
+    for k in aircraft_types:
+        for i in airports:
+            for j in airports:
+                if i != j and z[k, i, j].x > 0:  # Only consider active flights
+                    total_flights += z[k, i, j].x  # Add the number of flights
+                    total_distance += distance_matrix[i][j] * z[k, i, j].x  # Add the distance traveled
+
+    # Calculate the average distance
+    if total_flights > 0:
+        avg_distance = total_distance / total_flights
+    else:
+        avg_distance = 0
+
+    # Print results
+    print(f"\nTotal Distance Traveled: {total_distance:.2f} km")
+    print(f"Total Number of Flights: {int(total_flights)}")
+    print(f"Average Distance of Flights: {avg_distance:.2f} km")
+else:
+    print("No optimal solution found.")
