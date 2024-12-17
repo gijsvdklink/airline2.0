@@ -343,3 +343,6 @@ if model.status == GRB.OPTIMAL:
         fleet_size = AC[k].x  # Get the optimized value of AC[k]
         if fleet_size > 0:  # Only print non-zero values
             print(f"Aircraft Type: {k}, Number Leased: {int(fleet_size)}")
+
+
+print('hoi')
