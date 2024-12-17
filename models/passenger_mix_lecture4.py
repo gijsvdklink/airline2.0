@@ -41,12 +41,21 @@ def load_itinerary_data(itineraries_df):
 # Functie om Recapture data te laden
 def load_recapture_data(recapture_df):
     b_p_r = defaultdict(lambda: defaultdict(float))
+    P_from = []  # Lijst voor 'From' itineraries
+    R_to = []    
+
+    # Itereer door de recapture data
     for _, row in recapture_df.iterrows():
-        p = row['From']  # Itinerary From
-        r = row['To']    # Itinerary To
-        recapture_rate = row['Rate']  # Recapture Rate
-        b_p_r[p][r] = recapture_rate
-    return b_p_r
+        itinerary_no_from = int(row['From'])  
+        itinerary_no_to = int(row['To'])      
+        recapture_rate = row['Rate']          
+        b_p_r[itinerary_no_from][itinerary_no_to] = recapture_rate
+        if itinerary_no_from not in P_from:
+            P_from.append(itinerary_no_from)
+        if itinerary_no_to not in R_to:
+            R_to.append(itinerary_no_to)
+    return b_p_r, P_from, R_to
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +72,7 @@ P, fare_p, D_p, delta_p_i = load_itinerary_data(itineraries_df)
 
 # Load Recapture Data
 recapture_df = excel_data.parse('Recapture')
-b_p_r = load_recapture_data(recapture_df)
+b_p_r, P_from, R_to = load_recapture_data(recapture_df)
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------
@@ -146,7 +155,6 @@ for p in P:
 #         name=f"NonNegative_t_{p}_0")
 
 
-
 model.update()
 
 # Solve Model
@@ -167,58 +175,74 @@ print("\nDecision Variables:")
 for v in model.getVars():
     print(f"{v.VarName}: {v.X}")
 
-print('---------------------------ITERATION 2-------------------------------------')
+print('---------------------------For ITERATION 2-------------------------------------')
 
-# Dual Variables ophalen
-dual_vars = {c.ConstrName: c.Pi for c in model.getConstrs()}
+#function to generate Dual variables 
+def calculate_dual_variables(model):
+    pi = {}       # Dual variables for capacity constraints (Pi)
+    sigma = {}    # Dual variables for demand constraints (Sigma)
 
+    # Loop through all constraints in the model
+    for constraint in model.getConstrs():
+        name = constraint.getAttr('ConstrName')  # Name of the constraint
+        dual_value = constraint.getAttr('Pi')    # Dual value of the constraint
+        
+        # Categorize dual variables based on the constraint name
+        if "Flight" in name:  # Capacity constraints
+            flight = int(name.split('_')[1])  # Extract flight number
+            pi[flight] = dual_value
+        elif "Demand_Limit" in name:  # Demand constraints
+            itinerary = int(name.split('_')[2])  # Extract itinerary number
+            sigma[itinerary] = dual_value
 
-print("\nDual Variables (Shadow Prices):")
-for c_name, dual_value in dual_vars.items():
-    print(f"{c_name}: {dual_value}")
+    # Optional: Print the dual variables
+    print("\nDual Variables for Capacity Constraints (Pi):")
+    for flight, value in pi.items():
+        print(f"Flight {flight}: {value}")
 
-# Functie om de som van de duale variabelen (shadow prices) per itinerary te berekenen
-def compute_dual_sums(P, itineraries_df, dual_vars):
-    dual_sums = {}
-    for _, row in itineraries_df.iterrows():
-        p = row['#']  # Itinerary nummer
-        dual_sum = 0
-        # Haal dual variables op voor Leg1 en Leg2, indien ze bestaan
-        if pd.notna(row['Leg1']):
-            flight1 = row['Leg1']
-            dual_sum += dual_vars.get(f"Flight_{flight1}_Spill", 0)
-        if pd.notna(row['Leg2']):
-            flight2 = row['Leg2']
-            dual_sum += dual_vars.get(f"Flight_{flight2}_Spill", 0)
-        dual_sums[p] = dual_sum
-    return dual_sums
+    print("\nDual Variables for Demand Constraints (Sigma):")
+    for itinerary, value in sigma.items():
+        print(f"Itinerary {itinerary}: {value}")
 
-# Functie om c_p^r' te berekenen
-def compute_cp_r_prime(P, fare_p, b_p_r, dual_sums):
-    cp_r_prime = defaultdict(lambda: defaultdict(float))
-    for p in P:
-        for r in P:
-            b_pr = b_p_r[p].get(r, 0)  # Recapture rate
-            cp_r_prime[p][r] = (fare_p[p] - dual_sums[p]) - b_pr * (fare_p[r] - dual_sums[r]) 
-    return cp_r_prime
+    return pi, sigma
 
-# Berekeningen
-dual_sums = compute_dual_sums(P, itineraries_df, dual_vars)
-cp_r_prime = compute_cp_r_prime(P, fare_p, b_p_r, dual_sums)
+ #calculate the dual variables using the new function
+pi, sigma = calculate_dual_variables(model)
 
-# Filter c_p^r' waar de waarde negatief is
-negative_cp_r_prime = []
-for p in P:
-    for r in P:
-        if b_p_r[p].get(r, 0) > 0 and cp_r_prime[p][r] < 0:  # Alleen negatieve waarden en geldige recapture rates
-            negative_cp_r_prime.append((p, r, cp_r_prime[p][r]))
+def compute_t_p_r_prime(P_from, R_to, fare_p, delta_p_i, pi, sigma, b_p_r):
+    results = []
 
-# How only negative values for c_p^r
-print("\nNegatieve c_p^r' waarden (gefilterd):")
-for p, r, value in negative_cp_r_prime:
-    print(f"c_{p}^{r} = {value:.2f}")
+    for p in P_from:  # Itereer alleen over P_from
+        fare_p_value = fare_p[p]  # Fare van itinerary p
+        # Som van pi alleen voor de vluchten waar delta_p_i[p][flight] == 1
+        pi_sum_p = sum(pi[flight] for flight in delta_p_i[p] if delta_p_i[p][flight] == 1 and flight in pi)
 
+        for r in R_to:  # Itereer alleen over R_to
+            if b_p_r[p][r] > 0:  # Alleen als recapture rate > 0
+                fare_r_value = fare_p[r]  # Fare van itinerary r
+                # Som van pi alleen voor de vluchten waar delta_p_i[r][flight] == 1
+                pi_sum_r = sum(pi[flight] for flight in delta_p_i[r] if delta_p_i[r][flight] == 1 and flight in pi)
+                sigma_p_value = sigma.get(p, 0)
 
+                # Bereken t_p^{r'}
+                t_p_r_prime = (fare_p_value - pi_sum_p) - b_p_r[p][r] * (fare_r_value - pi_sum_r) - sigma_p_value
+                results.append((p, r, t_p_r_prime))
+
+                # # Debugging: print tussenwaarden
+                # print(f"\nItinerary {p} to {r}:")
+                # print(f"Fare_p: {fare_p_value}, Sum Pi_p: {pi_sum_p}")
+                # print(f"Recapture rate b_p_r: {b_p_r[p][r]}")
+                # print(f"Fare_r: {fare_r_value}, Sum Pi_r: {pi_sum_r}")
+                # print(f"Sigma_p: {sigma_p_value}")
+                # print(f"Computed t_p^r: {t_p_r_prime}")
+
+    return results
+
+results = compute_t_p_r_prime(P_from, R_to, fare_p, delta_p_i, pi, sigma, b_p_r)
+
+print("\nComputed t_p^{r'} Values:")
+for p, r, t_p_r_prime in results:
+    print(f"t_{p}^{r}: {t_p_r_prime}")
 
 
 
