@@ -175,8 +175,8 @@ print("\nDecision Variables:")
 for v in model.getVars():
     print(f"{v.VarName}: {v.X}")
 
-print('---------------------------For ITERATION 2-------------------------------------')
-
+#----------------------------------------------------------------------------------------------------------------------------------------
+#Pricing Model
 #function to generate Dual variables 
 def calculate_dual_variables(model):
     pi = {}       # Dual variables for capacity constraints (Pi)
@@ -242,10 +242,128 @@ results = compute_t_p_r_prime(P_from, R_to, fare_p, delta_p_i, pi, sigma, b_p_r)
 
 print("\nComputed t_p^{r'} Values:")
 for p, r, t_p_r_prime in results:
-    print(f"t_{p}^{r}: {t_p_r_prime}")
+    if t_p_r_prime < 0:
+        print(f"t_{p}^{r}: {t_p_r_prime}")
+    else:
+        print(f"no new decision variables, this is the optimal solution")
 
+print('------------------Iteration 2----------------------------')
+# Nieuwe decision variables aanmaken voor negatieve t_p_r_prime
+new_variables = {}  # Dictionary om de nieuwe variabelen op te slaan
 
+for p, r, t_p_r_prime in results:
+    if t_p_r_prime < 0:  # Controleer of t_p_r_prime negatief is
+        var_name = f"t_{p}^{r}"  # Naam van de nieuwe variabele
+        new_variables[(p, r)] = model.addVar(lb=0, name=var_name, vtype=GRB.CONTINUOUS)
+        print(f"New decision variable created: {var_name}")
 
+# Update het Gurobi model met de nieuwe variabelen
+model.update()
+
+# Update de objective function met nieuwe decision variables
+objective_expr = quicksum(fare_p[p] * ts[p] for p in P)  # Bestaande term
+
+# Voeg nieuwe termen toe: (fare_p - b_p_r * fare_r) * t_p^r
+for (p, r), var in new_variables.items():
+    objective_expr += (fare_p[p] - b_p_r[p][r] * fare_p[r]) * var
+
+# Stel de nieuwe objective function in
+model.setObjective(objective_expr, GRB.MINIMIZE)
+
+print("\nUpdated Objective Function:")
+for (p, r), var in new_variables.items():
+    print(f" + ({fare_p[p]} - {b_p_r[p][r]} * {fare_p[r]}) * t_{p}^{r}")
+
+model.remove(model.getConstrs())  # Verwijder alle bestaande constraints
+model.update()
+
+# Voeg de nieuwe capaciteitsconstraints toe aan het model en print ze
+print("\nNieuwe Capaciteitsconstraints:")
+
+for flight in L:  # Lijst van vluchten
+    capacity = CAP_i.get(flight, 0)
+    total_demand = Q_i.get(flight, 0)  # Totale vraag voor de vlucht
+
+    # Linkerzijde: bestaande t_p^0 en nieuwe t_p^r variabelen
+    left_hand_side_expr = []  # Voor printoutput
+    left_hand_side = quicksum(delta_p_i[p][flight] * ts[p] for p in P)
+
+    # Print bestaande term (gespilde passagiers t_p^0)
+    for p in P:
+        if delta_p_i[p][flight] == 1:
+            left_hand_side_expr.append(f"delta_{flight}^{p} * t_{p}^0")
+
+    # Voeg term toe voor gerecaptured passagiers t_p^r
+    for p, r in new_variables:
+        if delta_p_i[p][flight] == 1:  # Itinerary p bevat flight
+            left_hand_side += delta_p_i[p][flight] * new_variables[(p, r)]
+            left_hand_side_expr.append(f"delta_{flight}^{p} * t_{p}^{r}")
+        if delta_p_i[r][flight] == 1:  # Itinerary r bevat flight (recapture)
+            left_hand_side -= delta_p_i[r][flight] * b_p_r[p][r] * new_variables[(p, r)]
+            left_hand_side_expr.append(f"- delta_{flight}^{r} * b_{p}^{r} * t_{p}^{r}")
+
+    # Voeg constraint toe aan het model
+    model.addConstr(
+        left_hand_side >= total_demand - capacity,
+        name=f"Flight_{flight}_Capacity"
+    )
+
+    # Print constraint in leesbaar formaat
+    constraint_str = " + ".join(left_hand_side_expr)
+    print(f"Flight {flight}: {constraint_str} >= Q_{flight} - CAP_{flight}")
+
+# Constraint set 2: Total moved passengers (spilled + recaptured) cannot exceed demand D_p
+for p in P:
+    # Voeg t_p^0 (spilled passengers) toe
+    left_hand_side = ts[p]
+    
+    # Voeg t_p^r (recaptured passengers) toe als ze bestaan
+    left_hand_side += quicksum(new_variables[(p, r)] for r in R_to if (p, r) in new_variables)
+    
+    # Demand constraint
+    model.addConstr(
+        left_hand_side <= D_p[p],
+        name=f"Demand_Limit_{p}"
+    )
+
+model.update()
+
+# Print de nieuwe demand constraints
+print("\nNew Demand Constraints:")
+for p in P:
+    recaptured_terms = [f"t_{p}^{r}" for r in R_to if (p, r) in new_variables]
+    constraint_str = f"t_{p}^0 + {' + '.join(recaptured_terms)} <= D_{p}"
+    print(constraint_str)
+
+# Update het model na toevoeging van nieuwe constraints
+model.update()
+
+# Optimaliseer het model
+model.optimize()
+
+# Controleer de status en print de objective value
+if model.status == GRB.Status.OPTIMAL:
+    print(f"\nOptimal value of the objective function (Iteration 2): {model.ObjVal}")
+else:
+    print("\nOptimization was unsuccessful in Iteration 2.")
+
+# Export het model naar een LP-bestand voor verdere inspectie
+model.write("passenger_reallocation_iteration2.lp")
+
+# Print alle decision variabelen na optimalisatie
+print("\nOptimized Decision Variables (Iteration 2):")
+for v in model.getVars():
+    print(f"{v.VarName}: {v.X}")
+
+pi2, sigma2 = calculate_dual_variables(model)
+results2 = compute_t_p_r_prime(P_from, R_to, fare_p, delta_p_i, pi2, sigma2, b_p_r)
+
+print("\nComputed t_p^{r'} Values:")
+for p, r, t_p_r_prime in results2:
+    if t_p_r_prime < 0:
+        print(f"t_{p}^{r}: {t_p_r_prime}")
+    else:
+        print(f"no new decision variables, this is the optimal solution")
 
 
 

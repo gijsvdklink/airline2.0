@@ -166,8 +166,7 @@ else:
 #     print(f"{constraint.ConstrName}: Dual = {constraint.Pi}")
 
 #----------------------------------------------------------------------------------------------------------------------------------------
-#Iteration 2
-print('----------------------------------Iteration 2----------------------------------------')
+#Pricing Model
 
 def calculate_dual_variables(model):
     pi = {}       # Dual variables for capacity constraints (Pi)
@@ -231,6 +230,7 @@ def compute_t_p_r_prime(P_from, R_to, fare_p, delta_p_i, pi, sigma, b_p_r):
     return results
 
 results = compute_t_p_r_prime(P_from, R_to, fare_p, delta_p_i, pi, sigma, b_p_r)
+
 
 print("\nComputed t_p^{r'} Values:")
 for p, r, t_p_r_prime in results:
