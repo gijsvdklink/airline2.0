@@ -2000,386 +2000,386 @@ Maximize
    - 15000 AC_k[Aircraft_1] - 34000 AC_k[Aircraft_2]
    - 80000 AC_k[Aircraft_3] - 190000 AC_k[Aircraft_4]
 Subject To
- WeeklyDemand_EGLL_LFPG: x_ij[EGLL,LFPG] + w_ij[EGLL,LFPG] <= 1194
- WeeklyDemand_EGLL_EHAM: x_ij[EGLL,EHAM] + w_ij[EGLL,EHAM] <= 750
- WeeklyDemand_EGLL_EDDF: x_ij[EGLL,EDDF] + w_ij[EGLL,EDDF] <= 327
- WeeklyDemand_EGLL_LEMF: x_ij[EGLL,LEMF] + w_ij[EGLL,LEMF] <= 237
- WeeklyDemand_EGLL_LEBL: x_ij[EGLL,LEBL] + w_ij[EGLL,LEBL] <= 187
- WeeklyDemand_EGLL_EDDM: x_ij[EGLL,EDDM] + w_ij[EGLL,EDDM] <= 291
- WeeklyDemand_EGLL_LIRF: x_ij[EGLL,LIRF] + w_ij[EGLL,LIRF] <= 199
- WeeklyDemand_EGLL_EIDW: x_ij[EGLL,EIDW] + w_ij[EGLL,EIDW] <= 600
- WeeklyDemand_EGLL_ESSA: x_ij[EGLL,ESSA] + w_ij[EGLL,ESSA] <= 140
- WeeklyDemand_EGLL_LPPT: x_ij[EGLL,LPPT] + w_ij[EGLL,LPPT] <= 62
- WeeklyDemand_EGLL_EDDT: x_ij[EGLL,EDDT] + w_ij[EGLL,EDDT] <= 456
- WeeklyDemand_EGLL_EFHK: x_ij[EGLL,EFHK] + w_ij[EGLL,EFHK] <= 80
- WeeklyDemand_EGLL_EPWA: x_ij[EGLL,EPWA] + w_ij[EGLL,EPWA] <= 106
- WeeklyDemand_EGLL_EGPH: x_ij[EGLL,EGPH] + w_ij[EGLL,EGPH] <= 324
- WeeklyDemand_EGLL_LROP: x_ij[EGLL,LROP] + w_ij[EGLL,LROP] <= 62
- WeeklyDemand_EGLL_LGIR: x_ij[EGLL,LGIR] + w_ij[EGLL,LGIR] <= 16
- WeeklyDemand_EGLL_BIKF: x_ij[EGLL,BIKF] + w_ij[EGLL,BIKF] <= 44
- WeeklyDemand_EGLL_LICJ: x_ij[EGLL,LICJ] + w_ij[EGLL,LICJ] <= 69
- WeeklyDemand_EGLL_LPMA: x_ij[EGLL,LPMA] + w_ij[EGLL,LPMA] <= 24
- WeeklyDemand_LFPG_EGLL: x_ij[LFPG,EGLL] + w_ij[LFPG,EGLL] <= 1194
- WeeklyDemand_LFPG_EHAM: x_ij[LFPG,EHAM] + w_ij[LFPG,EHAM] <= 327
- WeeklyDemand_LFPG_EDDF: x_ij[LFPG,EDDF] + w_ij[LFPG,EDDF] <= 254
- WeeklyDemand_LFPG_LEMF: x_ij[LFPG,LEMF] + w_ij[LFPG,LEMF] <= 139
- WeeklyDemand_LFPG_LEBL: x_ij[LFPG,LEBL] + w_ij[LFPG,LEBL] <= 130
- WeeklyDemand_LFPG_EDDM: x_ij[LFPG,EDDM] + w_ij[LFPG,EDDM] <= 211
- WeeklyDemand_LFPG_LIRF: x_ij[LFPG,LIRF] + w_ij[LFPG,LIRF] <= 135
- WeeklyDemand_LFPG_EIDW: x_ij[LFPG,EIDW] + w_ij[LFPG,EIDW] <= 140
- WeeklyDemand_LFPG_ESSA: x_ij[LFPG,ESSA] + w_ij[LFPG,ESSA] <= 63
- WeeklyDemand_LFPG_LPPT: x_ij[LFPG,LPPT] + w_ij[LFPG,LPPT] <= 32
- WeeklyDemand_LFPG_EDDT: x_ij[LFPG,EDDT] + w_ij[LFPG,EDDT] <= 250
- WeeklyDemand_LFPG_EFHK: x_ij[LFPG,EFHK] + w_ij[LFPG,EFHK] <= 37
- WeeklyDemand_LFPG_EPWA: x_ij[LFPG,EPWA] + w_ij[LFPG,EPWA] <= 57
- WeeklyDemand_LFPG_EGPH: x_ij[LFPG,EGPH] + w_ij[LFPG,EGPH] <= 83
- WeeklyDemand_LFPG_LROP: x_ij[LFPG,LROP] + w_ij[LFPG,LROP] <= 35
- WeeklyDemand_LFPG_LGIR: x_ij[LFPG,LGIR] + w_ij[LFPG,LGIR] <= 9
- WeeklyDemand_LFPG_BIKF: x_ij[LFPG,BIKF] + w_ij[LFPG,BIKF] <= 17
- WeeklyDemand_LFPG_LICJ: x_ij[LFPG,LICJ] + w_ij[LFPG,LICJ] <= 43
- WeeklyDemand_LFPG_LPMA: x_ij[LFPG,LPMA] + w_ij[LFPG,LPMA] <= 12
- WeeklyDemand_EHAM_EGLL: x_ij[EHAM,EGLL] + w_ij[EHAM,EGLL] <= 750
- WeeklyDemand_EHAM_LFPG: x_ij[EHAM,LFPG] + w_ij[EHAM,LFPG] <= 327
- WeeklyDemand_EHAM_EDDF: x_ij[EHAM,EDDF] + w_ij[EHAM,EDDF] <= 225
- WeeklyDemand_EHAM_LEMF: x_ij[EHAM,LEMF] + w_ij[EHAM,LEMF] <= 63
- WeeklyDemand_EHAM_LEBL: x_ij[EHAM,LEBL] + w_ij[EHAM,LEBL] <= 55
- WeeklyDemand_EHAM_EDDM: x_ij[EHAM,EDDM] + w_ij[EHAM,EDDM] <= 149
- WeeklyDemand_EHAM_LIRF: x_ij[EHAM,LIRF] + w_ij[EHAM,LIRF] <= 75
- WeeklyDemand_EHAM_EIDW: x_ij[EHAM,EIDW] + w_ij[EHAM,EIDW] <= 101
- WeeklyDemand_EHAM_ESSA: x_ij[EHAM,ESSA] + w_ij[EHAM,ESSA] <= 62
- WeeklyDemand_EHAM_LPPT: x_ij[EHAM,LPPT] + w_ij[EHAM,LPPT] <= 16
- WeeklyDemand_EHAM_EDDT: x_ij[EHAM,EDDT] + w_ij[EHAM,EDDT] <= 281
- WeeklyDemand_EHAM_EFHK: x_ij[EHAM,EFHK] + w_ij[EHAM,EFHK] <= 34
- WeeklyDemand_EHAM_EPWA: x_ij[EHAM,EPWA] + w_ij[EHAM,EPWA] <= 50
- WeeklyDemand_EHAM_EGPH: x_ij[EHAM,EGPH] + w_ij[EHAM,EGPH] <= 79
- WeeklyDemand_EHAM_LROP: x_ij[EHAM,LROP] + w_ij[EHAM,LROP] <= 25
- WeeklyDemand_EHAM_LGIR: x_ij[EHAM,LGIR] + w_ij[EHAM,LGIR] <= 6
- WeeklyDemand_EHAM_BIKF: x_ij[EHAM,BIKF] + w_ij[EHAM,BIKF] <= 13
- WeeklyDemand_EHAM_LICJ: x_ij[EHAM,LICJ] + w_ij[EHAM,LICJ] <= 25
- WeeklyDemand_EHAM_LPMA: x_ij[EHAM,LPMA] + w_ij[EHAM,LPMA] <= 7
- WeeklyDemand_EDDF_EGLL: x_ij[EDDF,EGLL] + w_ij[EDDF,EGLL] <= 327
- WeeklyDemand_EDDF_LFPG: x_ij[EDDF,LFPG] + w_ij[EDDF,LFPG] <= 254
- WeeklyDemand_EDDF_EHAM: x_ij[EDDF,EHAM] + w_ij[EDDF,EHAM] <= 225
- WeeklyDemand_EDDF_LEMF: x_ij[EDDF,LEMF] + w_ij[EDDF,LEMF] <= 59
- WeeklyDemand_EDDF_LEBL: x_ij[EDDF,LEBL] + w_ij[EDDF,LEBL] <= 59
- WeeklyDemand_EDDF_EDDM: x_ij[EDDF,EDDM] + w_ij[EDDF,EDDM] <= 377
- WeeklyDemand_EDDF_LIRF: x_ij[EDDF,LIRF] + w_ij[EDDF,LIRF] <= 100
- WeeklyDemand_EDDF_EIDW: x_ij[EDDF,EIDW] + w_ij[EDDF,EIDW] <= 57
- WeeklyDemand_EDDF_ESSA: x_ij[EDDF,ESSA] + w_ij[EDDF,ESSA] <= 52
- WeeklyDemand_EDDF_LPPT: x_ij[EDDF,LPPT] + w_ij[EDDF,LPPT] <= 15
- WeeklyDemand_EDDF_EDDT: x_ij[EDDF,EDDT] + w_ij[EDDF,EDDT] <= 371
- WeeklyDemand_EDDF_EFHK: x_ij[EDDF,EFHK] + w_ij[EDDF,EFHK] <= 30
- WeeklyDemand_EDDF_EPWA: x_ij[EDDF,EPWA] + w_ij[EDDF,EPWA] <= 59
- WeeklyDemand_EDDF_EGPH: x_ij[EDDF,EGPH] + w_ij[EDDF,EGPH] <= 41
- WeeklyDemand_EDDF_LROP: x_ij[EDDF,LROP] + w_ij[EDDF,LROP] <= 30
- WeeklyDemand_EDDF_LGIR: x_ij[EDDF,LGIR] + w_ij[EDDF,LGIR] <= 7
- WeeklyDemand_EDDF_BIKF: x_ij[EDDF,BIKF] + w_ij[EDDF,BIKF] <= 10
- WeeklyDemand_EDDF_LICJ: x_ij[EDDF,LICJ] + w_ij[EDDF,LICJ] <= 30
- WeeklyDemand_EDDF_LPMA: x_ij[EDDF,LPMA] + w_ij[EDDF,LPMA] <= 6
- WeeklyDemand_LEMF_EGLL: x_ij[LEMF,EGLL] + w_ij[LEMF,EGLL] <= 237
- WeeklyDemand_LEMF_LFPG: x_ij[LEMF,LFPG] + w_ij[LEMF,LFPG] <= 139
- WeeklyDemand_LEMF_EHAM: x_ij[LEMF,EHAM] + w_ij[LEMF,EHAM] <= 63
- WeeklyDemand_LEMF_EDDF: x_ij[LEMF,EDDF] + w_ij[LEMF,EDDF] <= 59
- WeeklyDemand_LEMF_LEBL: x_ij[LEMF,LEBL] + w_ij[LEMF,LEBL] <= 280
- WeeklyDemand_LEMF_EDDM: x_ij[LEMF,EDDM] + w_ij[LEMF,EDDM] <= 79
- WeeklyDemand_LEMF_LIRF: x_ij[LEMF,LIRF] + w_ij[LEMF,LIRF] <= 109
- WeeklyDemand_LEMF_EIDW: x_ij[LEMF,EIDW] + w_ij[LEMF,EIDW] <= 65
- WeeklyDemand_LEMF_ESSA: x_ij[LEMF,ESSA] + w_ij[LEMF,ESSA] <= 33
- WeeklyDemand_LEMF_LPPT: x_ij[LEMF,LPPT] + w_ij[LEMF,LPPT] <= 128
- WeeklyDemand_LEMF_EDDT: x_ij[LEMF,EDDT] + w_ij[LEMF,EDDT] <= 95
- WeeklyDemand_LEMF_EFHK: x_ij[LEMF,EFHK] + w_ij[LEMF,EFHK] <= 22
- WeeklyDemand_LEMF_EPWA: x_ij[LEMF,EPWA] + w_ij[LEMF,EPWA] <= 30
- WeeklyDemand_LEMF_EGPH: x_ij[LEMF,EGPH] + w_ij[LEMF,EGPH] <= 35
- WeeklyDemand_LEMF_LROP: x_ij[LEMF,LROP] + w_ij[LEMF,LROP] <= 25
- WeeklyDemand_LEMF_LGIR: x_ij[LEMF,LGIR] + w_ij[LEMF,LGIR] <= 8
- WeeklyDemand_LEMF_BIKF: x_ij[LEMF,BIKF] + w_ij[LEMF,BIKF] <= 12
- WeeklyDemand_LEMF_LICJ: x_ij[LEMF,LICJ] + w_ij[LEMF,LICJ] <= 45
- WeeklyDemand_LEMF_LPMA: x_ij[LEMF,LPMA] + w_ij[LEMF,LPMA] <= 23
- WeeklyDemand_LEBL_EGLL: x_ij[LEBL,EGLL] + w_ij[LEBL,EGLL] <= 187
- WeeklyDemand_LEBL_LFPG: x_ij[LEBL,LFPG] + w_ij[LEBL,LFPG] <= 130
- WeeklyDemand_LEBL_EHAM: x_ij[LEBL,EHAM] + w_ij[LEBL,EHAM] <= 55
- WeeklyDemand_LEBL_EDDF: x_ij[LEBL,EDDF] + w_ij[LEBL,EDDF] <= 59
- WeeklyDemand_LEBL_LEMF: x_ij[LEBL,LEMF] + w_ij[LEBL,LEMF] <= 280
- WeeklyDemand_LEBL_EDDM: x_ij[LEBL,EDDM] + w_ij[LEBL,EDDM] <= 84
- WeeklyDemand_LEBL_LIRF: x_ij[LEBL,LIRF] + w_ij[LEBL,LIRF] <= 138
- WeeklyDemand_LEBL_EIDW: x_ij[LEBL,EIDW] + w_ij[LEBL,EIDW] <= 45
- WeeklyDemand_LEBL_ESSA: x_ij[LEBL,ESSA] + w_ij[LEBL,ESSA] <= 27
- WeeklyDemand_LEBL_LPPT: x_ij[LEBL,LPPT] + w_ij[LEBL,LPPT] <= 39
- WeeklyDemand_LEBL_EDDT: x_ij[LEBL,EDDT] + w_ij[LEBL,EDDT] <= 87
- WeeklyDemand_LEBL_EFHK: x_ij[LEBL,EFHK] + w_ij[LEBL,EFHK] <= 18
- WeeklyDemand_LEBL_EPWA: x_ij[LEBL,EPWA] + w_ij[LEBL,EPWA] <= 27
- WeeklyDemand_LEBL_EGPH: x_ij[LEBL,EGPH] + w_ij[LEBL,EGPH] <= 26
- WeeklyDemand_LEBL_LROP: x_ij[LEBL,LROP] + w_ij[LEBL,LROP] <= 23
- WeeklyDemand_LEBL_LGIR: x_ij[LEBL,LGIR] + w_ij[LEBL,LGIR] <= 8
- WeeklyDemand_LEBL_BIKF: x_ij[LEBL,BIKF] + w_ij[LEBL,BIKF] <= 8
- WeeklyDemand_LEBL_LICJ: x_ij[LEBL,LICJ] + w_ij[LEBL,LICJ] <= 51
- WeeklyDemand_LEBL_LPMA: x_ij[LEBL,LPMA] + w_ij[LEBL,LPMA] <= 11
- WeeklyDemand_EDDM_EGLL: x_ij[EDDM,EGLL] + w_ij[EDDM,EGLL] <= 291
- WeeklyDemand_EDDM_LFPG: x_ij[EDDM,LFPG] + w_ij[EDDM,LFPG] <= 211
- WeeklyDemand_EDDM_EHAM: x_ij[EDDM,EHAM] + w_ij[EDDM,EHAM] <= 149
- WeeklyDemand_EDDM_EDDF: x_ij[EDDM,EDDF] + w_ij[EDDM,EDDF] <= 377
- WeeklyDemand_EDDM_LEMF: x_ij[EDDM,LEMF] + w_ij[EDDM,LEMF] <= 79
- WeeklyDemand_EDDM_LEBL: x_ij[EDDM,LEBL] + w_ij[EDDM,LEBL] <= 84
- WeeklyDemand_EDDM_LIRF: x_ij[EDDM,LIRF] + w_ij[EDDM,LIRF] <= 202
- WeeklyDemand_EDDM_EIDW: x_ij[EDDM,EIDW] + w_ij[EDDM,EIDW] <= 59
- WeeklyDemand_EDDM_ESSA: x_ij[EDDM,ESSA] + w_ij[EDDM,ESSA] <= 68
- WeeklyDemand_EDDM_LPPT: x_ij[EDDM,LPPT] + w_ij[EDDM,LPPT] <= 19
- WeeklyDemand_EDDM_EDDT: x_ij[EDDM,EDDT] + w_ij[EDDM,EDDT] <= 461
- WeeklyDemand_EDDM_EFHK: x_ij[EDDM,EFHK] + w_ij[EDDM,EFHK] <= 41
- WeeklyDemand_EDDM_EPWA: x_ij[EDDM,EPWA] + w_ij[EDDM,EPWA] <= 101
- WeeklyDemand_EDDM_EGPH: x_ij[EDDM,EGPH] + w_ij[EDDM,EGPH] <= 42
- WeeklyDemand_EDDM_LROP: x_ij[EDDM,LROP] + w_ij[EDDM,LROP] <= 56
- WeeklyDemand_EDDM_LGIR: x_ij[EDDM,LGIR] + w_ij[EDDM,LGIR] <= 11
- WeeklyDemand_EDDM_BIKF: x_ij[EDDM,BIKF] + w_ij[EDDM,BIKF] <= 12
- WeeklyDemand_EDDM_LICJ: x_ij[EDDM,LICJ] + w_ij[EDDM,LICJ] <= 53
- WeeklyDemand_EDDM_LPMA: x_ij[EDDM,LPMA] + w_ij[EDDM,LPMA] <= 8
- WeeklyDemand_LIRF_EGLL: x_ij[LIRF,EGLL] + w_ij[LIRF,EGLL] <= 199
- WeeklyDemand_LIRF_LFPG: x_ij[LIRF,LFPG] + w_ij[LIRF,LFPG] <= 135
- WeeklyDemand_LIRF_EHAM: x_ij[LIRF,EHAM] + w_ij[LIRF,EHAM] <= 75
- WeeklyDemand_LIRF_EDDF: x_ij[LIRF,EDDF] + w_ij[LIRF,EDDF] <= 100
- WeeklyDemand_LIRF_LEMF: x_ij[LIRF,LEMF] + w_ij[LIRF,LEMF] <= 109
- WeeklyDemand_LIRF_LEBL: x_ij[LIRF,LEBL] + w_ij[LIRF,LEBL] <= 138
- WeeklyDemand_LIRF_EDDM: x_ij[LIRF,EDDM] + w_ij[LIRF,EDDM] <= 202
- WeeklyDemand_LIRF_EIDW: x_ij[LIRF,EIDW] + w_ij[LIRF,EIDW] <= 47
- WeeklyDemand_LIRF_ESSA: x_ij[LIRF,ESSA] + w_ij[LIRF,ESSA] <= 46
- WeeklyDemand_LIRF_LPPT: x_ij[LIRF,LPPT] + w_ij[LIRF,LPPT] <= 25
- WeeklyDemand_LIRF_EDDT: x_ij[LIRF,EDDT] + w_ij[LIRF,EDDT] <= 168
- WeeklyDemand_LIRF_EFHK: x_ij[LIRF,EFHK] + w_ij[LIRF,EFHK] <= 31
- WeeklyDemand_LIRF_EPWA: x_ij[LIRF,EPWA] + w_ij[LIRF,EPWA] <= 60
- WeeklyDemand_LIRF_EGPH: x_ij[LIRF,EGPH] + w_ij[LIRF,EGPH] <= 31
- WeeklyDemand_LIRF_LROP: x_ij[LIRF,LROP] + w_ij[LIRF,LROP] <= 67
- WeeklyDemand_LIRF_LGIR: x_ij[LIRF,LGIR] + w_ij[LIRF,LGIR] <= 20
- WeeklyDemand_LIRF_BIKF: x_ij[LIRF,BIKF] + w_ij[LIRF,BIKF] <= 11
- WeeklyDemand_LIRF_LICJ: x_ij[LIRF,LICJ] + w_ij[LIRF,LICJ] <= 230
- WeeklyDemand_LIRF_LPMA: x_ij[LIRF,LPMA] + w_ij[LIRF,LPMA] <= 10
- WeeklyDemand_EIDW_EGLL: x_ij[EIDW,EGLL] + w_ij[EIDW,EGLL] <= 600
- WeeklyDemand_EIDW_LFPG: x_ij[EIDW,LFPG] + w_ij[EIDW,LFPG] <= 140
- WeeklyDemand_EIDW_EHAM: x_ij[EIDW,EHAM] + w_ij[EIDW,EHAM] <= 101
- WeeklyDemand_EIDW_EDDF: x_ij[EIDW,EDDF] + w_ij[EIDW,EDDF] <= 57
- WeeklyDemand_EIDW_LEMF: x_ij[EIDW,LEMF] + w_ij[EIDW,LEMF] <= 65
- WeeklyDemand_EIDW_LEBL: x_ij[EIDW,LEBL] + w_ij[EIDW,LEBL] <= 45
- WeeklyDemand_EIDW_EDDM: x_ij[EIDW,EDDM] + w_ij[EIDW,EDDM] <= 59
- WeeklyDemand_EIDW_LIRF: x_ij[EIDW,LIRF] + w_ij[EIDW,LIRF] <= 47
- WeeklyDemand_EIDW_ESSA: x_ij[EIDW,ESSA] + w_ij[EIDW,ESSA] <= 41
- WeeklyDemand_EIDW_LPPT: x_ij[EIDW,LPPT] + w_ij[EIDW,LPPT] <= 20
- WeeklyDemand_EIDW_EDDT: x_ij[EIDW,EDDT] + w_ij[EIDW,EDDT] <= 101
- WeeklyDemand_EIDW_EFHK: x_ij[EIDW,EFHK] + w_ij[EIDW,EFHK] <= 24
- WeeklyDemand_EIDW_EPWA: x_ij[EIDW,EPWA] + w_ij[EIDW,EPWA] <= 27
- WeeklyDemand_EIDW_EGPH: x_ij[EIDW,EGPH] + w_ij[EIDW,EGPH] <= 196
- WeeklyDemand_EIDW_LROP: x_ij[EIDW,LROP] + w_ij[EIDW,LROP] <= 16
- WeeklyDemand_EIDW_LGIR: x_ij[EIDW,LGIR] + w_ij[EIDW,LGIR] <= 4
- WeeklyDemand_EIDW_BIKF: x_ij[EIDW,BIKF] + w_ij[EIDW,BIKF] <= 20
- WeeklyDemand_EIDW_LICJ: x_ij[EIDW,LICJ] + w_ij[EIDW,LICJ] <= 18
- WeeklyDemand_EIDW_LPMA: x_ij[EIDW,LPMA] + w_ij[EIDW,LPMA] <= 8
- WeeklyDemand_ESSA_EGLL: x_ij[ESSA,EGLL] + w_ij[ESSA,EGLL] <= 140
- WeeklyDemand_ESSA_LFPG: x_ij[ESSA,LFPG] + w_ij[ESSA,LFPG] <= 63
- WeeklyDemand_ESSA_EHAM: x_ij[ESSA,EHAM] + w_ij[ESSA,EHAM] <= 62
- WeeklyDemand_ESSA_EDDF: x_ij[ESSA,EDDF] + w_ij[ESSA,EDDF] <= 52
- WeeklyDemand_ESSA_LEMF: x_ij[ESSA,LEMF] + w_ij[ESSA,LEMF] <= 33
- WeeklyDemand_ESSA_LEBL: x_ij[ESSA,LEBL] + w_ij[ESSA,LEBL] <= 27
- WeeklyDemand_ESSA_EDDM: x_ij[ESSA,EDDM] + w_ij[ESSA,EDDM] <= 68
- WeeklyDemand_ESSA_LIRF: x_ij[ESSA,LIRF] + w_ij[ESSA,LIRF] <= 46
- WeeklyDemand_ESSA_EIDW: x_ij[ESSA,EIDW] + w_ij[ESSA,EIDW] <= 41
- WeeklyDemand_ESSA_LPPT: x_ij[ESSA,LPPT] + w_ij[ESSA,LPPT] <= 10
- WeeklyDemand_ESSA_EDDT: x_ij[ESSA,EDDT] + w_ij[ESSA,EDDT] <= 190
- WeeklyDemand_ESSA_EFHK: x_ij[ESSA,EFHK] + w_ij[ESSA,EFHK] <= 206
- WeeklyDemand_ESSA_EPWA: x_ij[ESSA,EPWA] + w_ij[ESSA,EPWA] <= 76
- WeeklyDemand_ESSA_EGPH: x_ij[ESSA,EGPH] + w_ij[ESSA,EGPH] <= 36
- WeeklyDemand_ESSA_LROP: x_ij[ESSA,LROP] + w_ij[ESSA,LROP] <= 28
- WeeklyDemand_ESSA_LGIR: x_ij[ESSA,LGIR] + w_ij[ESSA,LGIR] <= 6
- WeeklyDemand_ESSA_BIKF: x_ij[ESSA,BIKF] + w_ij[ESSA,BIKF] <= 13
- WeeklyDemand_ESSA_LICJ: x_ij[ESSA,LICJ] + w_ij[ESSA,LICJ] <= 17
- WeeklyDemand_ESSA_LPMA: x_ij[ESSA,LPMA] + w_ij[ESSA,LPMA] <= 5
- WeeklyDemand_LPPT_EGLL: x_ij[LPPT,EGLL] + w_ij[LPPT,EGLL] <= 62
- WeeklyDemand_LPPT_LFPG: x_ij[LPPT,LFPG] + w_ij[LPPT,LFPG] <= 32
- WeeklyDemand_LPPT_EHAM: x_ij[LPPT,EHAM] + w_ij[LPPT,EHAM] <= 16
- WeeklyDemand_LPPT_EDDF: x_ij[LPPT,EDDF] + w_ij[LPPT,EDDF] <= 15
- WeeklyDemand_LPPT_LEMF: x_ij[LPPT,LEMF] + w_ij[LPPT,LEMF] <= 128
- WeeklyDemand_LPPT_LEBL: x_ij[LPPT,LEBL] + w_ij[LPPT,LEBL] <= 39
- WeeklyDemand_LPPT_EDDM: x_ij[LPPT,EDDM] + w_ij[LPPT,EDDM] <= 19
- WeeklyDemand_LPPT_LIRF: x_ij[LPPT,LIRF] + w_ij[LPPT,LIRF] <= 25
- WeeklyDemand_LPPT_EIDW: x_ij[LPPT,EIDW] + w_ij[LPPT,EIDW] <= 20
- WeeklyDemand_LPPT_ESSA: x_ij[LPPT,ESSA] + w_ij[LPPT,ESSA] <= 10
- WeeklyDemand_LPPT_EDDT: x_ij[LPPT,EDDT] + w_ij[LPPT,EDDT] <= 25
- WeeklyDemand_LPPT_EFHK: x_ij[LPPT,EFHK] + w_ij[LPPT,EFHK] <= 6
- WeeklyDemand_LPPT_EPWA: x_ij[LPPT,EPWA] + w_ij[LPPT,EPWA] <= 8
- WeeklyDemand_LPPT_EGPH: x_ij[LPPT,EGPH] + w_ij[LPPT,EGPH] <= 11
- WeeklyDemand_LPPT_LROP: x_ij[LPPT,LROP] + w_ij[LPPT,LROP] <= 7
- WeeklyDemand_LPPT_LGIR: x_ij[LPPT,LGIR] + w_ij[LPPT,LGIR] <= 2
- WeeklyDemand_LPPT_BIKF: x_ij[LPPT,BIKF] + w_ij[LPPT,BIKF] <= 4
- WeeklyDemand_LPPT_LICJ: x_ij[LPPT,LICJ] + w_ij[LPPT,LICJ] <= 11
- WeeklyDemand_LPPT_LPMA: x_ij[LPPT,LPMA] + w_ij[LPPT,LPMA] <= 14
- WeeklyDemand_EDDT_EGLL: x_ij[EDDT,EGLL] + w_ij[EDDT,EGLL] <= 456
- WeeklyDemand_EDDT_LFPG: x_ij[EDDT,LFPG] + w_ij[EDDT,LFPG] <= 250
- WeeklyDemand_EDDT_EHAM: x_ij[EDDT,EHAM] + w_ij[EDDT,EHAM] <= 281
- WeeklyDemand_EDDT_EDDF: x_ij[EDDT,EDDF] + w_ij[EDDT,EDDF] <= 371
- WeeklyDemand_EDDT_LEMF: x_ij[EDDT,LEMF] + w_ij[EDDT,LEMF] <= 95
- WeeklyDemand_EDDT_LEBL: x_ij[EDDT,LEBL] + w_ij[EDDT,LEBL] <= 87
- WeeklyDemand_EDDT_EDDM: x_ij[EDDT,EDDM] + w_ij[EDDT,EDDM] <= 461
- WeeklyDemand_EDDT_LIRF: x_ij[EDDT,LIRF] + w_ij[EDDT,LIRF] <= 168
- WeeklyDemand_EDDT_EIDW: x_ij[EDDT,EIDW] + w_ij[EDDT,EIDW] <= 101
- WeeklyDemand_EDDT_ESSA: x_ij[EDDT,ESSA] + w_ij[EDDT,ESSA] <= 190
- WeeklyDemand_EDDT_LPPT: x_ij[EDDT,LPPT] + w_ij[EDDT,LPPT] <= 25
- WeeklyDemand_EDDT_EFHK: x_ij[EDDT,EFHK] + w_ij[EDDT,EFHK] <= 101
- WeeklyDemand_EDDT_EPWA: x_ij[EDDT,EPWA] + w_ij[EDDT,EPWA] <= 266
- WeeklyDemand_EDDT_EGPH: x_ij[EDDT,EGPH] + w_ij[EDDT,EGPH] <= 81
- WeeklyDemand_EDDT_LROP: x_ij[EDDT,LROP] + w_ij[EDDT,LROP] <= 78
- WeeklyDemand_EDDT_LGIR: x_ij[EDDT,LGIR] + w_ij[EDDT,LGIR] <= 14
- WeeklyDemand_EDDT_BIKF: x_ij[EDDT,BIKF] + w_ij[EDDT,BIKF] <= 21
- WeeklyDemand_EDDT_LICJ: x_ij[EDDT,LICJ] + w_ij[EDDT,LICJ] <= 55
- WeeklyDemand_EDDT_LPMA: x_ij[EDDT,LPMA] + w_ij[EDDT,LPMA] <= 11
- WeeklyDemand_EFHK_EGLL: x_ij[EFHK,EGLL] + w_ij[EFHK,EGLL] <= 80
- WeeklyDemand_EFHK_LFPG: x_ij[EFHK,LFPG] + w_ij[EFHK,LFPG] <= 37
- WeeklyDemand_EFHK_EHAM: x_ij[EFHK,EHAM] + w_ij[EFHK,EHAM] <= 34
- WeeklyDemand_EFHK_EDDF: x_ij[EFHK,EDDF] + w_ij[EFHK,EDDF] <= 30
- WeeklyDemand_EFHK_LEMF: x_ij[EFHK,LEMF] + w_ij[EFHK,LEMF] <= 22
- WeeklyDemand_EFHK_LEBL: x_ij[EFHK,LEBL] + w_ij[EFHK,LEBL] <= 18
- WeeklyDemand_EFHK_EDDM: x_ij[EFHK,EDDM] + w_ij[EFHK,EDDM] <= 41
- WeeklyDemand_EFHK_LIRF: x_ij[EFHK,LIRF] + w_ij[EFHK,LIRF] <= 31
- WeeklyDemand_EFHK_EIDW: x_ij[EFHK,EIDW] + w_ij[EFHK,EIDW] <= 24
- WeeklyDemand_EFHK_ESSA: x_ij[EFHK,ESSA] + w_ij[EFHK,ESSA] <= 206
- WeeklyDemand_EFHK_LPPT: x_ij[EFHK,LPPT] + w_ij[EFHK,LPPT] <= 6
- WeeklyDemand_EFHK_EDDT: x_ij[EFHK,EDDT] + w_ij[EFHK,EDDT] <= 101
- WeeklyDemand_EFHK_EPWA: x_ij[EFHK,EPWA] + w_ij[EFHK,EPWA] <= 52
- WeeklyDemand_EFHK_EGPH: x_ij[EFHK,EGPH] + w_ij[EFHK,EGPH] <= 20
- WeeklyDemand_EFHK_LROP: x_ij[EFHK,LROP] + w_ij[EFHK,LROP] <= 22
- WeeklyDemand_EFHK_LGIR: x_ij[EFHK,LGIR] + w_ij[EFHK,LGIR] <= 4
- WeeklyDemand_EFHK_BIKF: x_ij[EFHK,BIKF] + w_ij[EFHK,BIKF] <= 9
- WeeklyDemand_EFHK_LICJ: x_ij[EFHK,LICJ] + w_ij[EFHK,LICJ] <= 12
- WeeklyDemand_EFHK_LPMA: x_ij[EFHK,LPMA] + w_ij[EFHK,LPMA] <= 3
- WeeklyDemand_EPWA_EGLL: x_ij[EPWA,EGLL] + w_ij[EPWA,EGLL] <= 106
- WeeklyDemand_EPWA_LFPG: x_ij[EPWA,LFPG] + w_ij[EPWA,LFPG] <= 57
- WeeklyDemand_EPWA_EHAM: x_ij[EPWA,EHAM] + w_ij[EPWA,EHAM] <= 50
- WeeklyDemand_EPWA_EDDF: x_ij[EPWA,EDDF] + w_ij[EPWA,EDDF] <= 59
- WeeklyDemand_EPWA_LEMF: x_ij[EPWA,LEMF] + w_ij[EPWA,LEMF] <= 30
- WeeklyDemand_EPWA_LEBL: x_ij[EPWA,LEBL] + w_ij[EPWA,LEBL] <= 27
- WeeklyDemand_EPWA_EDDM: x_ij[EPWA,EDDM] + w_ij[EPWA,EDDM] <= 101
- WeeklyDemand_EPWA_LIRF: x_ij[EPWA,LIRF] + w_ij[EPWA,LIRF] <= 60
- WeeklyDemand_EPWA_EIDW: x_ij[EPWA,EIDW] + w_ij[EPWA,EIDW] <= 27
- WeeklyDemand_EPWA_ESSA: x_ij[EPWA,ESSA] + w_ij[EPWA,ESSA] <= 76
- WeeklyDemand_EPWA_LPPT: x_ij[EPWA,LPPT] + w_ij[EPWA,LPPT] <= 8
- WeeklyDemand_EPWA_EDDT: x_ij[EPWA,EDDT] + w_ij[EPWA,EDDT] <= 266
- WeeklyDemand_EPWA_EFHK: x_ij[EPWA,EFHK] + w_ij[EPWA,EFHK] <= 52
- WeeklyDemand_EPWA_EGPH: x_ij[EPWA,EGPH] + w_ij[EPWA,EGPH] <= 21
- WeeklyDemand_EPWA_LROP: x_ij[EPWA,LROP] + w_ij[EPWA,LROP] <= 49
- WeeklyDemand_EPWA_LGIR: x_ij[EPWA,LGIR] + w_ij[EPWA,LGIR] <= 7
- WeeklyDemand_EPWA_BIKF: x_ij[EPWA,BIKF] + w_ij[EPWA,BIKF] <= 7
- WeeklyDemand_EPWA_LICJ: x_ij[EPWA,LICJ] + w_ij[EPWA,LICJ] <= 21
- WeeklyDemand_EPWA_LPMA: x_ij[EPWA,LPMA] + w_ij[EPWA,LPMA] <= 4
- WeeklyDemand_EGPH_EGLL: x_ij[EGPH,EGLL] + w_ij[EGPH,EGLL] <= 324
- WeeklyDemand_EGPH_LFPG: x_ij[EGPH,LFPG] + w_ij[EGPH,LFPG] <= 83
- WeeklyDemand_EGPH_EHAM: x_ij[EGPH,EHAM] + w_ij[EGPH,EHAM] <= 79
- WeeklyDemand_EGPH_EDDF: x_ij[EGPH,EDDF] + w_ij[EGPH,EDDF] <= 41
- WeeklyDemand_EGPH_LEMF: x_ij[EGPH,LEMF] + w_ij[EGPH,LEMF] <= 35
- WeeklyDemand_EGPH_LEBL: x_ij[EGPH,LEBL] + w_ij[EGPH,LEBL] <= 26
- WeeklyDemand_EGPH_EDDM: x_ij[EGPH,EDDM] + w_ij[EGPH,EDDM] <= 42
- WeeklyDemand_EGPH_LIRF: x_ij[EGPH,LIRF] + w_ij[EGPH,LIRF] <= 31
- WeeklyDemand_EGPH_EIDW: x_ij[EGPH,EIDW] + w_ij[EGPH,EIDW] <= 196
- WeeklyDemand_EGPH_ESSA: x_ij[EGPH,ESSA] + w_ij[EGPH,ESSA] <= 36
- WeeklyDemand_EGPH_LPPT: x_ij[EGPH,LPPT] + w_ij[EGPH,LPPT] <= 11
- WeeklyDemand_EGPH_EDDT: x_ij[EGPH,EDDT] + w_ij[EGPH,EDDT] <= 81
- WeeklyDemand_EGPH_EFHK: x_ij[EGPH,EFHK] + w_ij[EGPH,EFHK] <= 20
- WeeklyDemand_EGPH_EPWA: x_ij[EGPH,EPWA] + w_ij[EGPH,EPWA] <= 21
- WeeklyDemand_EGPH_LROP: x_ij[EGPH,LROP] + w_ij[EGPH,LROP] <= 12
- WeeklyDemand_EGPH_LGIR: x_ij[EGPH,LGIR] + w_ij[EGPH,LGIR] <= 3
- WeeklyDemand_EGPH_BIKF: x_ij[EGPH,BIKF] + w_ij[EGPH,BIKF] <= 15
- WeeklyDemand_EGPH_LICJ: x_ij[EGPH,LICJ] + w_ij[EGPH,LICJ] <= 11
- WeeklyDemand_EGPH_LPMA: x_ij[EGPH,LPMA] + w_ij[EGPH,LPMA] <= 5
- WeeklyDemand_LROP_EGLL: x_ij[LROP,EGLL] + w_ij[LROP,EGLL] <= 62
- WeeklyDemand_LROP_LFPG: x_ij[LROP,LFPG] + w_ij[LROP,LFPG] <= 35
- WeeklyDemand_LROP_EHAM: x_ij[LROP,EHAM] + w_ij[LROP,EHAM] <= 25
- WeeklyDemand_LROP_EDDF: x_ij[LROP,EDDF] + w_ij[LROP,EDDF] <= 30
- WeeklyDemand_LROP_LEMF: x_ij[LROP,LEMF] + w_ij[LROP,LEMF] <= 25
- WeeklyDemand_LROP_LEBL: x_ij[LROP,LEBL] + w_ij[LROP,LEBL] <= 23
- WeeklyDemand_LROP_EDDM: x_ij[LROP,EDDM] + w_ij[LROP,EDDM] <= 56
- WeeklyDemand_LROP_LIRF: x_ij[LROP,LIRF] + w_ij[LROP,LIRF] <= 67
- WeeklyDemand_LROP_EIDW: x_ij[LROP,EIDW] + w_ij[LROP,EIDW] <= 16
- WeeklyDemand_LROP_ESSA: x_ij[LROP,ESSA] + w_ij[LROP,ESSA] <= 28
- WeeklyDemand_LROP_LPPT: x_ij[LROP,LPPT] + w_ij[LROP,LPPT] <= 7
- WeeklyDemand_LROP_EDDT: x_ij[LROP,EDDT] + w_ij[LROP,EDDT] <= 78
- WeeklyDemand_LROP_EFHK: x_ij[LROP,EFHK] + w_ij[LROP,EFHK] <= 22
- WeeklyDemand_LROP_EPWA: x_ij[LROP,EPWA] + w_ij[LROP,EPWA] <= 49
- WeeklyDemand_LROP_EGPH: x_ij[LROP,EGPH] + w_ij[LROP,EGPH] <= 12
- WeeklyDemand_LROP_LGIR: x_ij[LROP,LGIR] + w_ij[LROP,LGIR] <= 14
- WeeklyDemand_LROP_BIKF: x_ij[LROP,BIKF] + w_ij[LROP,BIKF] <= 5
- WeeklyDemand_LROP_LICJ: x_ij[LROP,LICJ] + w_ij[LROP,LICJ] <= 28
- WeeklyDemand_LROP_LPMA: x_ij[LROP,LPMA] + w_ij[LROP,LPMA] <= 3
- WeeklyDemand_LGIR_EGLL: x_ij[LGIR,EGLL] + w_ij[LGIR,EGLL] <= 16
- WeeklyDemand_LGIR_LFPG: x_ij[LGIR,LFPG] + w_ij[LGIR,LFPG] <= 9
- WeeklyDemand_LGIR_EHAM: x_ij[LGIR,EHAM] + w_ij[LGIR,EHAM] <= 6
- WeeklyDemand_LGIR_EDDF: x_ij[LGIR,EDDF] + w_ij[LGIR,EDDF] <= 7
- WeeklyDemand_LGIR_LEMF: x_ij[LGIR,LEMF] + w_ij[LGIR,LEMF] <= 8
- WeeklyDemand_LGIR_LEBL: x_ij[LGIR,LEBL] + w_ij[LGIR,LEBL] <= 8
- WeeklyDemand_LGIR_EDDM: x_ij[LGIR,EDDM] + w_ij[LGIR,EDDM] <= 11
- WeeklyDemand_LGIR_LIRF: x_ij[LGIR,LIRF] + w_ij[LGIR,LIRF] <= 20
- WeeklyDemand_LGIR_EIDW: x_ij[LGIR,EIDW] + w_ij[LGIR,EIDW] <= 4
- WeeklyDemand_LGIR_ESSA: x_ij[LGIR,ESSA] + w_ij[LGIR,ESSA] <= 6
- WeeklyDemand_LGIR_LPPT: x_ij[LGIR,LPPT] + w_ij[LGIR,LPPT] <= 2
- WeeklyDemand_LGIR_EDDT: x_ij[LGIR,EDDT] + w_ij[LGIR,EDDT] <= 14
- WeeklyDemand_LGIR_EFHK: x_ij[LGIR,EFHK] + w_ij[LGIR,EFHK] <= 4
- WeeklyDemand_LGIR_EPWA: x_ij[LGIR,EPWA] + w_ij[LGIR,EPWA] <= 7
- WeeklyDemand_LGIR_EGPH: x_ij[LGIR,EGPH] + w_ij[LGIR,EGPH] <= 3
- WeeklyDemand_LGIR_LROP: x_ij[LGIR,LROP] + w_ij[LGIR,LROP] <= 14
- WeeklyDemand_LGIR_BIKF: x_ij[LGIR,BIKF] + w_ij[LGIR,BIKF] <= 1
- WeeklyDemand_LGIR_LICJ: x_ij[LGIR,LICJ] + w_ij[LGIR,LICJ] <= 12
- WeeklyDemand_LGIR_LPMA: x_ij[LGIR,LPMA] + w_ij[LGIR,LPMA] <= 1
- WeeklyDemand_BIKF_EGLL: x_ij[BIKF,EGLL] + w_ij[BIKF,EGLL] <= 44
- WeeklyDemand_BIKF_LFPG: x_ij[BIKF,LFPG] + w_ij[BIKF,LFPG] <= 17
- WeeklyDemand_BIKF_EHAM: x_ij[BIKF,EHAM] + w_ij[BIKF,EHAM] <= 13
- WeeklyDemand_BIKF_EDDF: x_ij[BIKF,EDDF] + w_ij[BIKF,EDDF] <= 10
- WeeklyDemand_BIKF_LEMF: x_ij[BIKF,LEMF] + w_ij[BIKF,LEMF] <= 12
- WeeklyDemand_BIKF_LEBL: x_ij[BIKF,LEBL] + w_ij[BIKF,LEBL] <= 8
- WeeklyDemand_BIKF_EDDM: x_ij[BIKF,EDDM] + w_ij[BIKF,EDDM] <= 12
- WeeklyDemand_BIKF_LIRF: x_ij[BIKF,LIRF] + w_ij[BIKF,LIRF] <= 11
- WeeklyDemand_BIKF_EIDW: x_ij[BIKF,EIDW] + w_ij[BIKF,EIDW] <= 20
- WeeklyDemand_BIKF_ESSA: x_ij[BIKF,ESSA] + w_ij[BIKF,ESSA] <= 13
- WeeklyDemand_BIKF_LPPT: x_ij[BIKF,LPPT] + w_ij[BIKF,LPPT] <= 4
- WeeklyDemand_BIKF_EDDT: x_ij[BIKF,EDDT] + w_ij[BIKF,EDDT] <= 21
- WeeklyDemand_BIKF_EFHK: x_ij[BIKF,EFHK] + w_ij[BIKF,EFHK] <= 9
- WeeklyDemand_BIKF_EPWA: x_ij[BIKF,EPWA] + w_ij[BIKF,EPWA] <= 7
- WeeklyDemand_BIKF_EGPH: x_ij[BIKF,EGPH] + w_ij[BIKF,EGPH] <= 15
- WeeklyDemand_BIKF_LROP: x_ij[BIKF,LROP] + w_ij[BIKF,LROP] <= 5
- WeeklyDemand_BIKF_LGIR: x_ij[BIKF,LGIR] + w_ij[BIKF,LGIR] <= 1
- WeeklyDemand_BIKF_LICJ: x_ij[BIKF,LICJ] + w_ij[BIKF,LICJ] <= 4
- WeeklyDemand_BIKF_LPMA: x_ij[BIKF,LPMA] + w_ij[BIKF,LPMA] <= 2
- WeeklyDemand_LICJ_EGLL: x_ij[LICJ,EGLL] + w_ij[LICJ,EGLL] <= 69
- WeeklyDemand_LICJ_LFPG: x_ij[LICJ,LFPG] + w_ij[LICJ,LFPG] <= 43
- WeeklyDemand_LICJ_EHAM: x_ij[LICJ,EHAM] + w_ij[LICJ,EHAM] <= 25
- WeeklyDemand_LICJ_EDDF: x_ij[LICJ,EDDF] + w_ij[LICJ,EDDF] <= 30
- WeeklyDemand_LICJ_LEMF: x_ij[LICJ,LEMF] + w_ij[LICJ,LEMF] <= 45
- WeeklyDemand_LICJ_LEBL: x_ij[LICJ,LEBL] + w_ij[LICJ,LEBL] <= 51
- WeeklyDemand_LICJ_EDDM: x_ij[LICJ,EDDM] + w_ij[LICJ,EDDM] <= 53
- WeeklyDemand_LICJ_LIRF: x_ij[LICJ,LIRF] + w_ij[LICJ,LIRF] <= 230
- WeeklyDemand_LICJ_EIDW: x_ij[LICJ,EIDW] + w_ij[LICJ,EIDW] <= 18
- WeeklyDemand_LICJ_ESSA: x_ij[LICJ,ESSA] + w_ij[LICJ,ESSA] <= 17
- WeeklyDemand_LICJ_LPPT: x_ij[LICJ,LPPT] + w_ij[LICJ,LPPT] <= 11
- WeeklyDemand_LICJ_EDDT: x_ij[LICJ,EDDT] + w_ij[LICJ,EDDT] <= 55
- WeeklyDemand_LICJ_EFHK: x_ij[LICJ,EFHK] + w_ij[LICJ,EFHK] <= 12
- WeeklyDemand_LICJ_EPWA: x_ij[LICJ,EPWA] + w_ij[LICJ,EPWA] <= 21
- WeeklyDemand_LICJ_EGPH: x_ij[LICJ,EGPH] + w_ij[LICJ,EGPH] <= 11
- WeeklyDemand_LICJ_LROP: x_ij[LICJ,LROP] + w_ij[LICJ,LROP] <= 28
- WeeklyDemand_LICJ_LGIR: x_ij[LICJ,LGIR] + w_ij[LICJ,LGIR] <= 12
- WeeklyDemand_LICJ_BIKF: x_ij[LICJ,BIKF] + w_ij[LICJ,BIKF] <= 4
- WeeklyDemand_LICJ_LPMA: x_ij[LICJ,LPMA] + w_ij[LICJ,LPMA] <= 5
- WeeklyDemand_LPMA_EGLL: x_ij[LPMA,EGLL] + w_ij[LPMA,EGLL] <= 24
- WeeklyDemand_LPMA_LFPG: x_ij[LPMA,LFPG] + w_ij[LPMA,LFPG] <= 12
- WeeklyDemand_LPMA_EHAM: x_ij[LPMA,EHAM] + w_ij[LPMA,EHAM] <= 7
- WeeklyDemand_LPMA_EDDF: x_ij[LPMA,EDDF] + w_ij[LPMA,EDDF] <= 6
- WeeklyDemand_LPMA_LEMF: x_ij[LPMA,LEMF] + w_ij[LPMA,LEMF] <= 23
- WeeklyDemand_LPMA_LEBL: x_ij[LPMA,LEBL] + w_ij[LPMA,LEBL] <= 11
- WeeklyDemand_LPMA_EDDM: x_ij[LPMA,EDDM] + w_ij[LPMA,EDDM] <= 8
- WeeklyDemand_LPMA_LIRF: x_ij[LPMA,LIRF] + w_ij[LPMA,LIRF] <= 10
- WeeklyDemand_LPMA_EIDW: x_ij[LPMA,EIDW] + w_ij[LPMA,EIDW] <= 8
- WeeklyDemand_LPMA_ESSA: x_ij[LPMA,ESSA] + w_ij[LPMA,ESSA] <= 5
- WeeklyDemand_LPMA_LPPT: x_ij[LPMA,LPPT] + w_ij[LPMA,LPPT] <= 14
- WeeklyDemand_LPMA_EDDT: x_ij[LPMA,EDDT] + w_ij[LPMA,EDDT] <= 11
- WeeklyDemand_LPMA_EFHK: x_ij[LPMA,EFHK] + w_ij[LPMA,EFHK] <= 3
- WeeklyDemand_LPMA_EPWA: x_ij[LPMA,EPWA] + w_ij[LPMA,EPWA] <= 4
- WeeklyDemand_LPMA_EGPH: x_ij[LPMA,EGPH] + w_ij[LPMA,EGPH] <= 5
- WeeklyDemand_LPMA_LROP: x_ij[LPMA,LROP] + w_ij[LPMA,LROP] <= 3
- WeeklyDemand_LPMA_LGIR: x_ij[LPMA,LGIR] + w_ij[LPMA,LGIR] <= 1
- WeeklyDemand_LPMA_BIKF: x_ij[LPMA,BIKF] + w_ij[LPMA,BIKF] <= 2
- WeeklyDemand_LPMA_LICJ: x_ij[LPMA,LICJ] + w_ij[LPMA,LICJ] <= 5
+ Demand_EGLL_LFPG: x_ij[EGLL,LFPG] + w_ij[EGLL,LFPG] <= 1194
+ Demand_EGLL_EHAM: x_ij[EGLL,EHAM] + w_ij[EGLL,EHAM] <= 750
+ Demand_EGLL_EDDF: x_ij[EGLL,EDDF] + w_ij[EGLL,EDDF] <= 327
+ Demand_EGLL_LEMF: x_ij[EGLL,LEMF] + w_ij[EGLL,LEMF] <= 237
+ Demand_EGLL_LEBL: x_ij[EGLL,LEBL] + w_ij[EGLL,LEBL] <= 187
+ Demand_EGLL_EDDM: x_ij[EGLL,EDDM] + w_ij[EGLL,EDDM] <= 291
+ Demand_EGLL_LIRF: x_ij[EGLL,LIRF] + w_ij[EGLL,LIRF] <= 199
+ Demand_EGLL_EIDW: x_ij[EGLL,EIDW] + w_ij[EGLL,EIDW] <= 600
+ Demand_EGLL_ESSA: x_ij[EGLL,ESSA] + w_ij[EGLL,ESSA] <= 140
+ Demand_EGLL_LPPT: x_ij[EGLL,LPPT] + w_ij[EGLL,LPPT] <= 62
+ Demand_EGLL_EDDT: x_ij[EGLL,EDDT] + w_ij[EGLL,EDDT] <= 456
+ Demand_EGLL_EFHK: x_ij[EGLL,EFHK] + w_ij[EGLL,EFHK] <= 80
+ Demand_EGLL_EPWA: x_ij[EGLL,EPWA] + w_ij[EGLL,EPWA] <= 106
+ Demand_EGLL_EGPH: x_ij[EGLL,EGPH] + w_ij[EGLL,EGPH] <= 324
+ Demand_EGLL_LROP: x_ij[EGLL,LROP] + w_ij[EGLL,LROP] <= 62
+ Demand_EGLL_LGIR: x_ij[EGLL,LGIR] + w_ij[EGLL,LGIR] <= 16
+ Demand_EGLL_BIKF: x_ij[EGLL,BIKF] + w_ij[EGLL,BIKF] <= 44
+ Demand_EGLL_LICJ: x_ij[EGLL,LICJ] + w_ij[EGLL,LICJ] <= 69
+ Demand_EGLL_LPMA: x_ij[EGLL,LPMA] + w_ij[EGLL,LPMA] <= 24
+ Demand_LFPG_EGLL: x_ij[LFPG,EGLL] + w_ij[LFPG,EGLL] <= 1194
+ Demand_LFPG_EHAM: x_ij[LFPG,EHAM] + w_ij[LFPG,EHAM] <= 327
+ Demand_LFPG_EDDF: x_ij[LFPG,EDDF] + w_ij[LFPG,EDDF] <= 254
+ Demand_LFPG_LEMF: x_ij[LFPG,LEMF] + w_ij[LFPG,LEMF] <= 139
+ Demand_LFPG_LEBL: x_ij[LFPG,LEBL] + w_ij[LFPG,LEBL] <= 130
+ Demand_LFPG_EDDM: x_ij[LFPG,EDDM] + w_ij[LFPG,EDDM] <= 211
+ Demand_LFPG_LIRF: x_ij[LFPG,LIRF] + w_ij[LFPG,LIRF] <= 135
+ Demand_LFPG_EIDW: x_ij[LFPG,EIDW] + w_ij[LFPG,EIDW] <= 140
+ Demand_LFPG_ESSA: x_ij[LFPG,ESSA] + w_ij[LFPG,ESSA] <= 63
+ Demand_LFPG_LPPT: x_ij[LFPG,LPPT] + w_ij[LFPG,LPPT] <= 32
+ Demand_LFPG_EDDT: x_ij[LFPG,EDDT] + w_ij[LFPG,EDDT] <= 250
+ Demand_LFPG_EFHK: x_ij[LFPG,EFHK] + w_ij[LFPG,EFHK] <= 37
+ Demand_LFPG_EPWA: x_ij[LFPG,EPWA] + w_ij[LFPG,EPWA] <= 57
+ Demand_LFPG_EGPH: x_ij[LFPG,EGPH] + w_ij[LFPG,EGPH] <= 83
+ Demand_LFPG_LROP: x_ij[LFPG,LROP] + w_ij[LFPG,LROP] <= 35
+ Demand_LFPG_LGIR: x_ij[LFPG,LGIR] + w_ij[LFPG,LGIR] <= 9
+ Demand_LFPG_BIKF: x_ij[LFPG,BIKF] + w_ij[LFPG,BIKF] <= 17
+ Demand_LFPG_LICJ: x_ij[LFPG,LICJ] + w_ij[LFPG,LICJ] <= 43
+ Demand_LFPG_LPMA: x_ij[LFPG,LPMA] + w_ij[LFPG,LPMA] <= 12
+ Demand_EHAM_EGLL: x_ij[EHAM,EGLL] + w_ij[EHAM,EGLL] <= 750
+ Demand_EHAM_LFPG: x_ij[EHAM,LFPG] + w_ij[EHAM,LFPG] <= 327
+ Demand_EHAM_EDDF: x_ij[EHAM,EDDF] + w_ij[EHAM,EDDF] <= 225
+ Demand_EHAM_LEMF: x_ij[EHAM,LEMF] + w_ij[EHAM,LEMF] <= 63
+ Demand_EHAM_LEBL: x_ij[EHAM,LEBL] + w_ij[EHAM,LEBL] <= 55
+ Demand_EHAM_EDDM: x_ij[EHAM,EDDM] + w_ij[EHAM,EDDM] <= 149
+ Demand_EHAM_LIRF: x_ij[EHAM,LIRF] + w_ij[EHAM,LIRF] <= 75
+ Demand_EHAM_EIDW: x_ij[EHAM,EIDW] + w_ij[EHAM,EIDW] <= 101
+ Demand_EHAM_ESSA: x_ij[EHAM,ESSA] + w_ij[EHAM,ESSA] <= 62
+ Demand_EHAM_LPPT: x_ij[EHAM,LPPT] + w_ij[EHAM,LPPT] <= 16
+ Demand_EHAM_EDDT: x_ij[EHAM,EDDT] + w_ij[EHAM,EDDT] <= 281
+ Demand_EHAM_EFHK: x_ij[EHAM,EFHK] + w_ij[EHAM,EFHK] <= 34
+ Demand_EHAM_EPWA: x_ij[EHAM,EPWA] + w_ij[EHAM,EPWA] <= 50
+ Demand_EHAM_EGPH: x_ij[EHAM,EGPH] + w_ij[EHAM,EGPH] <= 79
+ Demand_EHAM_LROP: x_ij[EHAM,LROP] + w_ij[EHAM,LROP] <= 25
+ Demand_EHAM_LGIR: x_ij[EHAM,LGIR] + w_ij[EHAM,LGIR] <= 6
+ Demand_EHAM_BIKF: x_ij[EHAM,BIKF] + w_ij[EHAM,BIKF] <= 13
+ Demand_EHAM_LICJ: x_ij[EHAM,LICJ] + w_ij[EHAM,LICJ] <= 25
+ Demand_EHAM_LPMA: x_ij[EHAM,LPMA] + w_ij[EHAM,LPMA] <= 7
+ Demand_EDDF_EGLL: x_ij[EDDF,EGLL] + w_ij[EDDF,EGLL] <= 327
+ Demand_EDDF_LFPG: x_ij[EDDF,LFPG] + w_ij[EDDF,LFPG] <= 254
+ Demand_EDDF_EHAM: x_ij[EDDF,EHAM] + w_ij[EDDF,EHAM] <= 225
+ Demand_EDDF_LEMF: x_ij[EDDF,LEMF] + w_ij[EDDF,LEMF] <= 59
+ Demand_EDDF_LEBL: x_ij[EDDF,LEBL] + w_ij[EDDF,LEBL] <= 59
+ Demand_EDDF_EDDM: x_ij[EDDF,EDDM] + w_ij[EDDF,EDDM] <= 377
+ Demand_EDDF_LIRF: x_ij[EDDF,LIRF] + w_ij[EDDF,LIRF] <= 100
+ Demand_EDDF_EIDW: x_ij[EDDF,EIDW] + w_ij[EDDF,EIDW] <= 57
+ Demand_EDDF_ESSA: x_ij[EDDF,ESSA] + w_ij[EDDF,ESSA] <= 52
+ Demand_EDDF_LPPT: x_ij[EDDF,LPPT] + w_ij[EDDF,LPPT] <= 15
+ Demand_EDDF_EDDT: x_ij[EDDF,EDDT] + w_ij[EDDF,EDDT] <= 371
+ Demand_EDDF_EFHK: x_ij[EDDF,EFHK] + w_ij[EDDF,EFHK] <= 30
+ Demand_EDDF_EPWA: x_ij[EDDF,EPWA] + w_ij[EDDF,EPWA] <= 59
+ Demand_EDDF_EGPH: x_ij[EDDF,EGPH] + w_ij[EDDF,EGPH] <= 41
+ Demand_EDDF_LROP: x_ij[EDDF,LROP] + w_ij[EDDF,LROP] <= 30
+ Demand_EDDF_LGIR: x_ij[EDDF,LGIR] + w_ij[EDDF,LGIR] <= 7
+ Demand_EDDF_BIKF: x_ij[EDDF,BIKF] + w_ij[EDDF,BIKF] <= 10
+ Demand_EDDF_LICJ: x_ij[EDDF,LICJ] + w_ij[EDDF,LICJ] <= 30
+ Demand_EDDF_LPMA: x_ij[EDDF,LPMA] + w_ij[EDDF,LPMA] <= 6
+ Demand_LEMF_EGLL: x_ij[LEMF,EGLL] + w_ij[LEMF,EGLL] <= 237
+ Demand_LEMF_LFPG: x_ij[LEMF,LFPG] + w_ij[LEMF,LFPG] <= 139
+ Demand_LEMF_EHAM: x_ij[LEMF,EHAM] + w_ij[LEMF,EHAM] <= 63
+ Demand_LEMF_EDDF: x_ij[LEMF,EDDF] + w_ij[LEMF,EDDF] <= 59
+ Demand_LEMF_LEBL: x_ij[LEMF,LEBL] + w_ij[LEMF,LEBL] <= 280
+ Demand_LEMF_EDDM: x_ij[LEMF,EDDM] + w_ij[LEMF,EDDM] <= 79
+ Demand_LEMF_LIRF: x_ij[LEMF,LIRF] + w_ij[LEMF,LIRF] <= 109
+ Demand_LEMF_EIDW: x_ij[LEMF,EIDW] + w_ij[LEMF,EIDW] <= 65
+ Demand_LEMF_ESSA: x_ij[LEMF,ESSA] + w_ij[LEMF,ESSA] <= 33
+ Demand_LEMF_LPPT: x_ij[LEMF,LPPT] + w_ij[LEMF,LPPT] <= 128
+ Demand_LEMF_EDDT: x_ij[LEMF,EDDT] + w_ij[LEMF,EDDT] <= 95
+ Demand_LEMF_EFHK: x_ij[LEMF,EFHK] + w_ij[LEMF,EFHK] <= 22
+ Demand_LEMF_EPWA: x_ij[LEMF,EPWA] + w_ij[LEMF,EPWA] <= 30
+ Demand_LEMF_EGPH: x_ij[LEMF,EGPH] + w_ij[LEMF,EGPH] <= 35
+ Demand_LEMF_LROP: x_ij[LEMF,LROP] + w_ij[LEMF,LROP] <= 25
+ Demand_LEMF_LGIR: x_ij[LEMF,LGIR] + w_ij[LEMF,LGIR] <= 8
+ Demand_LEMF_BIKF: x_ij[LEMF,BIKF] + w_ij[LEMF,BIKF] <= 12
+ Demand_LEMF_LICJ: x_ij[LEMF,LICJ] + w_ij[LEMF,LICJ] <= 45
+ Demand_LEMF_LPMA: x_ij[LEMF,LPMA] + w_ij[LEMF,LPMA] <= 23
+ Demand_LEBL_EGLL: x_ij[LEBL,EGLL] + w_ij[LEBL,EGLL] <= 187
+ Demand_LEBL_LFPG: x_ij[LEBL,LFPG] + w_ij[LEBL,LFPG] <= 130
+ Demand_LEBL_EHAM: x_ij[LEBL,EHAM] + w_ij[LEBL,EHAM] <= 55
+ Demand_LEBL_EDDF: x_ij[LEBL,EDDF] + w_ij[LEBL,EDDF] <= 59
+ Demand_LEBL_LEMF: x_ij[LEBL,LEMF] + w_ij[LEBL,LEMF] <= 280
+ Demand_LEBL_EDDM: x_ij[LEBL,EDDM] + w_ij[LEBL,EDDM] <= 84
+ Demand_LEBL_LIRF: x_ij[LEBL,LIRF] + w_ij[LEBL,LIRF] <= 138
+ Demand_LEBL_EIDW: x_ij[LEBL,EIDW] + w_ij[LEBL,EIDW] <= 45
+ Demand_LEBL_ESSA: x_ij[LEBL,ESSA] + w_ij[LEBL,ESSA] <= 27
+ Demand_LEBL_LPPT: x_ij[LEBL,LPPT] + w_ij[LEBL,LPPT] <= 39
+ Demand_LEBL_EDDT: x_ij[LEBL,EDDT] + w_ij[LEBL,EDDT] <= 87
+ Demand_LEBL_EFHK: x_ij[LEBL,EFHK] + w_ij[LEBL,EFHK] <= 18
+ Demand_LEBL_EPWA: x_ij[LEBL,EPWA] + w_ij[LEBL,EPWA] <= 27
+ Demand_LEBL_EGPH: x_ij[LEBL,EGPH] + w_ij[LEBL,EGPH] <= 26
+ Demand_LEBL_LROP: x_ij[LEBL,LROP] + w_ij[LEBL,LROP] <= 23
+ Demand_LEBL_LGIR: x_ij[LEBL,LGIR] + w_ij[LEBL,LGIR] <= 8
+ Demand_LEBL_BIKF: x_ij[LEBL,BIKF] + w_ij[LEBL,BIKF] <= 8
+ Demand_LEBL_LICJ: x_ij[LEBL,LICJ] + w_ij[LEBL,LICJ] <= 51
+ Demand_LEBL_LPMA: x_ij[LEBL,LPMA] + w_ij[LEBL,LPMA] <= 11
+ Demand_EDDM_EGLL: x_ij[EDDM,EGLL] + w_ij[EDDM,EGLL] <= 291
+ Demand_EDDM_LFPG: x_ij[EDDM,LFPG] + w_ij[EDDM,LFPG] <= 211
+ Demand_EDDM_EHAM: x_ij[EDDM,EHAM] + w_ij[EDDM,EHAM] <= 149
+ Demand_EDDM_EDDF: x_ij[EDDM,EDDF] + w_ij[EDDM,EDDF] <= 377
+ Demand_EDDM_LEMF: x_ij[EDDM,LEMF] + w_ij[EDDM,LEMF] <= 79
+ Demand_EDDM_LEBL: x_ij[EDDM,LEBL] + w_ij[EDDM,LEBL] <= 84
+ Demand_EDDM_LIRF: x_ij[EDDM,LIRF] + w_ij[EDDM,LIRF] <= 202
+ Demand_EDDM_EIDW: x_ij[EDDM,EIDW] + w_ij[EDDM,EIDW] <= 59
+ Demand_EDDM_ESSA: x_ij[EDDM,ESSA] + w_ij[EDDM,ESSA] <= 68
+ Demand_EDDM_LPPT: x_ij[EDDM,LPPT] + w_ij[EDDM,LPPT] <= 19
+ Demand_EDDM_EDDT: x_ij[EDDM,EDDT] + w_ij[EDDM,EDDT] <= 461
+ Demand_EDDM_EFHK: x_ij[EDDM,EFHK] + w_ij[EDDM,EFHK] <= 41
+ Demand_EDDM_EPWA: x_ij[EDDM,EPWA] + w_ij[EDDM,EPWA] <= 101
+ Demand_EDDM_EGPH: x_ij[EDDM,EGPH] + w_ij[EDDM,EGPH] <= 42
+ Demand_EDDM_LROP: x_ij[EDDM,LROP] + w_ij[EDDM,LROP] <= 56
+ Demand_EDDM_LGIR: x_ij[EDDM,LGIR] + w_ij[EDDM,LGIR] <= 11
+ Demand_EDDM_BIKF: x_ij[EDDM,BIKF] + w_ij[EDDM,BIKF] <= 12
+ Demand_EDDM_LICJ: x_ij[EDDM,LICJ] + w_ij[EDDM,LICJ] <= 53
+ Demand_EDDM_LPMA: x_ij[EDDM,LPMA] + w_ij[EDDM,LPMA] <= 8
+ Demand_LIRF_EGLL: x_ij[LIRF,EGLL] + w_ij[LIRF,EGLL] <= 199
+ Demand_LIRF_LFPG: x_ij[LIRF,LFPG] + w_ij[LIRF,LFPG] <= 135
+ Demand_LIRF_EHAM: x_ij[LIRF,EHAM] + w_ij[LIRF,EHAM] <= 75
+ Demand_LIRF_EDDF: x_ij[LIRF,EDDF] + w_ij[LIRF,EDDF] <= 100
+ Demand_LIRF_LEMF: x_ij[LIRF,LEMF] + w_ij[LIRF,LEMF] <= 109
+ Demand_LIRF_LEBL: x_ij[LIRF,LEBL] + w_ij[LIRF,LEBL] <= 138
+ Demand_LIRF_EDDM: x_ij[LIRF,EDDM] + w_ij[LIRF,EDDM] <= 202
+ Demand_LIRF_EIDW: x_ij[LIRF,EIDW] + w_ij[LIRF,EIDW] <= 47
+ Demand_LIRF_ESSA: x_ij[LIRF,ESSA] + w_ij[LIRF,ESSA] <= 46
+ Demand_LIRF_LPPT: x_ij[LIRF,LPPT] + w_ij[LIRF,LPPT] <= 25
+ Demand_LIRF_EDDT: x_ij[LIRF,EDDT] + w_ij[LIRF,EDDT] <= 168
+ Demand_LIRF_EFHK: x_ij[LIRF,EFHK] + w_ij[LIRF,EFHK] <= 31
+ Demand_LIRF_EPWA: x_ij[LIRF,EPWA] + w_ij[LIRF,EPWA] <= 60
+ Demand_LIRF_EGPH: x_ij[LIRF,EGPH] + w_ij[LIRF,EGPH] <= 31
+ Demand_LIRF_LROP: x_ij[LIRF,LROP] + w_ij[LIRF,LROP] <= 67
+ Demand_LIRF_LGIR: x_ij[LIRF,LGIR] + w_ij[LIRF,LGIR] <= 20
+ Demand_LIRF_BIKF: x_ij[LIRF,BIKF] + w_ij[LIRF,BIKF] <= 11
+ Demand_LIRF_LICJ: x_ij[LIRF,LICJ] + w_ij[LIRF,LICJ] <= 230
+ Demand_LIRF_LPMA: x_ij[LIRF,LPMA] + w_ij[LIRF,LPMA] <= 10
+ Demand_EIDW_EGLL: x_ij[EIDW,EGLL] + w_ij[EIDW,EGLL] <= 600
+ Demand_EIDW_LFPG: x_ij[EIDW,LFPG] + w_ij[EIDW,LFPG] <= 140
+ Demand_EIDW_EHAM: x_ij[EIDW,EHAM] + w_ij[EIDW,EHAM] <= 101
+ Demand_EIDW_EDDF: x_ij[EIDW,EDDF] + w_ij[EIDW,EDDF] <= 57
+ Demand_EIDW_LEMF: x_ij[EIDW,LEMF] + w_ij[EIDW,LEMF] <= 65
+ Demand_EIDW_LEBL: x_ij[EIDW,LEBL] + w_ij[EIDW,LEBL] <= 45
+ Demand_EIDW_EDDM: x_ij[EIDW,EDDM] + w_ij[EIDW,EDDM] <= 59
+ Demand_EIDW_LIRF: x_ij[EIDW,LIRF] + w_ij[EIDW,LIRF] <= 47
+ Demand_EIDW_ESSA: x_ij[EIDW,ESSA] + w_ij[EIDW,ESSA] <= 41
+ Demand_EIDW_LPPT: x_ij[EIDW,LPPT] + w_ij[EIDW,LPPT] <= 20
+ Demand_EIDW_EDDT: x_ij[EIDW,EDDT] + w_ij[EIDW,EDDT] <= 101
+ Demand_EIDW_EFHK: x_ij[EIDW,EFHK] + w_ij[EIDW,EFHK] <= 24
+ Demand_EIDW_EPWA: x_ij[EIDW,EPWA] + w_ij[EIDW,EPWA] <= 27
+ Demand_EIDW_EGPH: x_ij[EIDW,EGPH] + w_ij[EIDW,EGPH] <= 196
+ Demand_EIDW_LROP: x_ij[EIDW,LROP] + w_ij[EIDW,LROP] <= 16
+ Demand_EIDW_LGIR: x_ij[EIDW,LGIR] + w_ij[EIDW,LGIR] <= 4
+ Demand_EIDW_BIKF: x_ij[EIDW,BIKF] + w_ij[EIDW,BIKF] <= 20
+ Demand_EIDW_LICJ: x_ij[EIDW,LICJ] + w_ij[EIDW,LICJ] <= 18
+ Demand_EIDW_LPMA: x_ij[EIDW,LPMA] + w_ij[EIDW,LPMA] <= 8
+ Demand_ESSA_EGLL: x_ij[ESSA,EGLL] + w_ij[ESSA,EGLL] <= 140
+ Demand_ESSA_LFPG: x_ij[ESSA,LFPG] + w_ij[ESSA,LFPG] <= 63
+ Demand_ESSA_EHAM: x_ij[ESSA,EHAM] + w_ij[ESSA,EHAM] <= 62
+ Demand_ESSA_EDDF: x_ij[ESSA,EDDF] + w_ij[ESSA,EDDF] <= 52
+ Demand_ESSA_LEMF: x_ij[ESSA,LEMF] + w_ij[ESSA,LEMF] <= 33
+ Demand_ESSA_LEBL: x_ij[ESSA,LEBL] + w_ij[ESSA,LEBL] <= 27
+ Demand_ESSA_EDDM: x_ij[ESSA,EDDM] + w_ij[ESSA,EDDM] <= 68
+ Demand_ESSA_LIRF: x_ij[ESSA,LIRF] + w_ij[ESSA,LIRF] <= 46
+ Demand_ESSA_EIDW: x_ij[ESSA,EIDW] + w_ij[ESSA,EIDW] <= 41
+ Demand_ESSA_LPPT: x_ij[ESSA,LPPT] + w_ij[ESSA,LPPT] <= 10
+ Demand_ESSA_EDDT: x_ij[ESSA,EDDT] + w_ij[ESSA,EDDT] <= 190
+ Demand_ESSA_EFHK: x_ij[ESSA,EFHK] + w_ij[ESSA,EFHK] <= 206
+ Demand_ESSA_EPWA: x_ij[ESSA,EPWA] + w_ij[ESSA,EPWA] <= 76
+ Demand_ESSA_EGPH: x_ij[ESSA,EGPH] + w_ij[ESSA,EGPH] <= 36
+ Demand_ESSA_LROP: x_ij[ESSA,LROP] + w_ij[ESSA,LROP] <= 28
+ Demand_ESSA_LGIR: x_ij[ESSA,LGIR] + w_ij[ESSA,LGIR] <= 6
+ Demand_ESSA_BIKF: x_ij[ESSA,BIKF] + w_ij[ESSA,BIKF] <= 13
+ Demand_ESSA_LICJ: x_ij[ESSA,LICJ] + w_ij[ESSA,LICJ] <= 17
+ Demand_ESSA_LPMA: x_ij[ESSA,LPMA] + w_ij[ESSA,LPMA] <= 5
+ Demand_LPPT_EGLL: x_ij[LPPT,EGLL] + w_ij[LPPT,EGLL] <= 62
+ Demand_LPPT_LFPG: x_ij[LPPT,LFPG] + w_ij[LPPT,LFPG] <= 32
+ Demand_LPPT_EHAM: x_ij[LPPT,EHAM] + w_ij[LPPT,EHAM] <= 16
+ Demand_LPPT_EDDF: x_ij[LPPT,EDDF] + w_ij[LPPT,EDDF] <= 15
+ Demand_LPPT_LEMF: x_ij[LPPT,LEMF] + w_ij[LPPT,LEMF] <= 128
+ Demand_LPPT_LEBL: x_ij[LPPT,LEBL] + w_ij[LPPT,LEBL] <= 39
+ Demand_LPPT_EDDM: x_ij[LPPT,EDDM] + w_ij[LPPT,EDDM] <= 19
+ Demand_LPPT_LIRF: x_ij[LPPT,LIRF] + w_ij[LPPT,LIRF] <= 25
+ Demand_LPPT_EIDW: x_ij[LPPT,EIDW] + w_ij[LPPT,EIDW] <= 20
+ Demand_LPPT_ESSA: x_ij[LPPT,ESSA] + w_ij[LPPT,ESSA] <= 10
+ Demand_LPPT_EDDT: x_ij[LPPT,EDDT] + w_ij[LPPT,EDDT] <= 25
+ Demand_LPPT_EFHK: x_ij[LPPT,EFHK] + w_ij[LPPT,EFHK] <= 6
+ Demand_LPPT_EPWA: x_ij[LPPT,EPWA] + w_ij[LPPT,EPWA] <= 8
+ Demand_LPPT_EGPH: x_ij[LPPT,EGPH] + w_ij[LPPT,EGPH] <= 11
+ Demand_LPPT_LROP: x_ij[LPPT,LROP] + w_ij[LPPT,LROP] <= 7
+ Demand_LPPT_LGIR: x_ij[LPPT,LGIR] + w_ij[LPPT,LGIR] <= 2
+ Demand_LPPT_BIKF: x_ij[LPPT,BIKF] + w_ij[LPPT,BIKF] <= 4
+ Demand_LPPT_LICJ: x_ij[LPPT,LICJ] + w_ij[LPPT,LICJ] <= 11
+ Demand_LPPT_LPMA: x_ij[LPPT,LPMA] + w_ij[LPPT,LPMA] <= 14
+ Demand_EDDT_EGLL: x_ij[EDDT,EGLL] + w_ij[EDDT,EGLL] <= 456
+ Demand_EDDT_LFPG: x_ij[EDDT,LFPG] + w_ij[EDDT,LFPG] <= 250
+ Demand_EDDT_EHAM: x_ij[EDDT,EHAM] + w_ij[EDDT,EHAM] <= 281
+ Demand_EDDT_EDDF: x_ij[EDDT,EDDF] + w_ij[EDDT,EDDF] <= 371
+ Demand_EDDT_LEMF: x_ij[EDDT,LEMF] + w_ij[EDDT,LEMF] <= 95
+ Demand_EDDT_LEBL: x_ij[EDDT,LEBL] + w_ij[EDDT,LEBL] <= 87
+ Demand_EDDT_EDDM: x_ij[EDDT,EDDM] + w_ij[EDDT,EDDM] <= 461
+ Demand_EDDT_LIRF: x_ij[EDDT,LIRF] + w_ij[EDDT,LIRF] <= 168
+ Demand_EDDT_EIDW: x_ij[EDDT,EIDW] + w_ij[EDDT,EIDW] <= 101
+ Demand_EDDT_ESSA: x_ij[EDDT,ESSA] + w_ij[EDDT,ESSA] <= 190
+ Demand_EDDT_LPPT: x_ij[EDDT,LPPT] + w_ij[EDDT,LPPT] <= 25
+ Demand_EDDT_EFHK: x_ij[EDDT,EFHK] + w_ij[EDDT,EFHK] <= 101
+ Demand_EDDT_EPWA: x_ij[EDDT,EPWA] + w_ij[EDDT,EPWA] <= 266
+ Demand_EDDT_EGPH: x_ij[EDDT,EGPH] + w_ij[EDDT,EGPH] <= 81
+ Demand_EDDT_LROP: x_ij[EDDT,LROP] + w_ij[EDDT,LROP] <= 78
+ Demand_EDDT_LGIR: x_ij[EDDT,LGIR] + w_ij[EDDT,LGIR] <= 14
+ Demand_EDDT_BIKF: x_ij[EDDT,BIKF] + w_ij[EDDT,BIKF] <= 21
+ Demand_EDDT_LICJ: x_ij[EDDT,LICJ] + w_ij[EDDT,LICJ] <= 55
+ Demand_EDDT_LPMA: x_ij[EDDT,LPMA] + w_ij[EDDT,LPMA] <= 11
+ Demand_EFHK_EGLL: x_ij[EFHK,EGLL] + w_ij[EFHK,EGLL] <= 80
+ Demand_EFHK_LFPG: x_ij[EFHK,LFPG] + w_ij[EFHK,LFPG] <= 37
+ Demand_EFHK_EHAM: x_ij[EFHK,EHAM] + w_ij[EFHK,EHAM] <= 34
+ Demand_EFHK_EDDF: x_ij[EFHK,EDDF] + w_ij[EFHK,EDDF] <= 30
+ Demand_EFHK_LEMF: x_ij[EFHK,LEMF] + w_ij[EFHK,LEMF] <= 22
+ Demand_EFHK_LEBL: x_ij[EFHK,LEBL] + w_ij[EFHK,LEBL] <= 18
+ Demand_EFHK_EDDM: x_ij[EFHK,EDDM] + w_ij[EFHK,EDDM] <= 41
+ Demand_EFHK_LIRF: x_ij[EFHK,LIRF] + w_ij[EFHK,LIRF] <= 31
+ Demand_EFHK_EIDW: x_ij[EFHK,EIDW] + w_ij[EFHK,EIDW] <= 24
+ Demand_EFHK_ESSA: x_ij[EFHK,ESSA] + w_ij[EFHK,ESSA] <= 206
+ Demand_EFHK_LPPT: x_ij[EFHK,LPPT] + w_ij[EFHK,LPPT] <= 6
+ Demand_EFHK_EDDT: x_ij[EFHK,EDDT] + w_ij[EFHK,EDDT] <= 101
+ Demand_EFHK_EPWA: x_ij[EFHK,EPWA] + w_ij[EFHK,EPWA] <= 52
+ Demand_EFHK_EGPH: x_ij[EFHK,EGPH] + w_ij[EFHK,EGPH] <= 20
+ Demand_EFHK_LROP: x_ij[EFHK,LROP] + w_ij[EFHK,LROP] <= 22
+ Demand_EFHK_LGIR: x_ij[EFHK,LGIR] + w_ij[EFHK,LGIR] <= 4
+ Demand_EFHK_BIKF: x_ij[EFHK,BIKF] + w_ij[EFHK,BIKF] <= 9
+ Demand_EFHK_LICJ: x_ij[EFHK,LICJ] + w_ij[EFHK,LICJ] <= 12
+ Demand_EFHK_LPMA: x_ij[EFHK,LPMA] + w_ij[EFHK,LPMA] <= 3
+ Demand_EPWA_EGLL: x_ij[EPWA,EGLL] + w_ij[EPWA,EGLL] <= 106
+ Demand_EPWA_LFPG: x_ij[EPWA,LFPG] + w_ij[EPWA,LFPG] <= 57
+ Demand_EPWA_EHAM: x_ij[EPWA,EHAM] + w_ij[EPWA,EHAM] <= 50
+ Demand_EPWA_EDDF: x_ij[EPWA,EDDF] + w_ij[EPWA,EDDF] <= 59
+ Demand_EPWA_LEMF: x_ij[EPWA,LEMF] + w_ij[EPWA,LEMF] <= 30
+ Demand_EPWA_LEBL: x_ij[EPWA,LEBL] + w_ij[EPWA,LEBL] <= 27
+ Demand_EPWA_EDDM: x_ij[EPWA,EDDM] + w_ij[EPWA,EDDM] <= 101
+ Demand_EPWA_LIRF: x_ij[EPWA,LIRF] + w_ij[EPWA,LIRF] <= 60
+ Demand_EPWA_EIDW: x_ij[EPWA,EIDW] + w_ij[EPWA,EIDW] <= 27
+ Demand_EPWA_ESSA: x_ij[EPWA,ESSA] + w_ij[EPWA,ESSA] <= 76
+ Demand_EPWA_LPPT: x_ij[EPWA,LPPT] + w_ij[EPWA,LPPT] <= 8
+ Demand_EPWA_EDDT: x_ij[EPWA,EDDT] + w_ij[EPWA,EDDT] <= 266
+ Demand_EPWA_EFHK: x_ij[EPWA,EFHK] + w_ij[EPWA,EFHK] <= 52
+ Demand_EPWA_EGPH: x_ij[EPWA,EGPH] + w_ij[EPWA,EGPH] <= 21
+ Demand_EPWA_LROP: x_ij[EPWA,LROP] + w_ij[EPWA,LROP] <= 49
+ Demand_EPWA_LGIR: x_ij[EPWA,LGIR] + w_ij[EPWA,LGIR] <= 7
+ Demand_EPWA_BIKF: x_ij[EPWA,BIKF] + w_ij[EPWA,BIKF] <= 7
+ Demand_EPWA_LICJ: x_ij[EPWA,LICJ] + w_ij[EPWA,LICJ] <= 21
+ Demand_EPWA_LPMA: x_ij[EPWA,LPMA] + w_ij[EPWA,LPMA] <= 4
+ Demand_EGPH_EGLL: x_ij[EGPH,EGLL] + w_ij[EGPH,EGLL] <= 324
+ Demand_EGPH_LFPG: x_ij[EGPH,LFPG] + w_ij[EGPH,LFPG] <= 83
+ Demand_EGPH_EHAM: x_ij[EGPH,EHAM] + w_ij[EGPH,EHAM] <= 79
+ Demand_EGPH_EDDF: x_ij[EGPH,EDDF] + w_ij[EGPH,EDDF] <= 41
+ Demand_EGPH_LEMF: x_ij[EGPH,LEMF] + w_ij[EGPH,LEMF] <= 35
+ Demand_EGPH_LEBL: x_ij[EGPH,LEBL] + w_ij[EGPH,LEBL] <= 26
+ Demand_EGPH_EDDM: x_ij[EGPH,EDDM] + w_ij[EGPH,EDDM] <= 42
+ Demand_EGPH_LIRF: x_ij[EGPH,LIRF] + w_ij[EGPH,LIRF] <= 31
+ Demand_EGPH_EIDW: x_ij[EGPH,EIDW] + w_ij[EGPH,EIDW] <= 196
+ Demand_EGPH_ESSA: x_ij[EGPH,ESSA] + w_ij[EGPH,ESSA] <= 36
+ Demand_EGPH_LPPT: x_ij[EGPH,LPPT] + w_ij[EGPH,LPPT] <= 11
+ Demand_EGPH_EDDT: x_ij[EGPH,EDDT] + w_ij[EGPH,EDDT] <= 81
+ Demand_EGPH_EFHK: x_ij[EGPH,EFHK] + w_ij[EGPH,EFHK] <= 20
+ Demand_EGPH_EPWA: x_ij[EGPH,EPWA] + w_ij[EGPH,EPWA] <= 21
+ Demand_EGPH_LROP: x_ij[EGPH,LROP] + w_ij[EGPH,LROP] <= 12
+ Demand_EGPH_LGIR: x_ij[EGPH,LGIR] + w_ij[EGPH,LGIR] <= 3
+ Demand_EGPH_BIKF: x_ij[EGPH,BIKF] + w_ij[EGPH,BIKF] <= 15
+ Demand_EGPH_LICJ: x_ij[EGPH,LICJ] + w_ij[EGPH,LICJ] <= 11
+ Demand_EGPH_LPMA: x_ij[EGPH,LPMA] + w_ij[EGPH,LPMA] <= 5
+ Demand_LROP_EGLL: x_ij[LROP,EGLL] + w_ij[LROP,EGLL] <= 62
+ Demand_LROP_LFPG: x_ij[LROP,LFPG] + w_ij[LROP,LFPG] <= 35
+ Demand_LROP_EHAM: x_ij[LROP,EHAM] + w_ij[LROP,EHAM] <= 25
+ Demand_LROP_EDDF: x_ij[LROP,EDDF] + w_ij[LROP,EDDF] <= 30
+ Demand_LROP_LEMF: x_ij[LROP,LEMF] + w_ij[LROP,LEMF] <= 25
+ Demand_LROP_LEBL: x_ij[LROP,LEBL] + w_ij[LROP,LEBL] <= 23
+ Demand_LROP_EDDM: x_ij[LROP,EDDM] + w_ij[LROP,EDDM] <= 56
+ Demand_LROP_LIRF: x_ij[LROP,LIRF] + w_ij[LROP,LIRF] <= 67
+ Demand_LROP_EIDW: x_ij[LROP,EIDW] + w_ij[LROP,EIDW] <= 16
+ Demand_LROP_ESSA: x_ij[LROP,ESSA] + w_ij[LROP,ESSA] <= 28
+ Demand_LROP_LPPT: x_ij[LROP,LPPT] + w_ij[LROP,LPPT] <= 7
+ Demand_LROP_EDDT: x_ij[LROP,EDDT] + w_ij[LROP,EDDT] <= 78
+ Demand_LROP_EFHK: x_ij[LROP,EFHK] + w_ij[LROP,EFHK] <= 22
+ Demand_LROP_EPWA: x_ij[LROP,EPWA] + w_ij[LROP,EPWA] <= 49
+ Demand_LROP_EGPH: x_ij[LROP,EGPH] + w_ij[LROP,EGPH] <= 12
+ Demand_LROP_LGIR: x_ij[LROP,LGIR] + w_ij[LROP,LGIR] <= 14
+ Demand_LROP_BIKF: x_ij[LROP,BIKF] + w_ij[LROP,BIKF] <= 5
+ Demand_LROP_LICJ: x_ij[LROP,LICJ] + w_ij[LROP,LICJ] <= 28
+ Demand_LROP_LPMA: x_ij[LROP,LPMA] + w_ij[LROP,LPMA] <= 3
+ Demand_LGIR_EGLL: x_ij[LGIR,EGLL] + w_ij[LGIR,EGLL] <= 16
+ Demand_LGIR_LFPG: x_ij[LGIR,LFPG] + w_ij[LGIR,LFPG] <= 9
+ Demand_LGIR_EHAM: x_ij[LGIR,EHAM] + w_ij[LGIR,EHAM] <= 6
+ Demand_LGIR_EDDF: x_ij[LGIR,EDDF] + w_ij[LGIR,EDDF] <= 7
+ Demand_LGIR_LEMF: x_ij[LGIR,LEMF] + w_ij[LGIR,LEMF] <= 8
+ Demand_LGIR_LEBL: x_ij[LGIR,LEBL] + w_ij[LGIR,LEBL] <= 8
+ Demand_LGIR_EDDM: x_ij[LGIR,EDDM] + w_ij[LGIR,EDDM] <= 11
+ Demand_LGIR_LIRF: x_ij[LGIR,LIRF] + w_ij[LGIR,LIRF] <= 20
+ Demand_LGIR_EIDW: x_ij[LGIR,EIDW] + w_ij[LGIR,EIDW] <= 4
+ Demand_LGIR_ESSA: x_ij[LGIR,ESSA] + w_ij[LGIR,ESSA] <= 6
+ Demand_LGIR_LPPT: x_ij[LGIR,LPPT] + w_ij[LGIR,LPPT] <= 2
+ Demand_LGIR_EDDT: x_ij[LGIR,EDDT] + w_ij[LGIR,EDDT] <= 14
+ Demand_LGIR_EFHK: x_ij[LGIR,EFHK] + w_ij[LGIR,EFHK] <= 4
+ Demand_LGIR_EPWA: x_ij[LGIR,EPWA] + w_ij[LGIR,EPWA] <= 7
+ Demand_LGIR_EGPH: x_ij[LGIR,EGPH] + w_ij[LGIR,EGPH] <= 3
+ Demand_LGIR_LROP: x_ij[LGIR,LROP] + w_ij[LGIR,LROP] <= 14
+ Demand_LGIR_BIKF: x_ij[LGIR,BIKF] + w_ij[LGIR,BIKF] <= 1
+ Demand_LGIR_LICJ: x_ij[LGIR,LICJ] + w_ij[LGIR,LICJ] <= 12
+ Demand_LGIR_LPMA: x_ij[LGIR,LPMA] + w_ij[LGIR,LPMA] <= 1
+ Demand_BIKF_EGLL: x_ij[BIKF,EGLL] + w_ij[BIKF,EGLL] <= 44
+ Demand_BIKF_LFPG: x_ij[BIKF,LFPG] + w_ij[BIKF,LFPG] <= 17
+ Demand_BIKF_EHAM: x_ij[BIKF,EHAM] + w_ij[BIKF,EHAM] <= 13
+ Demand_BIKF_EDDF: x_ij[BIKF,EDDF] + w_ij[BIKF,EDDF] <= 10
+ Demand_BIKF_LEMF: x_ij[BIKF,LEMF] + w_ij[BIKF,LEMF] <= 12
+ Demand_BIKF_LEBL: x_ij[BIKF,LEBL] + w_ij[BIKF,LEBL] <= 8
+ Demand_BIKF_EDDM: x_ij[BIKF,EDDM] + w_ij[BIKF,EDDM] <= 12
+ Demand_BIKF_LIRF: x_ij[BIKF,LIRF] + w_ij[BIKF,LIRF] <= 11
+ Demand_BIKF_EIDW: x_ij[BIKF,EIDW] + w_ij[BIKF,EIDW] <= 20
+ Demand_BIKF_ESSA: x_ij[BIKF,ESSA] + w_ij[BIKF,ESSA] <= 13
+ Demand_BIKF_LPPT: x_ij[BIKF,LPPT] + w_ij[BIKF,LPPT] <= 4
+ Demand_BIKF_EDDT: x_ij[BIKF,EDDT] + w_ij[BIKF,EDDT] <= 21
+ Demand_BIKF_EFHK: x_ij[BIKF,EFHK] + w_ij[BIKF,EFHK] <= 9
+ Demand_BIKF_EPWA: x_ij[BIKF,EPWA] + w_ij[BIKF,EPWA] <= 7
+ Demand_BIKF_EGPH: x_ij[BIKF,EGPH] + w_ij[BIKF,EGPH] <= 15
+ Demand_BIKF_LROP: x_ij[BIKF,LROP] + w_ij[BIKF,LROP] <= 5
+ Demand_BIKF_LGIR: x_ij[BIKF,LGIR] + w_ij[BIKF,LGIR] <= 1
+ Demand_BIKF_LICJ: x_ij[BIKF,LICJ] + w_ij[BIKF,LICJ] <= 4
+ Demand_BIKF_LPMA: x_ij[BIKF,LPMA] + w_ij[BIKF,LPMA] <= 2
+ Demand_LICJ_EGLL: x_ij[LICJ,EGLL] + w_ij[LICJ,EGLL] <= 69
+ Demand_LICJ_LFPG: x_ij[LICJ,LFPG] + w_ij[LICJ,LFPG] <= 43
+ Demand_LICJ_EHAM: x_ij[LICJ,EHAM] + w_ij[LICJ,EHAM] <= 25
+ Demand_LICJ_EDDF: x_ij[LICJ,EDDF] + w_ij[LICJ,EDDF] <= 30
+ Demand_LICJ_LEMF: x_ij[LICJ,LEMF] + w_ij[LICJ,LEMF] <= 45
+ Demand_LICJ_LEBL: x_ij[LICJ,LEBL] + w_ij[LICJ,LEBL] <= 51
+ Demand_LICJ_EDDM: x_ij[LICJ,EDDM] + w_ij[LICJ,EDDM] <= 53
+ Demand_LICJ_LIRF: x_ij[LICJ,LIRF] + w_ij[LICJ,LIRF] <= 230
+ Demand_LICJ_EIDW: x_ij[LICJ,EIDW] + w_ij[LICJ,EIDW] <= 18
+ Demand_LICJ_ESSA: x_ij[LICJ,ESSA] + w_ij[LICJ,ESSA] <= 17
+ Demand_LICJ_LPPT: x_ij[LICJ,LPPT] + w_ij[LICJ,LPPT] <= 11
+ Demand_LICJ_EDDT: x_ij[LICJ,EDDT] + w_ij[LICJ,EDDT] <= 55
+ Demand_LICJ_EFHK: x_ij[LICJ,EFHK] + w_ij[LICJ,EFHK] <= 12
+ Demand_LICJ_EPWA: x_ij[LICJ,EPWA] + w_ij[LICJ,EPWA] <= 21
+ Demand_LICJ_EGPH: x_ij[LICJ,EGPH] + w_ij[LICJ,EGPH] <= 11
+ Demand_LICJ_LROP: x_ij[LICJ,LROP] + w_ij[LICJ,LROP] <= 28
+ Demand_LICJ_LGIR: x_ij[LICJ,LGIR] + w_ij[LICJ,LGIR] <= 12
+ Demand_LICJ_BIKF: x_ij[LICJ,BIKF] + w_ij[LICJ,BIKF] <= 4
+ Demand_LICJ_LPMA: x_ij[LICJ,LPMA] + w_ij[LICJ,LPMA] <= 5
+ Demand_LPMA_EGLL: x_ij[LPMA,EGLL] + w_ij[LPMA,EGLL] <= 24
+ Demand_LPMA_LFPG: x_ij[LPMA,LFPG] + w_ij[LPMA,LFPG] <= 12
+ Demand_LPMA_EHAM: x_ij[LPMA,EHAM] + w_ij[LPMA,EHAM] <= 7
+ Demand_LPMA_EDDF: x_ij[LPMA,EDDF] + w_ij[LPMA,EDDF] <= 6
+ Demand_LPMA_LEMF: x_ij[LPMA,LEMF] + w_ij[LPMA,LEMF] <= 23
+ Demand_LPMA_LEBL: x_ij[LPMA,LEBL] + w_ij[LPMA,LEBL] <= 11
+ Demand_LPMA_EDDM: x_ij[LPMA,EDDM] + w_ij[LPMA,EDDM] <= 8
+ Demand_LPMA_LIRF: x_ij[LPMA,LIRF] + w_ij[LPMA,LIRF] <= 10
+ Demand_LPMA_EIDW: x_ij[LPMA,EIDW] + w_ij[LPMA,EIDW] <= 8
+ Demand_LPMA_ESSA: x_ij[LPMA,ESSA] + w_ij[LPMA,ESSA] <= 5
+ Demand_LPMA_LPPT: x_ij[LPMA,LPPT] + w_ij[LPMA,LPPT] <= 14
+ Demand_LPMA_EDDT: x_ij[LPMA,EDDT] + w_ij[LPMA,EDDT] <= 11
+ Demand_LPMA_EFHK: x_ij[LPMA,EFHK] + w_ij[LPMA,EFHK] <= 3
+ Demand_LPMA_EPWA: x_ij[LPMA,EPWA] + w_ij[LPMA,EPWA] <= 4
+ Demand_LPMA_EGPH: x_ij[LPMA,EGPH] + w_ij[LPMA,EGPH] <= 5
+ Demand_LPMA_LROP: x_ij[LPMA,LROP] + w_ij[LPMA,LROP] <= 3
+ Demand_LPMA_LGIR: x_ij[LPMA,LGIR] + w_ij[LPMA,LGIR] <= 1
+ Demand_LPMA_BIKF: x_ij[LPMA,BIKF] + w_ij[LPMA,BIKF] <= 2
+ Demand_LPMA_LICJ: x_ij[LPMA,LICJ] + w_ij[LPMA,LICJ] <= 5
  TransferPassenger_EGLL_LFPG: w_ij[EGLL,LFPG] <= 1194
  TransferPassenger_EGLL_EHAM: w_ij[EGLL,EHAM] <= 750
  TransferPassenger_EGLL_EDDF: w_ij[EGLL,EDDF] <= 0
@@ -2760,1678 +2760,1336 @@ Subject To
  TransferPassenger_LPMA_LGIR: w_ij[LPMA,LGIR] <= 1
  TransferPassenger_LPMA_BIKF: w_ij[LPMA,BIKF] <= 2
  TransferPassenger_LPMA_LICJ: w_ij[LPMA,LICJ] <= 5
- WeeklyCapacity_EGLL_LFPG: x_ij[EGLL,LFPG]
-   - 33.75 z_kij[Aircraft_1,EGLL,LFPG] - 52.5 z_kij[Aircraft_2,EGLL,LFPG]
-   - 112.5 z_kij[Aircraft_3,EGLL,LFPG] - 240 z_kij[Aircraft_4,EGLL,LFPG]
-   <= 0
- WeeklyCapacity_EGLL_EHAM: x_ij[EGLL,EHAM]
-   - 33.75 z_kij[Aircraft_1,EGLL,EHAM] - 52.5 z_kij[Aircraft_2,EGLL,EHAM]
-   - 112.5 z_kij[Aircraft_3,EGLL,EHAM] - 240 z_kij[Aircraft_4,EGLL,EHAM]
-   <= 0
- WeeklyCapacity_EGLL_EDDF: x_ij[EGLL,EDDF]
-   - 33.75 z_kij[Aircraft_1,EGLL,EDDF] - 52.5 z_kij[Aircraft_2,EGLL,EDDF]
-   - 112.5 z_kij[Aircraft_3,EGLL,EDDF] - 240 z_kij[Aircraft_4,EGLL,EDDF]
-   + w_ij[EGLL,LFPG] + w_ij[EGLL,EHAM] + w_ij[EGLL,EDDF] + w_ij[EGLL,LEMF]
-   + w_ij[EGLL,LEBL] + w_ij[EGLL,EDDM] + w_ij[EGLL,LIRF] + w_ij[EGLL,EIDW]
-   + w_ij[EGLL,ESSA] + w_ij[EGLL,LPPT] + w_ij[EGLL,EDDT] + w_ij[EGLL,EFHK]
-   + w_ij[EGLL,EPWA] + w_ij[EGLL,EGPH] + w_ij[EGLL,LROP] + w_ij[EGLL,LGIR]
-   + w_ij[EGLL,BIKF] + w_ij[EGLL,LICJ] + w_ij[EGLL,LPMA] <= 0
- WeeklyCapacity_EGLL_LEMF: x_ij[EGLL,LEMF]
-   - 33.75 z_kij[Aircraft_1,EGLL,LEMF] - 52.5 z_kij[Aircraft_2,EGLL,LEMF]
-   - 112.5 z_kij[Aircraft_3,EGLL,LEMF] - 240 z_kij[Aircraft_4,EGLL,LEMF]
-   <= 0
- WeeklyCapacity_EGLL_LEBL: x_ij[EGLL,LEBL]
-   - 33.75 z_kij[Aircraft_1,EGLL,LEBL] - 52.5 z_kij[Aircraft_2,EGLL,LEBL]
-   - 112.5 z_kij[Aircraft_3,EGLL,LEBL] - 240 z_kij[Aircraft_4,EGLL,LEBL]
-   <= 0
- WeeklyCapacity_EGLL_EDDM: x_ij[EGLL,EDDM]
-   - 33.75 z_kij[Aircraft_1,EGLL,EDDM] - 52.5 z_kij[Aircraft_2,EGLL,EDDM]
-   - 112.5 z_kij[Aircraft_3,EGLL,EDDM] - 240 z_kij[Aircraft_4,EGLL,EDDM]
-   <= 0
- WeeklyCapacity_EGLL_LIRF: x_ij[EGLL,LIRF]
-   - 33.75 z_kij[Aircraft_1,EGLL,LIRF] - 52.5 z_kij[Aircraft_2,EGLL,LIRF]
-   - 112.5 z_kij[Aircraft_3,EGLL,LIRF] - 240 z_kij[Aircraft_4,EGLL,LIRF]
-   <= 0
- WeeklyCapacity_EGLL_EIDW: x_ij[EGLL,EIDW]
-   - 33.75 z_kij[Aircraft_1,EGLL,EIDW] - 52.5 z_kij[Aircraft_2,EGLL,EIDW]
-   - 112.5 z_kij[Aircraft_3,EGLL,EIDW] - 240 z_kij[Aircraft_4,EGLL,EIDW]
-   <= 0
- WeeklyCapacity_EGLL_ESSA: x_ij[EGLL,ESSA]
-   - 33.75 z_kij[Aircraft_1,EGLL,ESSA] - 52.5 z_kij[Aircraft_2,EGLL,ESSA]
-   - 112.5 z_kij[Aircraft_3,EGLL,ESSA] - 240 z_kij[Aircraft_4,EGLL,ESSA]
-   <= 0
- WeeklyCapacity_EGLL_LPPT: x_ij[EGLL,LPPT]
-   - 33.75 z_kij[Aircraft_1,EGLL,LPPT] - 52.5 z_kij[Aircraft_2,EGLL,LPPT]
-   - 112.5 z_kij[Aircraft_3,EGLL,LPPT] - 240 z_kij[Aircraft_4,EGLL,LPPT]
-   <= 0
- WeeklyCapacity_EGLL_EDDT: x_ij[EGLL,EDDT]
-   - 33.75 z_kij[Aircraft_1,EGLL,EDDT] - 52.5 z_kij[Aircraft_2,EGLL,EDDT]
-   - 112.5 z_kij[Aircraft_3,EGLL,EDDT] - 240 z_kij[Aircraft_4,EGLL,EDDT]
-   <= 0
- WeeklyCapacity_EGLL_EFHK: x_ij[EGLL,EFHK]
-   - 33.75 z_kij[Aircraft_1,EGLL,EFHK] - 52.5 z_kij[Aircraft_2,EGLL,EFHK]
-   - 112.5 z_kij[Aircraft_3,EGLL,EFHK] - 240 z_kij[Aircraft_4,EGLL,EFHK]
-   <= 0
- WeeklyCapacity_EGLL_EPWA: x_ij[EGLL,EPWA]
-   - 33.75 z_kij[Aircraft_1,EGLL,EPWA] - 52.5 z_kij[Aircraft_2,EGLL,EPWA]
-   - 112.5 z_kij[Aircraft_3,EGLL,EPWA] - 240 z_kij[Aircraft_4,EGLL,EPWA]
-   <= 0
- WeeklyCapacity_EGLL_EGPH: x_ij[EGLL,EGPH]
-   - 33.75 z_kij[Aircraft_1,EGLL,EGPH] - 52.5 z_kij[Aircraft_2,EGLL,EGPH]
-   - 112.5 z_kij[Aircraft_3,EGLL,EGPH] - 240 z_kij[Aircraft_4,EGLL,EGPH]
-   <= 0
- WeeklyCapacity_EGLL_LROP: x_ij[EGLL,LROP]
-   - 33.75 z_kij[Aircraft_1,EGLL,LROP] - 52.5 z_kij[Aircraft_2,EGLL,LROP]
-   - 112.5 z_kij[Aircraft_3,EGLL,LROP] - 240 z_kij[Aircraft_4,EGLL,LROP]
-   <= 0
- WeeklyCapacity_EGLL_LGIR: x_ij[EGLL,LGIR]
-   - 33.75 z_kij[Aircraft_1,EGLL,LGIR] - 52.5 z_kij[Aircraft_2,EGLL,LGIR]
-   - 112.5 z_kij[Aircraft_3,EGLL,LGIR] - 240 z_kij[Aircraft_4,EGLL,LGIR]
-   <= 0
- WeeklyCapacity_EGLL_BIKF: x_ij[EGLL,BIKF]
-   - 33.75 z_kij[Aircraft_1,EGLL,BIKF] - 52.5 z_kij[Aircraft_2,EGLL,BIKF]
-   - 112.5 z_kij[Aircraft_3,EGLL,BIKF] - 240 z_kij[Aircraft_4,EGLL,BIKF]
-   <= 0
- WeeklyCapacity_EGLL_LICJ: x_ij[EGLL,LICJ]
-   - 33.75 z_kij[Aircraft_1,EGLL,LICJ] - 52.5 z_kij[Aircraft_2,EGLL,LICJ]
-   - 112.5 z_kij[Aircraft_3,EGLL,LICJ] - 240 z_kij[Aircraft_4,EGLL,LICJ]
-   <= 0
- WeeklyCapacity_EGLL_LPMA: x_ij[EGLL,LPMA]
-   - 33.75 z_kij[Aircraft_1,EGLL,LPMA] - 52.5 z_kij[Aircraft_2,EGLL,LPMA]
-   - 112.5 z_kij[Aircraft_3,EGLL,LPMA] - 240 z_kij[Aircraft_4,EGLL,LPMA]
-   <= 0
- WeeklyCapacity_LFPG_EGLL: x_ij[LFPG,EGLL]
-   - 33.75 z_kij[Aircraft_1,LFPG,EGLL] - 52.5 z_kij[Aircraft_2,LFPG,EGLL]
-   - 112.5 z_kij[Aircraft_3,LFPG,EGLL] - 240 z_kij[Aircraft_4,LFPG,EGLL]
-   <= 0
- WeeklyCapacity_LFPG_EHAM: x_ij[LFPG,EHAM]
-   - 33.75 z_kij[Aircraft_1,LFPG,EHAM] - 52.5 z_kij[Aircraft_2,LFPG,EHAM]
-   - 112.5 z_kij[Aircraft_3,LFPG,EHAM] - 240 z_kij[Aircraft_4,LFPG,EHAM]
-   <= 0
- WeeklyCapacity_LFPG_EDDF: x_ij[LFPG,EDDF]
-   - 33.75 z_kij[Aircraft_1,LFPG,EDDF] - 52.5 z_kij[Aircraft_2,LFPG,EDDF]
-   - 112.5 z_kij[Aircraft_3,LFPG,EDDF] - 240 z_kij[Aircraft_4,LFPG,EDDF]
-   + w_ij[LFPG,EGLL] + w_ij[LFPG,EHAM] + w_ij[LFPG,EDDF] + w_ij[LFPG,LEMF]
-   + w_ij[LFPG,LEBL] + w_ij[LFPG,EDDM] + w_ij[LFPG,LIRF] + w_ij[LFPG,EIDW]
-   + w_ij[LFPG,ESSA] + w_ij[LFPG,LPPT] + w_ij[LFPG,EDDT] + w_ij[LFPG,EFHK]
-   + w_ij[LFPG,EPWA] + w_ij[LFPG,EGPH] + w_ij[LFPG,LROP] + w_ij[LFPG,LGIR]
-   + w_ij[LFPG,BIKF] + w_ij[LFPG,LICJ] + w_ij[LFPG,LPMA] <= 0
- WeeklyCapacity_LFPG_LEMF: x_ij[LFPG,LEMF]
-   - 33.75 z_kij[Aircraft_1,LFPG,LEMF] - 52.5 z_kij[Aircraft_2,LFPG,LEMF]
-   - 112.5 z_kij[Aircraft_3,LFPG,LEMF] - 240 z_kij[Aircraft_4,LFPG,LEMF]
-   <= 0
- WeeklyCapacity_LFPG_LEBL: x_ij[LFPG,LEBL]
-   - 33.75 z_kij[Aircraft_1,LFPG,LEBL] - 52.5 z_kij[Aircraft_2,LFPG,LEBL]
-   - 112.5 z_kij[Aircraft_3,LFPG,LEBL] - 240 z_kij[Aircraft_4,LFPG,LEBL]
-   <= 0
- WeeklyCapacity_LFPG_EDDM: x_ij[LFPG,EDDM]
-   - 33.75 z_kij[Aircraft_1,LFPG,EDDM] - 52.5 z_kij[Aircraft_2,LFPG,EDDM]
-   - 112.5 z_kij[Aircraft_3,LFPG,EDDM] - 240 z_kij[Aircraft_4,LFPG,EDDM]
-   <= 0
- WeeklyCapacity_LFPG_LIRF: x_ij[LFPG,LIRF]
-   - 33.75 z_kij[Aircraft_1,LFPG,LIRF] - 52.5 z_kij[Aircraft_2,LFPG,LIRF]
-   - 112.5 z_kij[Aircraft_3,LFPG,LIRF] - 240 z_kij[Aircraft_4,LFPG,LIRF]
-   <= 0
- WeeklyCapacity_LFPG_EIDW: x_ij[LFPG,EIDW]
-   - 33.75 z_kij[Aircraft_1,LFPG,EIDW] - 52.5 z_kij[Aircraft_2,LFPG,EIDW]
-   - 112.5 z_kij[Aircraft_3,LFPG,EIDW] - 240 z_kij[Aircraft_4,LFPG,EIDW]
-   <= 0
- WeeklyCapacity_LFPG_ESSA: x_ij[LFPG,ESSA]
-   - 33.75 z_kij[Aircraft_1,LFPG,ESSA] - 52.5 z_kij[Aircraft_2,LFPG,ESSA]
-   - 112.5 z_kij[Aircraft_3,LFPG,ESSA] - 240 z_kij[Aircraft_4,LFPG,ESSA]
-   <= 0
- WeeklyCapacity_LFPG_LPPT: x_ij[LFPG,LPPT]
-   - 33.75 z_kij[Aircraft_1,LFPG,LPPT] - 52.5 z_kij[Aircraft_2,LFPG,LPPT]
-   - 112.5 z_kij[Aircraft_3,LFPG,LPPT] - 240 z_kij[Aircraft_4,LFPG,LPPT]
-   <= 0
- WeeklyCapacity_LFPG_EDDT: x_ij[LFPG,EDDT]
-   - 33.75 z_kij[Aircraft_1,LFPG,EDDT] - 52.5 z_kij[Aircraft_2,LFPG,EDDT]
-   - 112.5 z_kij[Aircraft_3,LFPG,EDDT] - 240 z_kij[Aircraft_4,LFPG,EDDT]
-   <= 0
- WeeklyCapacity_LFPG_EFHK: x_ij[LFPG,EFHK]
-   - 33.75 z_kij[Aircraft_1,LFPG,EFHK] - 52.5 z_kij[Aircraft_2,LFPG,EFHK]
-   - 112.5 z_kij[Aircraft_3,LFPG,EFHK] - 240 z_kij[Aircraft_4,LFPG,EFHK]
-   <= 0
- WeeklyCapacity_LFPG_EPWA: x_ij[LFPG,EPWA]
-   - 33.75 z_kij[Aircraft_1,LFPG,EPWA] - 52.5 z_kij[Aircraft_2,LFPG,EPWA]
-   - 112.5 z_kij[Aircraft_3,LFPG,EPWA] - 240 z_kij[Aircraft_4,LFPG,EPWA]
-   <= 0
- WeeklyCapacity_LFPG_EGPH: x_ij[LFPG,EGPH]
-   - 33.75 z_kij[Aircraft_1,LFPG,EGPH] - 52.5 z_kij[Aircraft_2,LFPG,EGPH]
-   - 112.5 z_kij[Aircraft_3,LFPG,EGPH] - 240 z_kij[Aircraft_4,LFPG,EGPH]
-   <= 0
- WeeklyCapacity_LFPG_LROP: x_ij[LFPG,LROP]
-   - 33.75 z_kij[Aircraft_1,LFPG,LROP] - 52.5 z_kij[Aircraft_2,LFPG,LROP]
-   - 112.5 z_kij[Aircraft_3,LFPG,LROP] - 240 z_kij[Aircraft_4,LFPG,LROP]
-   <= 0
- WeeklyCapacity_LFPG_LGIR: x_ij[LFPG,LGIR]
-   - 33.75 z_kij[Aircraft_1,LFPG,LGIR] - 52.5 z_kij[Aircraft_2,LFPG,LGIR]
-   - 112.5 z_kij[Aircraft_3,LFPG,LGIR] - 240 z_kij[Aircraft_4,LFPG,LGIR]
-   <= 0
- WeeklyCapacity_LFPG_BIKF: x_ij[LFPG,BIKF]
-   - 33.75 z_kij[Aircraft_1,LFPG,BIKF] - 52.5 z_kij[Aircraft_2,LFPG,BIKF]
-   - 112.5 z_kij[Aircraft_3,LFPG,BIKF] - 240 z_kij[Aircraft_4,LFPG,BIKF]
-   <= 0
- WeeklyCapacity_LFPG_LICJ: x_ij[LFPG,LICJ]
-   - 33.75 z_kij[Aircraft_1,LFPG,LICJ] - 52.5 z_kij[Aircraft_2,LFPG,LICJ]
-   - 112.5 z_kij[Aircraft_3,LFPG,LICJ] - 240 z_kij[Aircraft_4,LFPG,LICJ]
-   <= 0
- WeeklyCapacity_LFPG_LPMA: x_ij[LFPG,LPMA]
-   - 33.75 z_kij[Aircraft_1,LFPG,LPMA] - 52.5 z_kij[Aircraft_2,LFPG,LPMA]
-   - 112.5 z_kij[Aircraft_3,LFPG,LPMA] - 240 z_kij[Aircraft_4,LFPG,LPMA]
-   <= 0
- WeeklyCapacity_EHAM_EGLL: x_ij[EHAM,EGLL]
-   - 33.75 z_kij[Aircraft_1,EHAM,EGLL] - 52.5 z_kij[Aircraft_2,EHAM,EGLL]
-   - 112.5 z_kij[Aircraft_3,EHAM,EGLL] - 240 z_kij[Aircraft_4,EHAM,EGLL]
-   <= 0
- WeeklyCapacity_EHAM_LFPG: x_ij[EHAM,LFPG]
-   - 33.75 z_kij[Aircraft_1,EHAM,LFPG] - 52.5 z_kij[Aircraft_2,EHAM,LFPG]
-   - 112.5 z_kij[Aircraft_3,EHAM,LFPG] - 240 z_kij[Aircraft_4,EHAM,LFPG]
-   <= 0
- WeeklyCapacity_EHAM_EDDF: x_ij[EHAM,EDDF]
-   - 33.75 z_kij[Aircraft_1,EHAM,EDDF] - 52.5 z_kij[Aircraft_2,EHAM,EDDF]
-   - 112.5 z_kij[Aircraft_3,EHAM,EDDF] - 240 z_kij[Aircraft_4,EHAM,EDDF]
-   + w_ij[EHAM,EGLL] + w_ij[EHAM,LFPG] + w_ij[EHAM,EDDF] + w_ij[EHAM,LEMF]
-   + w_ij[EHAM,LEBL] + w_ij[EHAM,EDDM] + w_ij[EHAM,LIRF] + w_ij[EHAM,EIDW]
-   + w_ij[EHAM,ESSA] + w_ij[EHAM,LPPT] + w_ij[EHAM,EDDT] + w_ij[EHAM,EFHK]
-   + w_ij[EHAM,EPWA] + w_ij[EHAM,EGPH] + w_ij[EHAM,LROP] + w_ij[EHAM,LGIR]
-   + w_ij[EHAM,BIKF] + w_ij[EHAM,LICJ] + w_ij[EHAM,LPMA] <= 0
- WeeklyCapacity_EHAM_LEMF: x_ij[EHAM,LEMF]
-   - 33.75 z_kij[Aircraft_1,EHAM,LEMF] - 52.5 z_kij[Aircraft_2,EHAM,LEMF]
-   - 112.5 z_kij[Aircraft_3,EHAM,LEMF] - 240 z_kij[Aircraft_4,EHAM,LEMF]
-   <= 0
- WeeklyCapacity_EHAM_LEBL: x_ij[EHAM,LEBL]
-   - 33.75 z_kij[Aircraft_1,EHAM,LEBL] - 52.5 z_kij[Aircraft_2,EHAM,LEBL]
-   - 112.5 z_kij[Aircraft_3,EHAM,LEBL] - 240 z_kij[Aircraft_4,EHAM,LEBL]
-   <= 0
- WeeklyCapacity_EHAM_EDDM: x_ij[EHAM,EDDM]
-   - 33.75 z_kij[Aircraft_1,EHAM,EDDM] - 52.5 z_kij[Aircraft_2,EHAM,EDDM]
-   - 112.5 z_kij[Aircraft_3,EHAM,EDDM] - 240 z_kij[Aircraft_4,EHAM,EDDM]
-   <= 0
- WeeklyCapacity_EHAM_LIRF: x_ij[EHAM,LIRF]
-   - 33.75 z_kij[Aircraft_1,EHAM,LIRF] - 52.5 z_kij[Aircraft_2,EHAM,LIRF]
-   - 112.5 z_kij[Aircraft_3,EHAM,LIRF] - 240 z_kij[Aircraft_4,EHAM,LIRF]
-   <= 0
- WeeklyCapacity_EHAM_EIDW: x_ij[EHAM,EIDW]
-   - 33.75 z_kij[Aircraft_1,EHAM,EIDW] - 52.5 z_kij[Aircraft_2,EHAM,EIDW]
-   - 112.5 z_kij[Aircraft_3,EHAM,EIDW] - 240 z_kij[Aircraft_4,EHAM,EIDW]
-   <= 0
- WeeklyCapacity_EHAM_ESSA: x_ij[EHAM,ESSA]
-   - 33.75 z_kij[Aircraft_1,EHAM,ESSA] - 52.5 z_kij[Aircraft_2,EHAM,ESSA]
-   - 112.5 z_kij[Aircraft_3,EHAM,ESSA] - 240 z_kij[Aircraft_4,EHAM,ESSA]
-   <= 0
- WeeklyCapacity_EHAM_LPPT: x_ij[EHAM,LPPT]
-   - 33.75 z_kij[Aircraft_1,EHAM,LPPT] - 52.5 z_kij[Aircraft_2,EHAM,LPPT]
-   - 112.5 z_kij[Aircraft_3,EHAM,LPPT] - 240 z_kij[Aircraft_4,EHAM,LPPT]
-   <= 0
- WeeklyCapacity_EHAM_EDDT: x_ij[EHAM,EDDT]
-   - 33.75 z_kij[Aircraft_1,EHAM,EDDT] - 52.5 z_kij[Aircraft_2,EHAM,EDDT]
-   - 112.5 z_kij[Aircraft_3,EHAM,EDDT] - 240 z_kij[Aircraft_4,EHAM,EDDT]
-   <= 0
- WeeklyCapacity_EHAM_EFHK: x_ij[EHAM,EFHK]
-   - 33.75 z_kij[Aircraft_1,EHAM,EFHK] - 52.5 z_kij[Aircraft_2,EHAM,EFHK]
-   - 112.5 z_kij[Aircraft_3,EHAM,EFHK] - 240 z_kij[Aircraft_4,EHAM,EFHK]
-   <= 0
- WeeklyCapacity_EHAM_EPWA: x_ij[EHAM,EPWA]
-   - 33.75 z_kij[Aircraft_1,EHAM,EPWA] - 52.5 z_kij[Aircraft_2,EHAM,EPWA]
-   - 112.5 z_kij[Aircraft_3,EHAM,EPWA] - 240 z_kij[Aircraft_4,EHAM,EPWA]
-   <= 0
- WeeklyCapacity_EHAM_EGPH: x_ij[EHAM,EGPH]
-   - 33.75 z_kij[Aircraft_1,EHAM,EGPH] - 52.5 z_kij[Aircraft_2,EHAM,EGPH]
-   - 112.5 z_kij[Aircraft_3,EHAM,EGPH] - 240 z_kij[Aircraft_4,EHAM,EGPH]
-   <= 0
- WeeklyCapacity_EHAM_LROP: x_ij[EHAM,LROP]
-   - 33.75 z_kij[Aircraft_1,EHAM,LROP] - 52.5 z_kij[Aircraft_2,EHAM,LROP]
-   - 112.5 z_kij[Aircraft_3,EHAM,LROP] - 240 z_kij[Aircraft_4,EHAM,LROP]
-   <= 0
- WeeklyCapacity_EHAM_LGIR: x_ij[EHAM,LGIR]
-   - 33.75 z_kij[Aircraft_1,EHAM,LGIR] - 52.5 z_kij[Aircraft_2,EHAM,LGIR]
-   - 112.5 z_kij[Aircraft_3,EHAM,LGIR] - 240 z_kij[Aircraft_4,EHAM,LGIR]
-   <= 0
- WeeklyCapacity_EHAM_BIKF: x_ij[EHAM,BIKF]
-   - 33.75 z_kij[Aircraft_1,EHAM,BIKF] - 52.5 z_kij[Aircraft_2,EHAM,BIKF]
-   - 112.5 z_kij[Aircraft_3,EHAM,BIKF] - 240 z_kij[Aircraft_4,EHAM,BIKF]
-   <= 0
- WeeklyCapacity_EHAM_LICJ: x_ij[EHAM,LICJ]
-   - 33.75 z_kij[Aircraft_1,EHAM,LICJ] - 52.5 z_kij[Aircraft_2,EHAM,LICJ]
-   - 112.5 z_kij[Aircraft_3,EHAM,LICJ] - 240 z_kij[Aircraft_4,EHAM,LICJ]
-   <= 0
- WeeklyCapacity_EHAM_LPMA: x_ij[EHAM,LPMA]
-   - 33.75 z_kij[Aircraft_1,EHAM,LPMA] - 52.5 z_kij[Aircraft_2,EHAM,LPMA]
-   - 112.5 z_kij[Aircraft_3,EHAM,LPMA] - 240 z_kij[Aircraft_4,EHAM,LPMA]
-   <= 0
- WeeklyCapacity_EDDF_EGLL: x_ij[EDDF,EGLL]
-   - 33.75 z_kij[Aircraft_1,EDDF,EGLL] - 52.5 z_kij[Aircraft_2,EDDF,EGLL]
-   - 112.5 z_kij[Aircraft_3,EDDF,EGLL] - 240 z_kij[Aircraft_4,EDDF,EGLL]
-   + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF]
-   + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LFPG: x_ij[EDDF,LFPG]
-   - 33.75 z_kij[Aircraft_1,EDDF,LFPG] - 52.5 z_kij[Aircraft_2,EDDF,LFPG]
-   - 112.5 z_kij[Aircraft_3,EDDF,LFPG] - 240 z_kij[Aircraft_4,EDDF,LFPG]
-   + w_ij[EGLL,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF]
-   + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EHAM: x_ij[EDDF,EHAM]
-   - 33.75 z_kij[Aircraft_1,EDDF,EHAM] - 52.5 z_kij[Aircraft_2,EDDF,EHAM]
-   - 112.5 z_kij[Aircraft_3,EDDF,EHAM] - 240 z_kij[Aircraft_4,EDDF,EHAM]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF]
-   + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LEMF: x_ij[EDDF,LEMF]
-   - 33.75 z_kij[Aircraft_1,EDDF,LEMF] - 52.5 z_kij[Aircraft_2,EDDF,LEMF]
-   - 112.5 z_kij[Aircraft_3,EDDF,LEMF] - 240 z_kij[Aircraft_4,EDDF,LEMF]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LEBL: x_ij[EDDF,LEBL]
-   - 33.75 z_kij[Aircraft_1,EDDF,LEBL] - 52.5 z_kij[Aircraft_2,EDDF,LEBL]
-   - 112.5 z_kij[Aircraft_3,EDDF,LEBL] - 240 z_kij[Aircraft_4,EDDF,LEBL]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EDDM: x_ij[EDDF,EDDM]
-   - 33.75 z_kij[Aircraft_1,EDDF,EDDM] - 52.5 z_kij[Aircraft_2,EDDF,EDDM]
-   - 112.5 z_kij[Aircraft_3,EDDF,EDDM] - 240 z_kij[Aircraft_4,EDDF,EDDM]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LIRF: x_ij[EDDF,LIRF]
-   - 33.75 z_kij[Aircraft_1,EDDF,LIRF] - 52.5 z_kij[Aircraft_2,EDDF,LIRF]
-   - 112.5 z_kij[Aircraft_3,EDDF,LIRF] - 240 z_kij[Aircraft_4,EDDF,LIRF]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[EIDW,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EIDW: x_ij[EDDF,EIDW]
-   - 33.75 z_kij[Aircraft_1,EDDF,EIDW] - 52.5 z_kij[Aircraft_2,EDDF,EIDW]
-   - 112.5 z_kij[Aircraft_3,EDDF,EIDW] - 240 z_kij[Aircraft_4,EDDF,EIDW]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_ESSA: x_ij[EDDF,ESSA]
-   - 33.75 z_kij[Aircraft_1,EDDF,ESSA] - 52.5 z_kij[Aircraft_2,EDDF,ESSA]
-   - 112.5 z_kij[Aircraft_3,EDDF,ESSA] - 240 z_kij[Aircraft_4,EDDF,ESSA]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LPPT: x_ij[EDDF,LPPT]
-   - 33.75 z_kij[Aircraft_1,EDDF,LPPT] - 52.5 z_kij[Aircraft_2,EDDF,LPPT]
-   - 112.5 z_kij[Aircraft_3,EDDF,LPPT] - 240 z_kij[Aircraft_4,EDDF,LPPT]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EDDT: x_ij[EDDF,EDDT]
-   - 33.75 z_kij[Aircraft_1,EDDF,EDDT] - 52.5 z_kij[Aircraft_2,EDDF,EDDT]
-   - 112.5 z_kij[Aircraft_3,EDDF,EDDT] - 240 z_kij[Aircraft_4,EDDF,EDDT]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EFHK,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EFHK: x_ij[EDDF,EFHK]
-   - 33.75 z_kij[Aircraft_1,EDDF,EFHK] - 52.5 z_kij[Aircraft_2,EDDF,EFHK]
-   - 112.5 z_kij[Aircraft_3,EDDF,EFHK] - 240 z_kij[Aircraft_4,EDDF,EFHK]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EPWA: x_ij[EDDF,EPWA]
-   - 33.75 z_kij[Aircraft_1,EDDF,EPWA] - 52.5 z_kij[Aircraft_2,EDDF,EPWA]
-   - 112.5 z_kij[Aircraft_3,EDDF,EPWA] - 240 z_kij[Aircraft_4,EDDF,EPWA]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_EGPH: x_ij[EDDF,EGPH]
-   - 33.75 z_kij[Aircraft_1,EDDF,EGPH] - 52.5 z_kij[Aircraft_2,EDDF,EGPH]
-   - 112.5 z_kij[Aircraft_3,EDDF,EGPH] - 240 z_kij[Aircraft_4,EDDF,EGPH]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LROP: x_ij[EDDF,LROP]
-   - 33.75 z_kij[Aircraft_1,EDDF,LROP] - 52.5 z_kij[Aircraft_2,EDDF,LROP]
-   - 112.5 z_kij[Aircraft_3,EDDF,LROP] - 240 z_kij[Aircraft_4,EDDF,LROP]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LGIR,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LGIR: x_ij[EDDF,LGIR]
-   - 33.75 z_kij[Aircraft_1,EDDF,LGIR] - 52.5 z_kij[Aircraft_2,EDDF,LGIR]
-   - 112.5 z_kij[Aircraft_3,EDDF,LGIR] - 240 z_kij[Aircraft_4,EDDF,LGIR]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF]
-   + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_BIKF: x_ij[EDDF,BIKF]
-   - 33.75 z_kij[Aircraft_1,EDDF,BIKF] - 52.5 z_kij[Aircraft_2,EDDF,BIKF]
-   - 112.5 z_kij[Aircraft_3,EDDF,BIKF] - 240 z_kij[Aircraft_4,EDDF,BIKF]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF]
-   + w_ij[LGIR,EDDF] + w_ij[LICJ,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LICJ: x_ij[EDDF,LICJ]
-   - 33.75 z_kij[Aircraft_1,EDDF,LICJ] - 52.5 z_kij[Aircraft_2,EDDF,LICJ]
-   - 112.5 z_kij[Aircraft_3,EDDF,LICJ] - 240 z_kij[Aircraft_4,EDDF,LICJ]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF]
-   + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LPMA,EDDF] <= 0
- WeeklyCapacity_EDDF_LPMA: x_ij[EDDF,LPMA]
-   - 33.75 z_kij[Aircraft_1,EDDF,LPMA] - 52.5 z_kij[Aircraft_2,EDDF,LPMA]
-   - 112.5 z_kij[Aircraft_3,EDDF,LPMA] - 240 z_kij[Aircraft_4,EDDF,LPMA]
-   + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF]
-   + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF]
-   + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF]
-   + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF]
-   + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF] <= 0
- WeeklyCapacity_LEMF_EGLL: x_ij[LEMF,EGLL]
-   - 33.75 z_kij[Aircraft_1,LEMF,EGLL] - 52.5 z_kij[Aircraft_2,LEMF,EGLL]
-   - 112.5 z_kij[Aircraft_3,LEMF,EGLL] - 240 z_kij[Aircraft_4,LEMF,EGLL]
-   <= 0
- WeeklyCapacity_LEMF_LFPG: x_ij[LEMF,LFPG]
-   - 33.75 z_kij[Aircraft_1,LEMF,LFPG] - 52.5 z_kij[Aircraft_2,LEMF,LFPG]
-   - 112.5 z_kij[Aircraft_3,LEMF,LFPG] - 240 z_kij[Aircraft_4,LEMF,LFPG]
-   <= 0
- WeeklyCapacity_LEMF_EHAM: x_ij[LEMF,EHAM]
-   - 33.75 z_kij[Aircraft_1,LEMF,EHAM] - 52.5 z_kij[Aircraft_2,LEMF,EHAM]
-   - 112.5 z_kij[Aircraft_3,LEMF,EHAM] - 240 z_kij[Aircraft_4,LEMF,EHAM]
-   <= 0
- WeeklyCapacity_LEMF_EDDF: x_ij[LEMF,EDDF]
-   - 33.75 z_kij[Aircraft_1,LEMF,EDDF] - 52.5 z_kij[Aircraft_2,LEMF,EDDF]
-   - 112.5 z_kij[Aircraft_3,LEMF,EDDF] - 240 z_kij[Aircraft_4,LEMF,EDDF]
-   + w_ij[LEMF,EGLL] + w_ij[LEMF,LFPG] + w_ij[LEMF,EHAM] + w_ij[LEMF,EDDF]
-   + w_ij[LEMF,LEBL] + w_ij[LEMF,EDDM] + w_ij[LEMF,LIRF] + w_ij[LEMF,EIDW]
-   + w_ij[LEMF,ESSA] + w_ij[LEMF,LPPT] + w_ij[LEMF,EDDT] + w_ij[LEMF,EFHK]
-   + w_ij[LEMF,EPWA] + w_ij[LEMF,EGPH] + w_ij[LEMF,LROP] + w_ij[LEMF,LGIR]
-   + w_ij[LEMF,BIKF] + w_ij[LEMF,LICJ] + w_ij[LEMF,LPMA] <= 0
- WeeklyCapacity_LEMF_LEBL: x_ij[LEMF,LEBL]
-   - 33.75 z_kij[Aircraft_1,LEMF,LEBL] - 52.5 z_kij[Aircraft_2,LEMF,LEBL]
-   - 112.5 z_kij[Aircraft_3,LEMF,LEBL] - 240 z_kij[Aircraft_4,LEMF,LEBL]
-   <= 0
- WeeklyCapacity_LEMF_EDDM: x_ij[LEMF,EDDM]
-   - 33.75 z_kij[Aircraft_1,LEMF,EDDM] - 52.5 z_kij[Aircraft_2,LEMF,EDDM]
-   - 112.5 z_kij[Aircraft_3,LEMF,EDDM] - 240 z_kij[Aircraft_4,LEMF,EDDM]
-   <= 0
- WeeklyCapacity_LEMF_LIRF: x_ij[LEMF,LIRF]
-   - 33.75 z_kij[Aircraft_1,LEMF,LIRF] - 52.5 z_kij[Aircraft_2,LEMF,LIRF]
-   - 112.5 z_kij[Aircraft_3,LEMF,LIRF] - 240 z_kij[Aircraft_4,LEMF,LIRF]
-   <= 0
- WeeklyCapacity_LEMF_EIDW: x_ij[LEMF,EIDW]
-   - 33.75 z_kij[Aircraft_1,LEMF,EIDW] - 52.5 z_kij[Aircraft_2,LEMF,EIDW]
-   - 112.5 z_kij[Aircraft_3,LEMF,EIDW] - 240 z_kij[Aircraft_4,LEMF,EIDW]
-   <= 0
- WeeklyCapacity_LEMF_ESSA: x_ij[LEMF,ESSA]
-   - 33.75 z_kij[Aircraft_1,LEMF,ESSA] - 52.5 z_kij[Aircraft_2,LEMF,ESSA]
-   - 112.5 z_kij[Aircraft_3,LEMF,ESSA] - 240 z_kij[Aircraft_4,LEMF,ESSA]
-   <= 0
- WeeklyCapacity_LEMF_LPPT: x_ij[LEMF,LPPT]
-   - 33.75 z_kij[Aircraft_1,LEMF,LPPT] - 52.5 z_kij[Aircraft_2,LEMF,LPPT]
-   - 112.5 z_kij[Aircraft_3,LEMF,LPPT] - 240 z_kij[Aircraft_4,LEMF,LPPT]
-   <= 0
- WeeklyCapacity_LEMF_EDDT: x_ij[LEMF,EDDT]
-   - 33.75 z_kij[Aircraft_1,LEMF,EDDT] - 52.5 z_kij[Aircraft_2,LEMF,EDDT]
-   - 112.5 z_kij[Aircraft_3,LEMF,EDDT] - 240 z_kij[Aircraft_4,LEMF,EDDT]
-   <= 0
- WeeklyCapacity_LEMF_EFHK: x_ij[LEMF,EFHK]
-   - 33.75 z_kij[Aircraft_1,LEMF,EFHK] - 52.5 z_kij[Aircraft_2,LEMF,EFHK]
-   - 112.5 z_kij[Aircraft_3,LEMF,EFHK] - 240 z_kij[Aircraft_4,LEMF,EFHK]
-   <= 0
- WeeklyCapacity_LEMF_EPWA: x_ij[LEMF,EPWA]
-   - 33.75 z_kij[Aircraft_1,LEMF,EPWA] - 52.5 z_kij[Aircraft_2,LEMF,EPWA]
-   - 112.5 z_kij[Aircraft_3,LEMF,EPWA] - 240 z_kij[Aircraft_4,LEMF,EPWA]
-   <= 0
- WeeklyCapacity_LEMF_EGPH: x_ij[LEMF,EGPH]
-   - 33.75 z_kij[Aircraft_1,LEMF,EGPH] - 52.5 z_kij[Aircraft_2,LEMF,EGPH]
-   - 112.5 z_kij[Aircraft_3,LEMF,EGPH] - 240 z_kij[Aircraft_4,LEMF,EGPH]
-   <= 0
- WeeklyCapacity_LEMF_LROP: x_ij[LEMF,LROP]
-   - 33.75 z_kij[Aircraft_1,LEMF,LROP] - 52.5 z_kij[Aircraft_2,LEMF,LROP]
-   - 112.5 z_kij[Aircraft_3,LEMF,LROP] - 240 z_kij[Aircraft_4,LEMF,LROP]
-   <= 0
- WeeklyCapacity_LEMF_LGIR: x_ij[LEMF,LGIR]
-   - 33.75 z_kij[Aircraft_1,LEMF,LGIR] - 52.5 z_kij[Aircraft_2,LEMF,LGIR]
-   - 112.5 z_kij[Aircraft_3,LEMF,LGIR] - 240 z_kij[Aircraft_4,LEMF,LGIR]
-   <= 0
- WeeklyCapacity_LEMF_BIKF: x_ij[LEMF,BIKF]
-   - 33.75 z_kij[Aircraft_1,LEMF,BIKF] - 52.5 z_kij[Aircraft_2,LEMF,BIKF]
-   - 112.5 z_kij[Aircraft_3,LEMF,BIKF] - 240 z_kij[Aircraft_4,LEMF,BIKF]
-   <= 0
- WeeklyCapacity_LEMF_LICJ: x_ij[LEMF,LICJ]
-   - 33.75 z_kij[Aircraft_1,LEMF,LICJ] - 52.5 z_kij[Aircraft_2,LEMF,LICJ]
-   - 112.5 z_kij[Aircraft_3,LEMF,LICJ] - 240 z_kij[Aircraft_4,LEMF,LICJ]
-   <= 0
- WeeklyCapacity_LEMF_LPMA: x_ij[LEMF,LPMA]
-   - 33.75 z_kij[Aircraft_1,LEMF,LPMA] - 52.5 z_kij[Aircraft_2,LEMF,LPMA]
-   - 112.5 z_kij[Aircraft_3,LEMF,LPMA] - 240 z_kij[Aircraft_4,LEMF,LPMA]
-   <= 0
- WeeklyCapacity_LEBL_EGLL: x_ij[LEBL,EGLL]
-   - 33.75 z_kij[Aircraft_1,LEBL,EGLL] - 52.5 z_kij[Aircraft_2,LEBL,EGLL]
-   - 112.5 z_kij[Aircraft_3,LEBL,EGLL] - 240 z_kij[Aircraft_4,LEBL,EGLL]
-   <= 0
- WeeklyCapacity_LEBL_LFPG: x_ij[LEBL,LFPG]
-   - 33.75 z_kij[Aircraft_1,LEBL,LFPG] - 52.5 z_kij[Aircraft_2,LEBL,LFPG]
-   - 112.5 z_kij[Aircraft_3,LEBL,LFPG] - 240 z_kij[Aircraft_4,LEBL,LFPG]
-   <= 0
- WeeklyCapacity_LEBL_EHAM: x_ij[LEBL,EHAM]
-   - 33.75 z_kij[Aircraft_1,LEBL,EHAM] - 52.5 z_kij[Aircraft_2,LEBL,EHAM]
-   - 112.5 z_kij[Aircraft_3,LEBL,EHAM] - 240 z_kij[Aircraft_4,LEBL,EHAM]
-   <= 0
- WeeklyCapacity_LEBL_EDDF: x_ij[LEBL,EDDF]
-   - 33.75 z_kij[Aircraft_1,LEBL,EDDF] - 52.5 z_kij[Aircraft_2,LEBL,EDDF]
-   - 112.5 z_kij[Aircraft_3,LEBL,EDDF] - 240 z_kij[Aircraft_4,LEBL,EDDF]
-   + w_ij[LEBL,EGLL] + w_ij[LEBL,LFPG] + w_ij[LEBL,EHAM] + w_ij[LEBL,EDDF]
-   + w_ij[LEBL,LEMF] + w_ij[LEBL,EDDM] + w_ij[LEBL,LIRF] + w_ij[LEBL,EIDW]
-   + w_ij[LEBL,ESSA] + w_ij[LEBL,LPPT] + w_ij[LEBL,EDDT] + w_ij[LEBL,EFHK]
-   + w_ij[LEBL,EPWA] + w_ij[LEBL,EGPH] + w_ij[LEBL,LROP] + w_ij[LEBL,LGIR]
-   + w_ij[LEBL,BIKF] + w_ij[LEBL,LICJ] + w_ij[LEBL,LPMA] <= 0
- WeeklyCapacity_LEBL_LEMF: x_ij[LEBL,LEMF]
-   - 33.75 z_kij[Aircraft_1,LEBL,LEMF] - 52.5 z_kij[Aircraft_2,LEBL,LEMF]
-   - 112.5 z_kij[Aircraft_3,LEBL,LEMF] - 240 z_kij[Aircraft_4,LEBL,LEMF]
-   <= 0
- WeeklyCapacity_LEBL_EDDM: x_ij[LEBL,EDDM]
-   - 33.75 z_kij[Aircraft_1,LEBL,EDDM] - 52.5 z_kij[Aircraft_2,LEBL,EDDM]
-   - 112.5 z_kij[Aircraft_3,LEBL,EDDM] - 240 z_kij[Aircraft_4,LEBL,EDDM]
-   <= 0
- WeeklyCapacity_LEBL_LIRF: x_ij[LEBL,LIRF]
-   - 33.75 z_kij[Aircraft_1,LEBL,LIRF] - 52.5 z_kij[Aircraft_2,LEBL,LIRF]
-   - 112.5 z_kij[Aircraft_3,LEBL,LIRF] - 240 z_kij[Aircraft_4,LEBL,LIRF]
-   <= 0
- WeeklyCapacity_LEBL_EIDW: x_ij[LEBL,EIDW]
-   - 33.75 z_kij[Aircraft_1,LEBL,EIDW] - 52.5 z_kij[Aircraft_2,LEBL,EIDW]
-   - 112.5 z_kij[Aircraft_3,LEBL,EIDW] - 240 z_kij[Aircraft_4,LEBL,EIDW]
-   <= 0
- WeeklyCapacity_LEBL_ESSA: x_ij[LEBL,ESSA]
-   - 33.75 z_kij[Aircraft_1,LEBL,ESSA] - 52.5 z_kij[Aircraft_2,LEBL,ESSA]
-   - 112.5 z_kij[Aircraft_3,LEBL,ESSA] - 240 z_kij[Aircraft_4,LEBL,ESSA]
-   <= 0
- WeeklyCapacity_LEBL_LPPT: x_ij[LEBL,LPPT]
-   - 33.75 z_kij[Aircraft_1,LEBL,LPPT] - 52.5 z_kij[Aircraft_2,LEBL,LPPT]
-   - 112.5 z_kij[Aircraft_3,LEBL,LPPT] - 240 z_kij[Aircraft_4,LEBL,LPPT]
-   <= 0
- WeeklyCapacity_LEBL_EDDT: x_ij[LEBL,EDDT]
-   - 33.75 z_kij[Aircraft_1,LEBL,EDDT] - 52.5 z_kij[Aircraft_2,LEBL,EDDT]
-   - 112.5 z_kij[Aircraft_3,LEBL,EDDT] - 240 z_kij[Aircraft_4,LEBL,EDDT]
-   <= 0
- WeeklyCapacity_LEBL_EFHK: x_ij[LEBL,EFHK]
-   - 33.75 z_kij[Aircraft_1,LEBL,EFHK] - 52.5 z_kij[Aircraft_2,LEBL,EFHK]
-   - 112.5 z_kij[Aircraft_3,LEBL,EFHK] - 240 z_kij[Aircraft_4,LEBL,EFHK]
-   <= 0
- WeeklyCapacity_LEBL_EPWA: x_ij[LEBL,EPWA]
-   - 33.75 z_kij[Aircraft_1,LEBL,EPWA] - 52.5 z_kij[Aircraft_2,LEBL,EPWA]
-   - 112.5 z_kij[Aircraft_3,LEBL,EPWA] - 240 z_kij[Aircraft_4,LEBL,EPWA]
-   <= 0
- WeeklyCapacity_LEBL_EGPH: x_ij[LEBL,EGPH]
-   - 33.75 z_kij[Aircraft_1,LEBL,EGPH] - 52.5 z_kij[Aircraft_2,LEBL,EGPH]
-   - 112.5 z_kij[Aircraft_3,LEBL,EGPH] - 240 z_kij[Aircraft_4,LEBL,EGPH]
-   <= 0
- WeeklyCapacity_LEBL_LROP: x_ij[LEBL,LROP]
-   - 33.75 z_kij[Aircraft_1,LEBL,LROP] - 52.5 z_kij[Aircraft_2,LEBL,LROP]
-   - 112.5 z_kij[Aircraft_3,LEBL,LROP] - 240 z_kij[Aircraft_4,LEBL,LROP]
-   <= 0
- WeeklyCapacity_LEBL_LGIR: x_ij[LEBL,LGIR]
-   - 33.75 z_kij[Aircraft_1,LEBL,LGIR] - 52.5 z_kij[Aircraft_2,LEBL,LGIR]
-   - 112.5 z_kij[Aircraft_3,LEBL,LGIR] - 240 z_kij[Aircraft_4,LEBL,LGIR]
-   <= 0
- WeeklyCapacity_LEBL_BIKF: x_ij[LEBL,BIKF]
-   - 33.75 z_kij[Aircraft_1,LEBL,BIKF] - 52.5 z_kij[Aircraft_2,LEBL,BIKF]
-   - 112.5 z_kij[Aircraft_3,LEBL,BIKF] - 240 z_kij[Aircraft_4,LEBL,BIKF]
-   <= 0
- WeeklyCapacity_LEBL_LICJ: x_ij[LEBL,LICJ]
-   - 33.75 z_kij[Aircraft_1,LEBL,LICJ] - 52.5 z_kij[Aircraft_2,LEBL,LICJ]
-   - 112.5 z_kij[Aircraft_3,LEBL,LICJ] - 240 z_kij[Aircraft_4,LEBL,LICJ]
-   <= 0
- WeeklyCapacity_LEBL_LPMA: x_ij[LEBL,LPMA]
-   - 33.75 z_kij[Aircraft_1,LEBL,LPMA] - 52.5 z_kij[Aircraft_2,LEBL,LPMA]
-   - 112.5 z_kij[Aircraft_3,LEBL,LPMA] - 240 z_kij[Aircraft_4,LEBL,LPMA]
-   <= 0
- WeeklyCapacity_EDDM_EGLL: x_ij[EDDM,EGLL]
-   - 33.75 z_kij[Aircraft_1,EDDM,EGLL] - 52.5 z_kij[Aircraft_2,EDDM,EGLL]
-   - 112.5 z_kij[Aircraft_3,EDDM,EGLL] - 240 z_kij[Aircraft_4,EDDM,EGLL]
-   <= 0
- WeeklyCapacity_EDDM_LFPG: x_ij[EDDM,LFPG]
-   - 33.75 z_kij[Aircraft_1,EDDM,LFPG] - 52.5 z_kij[Aircraft_2,EDDM,LFPG]
-   - 112.5 z_kij[Aircraft_3,EDDM,LFPG] - 240 z_kij[Aircraft_4,EDDM,LFPG]
-   <= 0
- WeeklyCapacity_EDDM_EHAM: x_ij[EDDM,EHAM]
-   - 33.75 z_kij[Aircraft_1,EDDM,EHAM] - 52.5 z_kij[Aircraft_2,EDDM,EHAM]
-   - 112.5 z_kij[Aircraft_3,EDDM,EHAM] - 240 z_kij[Aircraft_4,EDDM,EHAM]
-   <= 0
- WeeklyCapacity_EDDM_EDDF: x_ij[EDDM,EDDF]
-   - 33.75 z_kij[Aircraft_1,EDDM,EDDF] - 52.5 z_kij[Aircraft_2,EDDM,EDDF]
-   - 112.5 z_kij[Aircraft_3,EDDM,EDDF] - 240 z_kij[Aircraft_4,EDDM,EDDF]
-   + w_ij[EDDM,EGLL] + w_ij[EDDM,LFPG] + w_ij[EDDM,EHAM] + w_ij[EDDM,EDDF]
-   + w_ij[EDDM,LEMF] + w_ij[EDDM,LEBL] + w_ij[EDDM,LIRF] + w_ij[EDDM,EIDW]
-   + w_ij[EDDM,ESSA] + w_ij[EDDM,LPPT] + w_ij[EDDM,EDDT] + w_ij[EDDM,EFHK]
-   + w_ij[EDDM,EPWA] + w_ij[EDDM,EGPH] + w_ij[EDDM,LROP] + w_ij[EDDM,LGIR]
-   + w_ij[EDDM,BIKF] + w_ij[EDDM,LICJ] + w_ij[EDDM,LPMA] <= 0
- WeeklyCapacity_EDDM_LEMF: x_ij[EDDM,LEMF]
-   - 33.75 z_kij[Aircraft_1,EDDM,LEMF] - 52.5 z_kij[Aircraft_2,EDDM,LEMF]
-   - 112.5 z_kij[Aircraft_3,EDDM,LEMF] - 240 z_kij[Aircraft_4,EDDM,LEMF]
-   <= 0
- WeeklyCapacity_EDDM_LEBL: x_ij[EDDM,LEBL]
-   - 33.75 z_kij[Aircraft_1,EDDM,LEBL] - 52.5 z_kij[Aircraft_2,EDDM,LEBL]
-   - 112.5 z_kij[Aircraft_3,EDDM,LEBL] - 240 z_kij[Aircraft_4,EDDM,LEBL]
-   <= 0
- WeeklyCapacity_EDDM_LIRF: x_ij[EDDM,LIRF]
-   - 33.75 z_kij[Aircraft_1,EDDM,LIRF] - 52.5 z_kij[Aircraft_2,EDDM,LIRF]
-   - 112.5 z_kij[Aircraft_3,EDDM,LIRF] - 240 z_kij[Aircraft_4,EDDM,LIRF]
-   <= 0
- WeeklyCapacity_EDDM_EIDW: x_ij[EDDM,EIDW]
-   - 33.75 z_kij[Aircraft_1,EDDM,EIDW] - 52.5 z_kij[Aircraft_2,EDDM,EIDW]
-   - 112.5 z_kij[Aircraft_3,EDDM,EIDW] - 240 z_kij[Aircraft_4,EDDM,EIDW]
-   <= 0
- WeeklyCapacity_EDDM_ESSA: x_ij[EDDM,ESSA]
-   - 33.75 z_kij[Aircraft_1,EDDM,ESSA] - 52.5 z_kij[Aircraft_2,EDDM,ESSA]
-   - 112.5 z_kij[Aircraft_3,EDDM,ESSA] - 240 z_kij[Aircraft_4,EDDM,ESSA]
-   <= 0
- WeeklyCapacity_EDDM_LPPT: x_ij[EDDM,LPPT]
-   - 33.75 z_kij[Aircraft_1,EDDM,LPPT] - 52.5 z_kij[Aircraft_2,EDDM,LPPT]
-   - 112.5 z_kij[Aircraft_3,EDDM,LPPT] - 240 z_kij[Aircraft_4,EDDM,LPPT]
-   <= 0
- WeeklyCapacity_EDDM_EDDT: x_ij[EDDM,EDDT]
-   - 33.75 z_kij[Aircraft_1,EDDM,EDDT] - 52.5 z_kij[Aircraft_2,EDDM,EDDT]
-   - 112.5 z_kij[Aircraft_3,EDDM,EDDT] - 240 z_kij[Aircraft_4,EDDM,EDDT]
-   <= 0
- WeeklyCapacity_EDDM_EFHK: x_ij[EDDM,EFHK]
-   - 33.75 z_kij[Aircraft_1,EDDM,EFHK] - 52.5 z_kij[Aircraft_2,EDDM,EFHK]
-   - 112.5 z_kij[Aircraft_3,EDDM,EFHK] - 240 z_kij[Aircraft_4,EDDM,EFHK]
-   <= 0
- WeeklyCapacity_EDDM_EPWA: x_ij[EDDM,EPWA]
-   - 33.75 z_kij[Aircraft_1,EDDM,EPWA] - 52.5 z_kij[Aircraft_2,EDDM,EPWA]
-   - 112.5 z_kij[Aircraft_3,EDDM,EPWA] - 240 z_kij[Aircraft_4,EDDM,EPWA]
-   <= 0
- WeeklyCapacity_EDDM_EGPH: x_ij[EDDM,EGPH]
-   - 33.75 z_kij[Aircraft_1,EDDM,EGPH] - 52.5 z_kij[Aircraft_2,EDDM,EGPH]
-   - 112.5 z_kij[Aircraft_3,EDDM,EGPH] - 240 z_kij[Aircraft_4,EDDM,EGPH]
-   <= 0
- WeeklyCapacity_EDDM_LROP: x_ij[EDDM,LROP]
-   - 33.75 z_kij[Aircraft_1,EDDM,LROP] - 52.5 z_kij[Aircraft_2,EDDM,LROP]
-   - 112.5 z_kij[Aircraft_3,EDDM,LROP] - 240 z_kij[Aircraft_4,EDDM,LROP]
-   <= 0
- WeeklyCapacity_EDDM_LGIR: x_ij[EDDM,LGIR]
-   - 33.75 z_kij[Aircraft_1,EDDM,LGIR] - 52.5 z_kij[Aircraft_2,EDDM,LGIR]
-   - 112.5 z_kij[Aircraft_3,EDDM,LGIR] - 240 z_kij[Aircraft_4,EDDM,LGIR]
-   <= 0
- WeeklyCapacity_EDDM_BIKF: x_ij[EDDM,BIKF]
-   - 33.75 z_kij[Aircraft_1,EDDM,BIKF] - 52.5 z_kij[Aircraft_2,EDDM,BIKF]
-   - 112.5 z_kij[Aircraft_3,EDDM,BIKF] - 240 z_kij[Aircraft_4,EDDM,BIKF]
-   <= 0
- WeeklyCapacity_EDDM_LICJ: x_ij[EDDM,LICJ]
-   - 33.75 z_kij[Aircraft_1,EDDM,LICJ] - 52.5 z_kij[Aircraft_2,EDDM,LICJ]
-   - 112.5 z_kij[Aircraft_3,EDDM,LICJ] - 240 z_kij[Aircraft_4,EDDM,LICJ]
-   <= 0
- WeeklyCapacity_EDDM_LPMA: x_ij[EDDM,LPMA]
-   - 33.75 z_kij[Aircraft_1,EDDM,LPMA] - 52.5 z_kij[Aircraft_2,EDDM,LPMA]
-   - 112.5 z_kij[Aircraft_3,EDDM,LPMA] - 240 z_kij[Aircraft_4,EDDM,LPMA]
-   <= 0
- WeeklyCapacity_LIRF_EGLL: x_ij[LIRF,EGLL]
-   - 33.75 z_kij[Aircraft_1,LIRF,EGLL] - 52.5 z_kij[Aircraft_2,LIRF,EGLL]
-   - 112.5 z_kij[Aircraft_3,LIRF,EGLL] - 240 z_kij[Aircraft_4,LIRF,EGLL]
-   <= 0
- WeeklyCapacity_LIRF_LFPG: x_ij[LIRF,LFPG]
-   - 33.75 z_kij[Aircraft_1,LIRF,LFPG] - 52.5 z_kij[Aircraft_2,LIRF,LFPG]
-   - 112.5 z_kij[Aircraft_3,LIRF,LFPG] - 240 z_kij[Aircraft_4,LIRF,LFPG]
-   <= 0
- WeeklyCapacity_LIRF_EHAM: x_ij[LIRF,EHAM]
-   - 33.75 z_kij[Aircraft_1,LIRF,EHAM] - 52.5 z_kij[Aircraft_2,LIRF,EHAM]
-   - 112.5 z_kij[Aircraft_3,LIRF,EHAM] - 240 z_kij[Aircraft_4,LIRF,EHAM]
-   <= 0
- WeeklyCapacity_LIRF_EDDF: x_ij[LIRF,EDDF]
-   - 33.75 z_kij[Aircraft_1,LIRF,EDDF] - 52.5 z_kij[Aircraft_2,LIRF,EDDF]
-   - 112.5 z_kij[Aircraft_3,LIRF,EDDF] - 240 z_kij[Aircraft_4,LIRF,EDDF]
-   + w_ij[LIRF,EGLL] + w_ij[LIRF,LFPG] + w_ij[LIRF,EHAM] + w_ij[LIRF,EDDF]
-   + w_ij[LIRF,LEMF] + w_ij[LIRF,LEBL] + w_ij[LIRF,EDDM] + w_ij[LIRF,EIDW]
-   + w_ij[LIRF,ESSA] + w_ij[LIRF,LPPT] + w_ij[LIRF,EDDT] + w_ij[LIRF,EFHK]
-   + w_ij[LIRF,EPWA] + w_ij[LIRF,EGPH] + w_ij[LIRF,LROP] + w_ij[LIRF,LGIR]
-   + w_ij[LIRF,BIKF] + w_ij[LIRF,LICJ] + w_ij[LIRF,LPMA] <= 0
- WeeklyCapacity_LIRF_LEMF: x_ij[LIRF,LEMF]
-   - 33.75 z_kij[Aircraft_1,LIRF,LEMF] - 52.5 z_kij[Aircraft_2,LIRF,LEMF]
-   - 112.5 z_kij[Aircraft_3,LIRF,LEMF] - 240 z_kij[Aircraft_4,LIRF,LEMF]
-   <= 0
- WeeklyCapacity_LIRF_LEBL: x_ij[LIRF,LEBL]
-   - 33.75 z_kij[Aircraft_1,LIRF,LEBL] - 52.5 z_kij[Aircraft_2,LIRF,LEBL]
-   - 112.5 z_kij[Aircraft_3,LIRF,LEBL] - 240 z_kij[Aircraft_4,LIRF,LEBL]
-   <= 0
- WeeklyCapacity_LIRF_EDDM: x_ij[LIRF,EDDM]
-   - 33.75 z_kij[Aircraft_1,LIRF,EDDM] - 52.5 z_kij[Aircraft_2,LIRF,EDDM]
-   - 112.5 z_kij[Aircraft_3,LIRF,EDDM] - 240 z_kij[Aircraft_4,LIRF,EDDM]
-   <= 0
- WeeklyCapacity_LIRF_EIDW: x_ij[LIRF,EIDW]
-   - 33.75 z_kij[Aircraft_1,LIRF,EIDW] - 52.5 z_kij[Aircraft_2,LIRF,EIDW]
-   - 112.5 z_kij[Aircraft_3,LIRF,EIDW] - 240 z_kij[Aircraft_4,LIRF,EIDW]
-   <= 0
- WeeklyCapacity_LIRF_ESSA: x_ij[LIRF,ESSA]
-   - 33.75 z_kij[Aircraft_1,LIRF,ESSA] - 52.5 z_kij[Aircraft_2,LIRF,ESSA]
-   - 112.5 z_kij[Aircraft_3,LIRF,ESSA] - 240 z_kij[Aircraft_4,LIRF,ESSA]
-   <= 0
- WeeklyCapacity_LIRF_LPPT: x_ij[LIRF,LPPT]
-   - 33.75 z_kij[Aircraft_1,LIRF,LPPT] - 52.5 z_kij[Aircraft_2,LIRF,LPPT]
-   - 112.5 z_kij[Aircraft_3,LIRF,LPPT] - 240 z_kij[Aircraft_4,LIRF,LPPT]
-   <= 0
- WeeklyCapacity_LIRF_EDDT: x_ij[LIRF,EDDT]
-   - 33.75 z_kij[Aircraft_1,LIRF,EDDT] - 52.5 z_kij[Aircraft_2,LIRF,EDDT]
-   - 112.5 z_kij[Aircraft_3,LIRF,EDDT] - 240 z_kij[Aircraft_4,LIRF,EDDT]
-   <= 0
- WeeklyCapacity_LIRF_EFHK: x_ij[LIRF,EFHK]
-   - 33.75 z_kij[Aircraft_1,LIRF,EFHK] - 52.5 z_kij[Aircraft_2,LIRF,EFHK]
-   - 112.5 z_kij[Aircraft_3,LIRF,EFHK] - 240 z_kij[Aircraft_4,LIRF,EFHK]
-   <= 0
- WeeklyCapacity_LIRF_EPWA: x_ij[LIRF,EPWA]
-   - 33.75 z_kij[Aircraft_1,LIRF,EPWA] - 52.5 z_kij[Aircraft_2,LIRF,EPWA]
-   - 112.5 z_kij[Aircraft_3,LIRF,EPWA] - 240 z_kij[Aircraft_4,LIRF,EPWA]
-   <= 0
- WeeklyCapacity_LIRF_EGPH: x_ij[LIRF,EGPH]
-   - 33.75 z_kij[Aircraft_1,LIRF,EGPH] - 52.5 z_kij[Aircraft_2,LIRF,EGPH]
-   - 112.5 z_kij[Aircraft_3,LIRF,EGPH] - 240 z_kij[Aircraft_4,LIRF,EGPH]
-   <= 0
- WeeklyCapacity_LIRF_LROP: x_ij[LIRF,LROP]
-   - 33.75 z_kij[Aircraft_1,LIRF,LROP] - 52.5 z_kij[Aircraft_2,LIRF,LROP]
-   - 112.5 z_kij[Aircraft_3,LIRF,LROP] - 240 z_kij[Aircraft_4,LIRF,LROP]
-   <= 0
- WeeklyCapacity_LIRF_LGIR: x_ij[LIRF,LGIR]
-   - 33.75 z_kij[Aircraft_1,LIRF,LGIR] - 52.5 z_kij[Aircraft_2,LIRF,LGIR]
-   - 112.5 z_kij[Aircraft_3,LIRF,LGIR] - 240 z_kij[Aircraft_4,LIRF,LGIR]
-   <= 0
- WeeklyCapacity_LIRF_BIKF: x_ij[LIRF,BIKF]
-   - 33.75 z_kij[Aircraft_1,LIRF,BIKF] - 52.5 z_kij[Aircraft_2,LIRF,BIKF]
-   - 112.5 z_kij[Aircraft_3,LIRF,BIKF] - 240 z_kij[Aircraft_4,LIRF,BIKF]
-   <= 0
- WeeklyCapacity_LIRF_LICJ: x_ij[LIRF,LICJ]
-   - 33.75 z_kij[Aircraft_1,LIRF,LICJ] - 52.5 z_kij[Aircraft_2,LIRF,LICJ]
-   - 112.5 z_kij[Aircraft_3,LIRF,LICJ] - 240 z_kij[Aircraft_4,LIRF,LICJ]
-   <= 0
- WeeklyCapacity_LIRF_LPMA: x_ij[LIRF,LPMA]
-   - 33.75 z_kij[Aircraft_1,LIRF,LPMA] - 52.5 z_kij[Aircraft_2,LIRF,LPMA]
-   - 112.5 z_kij[Aircraft_3,LIRF,LPMA] - 240 z_kij[Aircraft_4,LIRF,LPMA]
-   <= 0
- WeeklyCapacity_EIDW_EGLL: x_ij[EIDW,EGLL]
-   - 33.75 z_kij[Aircraft_1,EIDW,EGLL] - 52.5 z_kij[Aircraft_2,EIDW,EGLL]
-   - 112.5 z_kij[Aircraft_3,EIDW,EGLL] - 240 z_kij[Aircraft_4,EIDW,EGLL]
-   <= 0
- WeeklyCapacity_EIDW_LFPG: x_ij[EIDW,LFPG]
-   - 33.75 z_kij[Aircraft_1,EIDW,LFPG] - 52.5 z_kij[Aircraft_2,EIDW,LFPG]
-   - 112.5 z_kij[Aircraft_3,EIDW,LFPG] - 240 z_kij[Aircraft_4,EIDW,LFPG]
-   <= 0
- WeeklyCapacity_EIDW_EHAM: x_ij[EIDW,EHAM]
-   - 33.75 z_kij[Aircraft_1,EIDW,EHAM] - 52.5 z_kij[Aircraft_2,EIDW,EHAM]
-   - 112.5 z_kij[Aircraft_3,EIDW,EHAM] - 240 z_kij[Aircraft_4,EIDW,EHAM]
-   <= 0
- WeeklyCapacity_EIDW_EDDF: x_ij[EIDW,EDDF]
-   - 33.75 z_kij[Aircraft_1,EIDW,EDDF] - 52.5 z_kij[Aircraft_2,EIDW,EDDF]
-   - 112.5 z_kij[Aircraft_3,EIDW,EDDF] - 240 z_kij[Aircraft_4,EIDW,EDDF]
-   + w_ij[EIDW,EGLL] + w_ij[EIDW,LFPG] + w_ij[EIDW,EHAM] + w_ij[EIDW,EDDF]
-   + w_ij[EIDW,LEMF] + w_ij[EIDW,LEBL] + w_ij[EIDW,EDDM] + w_ij[EIDW,LIRF]
-   + w_ij[EIDW,ESSA] + w_ij[EIDW,LPPT] + w_ij[EIDW,EDDT] + w_ij[EIDW,EFHK]
-   + w_ij[EIDW,EPWA] + w_ij[EIDW,EGPH] + w_ij[EIDW,LROP] + w_ij[EIDW,LGIR]
-   + w_ij[EIDW,BIKF] + w_ij[EIDW,LICJ] + w_ij[EIDW,LPMA] <= 0
- WeeklyCapacity_EIDW_LEMF: x_ij[EIDW,LEMF]
-   - 33.75 z_kij[Aircraft_1,EIDW,LEMF] - 52.5 z_kij[Aircraft_2,EIDW,LEMF]
-   - 112.5 z_kij[Aircraft_3,EIDW,LEMF] - 240 z_kij[Aircraft_4,EIDW,LEMF]
-   <= 0
- WeeklyCapacity_EIDW_LEBL: x_ij[EIDW,LEBL]
-   - 33.75 z_kij[Aircraft_1,EIDW,LEBL] - 52.5 z_kij[Aircraft_2,EIDW,LEBL]
-   - 112.5 z_kij[Aircraft_3,EIDW,LEBL] - 240 z_kij[Aircraft_4,EIDW,LEBL]
-   <= 0
- WeeklyCapacity_EIDW_EDDM: x_ij[EIDW,EDDM]
-   - 33.75 z_kij[Aircraft_1,EIDW,EDDM] - 52.5 z_kij[Aircraft_2,EIDW,EDDM]
-   - 112.5 z_kij[Aircraft_3,EIDW,EDDM] - 240 z_kij[Aircraft_4,EIDW,EDDM]
-   <= 0
- WeeklyCapacity_EIDW_LIRF: x_ij[EIDW,LIRF]
-   - 33.75 z_kij[Aircraft_1,EIDW,LIRF] - 52.5 z_kij[Aircraft_2,EIDW,LIRF]
-   - 112.5 z_kij[Aircraft_3,EIDW,LIRF] - 240 z_kij[Aircraft_4,EIDW,LIRF]
-   <= 0
- WeeklyCapacity_EIDW_ESSA: x_ij[EIDW,ESSA]
-   - 33.75 z_kij[Aircraft_1,EIDW,ESSA] - 52.5 z_kij[Aircraft_2,EIDW,ESSA]
-   - 112.5 z_kij[Aircraft_3,EIDW,ESSA] - 240 z_kij[Aircraft_4,EIDW,ESSA]
-   <= 0
- WeeklyCapacity_EIDW_LPPT: x_ij[EIDW,LPPT]
-   - 33.75 z_kij[Aircraft_1,EIDW,LPPT] - 52.5 z_kij[Aircraft_2,EIDW,LPPT]
-   - 112.5 z_kij[Aircraft_3,EIDW,LPPT] - 240 z_kij[Aircraft_4,EIDW,LPPT]
-   <= 0
- WeeklyCapacity_EIDW_EDDT: x_ij[EIDW,EDDT]
-   - 33.75 z_kij[Aircraft_1,EIDW,EDDT] - 52.5 z_kij[Aircraft_2,EIDW,EDDT]
-   - 112.5 z_kij[Aircraft_3,EIDW,EDDT] - 240 z_kij[Aircraft_4,EIDW,EDDT]
-   <= 0
- WeeklyCapacity_EIDW_EFHK: x_ij[EIDW,EFHK]
-   - 33.75 z_kij[Aircraft_1,EIDW,EFHK] - 52.5 z_kij[Aircraft_2,EIDW,EFHK]
-   - 112.5 z_kij[Aircraft_3,EIDW,EFHK] - 240 z_kij[Aircraft_4,EIDW,EFHK]
-   <= 0
- WeeklyCapacity_EIDW_EPWA: x_ij[EIDW,EPWA]
-   - 33.75 z_kij[Aircraft_1,EIDW,EPWA] - 52.5 z_kij[Aircraft_2,EIDW,EPWA]
-   - 112.5 z_kij[Aircraft_3,EIDW,EPWA] - 240 z_kij[Aircraft_4,EIDW,EPWA]
-   <= 0
- WeeklyCapacity_EIDW_EGPH: x_ij[EIDW,EGPH]
-   - 33.75 z_kij[Aircraft_1,EIDW,EGPH] - 52.5 z_kij[Aircraft_2,EIDW,EGPH]
-   - 112.5 z_kij[Aircraft_3,EIDW,EGPH] - 240 z_kij[Aircraft_4,EIDW,EGPH]
-   <= 0
- WeeklyCapacity_EIDW_LROP: x_ij[EIDW,LROP]
-   - 33.75 z_kij[Aircraft_1,EIDW,LROP] - 52.5 z_kij[Aircraft_2,EIDW,LROP]
-   - 112.5 z_kij[Aircraft_3,EIDW,LROP] - 240 z_kij[Aircraft_4,EIDW,LROP]
-   <= 0
- WeeklyCapacity_EIDW_LGIR: x_ij[EIDW,LGIR]
-   - 33.75 z_kij[Aircraft_1,EIDW,LGIR] - 52.5 z_kij[Aircraft_2,EIDW,LGIR]
-   - 112.5 z_kij[Aircraft_3,EIDW,LGIR] - 240 z_kij[Aircraft_4,EIDW,LGIR]
-   <= 0
- WeeklyCapacity_EIDW_BIKF: x_ij[EIDW,BIKF]
-   - 33.75 z_kij[Aircraft_1,EIDW,BIKF] - 52.5 z_kij[Aircraft_2,EIDW,BIKF]
-   - 112.5 z_kij[Aircraft_3,EIDW,BIKF] - 240 z_kij[Aircraft_4,EIDW,BIKF]
-   <= 0
- WeeklyCapacity_EIDW_LICJ: x_ij[EIDW,LICJ]
-   - 33.75 z_kij[Aircraft_1,EIDW,LICJ] - 52.5 z_kij[Aircraft_2,EIDW,LICJ]
-   - 112.5 z_kij[Aircraft_3,EIDW,LICJ] - 240 z_kij[Aircraft_4,EIDW,LICJ]
-   <= 0
- WeeklyCapacity_EIDW_LPMA: x_ij[EIDW,LPMA]
-   - 33.75 z_kij[Aircraft_1,EIDW,LPMA] - 52.5 z_kij[Aircraft_2,EIDW,LPMA]
-   - 112.5 z_kij[Aircraft_3,EIDW,LPMA] - 240 z_kij[Aircraft_4,EIDW,LPMA]
-   <= 0
- WeeklyCapacity_ESSA_EGLL: x_ij[ESSA,EGLL]
-   - 33.75 z_kij[Aircraft_1,ESSA,EGLL] - 52.5 z_kij[Aircraft_2,ESSA,EGLL]
-   - 112.5 z_kij[Aircraft_3,ESSA,EGLL] - 240 z_kij[Aircraft_4,ESSA,EGLL]
-   <= 0
- WeeklyCapacity_ESSA_LFPG: x_ij[ESSA,LFPG]
-   - 33.75 z_kij[Aircraft_1,ESSA,LFPG] - 52.5 z_kij[Aircraft_2,ESSA,LFPG]
-   - 112.5 z_kij[Aircraft_3,ESSA,LFPG] - 240 z_kij[Aircraft_4,ESSA,LFPG]
-   <= 0
- WeeklyCapacity_ESSA_EHAM: x_ij[ESSA,EHAM]
-   - 33.75 z_kij[Aircraft_1,ESSA,EHAM] - 52.5 z_kij[Aircraft_2,ESSA,EHAM]
-   - 112.5 z_kij[Aircraft_3,ESSA,EHAM] - 240 z_kij[Aircraft_4,ESSA,EHAM]
-   <= 0
- WeeklyCapacity_ESSA_EDDF: x_ij[ESSA,EDDF]
-   - 33.75 z_kij[Aircraft_1,ESSA,EDDF] - 52.5 z_kij[Aircraft_2,ESSA,EDDF]
-   - 112.5 z_kij[Aircraft_3,ESSA,EDDF] - 240 z_kij[Aircraft_4,ESSA,EDDF]
-   + w_ij[ESSA,EGLL] + w_ij[ESSA,LFPG] + w_ij[ESSA,EHAM] + w_ij[ESSA,EDDF]
-   + w_ij[ESSA,LEMF] + w_ij[ESSA,LEBL] + w_ij[ESSA,EDDM] + w_ij[ESSA,LIRF]
-   + w_ij[ESSA,EIDW] + w_ij[ESSA,LPPT] + w_ij[ESSA,EDDT] + w_ij[ESSA,EFHK]
-   + w_ij[ESSA,EPWA] + w_ij[ESSA,EGPH] + w_ij[ESSA,LROP] + w_ij[ESSA,LGIR]
-   + w_ij[ESSA,BIKF] + w_ij[ESSA,LICJ] + w_ij[ESSA,LPMA] <= 0
- WeeklyCapacity_ESSA_LEMF: x_ij[ESSA,LEMF]
-   - 33.75 z_kij[Aircraft_1,ESSA,LEMF] - 52.5 z_kij[Aircraft_2,ESSA,LEMF]
-   - 112.5 z_kij[Aircraft_3,ESSA,LEMF] - 240 z_kij[Aircraft_4,ESSA,LEMF]
-   <= 0
- WeeklyCapacity_ESSA_LEBL: x_ij[ESSA,LEBL]
-   - 33.75 z_kij[Aircraft_1,ESSA,LEBL] - 52.5 z_kij[Aircraft_2,ESSA,LEBL]
-   - 112.5 z_kij[Aircraft_3,ESSA,LEBL] - 240 z_kij[Aircraft_4,ESSA,LEBL]
-   <= 0
- WeeklyCapacity_ESSA_EDDM: x_ij[ESSA,EDDM]
-   - 33.75 z_kij[Aircraft_1,ESSA,EDDM] - 52.5 z_kij[Aircraft_2,ESSA,EDDM]
-   - 112.5 z_kij[Aircraft_3,ESSA,EDDM] - 240 z_kij[Aircraft_4,ESSA,EDDM]
-   <= 0
- WeeklyCapacity_ESSA_LIRF: x_ij[ESSA,LIRF]
-   - 33.75 z_kij[Aircraft_1,ESSA,LIRF] - 52.5 z_kij[Aircraft_2,ESSA,LIRF]
-   - 112.5 z_kij[Aircraft_3,ESSA,LIRF] - 240 z_kij[Aircraft_4,ESSA,LIRF]
-   <= 0
- WeeklyCapacity_ESSA_EIDW: x_ij[ESSA,EIDW]
-   - 33.75 z_kij[Aircraft_1,ESSA,EIDW] - 52.5 z_kij[Aircraft_2,ESSA,EIDW]
-   - 112.5 z_kij[Aircraft_3,ESSA,EIDW] - 240 z_kij[Aircraft_4,ESSA,EIDW]
-   <= 0
- WeeklyCapacity_ESSA_LPPT: x_ij[ESSA,LPPT]
-   - 33.75 z_kij[Aircraft_1,ESSA,LPPT] - 52.5 z_kij[Aircraft_2,ESSA,LPPT]
-   - 112.5 z_kij[Aircraft_3,ESSA,LPPT] - 240 z_kij[Aircraft_4,ESSA,LPPT]
-   <= 0
- WeeklyCapacity_ESSA_EDDT: x_ij[ESSA,EDDT]
-   - 33.75 z_kij[Aircraft_1,ESSA,EDDT] - 52.5 z_kij[Aircraft_2,ESSA,EDDT]
-   - 112.5 z_kij[Aircraft_3,ESSA,EDDT] - 240 z_kij[Aircraft_4,ESSA,EDDT]
-   <= 0
- WeeklyCapacity_ESSA_EFHK: x_ij[ESSA,EFHK]
-   - 33.75 z_kij[Aircraft_1,ESSA,EFHK] - 52.5 z_kij[Aircraft_2,ESSA,EFHK]
-   - 112.5 z_kij[Aircraft_3,ESSA,EFHK] - 240 z_kij[Aircraft_4,ESSA,EFHK]
-   <= 0
- WeeklyCapacity_ESSA_EPWA: x_ij[ESSA,EPWA]
-   - 33.75 z_kij[Aircraft_1,ESSA,EPWA] - 52.5 z_kij[Aircraft_2,ESSA,EPWA]
-   - 112.5 z_kij[Aircraft_3,ESSA,EPWA] - 240 z_kij[Aircraft_4,ESSA,EPWA]
-   <= 0
- WeeklyCapacity_ESSA_EGPH: x_ij[ESSA,EGPH]
-   - 33.75 z_kij[Aircraft_1,ESSA,EGPH] - 52.5 z_kij[Aircraft_2,ESSA,EGPH]
-   - 112.5 z_kij[Aircraft_3,ESSA,EGPH] - 240 z_kij[Aircraft_4,ESSA,EGPH]
-   <= 0
- WeeklyCapacity_ESSA_LROP: x_ij[ESSA,LROP]
-   - 33.75 z_kij[Aircraft_1,ESSA,LROP] - 52.5 z_kij[Aircraft_2,ESSA,LROP]
-   - 112.5 z_kij[Aircraft_3,ESSA,LROP] - 240 z_kij[Aircraft_4,ESSA,LROP]
-   <= 0
- WeeklyCapacity_ESSA_LGIR: x_ij[ESSA,LGIR]
-   - 33.75 z_kij[Aircraft_1,ESSA,LGIR] - 52.5 z_kij[Aircraft_2,ESSA,LGIR]
-   - 112.5 z_kij[Aircraft_3,ESSA,LGIR] - 240 z_kij[Aircraft_4,ESSA,LGIR]
-   <= 0
- WeeklyCapacity_ESSA_BIKF: x_ij[ESSA,BIKF]
-   - 33.75 z_kij[Aircraft_1,ESSA,BIKF] - 52.5 z_kij[Aircraft_2,ESSA,BIKF]
-   - 112.5 z_kij[Aircraft_3,ESSA,BIKF] - 240 z_kij[Aircraft_4,ESSA,BIKF]
-   <= 0
- WeeklyCapacity_ESSA_LICJ: x_ij[ESSA,LICJ]
-   - 33.75 z_kij[Aircraft_1,ESSA,LICJ] - 52.5 z_kij[Aircraft_2,ESSA,LICJ]
-   - 112.5 z_kij[Aircraft_3,ESSA,LICJ] - 240 z_kij[Aircraft_4,ESSA,LICJ]
-   <= 0
- WeeklyCapacity_ESSA_LPMA: x_ij[ESSA,LPMA]
-   - 33.75 z_kij[Aircraft_1,ESSA,LPMA] - 52.5 z_kij[Aircraft_2,ESSA,LPMA]
-   - 112.5 z_kij[Aircraft_3,ESSA,LPMA] - 240 z_kij[Aircraft_4,ESSA,LPMA]
-   <= 0
- WeeklyCapacity_LPPT_EGLL: x_ij[LPPT,EGLL]
-   - 33.75 z_kij[Aircraft_1,LPPT,EGLL] - 52.5 z_kij[Aircraft_2,LPPT,EGLL]
-   - 112.5 z_kij[Aircraft_3,LPPT,EGLL] - 240 z_kij[Aircraft_4,LPPT,EGLL]
-   <= 0
- WeeklyCapacity_LPPT_LFPG: x_ij[LPPT,LFPG]
-   - 33.75 z_kij[Aircraft_1,LPPT,LFPG] - 52.5 z_kij[Aircraft_2,LPPT,LFPG]
-   - 112.5 z_kij[Aircraft_3,LPPT,LFPG] - 240 z_kij[Aircraft_4,LPPT,LFPG]
-   <= 0
- WeeklyCapacity_LPPT_EHAM: x_ij[LPPT,EHAM]
-   - 33.75 z_kij[Aircraft_1,LPPT,EHAM] - 52.5 z_kij[Aircraft_2,LPPT,EHAM]
-   - 112.5 z_kij[Aircraft_3,LPPT,EHAM] - 240 z_kij[Aircraft_4,LPPT,EHAM]
-   <= 0
- WeeklyCapacity_LPPT_EDDF: x_ij[LPPT,EDDF]
-   - 33.75 z_kij[Aircraft_1,LPPT,EDDF] - 52.5 z_kij[Aircraft_2,LPPT,EDDF]
-   - 112.5 z_kij[Aircraft_3,LPPT,EDDF] - 240 z_kij[Aircraft_4,LPPT,EDDF]
-   + w_ij[LPPT,EGLL] + w_ij[LPPT,LFPG] + w_ij[LPPT,EHAM] + w_ij[LPPT,EDDF]
-   + w_ij[LPPT,LEMF] + w_ij[LPPT,LEBL] + w_ij[LPPT,EDDM] + w_ij[LPPT,LIRF]
-   + w_ij[LPPT,EIDW] + w_ij[LPPT,ESSA] + w_ij[LPPT,EDDT] + w_ij[LPPT,EFHK]
-   + w_ij[LPPT,EPWA] + w_ij[LPPT,EGPH] + w_ij[LPPT,LROP] + w_ij[LPPT,LGIR]
-   + w_ij[LPPT,BIKF] + w_ij[LPPT,LICJ] + w_ij[LPPT,LPMA] <= 0
- WeeklyCapacity_LPPT_LEMF: x_ij[LPPT,LEMF]
-   - 33.75 z_kij[Aircraft_1,LPPT,LEMF] - 52.5 z_kij[Aircraft_2,LPPT,LEMF]
-   - 112.5 z_kij[Aircraft_3,LPPT,LEMF] - 240 z_kij[Aircraft_4,LPPT,LEMF]
-   <= 0
- WeeklyCapacity_LPPT_LEBL: x_ij[LPPT,LEBL]
-   - 33.75 z_kij[Aircraft_1,LPPT,LEBL] - 52.5 z_kij[Aircraft_2,LPPT,LEBL]
-   - 112.5 z_kij[Aircraft_3,LPPT,LEBL] - 240 z_kij[Aircraft_4,LPPT,LEBL]
-   <= 0
- WeeklyCapacity_LPPT_EDDM: x_ij[LPPT,EDDM]
-   - 33.75 z_kij[Aircraft_1,LPPT,EDDM] - 52.5 z_kij[Aircraft_2,LPPT,EDDM]
-   - 112.5 z_kij[Aircraft_3,LPPT,EDDM] - 240 z_kij[Aircraft_4,LPPT,EDDM]
-   <= 0
- WeeklyCapacity_LPPT_LIRF: x_ij[LPPT,LIRF]
-   - 33.75 z_kij[Aircraft_1,LPPT,LIRF] - 52.5 z_kij[Aircraft_2,LPPT,LIRF]
-   - 112.5 z_kij[Aircraft_3,LPPT,LIRF] - 240 z_kij[Aircraft_4,LPPT,LIRF]
-   <= 0
- WeeklyCapacity_LPPT_EIDW: x_ij[LPPT,EIDW]
-   - 33.75 z_kij[Aircraft_1,LPPT,EIDW] - 52.5 z_kij[Aircraft_2,LPPT,EIDW]
-   - 112.5 z_kij[Aircraft_3,LPPT,EIDW] - 240 z_kij[Aircraft_4,LPPT,EIDW]
-   <= 0
- WeeklyCapacity_LPPT_ESSA: x_ij[LPPT,ESSA]
-   - 33.75 z_kij[Aircraft_1,LPPT,ESSA] - 52.5 z_kij[Aircraft_2,LPPT,ESSA]
-   - 112.5 z_kij[Aircraft_3,LPPT,ESSA] - 240 z_kij[Aircraft_4,LPPT,ESSA]
-   <= 0
- WeeklyCapacity_LPPT_EDDT: x_ij[LPPT,EDDT]
-   - 33.75 z_kij[Aircraft_1,LPPT,EDDT] - 52.5 z_kij[Aircraft_2,LPPT,EDDT]
-   - 112.5 z_kij[Aircraft_3,LPPT,EDDT] - 240 z_kij[Aircraft_4,LPPT,EDDT]
-   <= 0
- WeeklyCapacity_LPPT_EFHK: x_ij[LPPT,EFHK]
-   - 33.75 z_kij[Aircraft_1,LPPT,EFHK] - 52.5 z_kij[Aircraft_2,LPPT,EFHK]
-   - 112.5 z_kij[Aircraft_3,LPPT,EFHK] - 240 z_kij[Aircraft_4,LPPT,EFHK]
-   <= 0
- WeeklyCapacity_LPPT_EPWA: x_ij[LPPT,EPWA]
-   - 33.75 z_kij[Aircraft_1,LPPT,EPWA] - 52.5 z_kij[Aircraft_2,LPPT,EPWA]
-   - 112.5 z_kij[Aircraft_3,LPPT,EPWA] - 240 z_kij[Aircraft_4,LPPT,EPWA]
-   <= 0
- WeeklyCapacity_LPPT_EGPH: x_ij[LPPT,EGPH]
-   - 33.75 z_kij[Aircraft_1,LPPT,EGPH] - 52.5 z_kij[Aircraft_2,LPPT,EGPH]
-   - 112.5 z_kij[Aircraft_3,LPPT,EGPH] - 240 z_kij[Aircraft_4,LPPT,EGPH]
-   <= 0
- WeeklyCapacity_LPPT_LROP: x_ij[LPPT,LROP]
-   - 33.75 z_kij[Aircraft_1,LPPT,LROP] - 52.5 z_kij[Aircraft_2,LPPT,LROP]
-   - 112.5 z_kij[Aircraft_3,LPPT,LROP] - 240 z_kij[Aircraft_4,LPPT,LROP]
-   <= 0
- WeeklyCapacity_LPPT_LGIR: x_ij[LPPT,LGIR]
-   - 33.75 z_kij[Aircraft_1,LPPT,LGIR] - 52.5 z_kij[Aircraft_2,LPPT,LGIR]
-   - 112.5 z_kij[Aircraft_3,LPPT,LGIR] - 240 z_kij[Aircraft_4,LPPT,LGIR]
-   <= 0
- WeeklyCapacity_LPPT_BIKF: x_ij[LPPT,BIKF]
-   - 33.75 z_kij[Aircraft_1,LPPT,BIKF] - 52.5 z_kij[Aircraft_2,LPPT,BIKF]
-   - 112.5 z_kij[Aircraft_3,LPPT,BIKF] - 240 z_kij[Aircraft_4,LPPT,BIKF]
-   <= 0
- WeeklyCapacity_LPPT_LICJ: x_ij[LPPT,LICJ]
-   - 33.75 z_kij[Aircraft_1,LPPT,LICJ] - 52.5 z_kij[Aircraft_2,LPPT,LICJ]
-   - 112.5 z_kij[Aircraft_3,LPPT,LICJ] - 240 z_kij[Aircraft_4,LPPT,LICJ]
-   <= 0
- WeeklyCapacity_LPPT_LPMA: x_ij[LPPT,LPMA]
-   - 33.75 z_kij[Aircraft_1,LPPT,LPMA] - 52.5 z_kij[Aircraft_2,LPPT,LPMA]
-   - 112.5 z_kij[Aircraft_3,LPPT,LPMA] - 240 z_kij[Aircraft_4,LPPT,LPMA]
-   <= 0
- WeeklyCapacity_EDDT_EGLL: x_ij[EDDT,EGLL]
-   - 33.75 z_kij[Aircraft_1,EDDT,EGLL] - 52.5 z_kij[Aircraft_2,EDDT,EGLL]
-   - 112.5 z_kij[Aircraft_3,EDDT,EGLL] - 240 z_kij[Aircraft_4,EDDT,EGLL]
-   <= 0
- WeeklyCapacity_EDDT_LFPG: x_ij[EDDT,LFPG]
-   - 33.75 z_kij[Aircraft_1,EDDT,LFPG] - 52.5 z_kij[Aircraft_2,EDDT,LFPG]
-   - 112.5 z_kij[Aircraft_3,EDDT,LFPG] - 240 z_kij[Aircraft_4,EDDT,LFPG]
-   <= 0
- WeeklyCapacity_EDDT_EHAM: x_ij[EDDT,EHAM]
-   - 33.75 z_kij[Aircraft_1,EDDT,EHAM] - 52.5 z_kij[Aircraft_2,EDDT,EHAM]
-   - 112.5 z_kij[Aircraft_3,EDDT,EHAM] - 240 z_kij[Aircraft_4,EDDT,EHAM]
-   <= 0
- WeeklyCapacity_EDDT_EDDF: x_ij[EDDT,EDDF]
-   - 33.75 z_kij[Aircraft_1,EDDT,EDDF] - 52.5 z_kij[Aircraft_2,EDDT,EDDF]
-   - 112.5 z_kij[Aircraft_3,EDDT,EDDF] - 240 z_kij[Aircraft_4,EDDT,EDDF]
-   + w_ij[EDDT,EGLL] + w_ij[EDDT,LFPG] + w_ij[EDDT,EHAM] + w_ij[EDDT,EDDF]
-   + w_ij[EDDT,LEMF] + w_ij[EDDT,LEBL] + w_ij[EDDT,EDDM] + w_ij[EDDT,LIRF]
-   + w_ij[EDDT,EIDW] + w_ij[EDDT,ESSA] + w_ij[EDDT,LPPT] + w_ij[EDDT,EFHK]
-   + w_ij[EDDT,EPWA] + w_ij[EDDT,EGPH] + w_ij[EDDT,LROP] + w_ij[EDDT,LGIR]
-   + w_ij[EDDT,BIKF] + w_ij[EDDT,LICJ] + w_ij[EDDT,LPMA] <= 0
- WeeklyCapacity_EDDT_LEMF: x_ij[EDDT,LEMF]
-   - 33.75 z_kij[Aircraft_1,EDDT,LEMF] - 52.5 z_kij[Aircraft_2,EDDT,LEMF]
-   - 112.5 z_kij[Aircraft_3,EDDT,LEMF] - 240 z_kij[Aircraft_4,EDDT,LEMF]
-   <= 0
- WeeklyCapacity_EDDT_LEBL: x_ij[EDDT,LEBL]
-   - 33.75 z_kij[Aircraft_1,EDDT,LEBL] - 52.5 z_kij[Aircraft_2,EDDT,LEBL]
-   - 112.5 z_kij[Aircraft_3,EDDT,LEBL] - 240 z_kij[Aircraft_4,EDDT,LEBL]
-   <= 0
- WeeklyCapacity_EDDT_EDDM: x_ij[EDDT,EDDM]
-   - 33.75 z_kij[Aircraft_1,EDDT,EDDM] - 52.5 z_kij[Aircraft_2,EDDT,EDDM]
-   - 112.5 z_kij[Aircraft_3,EDDT,EDDM] - 240 z_kij[Aircraft_4,EDDT,EDDM]
-   <= 0
- WeeklyCapacity_EDDT_LIRF: x_ij[EDDT,LIRF]
-   - 33.75 z_kij[Aircraft_1,EDDT,LIRF] - 52.5 z_kij[Aircraft_2,EDDT,LIRF]
-   - 112.5 z_kij[Aircraft_3,EDDT,LIRF] - 240 z_kij[Aircraft_4,EDDT,LIRF]
-   <= 0
- WeeklyCapacity_EDDT_EIDW: x_ij[EDDT,EIDW]
-   - 33.75 z_kij[Aircraft_1,EDDT,EIDW] - 52.5 z_kij[Aircraft_2,EDDT,EIDW]
-   - 112.5 z_kij[Aircraft_3,EDDT,EIDW] - 240 z_kij[Aircraft_4,EDDT,EIDW]
-   <= 0
- WeeklyCapacity_EDDT_ESSA: x_ij[EDDT,ESSA]
-   - 33.75 z_kij[Aircraft_1,EDDT,ESSA] - 52.5 z_kij[Aircraft_2,EDDT,ESSA]
-   - 112.5 z_kij[Aircraft_3,EDDT,ESSA] - 240 z_kij[Aircraft_4,EDDT,ESSA]
-   <= 0
- WeeklyCapacity_EDDT_LPPT: x_ij[EDDT,LPPT]
-   - 33.75 z_kij[Aircraft_1,EDDT,LPPT] - 52.5 z_kij[Aircraft_2,EDDT,LPPT]
-   - 112.5 z_kij[Aircraft_3,EDDT,LPPT] - 240 z_kij[Aircraft_4,EDDT,LPPT]
-   <= 0
- WeeklyCapacity_EDDT_EFHK: x_ij[EDDT,EFHK]
-   - 33.75 z_kij[Aircraft_1,EDDT,EFHK] - 52.5 z_kij[Aircraft_2,EDDT,EFHK]
-   - 112.5 z_kij[Aircraft_3,EDDT,EFHK] - 240 z_kij[Aircraft_4,EDDT,EFHK]
-   <= 0
- WeeklyCapacity_EDDT_EPWA: x_ij[EDDT,EPWA]
-   - 33.75 z_kij[Aircraft_1,EDDT,EPWA] - 52.5 z_kij[Aircraft_2,EDDT,EPWA]
-   - 112.5 z_kij[Aircraft_3,EDDT,EPWA] - 240 z_kij[Aircraft_4,EDDT,EPWA]
-   <= 0
- WeeklyCapacity_EDDT_EGPH: x_ij[EDDT,EGPH]
-   - 33.75 z_kij[Aircraft_1,EDDT,EGPH] - 52.5 z_kij[Aircraft_2,EDDT,EGPH]
-   - 112.5 z_kij[Aircraft_3,EDDT,EGPH] - 240 z_kij[Aircraft_4,EDDT,EGPH]
-   <= 0
- WeeklyCapacity_EDDT_LROP: x_ij[EDDT,LROP]
-   - 33.75 z_kij[Aircraft_1,EDDT,LROP] - 52.5 z_kij[Aircraft_2,EDDT,LROP]
-   - 112.5 z_kij[Aircraft_3,EDDT,LROP] - 240 z_kij[Aircraft_4,EDDT,LROP]
-   <= 0
- WeeklyCapacity_EDDT_LGIR: x_ij[EDDT,LGIR]
-   - 33.75 z_kij[Aircraft_1,EDDT,LGIR] - 52.5 z_kij[Aircraft_2,EDDT,LGIR]
-   - 112.5 z_kij[Aircraft_3,EDDT,LGIR] - 240 z_kij[Aircraft_4,EDDT,LGIR]
-   <= 0
- WeeklyCapacity_EDDT_BIKF: x_ij[EDDT,BIKF]
-   - 33.75 z_kij[Aircraft_1,EDDT,BIKF] - 52.5 z_kij[Aircraft_2,EDDT,BIKF]
-   - 112.5 z_kij[Aircraft_3,EDDT,BIKF] - 240 z_kij[Aircraft_4,EDDT,BIKF]
-   <= 0
- WeeklyCapacity_EDDT_LICJ: x_ij[EDDT,LICJ]
-   - 33.75 z_kij[Aircraft_1,EDDT,LICJ] - 52.5 z_kij[Aircraft_2,EDDT,LICJ]
-   - 112.5 z_kij[Aircraft_3,EDDT,LICJ] - 240 z_kij[Aircraft_4,EDDT,LICJ]
-   <= 0
- WeeklyCapacity_EDDT_LPMA: x_ij[EDDT,LPMA]
-   - 33.75 z_kij[Aircraft_1,EDDT,LPMA] - 52.5 z_kij[Aircraft_2,EDDT,LPMA]
-   - 112.5 z_kij[Aircraft_3,EDDT,LPMA] - 240 z_kij[Aircraft_4,EDDT,LPMA]
-   <= 0
- WeeklyCapacity_EFHK_EGLL: x_ij[EFHK,EGLL]
-   - 33.75 z_kij[Aircraft_1,EFHK,EGLL] - 52.5 z_kij[Aircraft_2,EFHK,EGLL]
-   - 112.5 z_kij[Aircraft_3,EFHK,EGLL] - 240 z_kij[Aircraft_4,EFHK,EGLL]
-   <= 0
- WeeklyCapacity_EFHK_LFPG: x_ij[EFHK,LFPG]
-   - 33.75 z_kij[Aircraft_1,EFHK,LFPG] - 52.5 z_kij[Aircraft_2,EFHK,LFPG]
-   - 112.5 z_kij[Aircraft_3,EFHK,LFPG] - 240 z_kij[Aircraft_4,EFHK,LFPG]
-   <= 0
- WeeklyCapacity_EFHK_EHAM: x_ij[EFHK,EHAM]
-   - 33.75 z_kij[Aircraft_1,EFHK,EHAM] - 52.5 z_kij[Aircraft_2,EFHK,EHAM]
-   - 112.5 z_kij[Aircraft_3,EFHK,EHAM] - 240 z_kij[Aircraft_4,EFHK,EHAM]
-   <= 0
- WeeklyCapacity_EFHK_EDDF: x_ij[EFHK,EDDF]
-   - 33.75 z_kij[Aircraft_1,EFHK,EDDF] - 52.5 z_kij[Aircraft_2,EFHK,EDDF]
-   - 112.5 z_kij[Aircraft_3,EFHK,EDDF] - 240 z_kij[Aircraft_4,EFHK,EDDF]
-   + w_ij[EFHK,EGLL] + w_ij[EFHK,LFPG] + w_ij[EFHK,EHAM] + w_ij[EFHK,EDDF]
-   + w_ij[EFHK,LEMF] + w_ij[EFHK,LEBL] + w_ij[EFHK,EDDM] + w_ij[EFHK,LIRF]
-   + w_ij[EFHK,EIDW] + w_ij[EFHK,ESSA] + w_ij[EFHK,LPPT] + w_ij[EFHK,EDDT]
-   + w_ij[EFHK,EPWA] + w_ij[EFHK,EGPH] + w_ij[EFHK,LROP] + w_ij[EFHK,LGIR]
-   + w_ij[EFHK,BIKF] + w_ij[EFHK,LICJ] + w_ij[EFHK,LPMA] <= 0
- WeeklyCapacity_EFHK_LEMF: x_ij[EFHK,LEMF]
-   - 33.75 z_kij[Aircraft_1,EFHK,LEMF] - 52.5 z_kij[Aircraft_2,EFHK,LEMF]
-   - 112.5 z_kij[Aircraft_3,EFHK,LEMF] - 240 z_kij[Aircraft_4,EFHK,LEMF]
-   <= 0
- WeeklyCapacity_EFHK_LEBL: x_ij[EFHK,LEBL]
-   - 33.75 z_kij[Aircraft_1,EFHK,LEBL] - 52.5 z_kij[Aircraft_2,EFHK,LEBL]
-   - 112.5 z_kij[Aircraft_3,EFHK,LEBL] - 240 z_kij[Aircraft_4,EFHK,LEBL]
-   <= 0
- WeeklyCapacity_EFHK_EDDM: x_ij[EFHK,EDDM]
-   - 33.75 z_kij[Aircraft_1,EFHK,EDDM] - 52.5 z_kij[Aircraft_2,EFHK,EDDM]
-   - 112.5 z_kij[Aircraft_3,EFHK,EDDM] - 240 z_kij[Aircraft_4,EFHK,EDDM]
-   <= 0
- WeeklyCapacity_EFHK_LIRF: x_ij[EFHK,LIRF]
-   - 33.75 z_kij[Aircraft_1,EFHK,LIRF] - 52.5 z_kij[Aircraft_2,EFHK,LIRF]
-   - 112.5 z_kij[Aircraft_3,EFHK,LIRF] - 240 z_kij[Aircraft_4,EFHK,LIRF]
-   <= 0
- WeeklyCapacity_EFHK_EIDW: x_ij[EFHK,EIDW]
-   - 33.75 z_kij[Aircraft_1,EFHK,EIDW] - 52.5 z_kij[Aircraft_2,EFHK,EIDW]
-   - 112.5 z_kij[Aircraft_3,EFHK,EIDW] - 240 z_kij[Aircraft_4,EFHK,EIDW]
-   <= 0
- WeeklyCapacity_EFHK_ESSA: x_ij[EFHK,ESSA]
-   - 33.75 z_kij[Aircraft_1,EFHK,ESSA] - 52.5 z_kij[Aircraft_2,EFHK,ESSA]
-   - 112.5 z_kij[Aircraft_3,EFHK,ESSA] - 240 z_kij[Aircraft_4,EFHK,ESSA]
-   <= 0
- WeeklyCapacity_EFHK_LPPT: x_ij[EFHK,LPPT]
-   - 33.75 z_kij[Aircraft_1,EFHK,LPPT] - 52.5 z_kij[Aircraft_2,EFHK,LPPT]
-   - 112.5 z_kij[Aircraft_3,EFHK,LPPT] - 240 z_kij[Aircraft_4,EFHK,LPPT]
-   <= 0
- WeeklyCapacity_EFHK_EDDT: x_ij[EFHK,EDDT]
-   - 33.75 z_kij[Aircraft_1,EFHK,EDDT] - 52.5 z_kij[Aircraft_2,EFHK,EDDT]
-   - 112.5 z_kij[Aircraft_3,EFHK,EDDT] - 240 z_kij[Aircraft_4,EFHK,EDDT]
-   <= 0
- WeeklyCapacity_EFHK_EPWA: x_ij[EFHK,EPWA]
-   - 33.75 z_kij[Aircraft_1,EFHK,EPWA] - 52.5 z_kij[Aircraft_2,EFHK,EPWA]
-   - 112.5 z_kij[Aircraft_3,EFHK,EPWA] - 240 z_kij[Aircraft_4,EFHK,EPWA]
-   <= 0
- WeeklyCapacity_EFHK_EGPH: x_ij[EFHK,EGPH]
-   - 33.75 z_kij[Aircraft_1,EFHK,EGPH] - 52.5 z_kij[Aircraft_2,EFHK,EGPH]
-   - 112.5 z_kij[Aircraft_3,EFHK,EGPH] - 240 z_kij[Aircraft_4,EFHK,EGPH]
-   <= 0
- WeeklyCapacity_EFHK_LROP: x_ij[EFHK,LROP]
-   - 33.75 z_kij[Aircraft_1,EFHK,LROP] - 52.5 z_kij[Aircraft_2,EFHK,LROP]
-   - 112.5 z_kij[Aircraft_3,EFHK,LROP] - 240 z_kij[Aircraft_4,EFHK,LROP]
-   <= 0
- WeeklyCapacity_EFHK_LGIR: x_ij[EFHK,LGIR]
-   - 33.75 z_kij[Aircraft_1,EFHK,LGIR] - 52.5 z_kij[Aircraft_2,EFHK,LGIR]
-   - 112.5 z_kij[Aircraft_3,EFHK,LGIR] - 240 z_kij[Aircraft_4,EFHK,LGIR]
-   <= 0
- WeeklyCapacity_EFHK_BIKF: x_ij[EFHK,BIKF]
-   - 33.75 z_kij[Aircraft_1,EFHK,BIKF] - 52.5 z_kij[Aircraft_2,EFHK,BIKF]
-   - 112.5 z_kij[Aircraft_3,EFHK,BIKF] - 240 z_kij[Aircraft_4,EFHK,BIKF]
-   <= 0
- WeeklyCapacity_EFHK_LICJ: x_ij[EFHK,LICJ]
-   - 33.75 z_kij[Aircraft_1,EFHK,LICJ] - 52.5 z_kij[Aircraft_2,EFHK,LICJ]
-   - 112.5 z_kij[Aircraft_3,EFHK,LICJ] - 240 z_kij[Aircraft_4,EFHK,LICJ]
-   <= 0
- WeeklyCapacity_EFHK_LPMA: x_ij[EFHK,LPMA]
-   - 33.75 z_kij[Aircraft_1,EFHK,LPMA] - 52.5 z_kij[Aircraft_2,EFHK,LPMA]
-   - 112.5 z_kij[Aircraft_3,EFHK,LPMA] - 240 z_kij[Aircraft_4,EFHK,LPMA]
-   <= 0
- WeeklyCapacity_EPWA_EGLL: x_ij[EPWA,EGLL]
-   - 33.75 z_kij[Aircraft_1,EPWA,EGLL] - 52.5 z_kij[Aircraft_2,EPWA,EGLL]
-   - 112.5 z_kij[Aircraft_3,EPWA,EGLL] - 240 z_kij[Aircraft_4,EPWA,EGLL]
-   <= 0
- WeeklyCapacity_EPWA_LFPG: x_ij[EPWA,LFPG]
-   - 33.75 z_kij[Aircraft_1,EPWA,LFPG] - 52.5 z_kij[Aircraft_2,EPWA,LFPG]
-   - 112.5 z_kij[Aircraft_3,EPWA,LFPG] - 240 z_kij[Aircraft_4,EPWA,LFPG]
-   <= 0
- WeeklyCapacity_EPWA_EHAM: x_ij[EPWA,EHAM]
-   - 33.75 z_kij[Aircraft_1,EPWA,EHAM] - 52.5 z_kij[Aircraft_2,EPWA,EHAM]
-   - 112.5 z_kij[Aircraft_3,EPWA,EHAM] - 240 z_kij[Aircraft_4,EPWA,EHAM]
-   <= 0
- WeeklyCapacity_EPWA_EDDF: x_ij[EPWA,EDDF]
-   - 33.75 z_kij[Aircraft_1,EPWA,EDDF] - 52.5 z_kij[Aircraft_2,EPWA,EDDF]
-   - 112.5 z_kij[Aircraft_3,EPWA,EDDF] - 240 z_kij[Aircraft_4,EPWA,EDDF]
-   + w_ij[EPWA,EGLL] + w_ij[EPWA,LFPG] + w_ij[EPWA,EHAM] + w_ij[EPWA,EDDF]
-   + w_ij[EPWA,LEMF] + w_ij[EPWA,LEBL] + w_ij[EPWA,EDDM] + w_ij[EPWA,LIRF]
-   + w_ij[EPWA,EIDW] + w_ij[EPWA,ESSA] + w_ij[EPWA,LPPT] + w_ij[EPWA,EDDT]
-   + w_ij[EPWA,EFHK] + w_ij[EPWA,EGPH] + w_ij[EPWA,LROP] + w_ij[EPWA,LGIR]
-   + w_ij[EPWA,BIKF] + w_ij[EPWA,LICJ] + w_ij[EPWA,LPMA] <= 0
- WeeklyCapacity_EPWA_LEMF: x_ij[EPWA,LEMF]
-   - 33.75 z_kij[Aircraft_1,EPWA,LEMF] - 52.5 z_kij[Aircraft_2,EPWA,LEMF]
-   - 112.5 z_kij[Aircraft_3,EPWA,LEMF] - 240 z_kij[Aircraft_4,EPWA,LEMF]
-   <= 0
- WeeklyCapacity_EPWA_LEBL: x_ij[EPWA,LEBL]
-   - 33.75 z_kij[Aircraft_1,EPWA,LEBL] - 52.5 z_kij[Aircraft_2,EPWA,LEBL]
-   - 112.5 z_kij[Aircraft_3,EPWA,LEBL] - 240 z_kij[Aircraft_4,EPWA,LEBL]
-   <= 0
- WeeklyCapacity_EPWA_EDDM: x_ij[EPWA,EDDM]
-   - 33.75 z_kij[Aircraft_1,EPWA,EDDM] - 52.5 z_kij[Aircraft_2,EPWA,EDDM]
-   - 112.5 z_kij[Aircraft_3,EPWA,EDDM] - 240 z_kij[Aircraft_4,EPWA,EDDM]
-   <= 0
- WeeklyCapacity_EPWA_LIRF: x_ij[EPWA,LIRF]
-   - 33.75 z_kij[Aircraft_1,EPWA,LIRF] - 52.5 z_kij[Aircraft_2,EPWA,LIRF]
-   - 112.5 z_kij[Aircraft_3,EPWA,LIRF] - 240 z_kij[Aircraft_4,EPWA,LIRF]
-   <= 0
- WeeklyCapacity_EPWA_EIDW: x_ij[EPWA,EIDW]
-   - 33.75 z_kij[Aircraft_1,EPWA,EIDW] - 52.5 z_kij[Aircraft_2,EPWA,EIDW]
-   - 112.5 z_kij[Aircraft_3,EPWA,EIDW] - 240 z_kij[Aircraft_4,EPWA,EIDW]
-   <= 0
- WeeklyCapacity_EPWA_ESSA: x_ij[EPWA,ESSA]
-   - 33.75 z_kij[Aircraft_1,EPWA,ESSA] - 52.5 z_kij[Aircraft_2,EPWA,ESSA]
-   - 112.5 z_kij[Aircraft_3,EPWA,ESSA] - 240 z_kij[Aircraft_4,EPWA,ESSA]
-   <= 0
- WeeklyCapacity_EPWA_LPPT: x_ij[EPWA,LPPT]
-   - 33.75 z_kij[Aircraft_1,EPWA,LPPT] - 52.5 z_kij[Aircraft_2,EPWA,LPPT]
-   - 112.5 z_kij[Aircraft_3,EPWA,LPPT] - 240 z_kij[Aircraft_4,EPWA,LPPT]
-   <= 0
- WeeklyCapacity_EPWA_EDDT: x_ij[EPWA,EDDT]
-   - 33.75 z_kij[Aircraft_1,EPWA,EDDT] - 52.5 z_kij[Aircraft_2,EPWA,EDDT]
-   - 112.5 z_kij[Aircraft_3,EPWA,EDDT] - 240 z_kij[Aircraft_4,EPWA,EDDT]
-   <= 0
- WeeklyCapacity_EPWA_EFHK: x_ij[EPWA,EFHK]
-   - 33.75 z_kij[Aircraft_1,EPWA,EFHK] - 52.5 z_kij[Aircraft_2,EPWA,EFHK]
-   - 112.5 z_kij[Aircraft_3,EPWA,EFHK] - 240 z_kij[Aircraft_4,EPWA,EFHK]
-   <= 0
- WeeklyCapacity_EPWA_EGPH: x_ij[EPWA,EGPH]
-   - 33.75 z_kij[Aircraft_1,EPWA,EGPH] - 52.5 z_kij[Aircraft_2,EPWA,EGPH]
-   - 112.5 z_kij[Aircraft_3,EPWA,EGPH] - 240 z_kij[Aircraft_4,EPWA,EGPH]
-   <= 0
- WeeklyCapacity_EPWA_LROP: x_ij[EPWA,LROP]
-   - 33.75 z_kij[Aircraft_1,EPWA,LROP] - 52.5 z_kij[Aircraft_2,EPWA,LROP]
-   - 112.5 z_kij[Aircraft_3,EPWA,LROP] - 240 z_kij[Aircraft_4,EPWA,LROP]
-   <= 0
- WeeklyCapacity_EPWA_LGIR: x_ij[EPWA,LGIR]
-   - 33.75 z_kij[Aircraft_1,EPWA,LGIR] - 52.5 z_kij[Aircraft_2,EPWA,LGIR]
-   - 112.5 z_kij[Aircraft_3,EPWA,LGIR] - 240 z_kij[Aircraft_4,EPWA,LGIR]
-   <= 0
- WeeklyCapacity_EPWA_BIKF: x_ij[EPWA,BIKF]
-   - 33.75 z_kij[Aircraft_1,EPWA,BIKF] - 52.5 z_kij[Aircraft_2,EPWA,BIKF]
-   - 112.5 z_kij[Aircraft_3,EPWA,BIKF] - 240 z_kij[Aircraft_4,EPWA,BIKF]
-   <= 0
- WeeklyCapacity_EPWA_LICJ: x_ij[EPWA,LICJ]
-   - 33.75 z_kij[Aircraft_1,EPWA,LICJ] - 52.5 z_kij[Aircraft_2,EPWA,LICJ]
-   - 112.5 z_kij[Aircraft_3,EPWA,LICJ] - 240 z_kij[Aircraft_4,EPWA,LICJ]
-   <= 0
- WeeklyCapacity_EPWA_LPMA: x_ij[EPWA,LPMA]
-   - 33.75 z_kij[Aircraft_1,EPWA,LPMA] - 52.5 z_kij[Aircraft_2,EPWA,LPMA]
-   - 112.5 z_kij[Aircraft_3,EPWA,LPMA] - 240 z_kij[Aircraft_4,EPWA,LPMA]
-   <= 0
- WeeklyCapacity_EGPH_EGLL: x_ij[EGPH,EGLL]
-   - 33.75 z_kij[Aircraft_1,EGPH,EGLL] - 52.5 z_kij[Aircraft_2,EGPH,EGLL]
-   - 112.5 z_kij[Aircraft_3,EGPH,EGLL] - 240 z_kij[Aircraft_4,EGPH,EGLL]
-   <= 0
- WeeklyCapacity_EGPH_LFPG: x_ij[EGPH,LFPG]
-   - 33.75 z_kij[Aircraft_1,EGPH,LFPG] - 52.5 z_kij[Aircraft_2,EGPH,LFPG]
-   - 112.5 z_kij[Aircraft_3,EGPH,LFPG] - 240 z_kij[Aircraft_4,EGPH,LFPG]
-   <= 0
- WeeklyCapacity_EGPH_EHAM: x_ij[EGPH,EHAM]
-   - 33.75 z_kij[Aircraft_1,EGPH,EHAM] - 52.5 z_kij[Aircraft_2,EGPH,EHAM]
-   - 112.5 z_kij[Aircraft_3,EGPH,EHAM] - 240 z_kij[Aircraft_4,EGPH,EHAM]
-   <= 0
- WeeklyCapacity_EGPH_EDDF: x_ij[EGPH,EDDF]
-   - 33.75 z_kij[Aircraft_1,EGPH,EDDF] - 52.5 z_kij[Aircraft_2,EGPH,EDDF]
-   - 112.5 z_kij[Aircraft_3,EGPH,EDDF] - 240 z_kij[Aircraft_4,EGPH,EDDF]
-   + w_ij[EGPH,EGLL] + w_ij[EGPH,LFPG] + w_ij[EGPH,EHAM] + w_ij[EGPH,EDDF]
-   + w_ij[EGPH,LEMF] + w_ij[EGPH,LEBL] + w_ij[EGPH,EDDM] + w_ij[EGPH,LIRF]
-   + w_ij[EGPH,EIDW] + w_ij[EGPH,ESSA] + w_ij[EGPH,LPPT] + w_ij[EGPH,EDDT]
-   + w_ij[EGPH,EFHK] + w_ij[EGPH,EPWA] + w_ij[EGPH,LROP] + w_ij[EGPH,LGIR]
-   + w_ij[EGPH,BIKF] + w_ij[EGPH,LICJ] + w_ij[EGPH,LPMA] <= 0
- WeeklyCapacity_EGPH_LEMF: x_ij[EGPH,LEMF]
-   - 33.75 z_kij[Aircraft_1,EGPH,LEMF] - 52.5 z_kij[Aircraft_2,EGPH,LEMF]
-   - 112.5 z_kij[Aircraft_3,EGPH,LEMF] - 240 z_kij[Aircraft_4,EGPH,LEMF]
-   <= 0
- WeeklyCapacity_EGPH_LEBL: x_ij[EGPH,LEBL]
-   - 33.75 z_kij[Aircraft_1,EGPH,LEBL] - 52.5 z_kij[Aircraft_2,EGPH,LEBL]
-   - 112.5 z_kij[Aircraft_3,EGPH,LEBL] - 240 z_kij[Aircraft_4,EGPH,LEBL]
-   <= 0
- WeeklyCapacity_EGPH_EDDM: x_ij[EGPH,EDDM]
-   - 33.75 z_kij[Aircraft_1,EGPH,EDDM] - 52.5 z_kij[Aircraft_2,EGPH,EDDM]
-   - 112.5 z_kij[Aircraft_3,EGPH,EDDM] - 240 z_kij[Aircraft_4,EGPH,EDDM]
-   <= 0
- WeeklyCapacity_EGPH_LIRF: x_ij[EGPH,LIRF]
-   - 33.75 z_kij[Aircraft_1,EGPH,LIRF] - 52.5 z_kij[Aircraft_2,EGPH,LIRF]
-   - 112.5 z_kij[Aircraft_3,EGPH,LIRF] - 240 z_kij[Aircraft_4,EGPH,LIRF]
-   <= 0
- WeeklyCapacity_EGPH_EIDW: x_ij[EGPH,EIDW]
-   - 33.75 z_kij[Aircraft_1,EGPH,EIDW] - 52.5 z_kij[Aircraft_2,EGPH,EIDW]
-   - 112.5 z_kij[Aircraft_3,EGPH,EIDW] - 240 z_kij[Aircraft_4,EGPH,EIDW]
-   <= 0
- WeeklyCapacity_EGPH_ESSA: x_ij[EGPH,ESSA]
-   - 33.75 z_kij[Aircraft_1,EGPH,ESSA] - 52.5 z_kij[Aircraft_2,EGPH,ESSA]
-   - 112.5 z_kij[Aircraft_3,EGPH,ESSA] - 240 z_kij[Aircraft_4,EGPH,ESSA]
-   <= 0
- WeeklyCapacity_EGPH_LPPT: x_ij[EGPH,LPPT]
-   - 33.75 z_kij[Aircraft_1,EGPH,LPPT] - 52.5 z_kij[Aircraft_2,EGPH,LPPT]
-   - 112.5 z_kij[Aircraft_3,EGPH,LPPT] - 240 z_kij[Aircraft_4,EGPH,LPPT]
-   <= 0
- WeeklyCapacity_EGPH_EDDT: x_ij[EGPH,EDDT]
-   - 33.75 z_kij[Aircraft_1,EGPH,EDDT] - 52.5 z_kij[Aircraft_2,EGPH,EDDT]
-   - 112.5 z_kij[Aircraft_3,EGPH,EDDT] - 240 z_kij[Aircraft_4,EGPH,EDDT]
-   <= 0
- WeeklyCapacity_EGPH_EFHK: x_ij[EGPH,EFHK]
-   - 33.75 z_kij[Aircraft_1,EGPH,EFHK] - 52.5 z_kij[Aircraft_2,EGPH,EFHK]
-   - 112.5 z_kij[Aircraft_3,EGPH,EFHK] - 240 z_kij[Aircraft_4,EGPH,EFHK]
-   <= 0
- WeeklyCapacity_EGPH_EPWA: x_ij[EGPH,EPWA]
-   - 33.75 z_kij[Aircraft_1,EGPH,EPWA] - 52.5 z_kij[Aircraft_2,EGPH,EPWA]
-   - 112.5 z_kij[Aircraft_3,EGPH,EPWA] - 240 z_kij[Aircraft_4,EGPH,EPWA]
-   <= 0
- WeeklyCapacity_EGPH_LROP: x_ij[EGPH,LROP]
-   - 33.75 z_kij[Aircraft_1,EGPH,LROP] - 52.5 z_kij[Aircraft_2,EGPH,LROP]
-   - 112.5 z_kij[Aircraft_3,EGPH,LROP] - 240 z_kij[Aircraft_4,EGPH,LROP]
-   <= 0
- WeeklyCapacity_EGPH_LGIR: x_ij[EGPH,LGIR]
-   - 33.75 z_kij[Aircraft_1,EGPH,LGIR] - 52.5 z_kij[Aircraft_2,EGPH,LGIR]
-   - 112.5 z_kij[Aircraft_3,EGPH,LGIR] - 240 z_kij[Aircraft_4,EGPH,LGIR]
-   <= 0
- WeeklyCapacity_EGPH_BIKF: x_ij[EGPH,BIKF]
-   - 33.75 z_kij[Aircraft_1,EGPH,BIKF] - 52.5 z_kij[Aircraft_2,EGPH,BIKF]
-   - 112.5 z_kij[Aircraft_3,EGPH,BIKF] - 240 z_kij[Aircraft_4,EGPH,BIKF]
-   <= 0
- WeeklyCapacity_EGPH_LICJ: x_ij[EGPH,LICJ]
-   - 33.75 z_kij[Aircraft_1,EGPH,LICJ] - 52.5 z_kij[Aircraft_2,EGPH,LICJ]
-   - 112.5 z_kij[Aircraft_3,EGPH,LICJ] - 240 z_kij[Aircraft_4,EGPH,LICJ]
-   <= 0
- WeeklyCapacity_EGPH_LPMA: x_ij[EGPH,LPMA]
-   - 33.75 z_kij[Aircraft_1,EGPH,LPMA] - 52.5 z_kij[Aircraft_2,EGPH,LPMA]
-   - 112.5 z_kij[Aircraft_3,EGPH,LPMA] - 240 z_kij[Aircraft_4,EGPH,LPMA]
-   <= 0
- WeeklyCapacity_LROP_EGLL: x_ij[LROP,EGLL]
-   - 33.75 z_kij[Aircraft_1,LROP,EGLL] - 52.5 z_kij[Aircraft_2,LROP,EGLL]
-   - 112.5 z_kij[Aircraft_3,LROP,EGLL] - 240 z_kij[Aircraft_4,LROP,EGLL]
-   <= 0
- WeeklyCapacity_LROP_LFPG: x_ij[LROP,LFPG]
-   - 33.75 z_kij[Aircraft_1,LROP,LFPG] - 52.5 z_kij[Aircraft_2,LROP,LFPG]
-   - 112.5 z_kij[Aircraft_3,LROP,LFPG] - 240 z_kij[Aircraft_4,LROP,LFPG]
-   <= 0
- WeeklyCapacity_LROP_EHAM: x_ij[LROP,EHAM]
-   - 33.75 z_kij[Aircraft_1,LROP,EHAM] - 52.5 z_kij[Aircraft_2,LROP,EHAM]
-   - 112.5 z_kij[Aircraft_3,LROP,EHAM] - 240 z_kij[Aircraft_4,LROP,EHAM]
-   <= 0
- WeeklyCapacity_LROP_EDDF: x_ij[LROP,EDDF]
-   - 33.75 z_kij[Aircraft_1,LROP,EDDF] - 52.5 z_kij[Aircraft_2,LROP,EDDF]
-   - 112.5 z_kij[Aircraft_3,LROP,EDDF] - 240 z_kij[Aircraft_4,LROP,EDDF]
-   + w_ij[LROP,EGLL] + w_ij[LROP,LFPG] + w_ij[LROP,EHAM] + w_ij[LROP,EDDF]
-   + w_ij[LROP,LEMF] + w_ij[LROP,LEBL] + w_ij[LROP,EDDM] + w_ij[LROP,LIRF]
-   + w_ij[LROP,EIDW] + w_ij[LROP,ESSA] + w_ij[LROP,LPPT] + w_ij[LROP,EDDT]
-   + w_ij[LROP,EFHK] + w_ij[LROP,EPWA] + w_ij[LROP,EGPH] + w_ij[LROP,LGIR]
-   + w_ij[LROP,BIKF] + w_ij[LROP,LICJ] + w_ij[LROP,LPMA] <= 0
- WeeklyCapacity_LROP_LEMF: x_ij[LROP,LEMF]
-   - 33.75 z_kij[Aircraft_1,LROP,LEMF] - 52.5 z_kij[Aircraft_2,LROP,LEMF]
-   - 112.5 z_kij[Aircraft_3,LROP,LEMF] - 240 z_kij[Aircraft_4,LROP,LEMF]
-   <= 0
- WeeklyCapacity_LROP_LEBL: x_ij[LROP,LEBL]
-   - 33.75 z_kij[Aircraft_1,LROP,LEBL] - 52.5 z_kij[Aircraft_2,LROP,LEBL]
-   - 112.5 z_kij[Aircraft_3,LROP,LEBL] - 240 z_kij[Aircraft_4,LROP,LEBL]
-   <= 0
- WeeklyCapacity_LROP_EDDM: x_ij[LROP,EDDM]
-   - 33.75 z_kij[Aircraft_1,LROP,EDDM] - 52.5 z_kij[Aircraft_2,LROP,EDDM]
-   - 112.5 z_kij[Aircraft_3,LROP,EDDM] - 240 z_kij[Aircraft_4,LROP,EDDM]
-   <= 0
- WeeklyCapacity_LROP_LIRF: x_ij[LROP,LIRF]
-   - 33.75 z_kij[Aircraft_1,LROP,LIRF] - 52.5 z_kij[Aircraft_2,LROP,LIRF]
-   - 112.5 z_kij[Aircraft_3,LROP,LIRF] - 240 z_kij[Aircraft_4,LROP,LIRF]
-   <= 0
- WeeklyCapacity_LROP_EIDW: x_ij[LROP,EIDW]
-   - 33.75 z_kij[Aircraft_1,LROP,EIDW] - 52.5 z_kij[Aircraft_2,LROP,EIDW]
-   - 112.5 z_kij[Aircraft_3,LROP,EIDW] - 240 z_kij[Aircraft_4,LROP,EIDW]
-   <= 0
- WeeklyCapacity_LROP_ESSA: x_ij[LROP,ESSA]
-   - 33.75 z_kij[Aircraft_1,LROP,ESSA] - 52.5 z_kij[Aircraft_2,LROP,ESSA]
-   - 112.5 z_kij[Aircraft_3,LROP,ESSA] - 240 z_kij[Aircraft_4,LROP,ESSA]
-   <= 0
- WeeklyCapacity_LROP_LPPT: x_ij[LROP,LPPT]
-   - 33.75 z_kij[Aircraft_1,LROP,LPPT] - 52.5 z_kij[Aircraft_2,LROP,LPPT]
-   - 112.5 z_kij[Aircraft_3,LROP,LPPT] - 240 z_kij[Aircraft_4,LROP,LPPT]
-   <= 0
- WeeklyCapacity_LROP_EDDT: x_ij[LROP,EDDT]
-   - 33.75 z_kij[Aircraft_1,LROP,EDDT] - 52.5 z_kij[Aircraft_2,LROP,EDDT]
-   - 112.5 z_kij[Aircraft_3,LROP,EDDT] - 240 z_kij[Aircraft_4,LROP,EDDT]
-   <= 0
- WeeklyCapacity_LROP_EFHK: x_ij[LROP,EFHK]
-   - 33.75 z_kij[Aircraft_1,LROP,EFHK] - 52.5 z_kij[Aircraft_2,LROP,EFHK]
-   - 112.5 z_kij[Aircraft_3,LROP,EFHK] - 240 z_kij[Aircraft_4,LROP,EFHK]
-   <= 0
- WeeklyCapacity_LROP_EPWA: x_ij[LROP,EPWA]
-   - 33.75 z_kij[Aircraft_1,LROP,EPWA] - 52.5 z_kij[Aircraft_2,LROP,EPWA]
-   - 112.5 z_kij[Aircraft_3,LROP,EPWA] - 240 z_kij[Aircraft_4,LROP,EPWA]
-   <= 0
- WeeklyCapacity_LROP_EGPH: x_ij[LROP,EGPH]
-   - 33.75 z_kij[Aircraft_1,LROP,EGPH] - 52.5 z_kij[Aircraft_2,LROP,EGPH]
-   - 112.5 z_kij[Aircraft_3,LROP,EGPH] - 240 z_kij[Aircraft_4,LROP,EGPH]
-   <= 0
- WeeklyCapacity_LROP_LGIR: x_ij[LROP,LGIR]
-   - 33.75 z_kij[Aircraft_1,LROP,LGIR] - 52.5 z_kij[Aircraft_2,LROP,LGIR]
-   - 112.5 z_kij[Aircraft_3,LROP,LGIR] - 240 z_kij[Aircraft_4,LROP,LGIR]
-   <= 0
- WeeklyCapacity_LROP_BIKF: x_ij[LROP,BIKF]
-   - 33.75 z_kij[Aircraft_1,LROP,BIKF] - 52.5 z_kij[Aircraft_2,LROP,BIKF]
-   - 112.5 z_kij[Aircraft_3,LROP,BIKF] - 240 z_kij[Aircraft_4,LROP,BIKF]
-   <= 0
- WeeklyCapacity_LROP_LICJ: x_ij[LROP,LICJ]
-   - 33.75 z_kij[Aircraft_1,LROP,LICJ] - 52.5 z_kij[Aircraft_2,LROP,LICJ]
-   - 112.5 z_kij[Aircraft_3,LROP,LICJ] - 240 z_kij[Aircraft_4,LROP,LICJ]
-   <= 0
- WeeklyCapacity_LROP_LPMA: x_ij[LROP,LPMA]
-   - 33.75 z_kij[Aircraft_1,LROP,LPMA] - 52.5 z_kij[Aircraft_2,LROP,LPMA]
-   - 112.5 z_kij[Aircraft_3,LROP,LPMA] - 240 z_kij[Aircraft_4,LROP,LPMA]
-   <= 0
- WeeklyCapacity_LGIR_EGLL: x_ij[LGIR,EGLL]
-   - 33.75 z_kij[Aircraft_1,LGIR,EGLL] - 52.5 z_kij[Aircraft_2,LGIR,EGLL]
-   - 112.5 z_kij[Aircraft_3,LGIR,EGLL] - 240 z_kij[Aircraft_4,LGIR,EGLL]
-   <= 0
- WeeklyCapacity_LGIR_LFPG: x_ij[LGIR,LFPG]
-   - 33.75 z_kij[Aircraft_1,LGIR,LFPG] - 52.5 z_kij[Aircraft_2,LGIR,LFPG]
-   - 112.5 z_kij[Aircraft_3,LGIR,LFPG] - 240 z_kij[Aircraft_4,LGIR,LFPG]
-   <= 0
- WeeklyCapacity_LGIR_EHAM: x_ij[LGIR,EHAM]
-   - 33.75 z_kij[Aircraft_1,LGIR,EHAM] - 52.5 z_kij[Aircraft_2,LGIR,EHAM]
-   - 112.5 z_kij[Aircraft_3,LGIR,EHAM] - 240 z_kij[Aircraft_4,LGIR,EHAM]
-   <= 0
- WeeklyCapacity_LGIR_EDDF: x_ij[LGIR,EDDF]
-   - 33.75 z_kij[Aircraft_1,LGIR,EDDF] - 52.5 z_kij[Aircraft_2,LGIR,EDDF]
-   - 112.5 z_kij[Aircraft_3,LGIR,EDDF] - 240 z_kij[Aircraft_4,LGIR,EDDF]
-   + w_ij[LGIR,EGLL] + w_ij[LGIR,LFPG] + w_ij[LGIR,EHAM] + w_ij[LGIR,EDDF]
-   + w_ij[LGIR,LEMF] + w_ij[LGIR,LEBL] + w_ij[LGIR,EDDM] + w_ij[LGIR,LIRF]
-   + w_ij[LGIR,EIDW] + w_ij[LGIR,ESSA] + w_ij[LGIR,LPPT] + w_ij[LGIR,EDDT]
-   + w_ij[LGIR,EFHK] + w_ij[LGIR,EPWA] + w_ij[LGIR,EGPH] + w_ij[LGIR,LROP]
-   + w_ij[LGIR,BIKF] + w_ij[LGIR,LICJ] + w_ij[LGIR,LPMA] <= 0
- WeeklyCapacity_LGIR_LEMF: x_ij[LGIR,LEMF]
-   - 33.75 z_kij[Aircraft_1,LGIR,LEMF] - 52.5 z_kij[Aircraft_2,LGIR,LEMF]
-   - 112.5 z_kij[Aircraft_3,LGIR,LEMF] - 240 z_kij[Aircraft_4,LGIR,LEMF]
-   <= 0
- WeeklyCapacity_LGIR_LEBL: x_ij[LGIR,LEBL]
-   - 33.75 z_kij[Aircraft_1,LGIR,LEBL] - 52.5 z_kij[Aircraft_2,LGIR,LEBL]
-   - 112.5 z_kij[Aircraft_3,LGIR,LEBL] - 240 z_kij[Aircraft_4,LGIR,LEBL]
-   <= 0
- WeeklyCapacity_LGIR_EDDM: x_ij[LGIR,EDDM]
-   - 33.75 z_kij[Aircraft_1,LGIR,EDDM] - 52.5 z_kij[Aircraft_2,LGIR,EDDM]
-   - 112.5 z_kij[Aircraft_3,LGIR,EDDM] - 240 z_kij[Aircraft_4,LGIR,EDDM]
-   <= 0
- WeeklyCapacity_LGIR_LIRF: x_ij[LGIR,LIRF]
-   - 33.75 z_kij[Aircraft_1,LGIR,LIRF] - 52.5 z_kij[Aircraft_2,LGIR,LIRF]
-   - 112.5 z_kij[Aircraft_3,LGIR,LIRF] - 240 z_kij[Aircraft_4,LGIR,LIRF]
-   <= 0
- WeeklyCapacity_LGIR_EIDW: x_ij[LGIR,EIDW]
-   - 33.75 z_kij[Aircraft_1,LGIR,EIDW] - 52.5 z_kij[Aircraft_2,LGIR,EIDW]
-   - 112.5 z_kij[Aircraft_3,LGIR,EIDW] - 240 z_kij[Aircraft_4,LGIR,EIDW]
-   <= 0
- WeeklyCapacity_LGIR_ESSA: x_ij[LGIR,ESSA]
-   - 33.75 z_kij[Aircraft_1,LGIR,ESSA] - 52.5 z_kij[Aircraft_2,LGIR,ESSA]
-   - 112.5 z_kij[Aircraft_3,LGIR,ESSA] - 240 z_kij[Aircraft_4,LGIR,ESSA]
-   <= 0
- WeeklyCapacity_LGIR_LPPT: x_ij[LGIR,LPPT]
-   - 33.75 z_kij[Aircraft_1,LGIR,LPPT] - 52.5 z_kij[Aircraft_2,LGIR,LPPT]
-   - 112.5 z_kij[Aircraft_3,LGIR,LPPT] - 240 z_kij[Aircraft_4,LGIR,LPPT]
-   <= 0
- WeeklyCapacity_LGIR_EDDT: x_ij[LGIR,EDDT]
-   - 33.75 z_kij[Aircraft_1,LGIR,EDDT] - 52.5 z_kij[Aircraft_2,LGIR,EDDT]
-   - 112.5 z_kij[Aircraft_3,LGIR,EDDT] - 240 z_kij[Aircraft_4,LGIR,EDDT]
-   <= 0
- WeeklyCapacity_LGIR_EFHK: x_ij[LGIR,EFHK]
-   - 33.75 z_kij[Aircraft_1,LGIR,EFHK] - 52.5 z_kij[Aircraft_2,LGIR,EFHK]
-   - 112.5 z_kij[Aircraft_3,LGIR,EFHK] - 240 z_kij[Aircraft_4,LGIR,EFHK]
-   <= 0
- WeeklyCapacity_LGIR_EPWA: x_ij[LGIR,EPWA]
-   - 33.75 z_kij[Aircraft_1,LGIR,EPWA] - 52.5 z_kij[Aircraft_2,LGIR,EPWA]
-   - 112.5 z_kij[Aircraft_3,LGIR,EPWA] - 240 z_kij[Aircraft_4,LGIR,EPWA]
-   <= 0
- WeeklyCapacity_LGIR_EGPH: x_ij[LGIR,EGPH]
-   - 33.75 z_kij[Aircraft_1,LGIR,EGPH] - 52.5 z_kij[Aircraft_2,LGIR,EGPH]
-   - 112.5 z_kij[Aircraft_3,LGIR,EGPH] - 240 z_kij[Aircraft_4,LGIR,EGPH]
-   <= 0
- WeeklyCapacity_LGIR_LROP: x_ij[LGIR,LROP]
-   - 33.75 z_kij[Aircraft_1,LGIR,LROP] - 52.5 z_kij[Aircraft_2,LGIR,LROP]
-   - 112.5 z_kij[Aircraft_3,LGIR,LROP] - 240 z_kij[Aircraft_4,LGIR,LROP]
-   <= 0
- WeeklyCapacity_LGIR_BIKF: x_ij[LGIR,BIKF]
-   - 33.75 z_kij[Aircraft_1,LGIR,BIKF] - 52.5 z_kij[Aircraft_2,LGIR,BIKF]
-   - 112.5 z_kij[Aircraft_3,LGIR,BIKF] - 240 z_kij[Aircraft_4,LGIR,BIKF]
-   <= 0
- WeeklyCapacity_LGIR_LICJ: x_ij[LGIR,LICJ]
-   - 33.75 z_kij[Aircraft_1,LGIR,LICJ] - 52.5 z_kij[Aircraft_2,LGIR,LICJ]
-   - 112.5 z_kij[Aircraft_3,LGIR,LICJ] - 240 z_kij[Aircraft_4,LGIR,LICJ]
-   <= 0
- WeeklyCapacity_LGIR_LPMA: x_ij[LGIR,LPMA]
-   - 33.75 z_kij[Aircraft_1,LGIR,LPMA] - 52.5 z_kij[Aircraft_2,LGIR,LPMA]
-   - 112.5 z_kij[Aircraft_3,LGIR,LPMA] - 240 z_kij[Aircraft_4,LGIR,LPMA]
-   <= 0
- WeeklyCapacity_BIKF_EGLL: x_ij[BIKF,EGLL]
-   - 33.75 z_kij[Aircraft_1,BIKF,EGLL] - 52.5 z_kij[Aircraft_2,BIKF,EGLL]
-   - 112.5 z_kij[Aircraft_3,BIKF,EGLL] - 240 z_kij[Aircraft_4,BIKF,EGLL]
-   <= 0
- WeeklyCapacity_BIKF_LFPG: x_ij[BIKF,LFPG]
-   - 33.75 z_kij[Aircraft_1,BIKF,LFPG] - 52.5 z_kij[Aircraft_2,BIKF,LFPG]
-   - 112.5 z_kij[Aircraft_3,BIKF,LFPG] - 240 z_kij[Aircraft_4,BIKF,LFPG]
-   <= 0
- WeeklyCapacity_BIKF_EHAM: x_ij[BIKF,EHAM]
-   - 33.75 z_kij[Aircraft_1,BIKF,EHAM] - 52.5 z_kij[Aircraft_2,BIKF,EHAM]
-   - 112.5 z_kij[Aircraft_3,BIKF,EHAM] - 240 z_kij[Aircraft_4,BIKF,EHAM]
-   <= 0
- WeeklyCapacity_BIKF_EDDF: x_ij[BIKF,EDDF]
-   - 33.75 z_kij[Aircraft_1,BIKF,EDDF] - 52.5 z_kij[Aircraft_2,BIKF,EDDF]
-   - 112.5 z_kij[Aircraft_3,BIKF,EDDF] - 240 z_kij[Aircraft_4,BIKF,EDDF]
-   + w_ij[BIKF,EGLL] + w_ij[BIKF,LFPG] + w_ij[BIKF,EHAM] + w_ij[BIKF,EDDF]
-   + w_ij[BIKF,LEMF] + w_ij[BIKF,LEBL] + w_ij[BIKF,EDDM] + w_ij[BIKF,LIRF]
-   + w_ij[BIKF,EIDW] + w_ij[BIKF,ESSA] + w_ij[BIKF,LPPT] + w_ij[BIKF,EDDT]
-   + w_ij[BIKF,EFHK] + w_ij[BIKF,EPWA] + w_ij[BIKF,EGPH] + w_ij[BIKF,LROP]
-   + w_ij[BIKF,LGIR] + w_ij[BIKF,LICJ] + w_ij[BIKF,LPMA] <= 0
- WeeklyCapacity_BIKF_LEMF: x_ij[BIKF,LEMF]
-   - 33.75 z_kij[Aircraft_1,BIKF,LEMF] - 52.5 z_kij[Aircraft_2,BIKF,LEMF]
-   - 112.5 z_kij[Aircraft_3,BIKF,LEMF] - 240 z_kij[Aircraft_4,BIKF,LEMF]
-   <= 0
- WeeklyCapacity_BIKF_LEBL: x_ij[BIKF,LEBL]
-   - 33.75 z_kij[Aircraft_1,BIKF,LEBL] - 52.5 z_kij[Aircraft_2,BIKF,LEBL]
-   - 112.5 z_kij[Aircraft_3,BIKF,LEBL] - 240 z_kij[Aircraft_4,BIKF,LEBL]
-   <= 0
- WeeklyCapacity_BIKF_EDDM: x_ij[BIKF,EDDM]
-   - 33.75 z_kij[Aircraft_1,BIKF,EDDM] - 52.5 z_kij[Aircraft_2,BIKF,EDDM]
-   - 112.5 z_kij[Aircraft_3,BIKF,EDDM] - 240 z_kij[Aircraft_4,BIKF,EDDM]
-   <= 0
- WeeklyCapacity_BIKF_LIRF: x_ij[BIKF,LIRF]
-   - 33.75 z_kij[Aircraft_1,BIKF,LIRF] - 52.5 z_kij[Aircraft_2,BIKF,LIRF]
-   - 112.5 z_kij[Aircraft_3,BIKF,LIRF] - 240 z_kij[Aircraft_4,BIKF,LIRF]
-   <= 0
- WeeklyCapacity_BIKF_EIDW: x_ij[BIKF,EIDW]
-   - 33.75 z_kij[Aircraft_1,BIKF,EIDW] - 52.5 z_kij[Aircraft_2,BIKF,EIDW]
-   - 112.5 z_kij[Aircraft_3,BIKF,EIDW] - 240 z_kij[Aircraft_4,BIKF,EIDW]
-   <= 0
- WeeklyCapacity_BIKF_ESSA: x_ij[BIKF,ESSA]
-   - 33.75 z_kij[Aircraft_1,BIKF,ESSA] - 52.5 z_kij[Aircraft_2,BIKF,ESSA]
-   - 112.5 z_kij[Aircraft_3,BIKF,ESSA] - 240 z_kij[Aircraft_4,BIKF,ESSA]
-   <= 0
- WeeklyCapacity_BIKF_LPPT: x_ij[BIKF,LPPT]
-   - 33.75 z_kij[Aircraft_1,BIKF,LPPT] - 52.5 z_kij[Aircraft_2,BIKF,LPPT]
-   - 112.5 z_kij[Aircraft_3,BIKF,LPPT] - 240 z_kij[Aircraft_4,BIKF,LPPT]
-   <= 0
- WeeklyCapacity_BIKF_EDDT: x_ij[BIKF,EDDT]
-   - 33.75 z_kij[Aircraft_1,BIKF,EDDT] - 52.5 z_kij[Aircraft_2,BIKF,EDDT]
-   - 112.5 z_kij[Aircraft_3,BIKF,EDDT] - 240 z_kij[Aircraft_4,BIKF,EDDT]
-   <= 0
- WeeklyCapacity_BIKF_EFHK: x_ij[BIKF,EFHK]
-   - 33.75 z_kij[Aircraft_1,BIKF,EFHK] - 52.5 z_kij[Aircraft_2,BIKF,EFHK]
-   - 112.5 z_kij[Aircraft_3,BIKF,EFHK] - 240 z_kij[Aircraft_4,BIKF,EFHK]
-   <= 0
- WeeklyCapacity_BIKF_EPWA: x_ij[BIKF,EPWA]
-   - 33.75 z_kij[Aircraft_1,BIKF,EPWA] - 52.5 z_kij[Aircraft_2,BIKF,EPWA]
-   - 112.5 z_kij[Aircraft_3,BIKF,EPWA] - 240 z_kij[Aircraft_4,BIKF,EPWA]
-   <= 0
- WeeklyCapacity_BIKF_EGPH: x_ij[BIKF,EGPH]
-   - 33.75 z_kij[Aircraft_1,BIKF,EGPH] - 52.5 z_kij[Aircraft_2,BIKF,EGPH]
-   - 112.5 z_kij[Aircraft_3,BIKF,EGPH] - 240 z_kij[Aircraft_4,BIKF,EGPH]
-   <= 0
- WeeklyCapacity_BIKF_LROP: x_ij[BIKF,LROP]
-   - 33.75 z_kij[Aircraft_1,BIKF,LROP] - 52.5 z_kij[Aircraft_2,BIKF,LROP]
-   - 112.5 z_kij[Aircraft_3,BIKF,LROP] - 240 z_kij[Aircraft_4,BIKF,LROP]
-   <= 0
- WeeklyCapacity_BIKF_LGIR: x_ij[BIKF,LGIR]
-   - 33.75 z_kij[Aircraft_1,BIKF,LGIR] - 52.5 z_kij[Aircraft_2,BIKF,LGIR]
-   - 112.5 z_kij[Aircraft_3,BIKF,LGIR] - 240 z_kij[Aircraft_4,BIKF,LGIR]
-   <= 0
- WeeklyCapacity_BIKF_LICJ: x_ij[BIKF,LICJ]
-   - 33.75 z_kij[Aircraft_1,BIKF,LICJ] - 52.5 z_kij[Aircraft_2,BIKF,LICJ]
-   - 112.5 z_kij[Aircraft_3,BIKF,LICJ] - 240 z_kij[Aircraft_4,BIKF,LICJ]
-   <= 0
- WeeklyCapacity_BIKF_LPMA: x_ij[BIKF,LPMA]
-   - 33.75 z_kij[Aircraft_1,BIKF,LPMA] - 52.5 z_kij[Aircraft_2,BIKF,LPMA]
-   - 112.5 z_kij[Aircraft_3,BIKF,LPMA] - 240 z_kij[Aircraft_4,BIKF,LPMA]
-   <= 0
- WeeklyCapacity_LICJ_EGLL: x_ij[LICJ,EGLL]
-   - 33.75 z_kij[Aircraft_1,LICJ,EGLL] - 52.5 z_kij[Aircraft_2,LICJ,EGLL]
-   - 112.5 z_kij[Aircraft_3,LICJ,EGLL] - 240 z_kij[Aircraft_4,LICJ,EGLL]
-   <= 0
- WeeklyCapacity_LICJ_LFPG: x_ij[LICJ,LFPG]
-   - 33.75 z_kij[Aircraft_1,LICJ,LFPG] - 52.5 z_kij[Aircraft_2,LICJ,LFPG]
-   - 112.5 z_kij[Aircraft_3,LICJ,LFPG] - 240 z_kij[Aircraft_4,LICJ,LFPG]
-   <= 0
- WeeklyCapacity_LICJ_EHAM: x_ij[LICJ,EHAM]
-   - 33.75 z_kij[Aircraft_1,LICJ,EHAM] - 52.5 z_kij[Aircraft_2,LICJ,EHAM]
-   - 112.5 z_kij[Aircraft_3,LICJ,EHAM] - 240 z_kij[Aircraft_4,LICJ,EHAM]
-   <= 0
- WeeklyCapacity_LICJ_EDDF: x_ij[LICJ,EDDF]
-   - 33.75 z_kij[Aircraft_1,LICJ,EDDF] - 52.5 z_kij[Aircraft_2,LICJ,EDDF]
-   - 112.5 z_kij[Aircraft_3,LICJ,EDDF] - 240 z_kij[Aircraft_4,LICJ,EDDF]
-   + w_ij[LICJ,EGLL] + w_ij[LICJ,LFPG] + w_ij[LICJ,EHAM] + w_ij[LICJ,EDDF]
-   + w_ij[LICJ,LEMF] + w_ij[LICJ,LEBL] + w_ij[LICJ,EDDM] + w_ij[LICJ,LIRF]
-   + w_ij[LICJ,EIDW] + w_ij[LICJ,ESSA] + w_ij[LICJ,LPPT] + w_ij[LICJ,EDDT]
-   + w_ij[LICJ,EFHK] + w_ij[LICJ,EPWA] + w_ij[LICJ,EGPH] + w_ij[LICJ,LROP]
-   + w_ij[LICJ,LGIR] + w_ij[LICJ,BIKF] + w_ij[LICJ,LPMA] <= 0
- WeeklyCapacity_LICJ_LEMF: x_ij[LICJ,LEMF]
-   - 33.75 z_kij[Aircraft_1,LICJ,LEMF] - 52.5 z_kij[Aircraft_2,LICJ,LEMF]
-   - 112.5 z_kij[Aircraft_3,LICJ,LEMF] - 240 z_kij[Aircraft_4,LICJ,LEMF]
-   <= 0
- WeeklyCapacity_LICJ_LEBL: x_ij[LICJ,LEBL]
-   - 33.75 z_kij[Aircraft_1,LICJ,LEBL] - 52.5 z_kij[Aircraft_2,LICJ,LEBL]
-   - 112.5 z_kij[Aircraft_3,LICJ,LEBL] - 240 z_kij[Aircraft_4,LICJ,LEBL]
-   <= 0
- WeeklyCapacity_LICJ_EDDM: x_ij[LICJ,EDDM]
-   - 33.75 z_kij[Aircraft_1,LICJ,EDDM] - 52.5 z_kij[Aircraft_2,LICJ,EDDM]
-   - 112.5 z_kij[Aircraft_3,LICJ,EDDM] - 240 z_kij[Aircraft_4,LICJ,EDDM]
-   <= 0
- WeeklyCapacity_LICJ_LIRF: x_ij[LICJ,LIRF]
-   - 33.75 z_kij[Aircraft_1,LICJ,LIRF] - 52.5 z_kij[Aircraft_2,LICJ,LIRF]
-   - 112.5 z_kij[Aircraft_3,LICJ,LIRF] - 240 z_kij[Aircraft_4,LICJ,LIRF]
-   <= 0
- WeeklyCapacity_LICJ_EIDW: x_ij[LICJ,EIDW]
-   - 33.75 z_kij[Aircraft_1,LICJ,EIDW] - 52.5 z_kij[Aircraft_2,LICJ,EIDW]
-   - 112.5 z_kij[Aircraft_3,LICJ,EIDW] - 240 z_kij[Aircraft_4,LICJ,EIDW]
-   <= 0
- WeeklyCapacity_LICJ_ESSA: x_ij[LICJ,ESSA]
-   - 33.75 z_kij[Aircraft_1,LICJ,ESSA] - 52.5 z_kij[Aircraft_2,LICJ,ESSA]
-   - 112.5 z_kij[Aircraft_3,LICJ,ESSA] - 240 z_kij[Aircraft_4,LICJ,ESSA]
-   <= 0
- WeeklyCapacity_LICJ_LPPT: x_ij[LICJ,LPPT]
-   - 33.75 z_kij[Aircraft_1,LICJ,LPPT] - 52.5 z_kij[Aircraft_2,LICJ,LPPT]
-   - 112.5 z_kij[Aircraft_3,LICJ,LPPT] - 240 z_kij[Aircraft_4,LICJ,LPPT]
-   <= 0
- WeeklyCapacity_LICJ_EDDT: x_ij[LICJ,EDDT]
-   - 33.75 z_kij[Aircraft_1,LICJ,EDDT] - 52.5 z_kij[Aircraft_2,LICJ,EDDT]
-   - 112.5 z_kij[Aircraft_3,LICJ,EDDT] - 240 z_kij[Aircraft_4,LICJ,EDDT]
-   <= 0
- WeeklyCapacity_LICJ_EFHK: x_ij[LICJ,EFHK]
-   - 33.75 z_kij[Aircraft_1,LICJ,EFHK] - 52.5 z_kij[Aircraft_2,LICJ,EFHK]
-   - 112.5 z_kij[Aircraft_3,LICJ,EFHK] - 240 z_kij[Aircraft_4,LICJ,EFHK]
-   <= 0
- WeeklyCapacity_LICJ_EPWA: x_ij[LICJ,EPWA]
-   - 33.75 z_kij[Aircraft_1,LICJ,EPWA] - 52.5 z_kij[Aircraft_2,LICJ,EPWA]
-   - 112.5 z_kij[Aircraft_3,LICJ,EPWA] - 240 z_kij[Aircraft_4,LICJ,EPWA]
-   <= 0
- WeeklyCapacity_LICJ_EGPH: x_ij[LICJ,EGPH]
-   - 33.75 z_kij[Aircraft_1,LICJ,EGPH] - 52.5 z_kij[Aircraft_2,LICJ,EGPH]
-   - 112.5 z_kij[Aircraft_3,LICJ,EGPH] - 240 z_kij[Aircraft_4,LICJ,EGPH]
-   <= 0
- WeeklyCapacity_LICJ_LROP: x_ij[LICJ,LROP]
-   - 33.75 z_kij[Aircraft_1,LICJ,LROP] - 52.5 z_kij[Aircraft_2,LICJ,LROP]
-   - 112.5 z_kij[Aircraft_3,LICJ,LROP] - 240 z_kij[Aircraft_4,LICJ,LROP]
-   <= 0
- WeeklyCapacity_LICJ_LGIR: x_ij[LICJ,LGIR]
-   - 33.75 z_kij[Aircraft_1,LICJ,LGIR] - 52.5 z_kij[Aircraft_2,LICJ,LGIR]
-   - 112.5 z_kij[Aircraft_3,LICJ,LGIR] - 240 z_kij[Aircraft_4,LICJ,LGIR]
-   <= 0
- WeeklyCapacity_LICJ_BIKF: x_ij[LICJ,BIKF]
-   - 33.75 z_kij[Aircraft_1,LICJ,BIKF] - 52.5 z_kij[Aircraft_2,LICJ,BIKF]
-   - 112.5 z_kij[Aircraft_3,LICJ,BIKF] - 240 z_kij[Aircraft_4,LICJ,BIKF]
-   <= 0
- WeeklyCapacity_LICJ_LPMA: x_ij[LICJ,LPMA]
-   - 33.75 z_kij[Aircraft_1,LICJ,LPMA] - 52.5 z_kij[Aircraft_2,LICJ,LPMA]
-   - 112.5 z_kij[Aircraft_3,LICJ,LPMA] - 240 z_kij[Aircraft_4,LICJ,LPMA]
-   <= 0
- WeeklyCapacity_LPMA_EGLL: x_ij[LPMA,EGLL]
-   - 33.75 z_kij[Aircraft_1,LPMA,EGLL] - 52.5 z_kij[Aircraft_2,LPMA,EGLL]
-   - 112.5 z_kij[Aircraft_3,LPMA,EGLL] - 240 z_kij[Aircraft_4,LPMA,EGLL]
-   <= 0
- WeeklyCapacity_LPMA_LFPG: x_ij[LPMA,LFPG]
-   - 33.75 z_kij[Aircraft_1,LPMA,LFPG] - 52.5 z_kij[Aircraft_2,LPMA,LFPG]
-   - 112.5 z_kij[Aircraft_3,LPMA,LFPG] - 240 z_kij[Aircraft_4,LPMA,LFPG]
-   <= 0
- WeeklyCapacity_LPMA_EHAM: x_ij[LPMA,EHAM]
-   - 33.75 z_kij[Aircraft_1,LPMA,EHAM] - 52.5 z_kij[Aircraft_2,LPMA,EHAM]
-   - 112.5 z_kij[Aircraft_3,LPMA,EHAM] - 240 z_kij[Aircraft_4,LPMA,EHAM]
-   <= 0
- WeeklyCapacity_LPMA_EDDF: x_ij[LPMA,EDDF]
-   - 33.75 z_kij[Aircraft_1,LPMA,EDDF] - 52.5 z_kij[Aircraft_2,LPMA,EDDF]
-   - 112.5 z_kij[Aircraft_3,LPMA,EDDF] - 240 z_kij[Aircraft_4,LPMA,EDDF]
-   + w_ij[LPMA,EGLL] + w_ij[LPMA,LFPG] + w_ij[LPMA,EHAM] + w_ij[LPMA,EDDF]
-   + w_ij[LPMA,LEMF] + w_ij[LPMA,LEBL] + w_ij[LPMA,EDDM] + w_ij[LPMA,LIRF]
-   + w_ij[LPMA,EIDW] + w_ij[LPMA,ESSA] + w_ij[LPMA,LPPT] + w_ij[LPMA,EDDT]
-   + w_ij[LPMA,EFHK] + w_ij[LPMA,EPWA] + w_ij[LPMA,EGPH] + w_ij[LPMA,LROP]
-   + w_ij[LPMA,LGIR] + w_ij[LPMA,BIKF] + w_ij[LPMA,LICJ] <= 0
- WeeklyCapacity_LPMA_LEMF: x_ij[LPMA,LEMF]
-   - 33.75 z_kij[Aircraft_1,LPMA,LEMF] - 52.5 z_kij[Aircraft_2,LPMA,LEMF]
-   - 112.5 z_kij[Aircraft_3,LPMA,LEMF] - 240 z_kij[Aircraft_4,LPMA,LEMF]
-   <= 0
- WeeklyCapacity_LPMA_LEBL: x_ij[LPMA,LEBL]
-   - 33.75 z_kij[Aircraft_1,LPMA,LEBL] - 52.5 z_kij[Aircraft_2,LPMA,LEBL]
-   - 112.5 z_kij[Aircraft_3,LPMA,LEBL] - 240 z_kij[Aircraft_4,LPMA,LEBL]
-   <= 0
- WeeklyCapacity_LPMA_EDDM: x_ij[LPMA,EDDM]
-   - 33.75 z_kij[Aircraft_1,LPMA,EDDM] - 52.5 z_kij[Aircraft_2,LPMA,EDDM]
-   - 112.5 z_kij[Aircraft_3,LPMA,EDDM] - 240 z_kij[Aircraft_4,LPMA,EDDM]
-   <= 0
- WeeklyCapacity_LPMA_LIRF: x_ij[LPMA,LIRF]
-   - 33.75 z_kij[Aircraft_1,LPMA,LIRF] - 52.5 z_kij[Aircraft_2,LPMA,LIRF]
-   - 112.5 z_kij[Aircraft_3,LPMA,LIRF] - 240 z_kij[Aircraft_4,LPMA,LIRF]
-   <= 0
- WeeklyCapacity_LPMA_EIDW: x_ij[LPMA,EIDW]
-   - 33.75 z_kij[Aircraft_1,LPMA,EIDW] - 52.5 z_kij[Aircraft_2,LPMA,EIDW]
-   - 112.5 z_kij[Aircraft_3,LPMA,EIDW] - 240 z_kij[Aircraft_4,LPMA,EIDW]
-   <= 0
- WeeklyCapacity_LPMA_ESSA: x_ij[LPMA,ESSA]
-   - 33.75 z_kij[Aircraft_1,LPMA,ESSA] - 52.5 z_kij[Aircraft_2,LPMA,ESSA]
-   - 112.5 z_kij[Aircraft_3,LPMA,ESSA] - 240 z_kij[Aircraft_4,LPMA,ESSA]
-   <= 0
- WeeklyCapacity_LPMA_LPPT: x_ij[LPMA,LPPT]
-   - 33.75 z_kij[Aircraft_1,LPMA,LPPT] - 52.5 z_kij[Aircraft_2,LPMA,LPPT]
-   - 112.5 z_kij[Aircraft_3,LPMA,LPPT] - 240 z_kij[Aircraft_4,LPMA,LPPT]
-   <= 0
- WeeklyCapacity_LPMA_EDDT: x_ij[LPMA,EDDT]
-   - 33.75 z_kij[Aircraft_1,LPMA,EDDT] - 52.5 z_kij[Aircraft_2,LPMA,EDDT]
-   - 112.5 z_kij[Aircraft_3,LPMA,EDDT] - 240 z_kij[Aircraft_4,LPMA,EDDT]
-   <= 0
- WeeklyCapacity_LPMA_EFHK: x_ij[LPMA,EFHK]
-   - 33.75 z_kij[Aircraft_1,LPMA,EFHK] - 52.5 z_kij[Aircraft_2,LPMA,EFHK]
-   - 112.5 z_kij[Aircraft_3,LPMA,EFHK] - 240 z_kij[Aircraft_4,LPMA,EFHK]
-   <= 0
- WeeklyCapacity_LPMA_EPWA: x_ij[LPMA,EPWA]
-   - 33.75 z_kij[Aircraft_1,LPMA,EPWA] - 52.5 z_kij[Aircraft_2,LPMA,EPWA]
-   - 112.5 z_kij[Aircraft_3,LPMA,EPWA] - 240 z_kij[Aircraft_4,LPMA,EPWA]
-   <= 0
- WeeklyCapacity_LPMA_EGPH: x_ij[LPMA,EGPH]
-   - 33.75 z_kij[Aircraft_1,LPMA,EGPH] - 52.5 z_kij[Aircraft_2,LPMA,EGPH]
-   - 112.5 z_kij[Aircraft_3,LPMA,EGPH] - 240 z_kij[Aircraft_4,LPMA,EGPH]
-   <= 0
- WeeklyCapacity_LPMA_LROP: x_ij[LPMA,LROP]
-   - 33.75 z_kij[Aircraft_1,LPMA,LROP] - 52.5 z_kij[Aircraft_2,LPMA,LROP]
-   - 112.5 z_kij[Aircraft_3,LPMA,LROP] - 240 z_kij[Aircraft_4,LPMA,LROP]
-   <= 0
- WeeklyCapacity_LPMA_LGIR: x_ij[LPMA,LGIR]
-   - 33.75 z_kij[Aircraft_1,LPMA,LGIR] - 52.5 z_kij[Aircraft_2,LPMA,LGIR]
-   - 112.5 z_kij[Aircraft_3,LPMA,LGIR] - 240 z_kij[Aircraft_4,LPMA,LGIR]
-   <= 0
- WeeklyCapacity_LPMA_BIKF: x_ij[LPMA,BIKF]
-   - 33.75 z_kij[Aircraft_1,LPMA,BIKF] - 52.5 z_kij[Aircraft_2,LPMA,BIKF]
-   - 112.5 z_kij[Aircraft_3,LPMA,BIKF] - 240 z_kij[Aircraft_4,LPMA,BIKF]
-   <= 0
- WeeklyCapacity_LPMA_LICJ: x_ij[LPMA,LICJ]
-   - 33.75 z_kij[Aircraft_1,LPMA,LICJ] - 52.5 z_kij[Aircraft_2,LPMA,LICJ]
-   - 112.5 z_kij[Aircraft_3,LPMA,LICJ] - 240 z_kij[Aircraft_4,LPMA,LICJ]
-   <= 0
+ Capacity_EGLL_LFPG: x_ij[EGLL,LFPG] - 33.75 z_kij[Aircraft_1,EGLL,LFPG]
+   - 52.5 z_kij[Aircraft_2,EGLL,LFPG] - 112.5 z_kij[Aircraft_3,EGLL,LFPG]
+   - 240 z_kij[Aircraft_4,EGLL,LFPG] <= 0
+ Capacity_EGLL_EHAM: x_ij[EGLL,EHAM] - 33.75 z_kij[Aircraft_1,EGLL,EHAM]
+   - 52.5 z_kij[Aircraft_2,EGLL,EHAM] - 112.5 z_kij[Aircraft_3,EGLL,EHAM]
+   - 240 z_kij[Aircraft_4,EGLL,EHAM] <= 0
+ Capacity_EGLL_EDDF: x_ij[EGLL,EDDF] - 33.75 z_kij[Aircraft_1,EGLL,EDDF]
+   - 52.5 z_kij[Aircraft_2,EGLL,EDDF] - 112.5 z_kij[Aircraft_3,EGLL,EDDF]
+   - 240 z_kij[Aircraft_4,EGLL,EDDF] + w_ij[EGLL,LFPG] + w_ij[EGLL,EHAM]
+   + w_ij[EGLL,EDDF] + w_ij[EGLL,LEMF] + w_ij[EGLL,LEBL] + w_ij[EGLL,EDDM]
+   + w_ij[EGLL,LIRF] + w_ij[EGLL,EIDW] + w_ij[EGLL,ESSA] + w_ij[EGLL,LPPT]
+   + w_ij[EGLL,EDDT] + w_ij[EGLL,EFHK] + w_ij[EGLL,EPWA] + w_ij[EGLL,EGPH]
+   + w_ij[EGLL,LROP] + w_ij[EGLL,LGIR] + w_ij[EGLL,BIKF] + w_ij[EGLL,LICJ]
+   + w_ij[EGLL,LPMA] <= 0
+ Capacity_EGLL_LEMF: x_ij[EGLL,LEMF] - 33.75 z_kij[Aircraft_1,EGLL,LEMF]
+   - 52.5 z_kij[Aircraft_2,EGLL,LEMF] - 112.5 z_kij[Aircraft_3,EGLL,LEMF]
+   - 240 z_kij[Aircraft_4,EGLL,LEMF] <= 0
+ Capacity_EGLL_LEBL: x_ij[EGLL,LEBL] - 33.75 z_kij[Aircraft_1,EGLL,LEBL]
+   - 52.5 z_kij[Aircraft_2,EGLL,LEBL] - 112.5 z_kij[Aircraft_3,EGLL,LEBL]
+   - 240 z_kij[Aircraft_4,EGLL,LEBL] <= 0
+ Capacity_EGLL_EDDM: x_ij[EGLL,EDDM] - 33.75 z_kij[Aircraft_1,EGLL,EDDM]
+   - 52.5 z_kij[Aircraft_2,EGLL,EDDM] - 112.5 z_kij[Aircraft_3,EGLL,EDDM]
+   - 240 z_kij[Aircraft_4,EGLL,EDDM] <= 0
+ Capacity_EGLL_LIRF: x_ij[EGLL,LIRF] - 33.75 z_kij[Aircraft_1,EGLL,LIRF]
+   - 52.5 z_kij[Aircraft_2,EGLL,LIRF] - 112.5 z_kij[Aircraft_3,EGLL,LIRF]
+   - 240 z_kij[Aircraft_4,EGLL,LIRF] <= 0
+ Capacity_EGLL_EIDW: x_ij[EGLL,EIDW] - 33.75 z_kij[Aircraft_1,EGLL,EIDW]
+   - 52.5 z_kij[Aircraft_2,EGLL,EIDW] - 112.5 z_kij[Aircraft_3,EGLL,EIDW]
+   - 240 z_kij[Aircraft_4,EGLL,EIDW] <= 0
+ Capacity_EGLL_ESSA: x_ij[EGLL,ESSA] - 33.75 z_kij[Aircraft_1,EGLL,ESSA]
+   - 52.5 z_kij[Aircraft_2,EGLL,ESSA] - 112.5 z_kij[Aircraft_3,EGLL,ESSA]
+   - 240 z_kij[Aircraft_4,EGLL,ESSA] <= 0
+ Capacity_EGLL_LPPT: x_ij[EGLL,LPPT] - 33.75 z_kij[Aircraft_1,EGLL,LPPT]
+   - 52.5 z_kij[Aircraft_2,EGLL,LPPT] - 112.5 z_kij[Aircraft_3,EGLL,LPPT]
+   - 240 z_kij[Aircraft_4,EGLL,LPPT] <= 0
+ Capacity_EGLL_EDDT: x_ij[EGLL,EDDT] - 33.75 z_kij[Aircraft_1,EGLL,EDDT]
+   - 52.5 z_kij[Aircraft_2,EGLL,EDDT] - 112.5 z_kij[Aircraft_3,EGLL,EDDT]
+   - 240 z_kij[Aircraft_4,EGLL,EDDT] <= 0
+ Capacity_EGLL_EFHK: x_ij[EGLL,EFHK] - 33.75 z_kij[Aircraft_1,EGLL,EFHK]
+   - 52.5 z_kij[Aircraft_2,EGLL,EFHK] - 112.5 z_kij[Aircraft_3,EGLL,EFHK]
+   - 240 z_kij[Aircraft_4,EGLL,EFHK] <= 0
+ Capacity_EGLL_EPWA: x_ij[EGLL,EPWA] - 33.75 z_kij[Aircraft_1,EGLL,EPWA]
+   - 52.5 z_kij[Aircraft_2,EGLL,EPWA] - 112.5 z_kij[Aircraft_3,EGLL,EPWA]
+   - 240 z_kij[Aircraft_4,EGLL,EPWA] <= 0
+ Capacity_EGLL_EGPH: x_ij[EGLL,EGPH] - 33.75 z_kij[Aircraft_1,EGLL,EGPH]
+   - 52.5 z_kij[Aircraft_2,EGLL,EGPH] - 112.5 z_kij[Aircraft_3,EGLL,EGPH]
+   - 240 z_kij[Aircraft_4,EGLL,EGPH] <= 0
+ Capacity_EGLL_LROP: x_ij[EGLL,LROP] - 33.75 z_kij[Aircraft_1,EGLL,LROP]
+   - 52.5 z_kij[Aircraft_2,EGLL,LROP] - 112.5 z_kij[Aircraft_3,EGLL,LROP]
+   - 240 z_kij[Aircraft_4,EGLL,LROP] <= 0
+ Capacity_EGLL_LGIR: x_ij[EGLL,LGIR] - 33.75 z_kij[Aircraft_1,EGLL,LGIR]
+   - 52.5 z_kij[Aircraft_2,EGLL,LGIR] - 112.5 z_kij[Aircraft_3,EGLL,LGIR]
+   - 240 z_kij[Aircraft_4,EGLL,LGIR] <= 0
+ Capacity_EGLL_BIKF: x_ij[EGLL,BIKF] - 33.75 z_kij[Aircraft_1,EGLL,BIKF]
+   - 52.5 z_kij[Aircraft_2,EGLL,BIKF] - 112.5 z_kij[Aircraft_3,EGLL,BIKF]
+   - 240 z_kij[Aircraft_4,EGLL,BIKF] <= 0
+ Capacity_EGLL_LICJ: x_ij[EGLL,LICJ] - 33.75 z_kij[Aircraft_1,EGLL,LICJ]
+   - 52.5 z_kij[Aircraft_2,EGLL,LICJ] - 112.5 z_kij[Aircraft_3,EGLL,LICJ]
+   - 240 z_kij[Aircraft_4,EGLL,LICJ] <= 0
+ Capacity_EGLL_LPMA: x_ij[EGLL,LPMA] - 33.75 z_kij[Aircraft_1,EGLL,LPMA]
+   - 52.5 z_kij[Aircraft_2,EGLL,LPMA] - 112.5 z_kij[Aircraft_3,EGLL,LPMA]
+   - 240 z_kij[Aircraft_4,EGLL,LPMA] <= 0
+ Capacity_LFPG_EGLL: x_ij[LFPG,EGLL] - 33.75 z_kij[Aircraft_1,LFPG,EGLL]
+   - 52.5 z_kij[Aircraft_2,LFPG,EGLL] - 112.5 z_kij[Aircraft_3,LFPG,EGLL]
+   - 240 z_kij[Aircraft_4,LFPG,EGLL] <= 0
+ Capacity_LFPG_EHAM: x_ij[LFPG,EHAM] - 33.75 z_kij[Aircraft_1,LFPG,EHAM]
+   - 52.5 z_kij[Aircraft_2,LFPG,EHAM] - 112.5 z_kij[Aircraft_3,LFPG,EHAM]
+   - 240 z_kij[Aircraft_4,LFPG,EHAM] <= 0
+ Capacity_LFPG_EDDF: x_ij[LFPG,EDDF] - 33.75 z_kij[Aircraft_1,LFPG,EDDF]
+   - 52.5 z_kij[Aircraft_2,LFPG,EDDF] - 112.5 z_kij[Aircraft_3,LFPG,EDDF]
+   - 240 z_kij[Aircraft_4,LFPG,EDDF] + w_ij[LFPG,EGLL] + w_ij[LFPG,EHAM]
+   + w_ij[LFPG,EDDF] + w_ij[LFPG,LEMF] + w_ij[LFPG,LEBL] + w_ij[LFPG,EDDM]
+   + w_ij[LFPG,LIRF] + w_ij[LFPG,EIDW] + w_ij[LFPG,ESSA] + w_ij[LFPG,LPPT]
+   + w_ij[LFPG,EDDT] + w_ij[LFPG,EFHK] + w_ij[LFPG,EPWA] + w_ij[LFPG,EGPH]
+   + w_ij[LFPG,LROP] + w_ij[LFPG,LGIR] + w_ij[LFPG,BIKF] + w_ij[LFPG,LICJ]
+   + w_ij[LFPG,LPMA] <= 0
+ Capacity_LFPG_LEMF: x_ij[LFPG,LEMF] - 33.75 z_kij[Aircraft_1,LFPG,LEMF]
+   - 52.5 z_kij[Aircraft_2,LFPG,LEMF] - 112.5 z_kij[Aircraft_3,LFPG,LEMF]
+   - 240 z_kij[Aircraft_4,LFPG,LEMF] <= 0
+ Capacity_LFPG_LEBL: x_ij[LFPG,LEBL] - 33.75 z_kij[Aircraft_1,LFPG,LEBL]
+   - 52.5 z_kij[Aircraft_2,LFPG,LEBL] - 112.5 z_kij[Aircraft_3,LFPG,LEBL]
+   - 240 z_kij[Aircraft_4,LFPG,LEBL] <= 0
+ Capacity_LFPG_EDDM: x_ij[LFPG,EDDM] - 33.75 z_kij[Aircraft_1,LFPG,EDDM]
+   - 52.5 z_kij[Aircraft_2,LFPG,EDDM] - 112.5 z_kij[Aircraft_3,LFPG,EDDM]
+   - 240 z_kij[Aircraft_4,LFPG,EDDM] <= 0
+ Capacity_LFPG_LIRF: x_ij[LFPG,LIRF] - 33.75 z_kij[Aircraft_1,LFPG,LIRF]
+   - 52.5 z_kij[Aircraft_2,LFPG,LIRF] - 112.5 z_kij[Aircraft_3,LFPG,LIRF]
+   - 240 z_kij[Aircraft_4,LFPG,LIRF] <= 0
+ Capacity_LFPG_EIDW: x_ij[LFPG,EIDW] - 33.75 z_kij[Aircraft_1,LFPG,EIDW]
+   - 52.5 z_kij[Aircraft_2,LFPG,EIDW] - 112.5 z_kij[Aircraft_3,LFPG,EIDW]
+   - 240 z_kij[Aircraft_4,LFPG,EIDW] <= 0
+ Capacity_LFPG_ESSA: x_ij[LFPG,ESSA] - 33.75 z_kij[Aircraft_1,LFPG,ESSA]
+   - 52.5 z_kij[Aircraft_2,LFPG,ESSA] - 112.5 z_kij[Aircraft_3,LFPG,ESSA]
+   - 240 z_kij[Aircraft_4,LFPG,ESSA] <= 0
+ Capacity_LFPG_LPPT: x_ij[LFPG,LPPT] - 33.75 z_kij[Aircraft_1,LFPG,LPPT]
+   - 52.5 z_kij[Aircraft_2,LFPG,LPPT] - 112.5 z_kij[Aircraft_3,LFPG,LPPT]
+   - 240 z_kij[Aircraft_4,LFPG,LPPT] <= 0
+ Capacity_LFPG_EDDT: x_ij[LFPG,EDDT] - 33.75 z_kij[Aircraft_1,LFPG,EDDT]
+   - 52.5 z_kij[Aircraft_2,LFPG,EDDT] - 112.5 z_kij[Aircraft_3,LFPG,EDDT]
+   - 240 z_kij[Aircraft_4,LFPG,EDDT] <= 0
+ Capacity_LFPG_EFHK: x_ij[LFPG,EFHK] - 33.75 z_kij[Aircraft_1,LFPG,EFHK]
+   - 52.5 z_kij[Aircraft_2,LFPG,EFHK] - 112.5 z_kij[Aircraft_3,LFPG,EFHK]
+   - 240 z_kij[Aircraft_4,LFPG,EFHK] <= 0
+ Capacity_LFPG_EPWA: x_ij[LFPG,EPWA] - 33.75 z_kij[Aircraft_1,LFPG,EPWA]
+   - 52.5 z_kij[Aircraft_2,LFPG,EPWA] - 112.5 z_kij[Aircraft_3,LFPG,EPWA]
+   - 240 z_kij[Aircraft_4,LFPG,EPWA] <= 0
+ Capacity_LFPG_EGPH: x_ij[LFPG,EGPH] - 33.75 z_kij[Aircraft_1,LFPG,EGPH]
+   - 52.5 z_kij[Aircraft_2,LFPG,EGPH] - 112.5 z_kij[Aircraft_3,LFPG,EGPH]
+   - 240 z_kij[Aircraft_4,LFPG,EGPH] <= 0
+ Capacity_LFPG_LROP: x_ij[LFPG,LROP] - 33.75 z_kij[Aircraft_1,LFPG,LROP]
+   - 52.5 z_kij[Aircraft_2,LFPG,LROP] - 112.5 z_kij[Aircraft_3,LFPG,LROP]
+   - 240 z_kij[Aircraft_4,LFPG,LROP] <= 0
+ Capacity_LFPG_LGIR: x_ij[LFPG,LGIR] - 33.75 z_kij[Aircraft_1,LFPG,LGIR]
+   - 52.5 z_kij[Aircraft_2,LFPG,LGIR] - 112.5 z_kij[Aircraft_3,LFPG,LGIR]
+   - 240 z_kij[Aircraft_4,LFPG,LGIR] <= 0
+ Capacity_LFPG_BIKF: x_ij[LFPG,BIKF] - 33.75 z_kij[Aircraft_1,LFPG,BIKF]
+   - 52.5 z_kij[Aircraft_2,LFPG,BIKF] - 112.5 z_kij[Aircraft_3,LFPG,BIKF]
+   - 240 z_kij[Aircraft_4,LFPG,BIKF] <= 0
+ Capacity_LFPG_LICJ: x_ij[LFPG,LICJ] - 33.75 z_kij[Aircraft_1,LFPG,LICJ]
+   - 52.5 z_kij[Aircraft_2,LFPG,LICJ] - 112.5 z_kij[Aircraft_3,LFPG,LICJ]
+   - 240 z_kij[Aircraft_4,LFPG,LICJ] <= 0
+ Capacity_LFPG_LPMA: x_ij[LFPG,LPMA] - 33.75 z_kij[Aircraft_1,LFPG,LPMA]
+   - 52.5 z_kij[Aircraft_2,LFPG,LPMA] - 112.5 z_kij[Aircraft_3,LFPG,LPMA]
+   - 240 z_kij[Aircraft_4,LFPG,LPMA] <= 0
+ Capacity_EHAM_EGLL: x_ij[EHAM,EGLL] - 33.75 z_kij[Aircraft_1,EHAM,EGLL]
+   - 52.5 z_kij[Aircraft_2,EHAM,EGLL] - 112.5 z_kij[Aircraft_3,EHAM,EGLL]
+   - 240 z_kij[Aircraft_4,EHAM,EGLL] <= 0
+ Capacity_EHAM_LFPG: x_ij[EHAM,LFPG] - 33.75 z_kij[Aircraft_1,EHAM,LFPG]
+   - 52.5 z_kij[Aircraft_2,EHAM,LFPG] - 112.5 z_kij[Aircraft_3,EHAM,LFPG]
+   - 240 z_kij[Aircraft_4,EHAM,LFPG] <= 0
+ Capacity_EHAM_EDDF: x_ij[EHAM,EDDF] - 33.75 z_kij[Aircraft_1,EHAM,EDDF]
+   - 52.5 z_kij[Aircraft_2,EHAM,EDDF] - 112.5 z_kij[Aircraft_3,EHAM,EDDF]
+   - 240 z_kij[Aircraft_4,EHAM,EDDF] + w_ij[EHAM,EGLL] + w_ij[EHAM,LFPG]
+   + w_ij[EHAM,EDDF] + w_ij[EHAM,LEMF] + w_ij[EHAM,LEBL] + w_ij[EHAM,EDDM]
+   + w_ij[EHAM,LIRF] + w_ij[EHAM,EIDW] + w_ij[EHAM,ESSA] + w_ij[EHAM,LPPT]
+   + w_ij[EHAM,EDDT] + w_ij[EHAM,EFHK] + w_ij[EHAM,EPWA] + w_ij[EHAM,EGPH]
+   + w_ij[EHAM,LROP] + w_ij[EHAM,LGIR] + w_ij[EHAM,BIKF] + w_ij[EHAM,LICJ]
+   + w_ij[EHAM,LPMA] <= 0
+ Capacity_EHAM_LEMF: x_ij[EHAM,LEMF] - 33.75 z_kij[Aircraft_1,EHAM,LEMF]
+   - 52.5 z_kij[Aircraft_2,EHAM,LEMF] - 112.5 z_kij[Aircraft_3,EHAM,LEMF]
+   - 240 z_kij[Aircraft_4,EHAM,LEMF] <= 0
+ Capacity_EHAM_LEBL: x_ij[EHAM,LEBL] - 33.75 z_kij[Aircraft_1,EHAM,LEBL]
+   - 52.5 z_kij[Aircraft_2,EHAM,LEBL] - 112.5 z_kij[Aircraft_3,EHAM,LEBL]
+   - 240 z_kij[Aircraft_4,EHAM,LEBL] <= 0
+ Capacity_EHAM_EDDM: x_ij[EHAM,EDDM] - 33.75 z_kij[Aircraft_1,EHAM,EDDM]
+   - 52.5 z_kij[Aircraft_2,EHAM,EDDM] - 112.5 z_kij[Aircraft_3,EHAM,EDDM]
+   - 240 z_kij[Aircraft_4,EHAM,EDDM] <= 0
+ Capacity_EHAM_LIRF: x_ij[EHAM,LIRF] - 33.75 z_kij[Aircraft_1,EHAM,LIRF]
+   - 52.5 z_kij[Aircraft_2,EHAM,LIRF] - 112.5 z_kij[Aircraft_3,EHAM,LIRF]
+   - 240 z_kij[Aircraft_4,EHAM,LIRF] <= 0
+ Capacity_EHAM_EIDW: x_ij[EHAM,EIDW] - 33.75 z_kij[Aircraft_1,EHAM,EIDW]
+   - 52.5 z_kij[Aircraft_2,EHAM,EIDW] - 112.5 z_kij[Aircraft_3,EHAM,EIDW]
+   - 240 z_kij[Aircraft_4,EHAM,EIDW] <= 0
+ Capacity_EHAM_ESSA: x_ij[EHAM,ESSA] - 33.75 z_kij[Aircraft_1,EHAM,ESSA]
+   - 52.5 z_kij[Aircraft_2,EHAM,ESSA] - 112.5 z_kij[Aircraft_3,EHAM,ESSA]
+   - 240 z_kij[Aircraft_4,EHAM,ESSA] <= 0
+ Capacity_EHAM_LPPT: x_ij[EHAM,LPPT] - 33.75 z_kij[Aircraft_1,EHAM,LPPT]
+   - 52.5 z_kij[Aircraft_2,EHAM,LPPT] - 112.5 z_kij[Aircraft_3,EHAM,LPPT]
+   - 240 z_kij[Aircraft_4,EHAM,LPPT] <= 0
+ Capacity_EHAM_EDDT: x_ij[EHAM,EDDT] - 33.75 z_kij[Aircraft_1,EHAM,EDDT]
+   - 52.5 z_kij[Aircraft_2,EHAM,EDDT] - 112.5 z_kij[Aircraft_3,EHAM,EDDT]
+   - 240 z_kij[Aircraft_4,EHAM,EDDT] <= 0
+ Capacity_EHAM_EFHK: x_ij[EHAM,EFHK] - 33.75 z_kij[Aircraft_1,EHAM,EFHK]
+   - 52.5 z_kij[Aircraft_2,EHAM,EFHK] - 112.5 z_kij[Aircraft_3,EHAM,EFHK]
+   - 240 z_kij[Aircraft_4,EHAM,EFHK] <= 0
+ Capacity_EHAM_EPWA: x_ij[EHAM,EPWA] - 33.75 z_kij[Aircraft_1,EHAM,EPWA]
+   - 52.5 z_kij[Aircraft_2,EHAM,EPWA] - 112.5 z_kij[Aircraft_3,EHAM,EPWA]
+   - 240 z_kij[Aircraft_4,EHAM,EPWA] <= 0
+ Capacity_EHAM_EGPH: x_ij[EHAM,EGPH] - 33.75 z_kij[Aircraft_1,EHAM,EGPH]
+   - 52.5 z_kij[Aircraft_2,EHAM,EGPH] - 112.5 z_kij[Aircraft_3,EHAM,EGPH]
+   - 240 z_kij[Aircraft_4,EHAM,EGPH] <= 0
+ Capacity_EHAM_LROP: x_ij[EHAM,LROP] - 33.75 z_kij[Aircraft_1,EHAM,LROP]
+   - 52.5 z_kij[Aircraft_2,EHAM,LROP] - 112.5 z_kij[Aircraft_3,EHAM,LROP]
+   - 240 z_kij[Aircraft_4,EHAM,LROP] <= 0
+ Capacity_EHAM_LGIR: x_ij[EHAM,LGIR] - 33.75 z_kij[Aircraft_1,EHAM,LGIR]
+   - 52.5 z_kij[Aircraft_2,EHAM,LGIR] - 112.5 z_kij[Aircraft_3,EHAM,LGIR]
+   - 240 z_kij[Aircraft_4,EHAM,LGIR] <= 0
+ Capacity_EHAM_BIKF: x_ij[EHAM,BIKF] - 33.75 z_kij[Aircraft_1,EHAM,BIKF]
+   - 52.5 z_kij[Aircraft_2,EHAM,BIKF] - 112.5 z_kij[Aircraft_3,EHAM,BIKF]
+   - 240 z_kij[Aircraft_4,EHAM,BIKF] <= 0
+ Capacity_EHAM_LICJ: x_ij[EHAM,LICJ] - 33.75 z_kij[Aircraft_1,EHAM,LICJ]
+   - 52.5 z_kij[Aircraft_2,EHAM,LICJ] - 112.5 z_kij[Aircraft_3,EHAM,LICJ]
+   - 240 z_kij[Aircraft_4,EHAM,LICJ] <= 0
+ Capacity_EHAM_LPMA: x_ij[EHAM,LPMA] - 33.75 z_kij[Aircraft_1,EHAM,LPMA]
+   - 52.5 z_kij[Aircraft_2,EHAM,LPMA] - 112.5 z_kij[Aircraft_3,EHAM,LPMA]
+   - 240 z_kij[Aircraft_4,EHAM,LPMA] <= 0
+ Capacity_EDDF_EGLL: x_ij[EDDF,EGLL] - 33.75 z_kij[Aircraft_1,EDDF,EGLL]
+   - 52.5 z_kij[Aircraft_2,EDDF,EGLL] - 112.5 z_kij[Aircraft_3,EDDF,EGLL]
+   - 240 z_kij[Aircraft_4,EDDF,EGLL] + w_ij[LFPG,EDDF] + w_ij[EHAM,EDDF]
+   + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF]
+   + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LFPG: x_ij[EDDF,LFPG] - 33.75 z_kij[Aircraft_1,EDDF,LFPG]
+   - 52.5 z_kij[Aircraft_2,EDDF,LFPG] - 112.5 z_kij[Aircraft_3,EDDF,LFPG]
+   - 240 z_kij[Aircraft_4,EDDF,LFPG] + w_ij[EGLL,EDDF] + w_ij[EHAM,EDDF]
+   + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF]
+   + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EHAM: x_ij[EDDF,EHAM] - 33.75 z_kij[Aircraft_1,EDDF,EHAM]
+   - 52.5 z_kij[Aircraft_2,EDDF,EHAM] - 112.5 z_kij[Aircraft_3,EDDF,EHAM]
+   - 240 z_kij[Aircraft_4,EDDF,EHAM] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF]
+   + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LEMF: x_ij[EDDF,LEMF] - 33.75 z_kij[Aircraft_1,EDDF,LEMF]
+   - 52.5 z_kij[Aircraft_2,EDDF,LEMF] - 112.5 z_kij[Aircraft_3,EDDF,LEMF]
+   - 240 z_kij[Aircraft_4,EDDF,LEMF] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEBL,EDDF] + w_ij[EDDM,EDDF]
+   + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LEBL: x_ij[EDDF,LEBL] - 33.75 z_kij[Aircraft_1,EDDF,LEBL]
+   - 52.5 z_kij[Aircraft_2,EDDF,LEBL] - 112.5 z_kij[Aircraft_3,EDDF,LEBL]
+   - 240 z_kij[Aircraft_4,EDDF,LEBL] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[EDDM,EDDF]
+   + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EDDM: x_ij[EDDF,EDDM] - 33.75 z_kij[Aircraft_1,EDDF,EDDM]
+   - 52.5 z_kij[Aircraft_2,EDDF,EDDM] - 112.5 z_kij[Aircraft_3,EDDF,EDDM]
+   - 240 z_kij[Aircraft_4,EDDF,EDDM] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LIRF: x_ij[EDDF,LIRF] - 33.75 z_kij[Aircraft_1,EDDF,LIRF]
+   - 52.5 z_kij[Aircraft_2,EDDF,LIRF] - 112.5 z_kij[Aircraft_3,EDDF,LIRF]
+   - 240 z_kij[Aircraft_4,EDDF,LIRF] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EIDW: x_ij[EDDF,EIDW] - 33.75 z_kij[Aircraft_1,EDDF,EIDW]
+   - 52.5 z_kij[Aircraft_2,EDDF,EIDW] - 112.5 z_kij[Aircraft_3,EDDF,EIDW]
+   - 240 z_kij[Aircraft_4,EDDF,EIDW] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[ESSA,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_ESSA: x_ij[EDDF,ESSA] - 33.75 z_kij[Aircraft_1,EDDF,ESSA]
+   - 52.5 z_kij[Aircraft_2,EDDF,ESSA] - 112.5 z_kij[Aircraft_3,EDDF,ESSA]
+   - 240 z_kij[Aircraft_4,EDDF,ESSA] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[LPPT,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LPPT: x_ij[EDDF,LPPT] - 33.75 z_kij[Aircraft_1,EDDF,LPPT]
+   - 52.5 z_kij[Aircraft_2,EDDF,LPPT] - 112.5 z_kij[Aircraft_3,EDDF,LPPT]
+   - 240 z_kij[Aircraft_4,EDDF,LPPT] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EDDT: x_ij[EDDF,EDDT] - 33.75 z_kij[Aircraft_1,EDDF,EDDT]
+   - 52.5 z_kij[Aircraft_2,EDDF,EDDT] - 112.5 z_kij[Aircraft_3,EDDF,EDDT]
+   - 240 z_kij[Aircraft_4,EDDF,EDDT] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EFHK: x_ij[EDDF,EFHK] - 33.75 z_kij[Aircraft_1,EDDF,EFHK]
+   - 52.5 z_kij[Aircraft_2,EDDF,EFHK] - 112.5 z_kij[Aircraft_3,EDDF,EFHK]
+   - 240 z_kij[Aircraft_4,EDDF,EFHK] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EPWA,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EPWA: x_ij[EDDF,EPWA] - 33.75 z_kij[Aircraft_1,EDDF,EPWA]
+   - 52.5 z_kij[Aircraft_2,EDDF,EPWA] - 112.5 z_kij[Aircraft_3,EDDF,EPWA]
+   - 240 z_kij[Aircraft_4,EDDF,EPWA] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EGPH,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_EGPH: x_ij[EDDF,EGPH] - 33.75 z_kij[Aircraft_1,EDDF,EGPH]
+   - 52.5 z_kij[Aircraft_2,EDDF,EGPH] - 112.5 z_kij[Aircraft_3,EDDF,EGPH]
+   - 240 z_kij[Aircraft_4,EDDF,EGPH] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF]
+   + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LROP: x_ij[EDDF,LROP] - 33.75 z_kij[Aircraft_1,EDDF,LROP]
+   - 52.5 z_kij[Aircraft_2,EDDF,LROP] - 112.5 z_kij[Aircraft_3,EDDF,LROP]
+   - 240 z_kij[Aircraft_4,EDDF,LROP] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF]
+   + w_ij[EGPH,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LGIR: x_ij[EDDF,LGIR] - 33.75 z_kij[Aircraft_1,EDDF,LGIR]
+   - 52.5 z_kij[Aircraft_2,EDDF,LGIR] - 112.5 z_kij[Aircraft_3,EDDF,LGIR]
+   - 240 z_kij[Aircraft_4,EDDF,LGIR] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF]
+   + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[BIKF,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_BIKF: x_ij[EDDF,BIKF] - 33.75 z_kij[Aircraft_1,EDDF,BIKF]
+   - 52.5 z_kij[Aircraft_2,EDDF,BIKF] - 112.5 z_kij[Aircraft_3,EDDF,BIKF]
+   - 240 z_kij[Aircraft_4,EDDF,BIKF] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF]
+   + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[LICJ,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LICJ: x_ij[EDDF,LICJ] - 33.75 z_kij[Aircraft_1,EDDF,LICJ]
+   - 52.5 z_kij[Aircraft_2,EDDF,LICJ] - 112.5 z_kij[Aircraft_3,EDDF,LICJ]
+   - 240 z_kij[Aircraft_4,EDDF,LICJ] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF]
+   + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF]
+   + w_ij[LPMA,EDDF] <= 0
+ Capacity_EDDF_LPMA: x_ij[EDDF,LPMA] - 33.75 z_kij[Aircraft_1,EDDF,LPMA]
+   - 52.5 z_kij[Aircraft_2,EDDF,LPMA] - 112.5 z_kij[Aircraft_3,EDDF,LPMA]
+   - 240 z_kij[Aircraft_4,EDDF,LPMA] + w_ij[EGLL,EDDF] + w_ij[LFPG,EDDF]
+   + w_ij[EHAM,EDDF] + w_ij[EDDF,EDDF] + w_ij[LEMF,EDDF] + w_ij[LEBL,EDDF]
+   + w_ij[EDDM,EDDF] + w_ij[LIRF,EDDF] + w_ij[EIDW,EDDF] + w_ij[ESSA,EDDF]
+   + w_ij[LPPT,EDDF] + w_ij[EDDT,EDDF] + w_ij[EFHK,EDDF] + w_ij[EPWA,EDDF]
+   + w_ij[EGPH,EDDF] + w_ij[LROP,EDDF] + w_ij[LGIR,EDDF] + w_ij[BIKF,EDDF]
+   + w_ij[LICJ,EDDF] <= 0
+ Capacity_LEMF_EGLL: x_ij[LEMF,EGLL] - 33.75 z_kij[Aircraft_1,LEMF,EGLL]
+   - 52.5 z_kij[Aircraft_2,LEMF,EGLL] - 112.5 z_kij[Aircraft_3,LEMF,EGLL]
+   - 240 z_kij[Aircraft_4,LEMF,EGLL] <= 0
+ Capacity_LEMF_LFPG: x_ij[LEMF,LFPG] - 33.75 z_kij[Aircraft_1,LEMF,LFPG]
+   - 52.5 z_kij[Aircraft_2,LEMF,LFPG] - 112.5 z_kij[Aircraft_3,LEMF,LFPG]
+   - 240 z_kij[Aircraft_4,LEMF,LFPG] <= 0
+ Capacity_LEMF_EHAM: x_ij[LEMF,EHAM] - 33.75 z_kij[Aircraft_1,LEMF,EHAM]
+   - 52.5 z_kij[Aircraft_2,LEMF,EHAM] - 112.5 z_kij[Aircraft_3,LEMF,EHAM]
+   - 240 z_kij[Aircraft_4,LEMF,EHAM] <= 0
+ Capacity_LEMF_EDDF: x_ij[LEMF,EDDF] - 33.75 z_kij[Aircraft_1,LEMF,EDDF]
+   - 52.5 z_kij[Aircraft_2,LEMF,EDDF] - 112.5 z_kij[Aircraft_3,LEMF,EDDF]
+   - 240 z_kij[Aircraft_4,LEMF,EDDF] + w_ij[LEMF,EGLL] + w_ij[LEMF,LFPG]
+   + w_ij[LEMF,EHAM] + w_ij[LEMF,EDDF] + w_ij[LEMF,LEBL] + w_ij[LEMF,EDDM]
+   + w_ij[LEMF,LIRF] + w_ij[LEMF,EIDW] + w_ij[LEMF,ESSA] + w_ij[LEMF,LPPT]
+   + w_ij[LEMF,EDDT] + w_ij[LEMF,EFHK] + w_ij[LEMF,EPWA] + w_ij[LEMF,EGPH]
+   + w_ij[LEMF,LROP] + w_ij[LEMF,LGIR] + w_ij[LEMF,BIKF] + w_ij[LEMF,LICJ]
+   + w_ij[LEMF,LPMA] <= 0
+ Capacity_LEMF_LEBL: x_ij[LEMF,LEBL] - 33.75 z_kij[Aircraft_1,LEMF,LEBL]
+   - 52.5 z_kij[Aircraft_2,LEMF,LEBL] - 112.5 z_kij[Aircraft_3,LEMF,LEBL]
+   - 240 z_kij[Aircraft_4,LEMF,LEBL] <= 0
+ Capacity_LEMF_EDDM: x_ij[LEMF,EDDM] - 33.75 z_kij[Aircraft_1,LEMF,EDDM]
+   - 52.5 z_kij[Aircraft_2,LEMF,EDDM] - 112.5 z_kij[Aircraft_3,LEMF,EDDM]
+   - 240 z_kij[Aircraft_4,LEMF,EDDM] <= 0
+ Capacity_LEMF_LIRF: x_ij[LEMF,LIRF] - 33.75 z_kij[Aircraft_1,LEMF,LIRF]
+   - 52.5 z_kij[Aircraft_2,LEMF,LIRF] - 112.5 z_kij[Aircraft_3,LEMF,LIRF]
+   - 240 z_kij[Aircraft_4,LEMF,LIRF] <= 0
+ Capacity_LEMF_EIDW: x_ij[LEMF,EIDW] - 33.75 z_kij[Aircraft_1,LEMF,EIDW]
+   - 52.5 z_kij[Aircraft_2,LEMF,EIDW] - 112.5 z_kij[Aircraft_3,LEMF,EIDW]
+   - 240 z_kij[Aircraft_4,LEMF,EIDW] <= 0
+ Capacity_LEMF_ESSA: x_ij[LEMF,ESSA] - 33.75 z_kij[Aircraft_1,LEMF,ESSA]
+   - 52.5 z_kij[Aircraft_2,LEMF,ESSA] - 112.5 z_kij[Aircraft_3,LEMF,ESSA]
+   - 240 z_kij[Aircraft_4,LEMF,ESSA] <= 0
+ Capacity_LEMF_LPPT: x_ij[LEMF,LPPT] - 33.75 z_kij[Aircraft_1,LEMF,LPPT]
+   - 52.5 z_kij[Aircraft_2,LEMF,LPPT] - 112.5 z_kij[Aircraft_3,LEMF,LPPT]
+   - 240 z_kij[Aircraft_4,LEMF,LPPT] <= 0
+ Capacity_LEMF_EDDT: x_ij[LEMF,EDDT] - 33.75 z_kij[Aircraft_1,LEMF,EDDT]
+   - 52.5 z_kij[Aircraft_2,LEMF,EDDT] - 112.5 z_kij[Aircraft_3,LEMF,EDDT]
+   - 240 z_kij[Aircraft_4,LEMF,EDDT] <= 0
+ Capacity_LEMF_EFHK: x_ij[LEMF,EFHK] - 33.75 z_kij[Aircraft_1,LEMF,EFHK]
+   - 52.5 z_kij[Aircraft_2,LEMF,EFHK] - 112.5 z_kij[Aircraft_3,LEMF,EFHK]
+   - 240 z_kij[Aircraft_4,LEMF,EFHK] <= 0
+ Capacity_LEMF_EPWA: x_ij[LEMF,EPWA] - 33.75 z_kij[Aircraft_1,LEMF,EPWA]
+   - 52.5 z_kij[Aircraft_2,LEMF,EPWA] - 112.5 z_kij[Aircraft_3,LEMF,EPWA]
+   - 240 z_kij[Aircraft_4,LEMF,EPWA] <= 0
+ Capacity_LEMF_EGPH: x_ij[LEMF,EGPH] - 33.75 z_kij[Aircraft_1,LEMF,EGPH]
+   - 52.5 z_kij[Aircraft_2,LEMF,EGPH] - 112.5 z_kij[Aircraft_3,LEMF,EGPH]
+   - 240 z_kij[Aircraft_4,LEMF,EGPH] <= 0
+ Capacity_LEMF_LROP: x_ij[LEMF,LROP] - 33.75 z_kij[Aircraft_1,LEMF,LROP]
+   - 52.5 z_kij[Aircraft_2,LEMF,LROP] - 112.5 z_kij[Aircraft_3,LEMF,LROP]
+   - 240 z_kij[Aircraft_4,LEMF,LROP] <= 0
+ Capacity_LEMF_LGIR: x_ij[LEMF,LGIR] - 33.75 z_kij[Aircraft_1,LEMF,LGIR]
+   - 52.5 z_kij[Aircraft_2,LEMF,LGIR] - 112.5 z_kij[Aircraft_3,LEMF,LGIR]
+   - 240 z_kij[Aircraft_4,LEMF,LGIR] <= 0
+ Capacity_LEMF_BIKF: x_ij[LEMF,BIKF] - 33.75 z_kij[Aircraft_1,LEMF,BIKF]
+   - 52.5 z_kij[Aircraft_2,LEMF,BIKF] - 112.5 z_kij[Aircraft_3,LEMF,BIKF]
+   - 240 z_kij[Aircraft_4,LEMF,BIKF] <= 0
+ Capacity_LEMF_LICJ: x_ij[LEMF,LICJ] - 33.75 z_kij[Aircraft_1,LEMF,LICJ]
+   - 52.5 z_kij[Aircraft_2,LEMF,LICJ] - 112.5 z_kij[Aircraft_3,LEMF,LICJ]
+   - 240 z_kij[Aircraft_4,LEMF,LICJ] <= 0
+ Capacity_LEMF_LPMA: x_ij[LEMF,LPMA] - 33.75 z_kij[Aircraft_1,LEMF,LPMA]
+   - 52.5 z_kij[Aircraft_2,LEMF,LPMA] - 112.5 z_kij[Aircraft_3,LEMF,LPMA]
+   - 240 z_kij[Aircraft_4,LEMF,LPMA] <= 0
+ Capacity_LEBL_EGLL: x_ij[LEBL,EGLL] - 33.75 z_kij[Aircraft_1,LEBL,EGLL]
+   - 52.5 z_kij[Aircraft_2,LEBL,EGLL] - 112.5 z_kij[Aircraft_3,LEBL,EGLL]
+   - 240 z_kij[Aircraft_4,LEBL,EGLL] <= 0
+ Capacity_LEBL_LFPG: x_ij[LEBL,LFPG] - 33.75 z_kij[Aircraft_1,LEBL,LFPG]
+   - 52.5 z_kij[Aircraft_2,LEBL,LFPG] - 112.5 z_kij[Aircraft_3,LEBL,LFPG]
+   - 240 z_kij[Aircraft_4,LEBL,LFPG] <= 0
+ Capacity_LEBL_EHAM: x_ij[LEBL,EHAM] - 33.75 z_kij[Aircraft_1,LEBL,EHAM]
+   - 52.5 z_kij[Aircraft_2,LEBL,EHAM] - 112.5 z_kij[Aircraft_3,LEBL,EHAM]
+   - 240 z_kij[Aircraft_4,LEBL,EHAM] <= 0
+ Capacity_LEBL_EDDF: x_ij[LEBL,EDDF] - 33.75 z_kij[Aircraft_1,LEBL,EDDF]
+   - 52.5 z_kij[Aircraft_2,LEBL,EDDF] - 112.5 z_kij[Aircraft_3,LEBL,EDDF]
+   - 240 z_kij[Aircraft_4,LEBL,EDDF] + w_ij[LEBL,EGLL] + w_ij[LEBL,LFPG]
+   + w_ij[LEBL,EHAM] + w_ij[LEBL,EDDF] + w_ij[LEBL,LEMF] + w_ij[LEBL,EDDM]
+   + w_ij[LEBL,LIRF] + w_ij[LEBL,EIDW] + w_ij[LEBL,ESSA] + w_ij[LEBL,LPPT]
+   + w_ij[LEBL,EDDT] + w_ij[LEBL,EFHK] + w_ij[LEBL,EPWA] + w_ij[LEBL,EGPH]
+   + w_ij[LEBL,LROP] + w_ij[LEBL,LGIR] + w_ij[LEBL,BIKF] + w_ij[LEBL,LICJ]
+   + w_ij[LEBL,LPMA] <= 0
+ Capacity_LEBL_LEMF: x_ij[LEBL,LEMF] - 33.75 z_kij[Aircraft_1,LEBL,LEMF]
+   - 52.5 z_kij[Aircraft_2,LEBL,LEMF] - 112.5 z_kij[Aircraft_3,LEBL,LEMF]
+   - 240 z_kij[Aircraft_4,LEBL,LEMF] <= 0
+ Capacity_LEBL_EDDM: x_ij[LEBL,EDDM] - 33.75 z_kij[Aircraft_1,LEBL,EDDM]
+   - 52.5 z_kij[Aircraft_2,LEBL,EDDM] - 112.5 z_kij[Aircraft_3,LEBL,EDDM]
+   - 240 z_kij[Aircraft_4,LEBL,EDDM] <= 0
+ Capacity_LEBL_LIRF: x_ij[LEBL,LIRF] - 33.75 z_kij[Aircraft_1,LEBL,LIRF]
+   - 52.5 z_kij[Aircraft_2,LEBL,LIRF] - 112.5 z_kij[Aircraft_3,LEBL,LIRF]
+   - 240 z_kij[Aircraft_4,LEBL,LIRF] <= 0
+ Capacity_LEBL_EIDW: x_ij[LEBL,EIDW] - 33.75 z_kij[Aircraft_1,LEBL,EIDW]
+   - 52.5 z_kij[Aircraft_2,LEBL,EIDW] - 112.5 z_kij[Aircraft_3,LEBL,EIDW]
+   - 240 z_kij[Aircraft_4,LEBL,EIDW] <= 0
+ Capacity_LEBL_ESSA: x_ij[LEBL,ESSA] - 33.75 z_kij[Aircraft_1,LEBL,ESSA]
+   - 52.5 z_kij[Aircraft_2,LEBL,ESSA] - 112.5 z_kij[Aircraft_3,LEBL,ESSA]
+   - 240 z_kij[Aircraft_4,LEBL,ESSA] <= 0
+ Capacity_LEBL_LPPT: x_ij[LEBL,LPPT] - 33.75 z_kij[Aircraft_1,LEBL,LPPT]
+   - 52.5 z_kij[Aircraft_2,LEBL,LPPT] - 112.5 z_kij[Aircraft_3,LEBL,LPPT]
+   - 240 z_kij[Aircraft_4,LEBL,LPPT] <= 0
+ Capacity_LEBL_EDDT: x_ij[LEBL,EDDT] - 33.75 z_kij[Aircraft_1,LEBL,EDDT]
+   - 52.5 z_kij[Aircraft_2,LEBL,EDDT] - 112.5 z_kij[Aircraft_3,LEBL,EDDT]
+   - 240 z_kij[Aircraft_4,LEBL,EDDT] <= 0
+ Capacity_LEBL_EFHK: x_ij[LEBL,EFHK] - 33.75 z_kij[Aircraft_1,LEBL,EFHK]
+   - 52.5 z_kij[Aircraft_2,LEBL,EFHK] - 112.5 z_kij[Aircraft_3,LEBL,EFHK]
+   - 240 z_kij[Aircraft_4,LEBL,EFHK] <= 0
+ Capacity_LEBL_EPWA: x_ij[LEBL,EPWA] - 33.75 z_kij[Aircraft_1,LEBL,EPWA]
+   - 52.5 z_kij[Aircraft_2,LEBL,EPWA] - 112.5 z_kij[Aircraft_3,LEBL,EPWA]
+   - 240 z_kij[Aircraft_4,LEBL,EPWA] <= 0
+ Capacity_LEBL_EGPH: x_ij[LEBL,EGPH] - 33.75 z_kij[Aircraft_1,LEBL,EGPH]
+   - 52.5 z_kij[Aircraft_2,LEBL,EGPH] - 112.5 z_kij[Aircraft_3,LEBL,EGPH]
+   - 240 z_kij[Aircraft_4,LEBL,EGPH] <= 0
+ Capacity_LEBL_LROP: x_ij[LEBL,LROP] - 33.75 z_kij[Aircraft_1,LEBL,LROP]
+   - 52.5 z_kij[Aircraft_2,LEBL,LROP] - 112.5 z_kij[Aircraft_3,LEBL,LROP]
+   - 240 z_kij[Aircraft_4,LEBL,LROP] <= 0
+ Capacity_LEBL_LGIR: x_ij[LEBL,LGIR] - 33.75 z_kij[Aircraft_1,LEBL,LGIR]
+   - 52.5 z_kij[Aircraft_2,LEBL,LGIR] - 112.5 z_kij[Aircraft_3,LEBL,LGIR]
+   - 240 z_kij[Aircraft_4,LEBL,LGIR] <= 0
+ Capacity_LEBL_BIKF: x_ij[LEBL,BIKF] - 33.75 z_kij[Aircraft_1,LEBL,BIKF]
+   - 52.5 z_kij[Aircraft_2,LEBL,BIKF] - 112.5 z_kij[Aircraft_3,LEBL,BIKF]
+   - 240 z_kij[Aircraft_4,LEBL,BIKF] <= 0
+ Capacity_LEBL_LICJ: x_ij[LEBL,LICJ] - 33.75 z_kij[Aircraft_1,LEBL,LICJ]
+   - 52.5 z_kij[Aircraft_2,LEBL,LICJ] - 112.5 z_kij[Aircraft_3,LEBL,LICJ]
+   - 240 z_kij[Aircraft_4,LEBL,LICJ] <= 0
+ Capacity_LEBL_LPMA: x_ij[LEBL,LPMA] - 33.75 z_kij[Aircraft_1,LEBL,LPMA]
+   - 52.5 z_kij[Aircraft_2,LEBL,LPMA] - 112.5 z_kij[Aircraft_3,LEBL,LPMA]
+   - 240 z_kij[Aircraft_4,LEBL,LPMA] <= 0
+ Capacity_EDDM_EGLL: x_ij[EDDM,EGLL] - 33.75 z_kij[Aircraft_1,EDDM,EGLL]
+   - 52.5 z_kij[Aircraft_2,EDDM,EGLL] - 112.5 z_kij[Aircraft_3,EDDM,EGLL]
+   - 240 z_kij[Aircraft_4,EDDM,EGLL] <= 0
+ Capacity_EDDM_LFPG: x_ij[EDDM,LFPG] - 33.75 z_kij[Aircraft_1,EDDM,LFPG]
+   - 52.5 z_kij[Aircraft_2,EDDM,LFPG] - 112.5 z_kij[Aircraft_3,EDDM,LFPG]
+   - 240 z_kij[Aircraft_4,EDDM,LFPG] <= 0
+ Capacity_EDDM_EHAM: x_ij[EDDM,EHAM] - 33.75 z_kij[Aircraft_1,EDDM,EHAM]
+   - 52.5 z_kij[Aircraft_2,EDDM,EHAM] - 112.5 z_kij[Aircraft_3,EDDM,EHAM]
+   - 240 z_kij[Aircraft_4,EDDM,EHAM] <= 0
+ Capacity_EDDM_EDDF: x_ij[EDDM,EDDF] - 33.75 z_kij[Aircraft_1,EDDM,EDDF]
+   - 52.5 z_kij[Aircraft_2,EDDM,EDDF] - 112.5 z_kij[Aircraft_3,EDDM,EDDF]
+   - 240 z_kij[Aircraft_4,EDDM,EDDF] + w_ij[EDDM,EGLL] + w_ij[EDDM,LFPG]
+   + w_ij[EDDM,EHAM] + w_ij[EDDM,EDDF] + w_ij[EDDM,LEMF] + w_ij[EDDM,LEBL]
+   + w_ij[EDDM,LIRF] + w_ij[EDDM,EIDW] + w_ij[EDDM,ESSA] + w_ij[EDDM,LPPT]
+   + w_ij[EDDM,EDDT] + w_ij[EDDM,EFHK] + w_ij[EDDM,EPWA] + w_ij[EDDM,EGPH]
+   + w_ij[EDDM,LROP] + w_ij[EDDM,LGIR] + w_ij[EDDM,BIKF] + w_ij[EDDM,LICJ]
+   + w_ij[EDDM,LPMA] <= 0
+ Capacity_EDDM_LEMF: x_ij[EDDM,LEMF] - 33.75 z_kij[Aircraft_1,EDDM,LEMF]
+   - 52.5 z_kij[Aircraft_2,EDDM,LEMF] - 112.5 z_kij[Aircraft_3,EDDM,LEMF]
+   - 240 z_kij[Aircraft_4,EDDM,LEMF] <= 0
+ Capacity_EDDM_LEBL: x_ij[EDDM,LEBL] - 33.75 z_kij[Aircraft_1,EDDM,LEBL]
+   - 52.5 z_kij[Aircraft_2,EDDM,LEBL] - 112.5 z_kij[Aircraft_3,EDDM,LEBL]
+   - 240 z_kij[Aircraft_4,EDDM,LEBL] <= 0
+ Capacity_EDDM_LIRF: x_ij[EDDM,LIRF] - 33.75 z_kij[Aircraft_1,EDDM,LIRF]
+   - 52.5 z_kij[Aircraft_2,EDDM,LIRF] - 112.5 z_kij[Aircraft_3,EDDM,LIRF]
+   - 240 z_kij[Aircraft_4,EDDM,LIRF] <= 0
+ Capacity_EDDM_EIDW: x_ij[EDDM,EIDW] - 33.75 z_kij[Aircraft_1,EDDM,EIDW]
+   - 52.5 z_kij[Aircraft_2,EDDM,EIDW] - 112.5 z_kij[Aircraft_3,EDDM,EIDW]
+   - 240 z_kij[Aircraft_4,EDDM,EIDW] <= 0
+ Capacity_EDDM_ESSA: x_ij[EDDM,ESSA] - 33.75 z_kij[Aircraft_1,EDDM,ESSA]
+   - 52.5 z_kij[Aircraft_2,EDDM,ESSA] - 112.5 z_kij[Aircraft_3,EDDM,ESSA]
+   - 240 z_kij[Aircraft_4,EDDM,ESSA] <= 0
+ Capacity_EDDM_LPPT: x_ij[EDDM,LPPT] - 33.75 z_kij[Aircraft_1,EDDM,LPPT]
+   - 52.5 z_kij[Aircraft_2,EDDM,LPPT] - 112.5 z_kij[Aircraft_3,EDDM,LPPT]
+   - 240 z_kij[Aircraft_4,EDDM,LPPT] <= 0
+ Capacity_EDDM_EDDT: x_ij[EDDM,EDDT] - 33.75 z_kij[Aircraft_1,EDDM,EDDT]
+   - 52.5 z_kij[Aircraft_2,EDDM,EDDT] - 112.5 z_kij[Aircraft_3,EDDM,EDDT]
+   - 240 z_kij[Aircraft_4,EDDM,EDDT] <= 0
+ Capacity_EDDM_EFHK: x_ij[EDDM,EFHK] - 33.75 z_kij[Aircraft_1,EDDM,EFHK]
+   - 52.5 z_kij[Aircraft_2,EDDM,EFHK] - 112.5 z_kij[Aircraft_3,EDDM,EFHK]
+   - 240 z_kij[Aircraft_4,EDDM,EFHK] <= 0
+ Capacity_EDDM_EPWA: x_ij[EDDM,EPWA] - 33.75 z_kij[Aircraft_1,EDDM,EPWA]
+   - 52.5 z_kij[Aircraft_2,EDDM,EPWA] - 112.5 z_kij[Aircraft_3,EDDM,EPWA]
+   - 240 z_kij[Aircraft_4,EDDM,EPWA] <= 0
+ Capacity_EDDM_EGPH: x_ij[EDDM,EGPH] - 33.75 z_kij[Aircraft_1,EDDM,EGPH]
+   - 52.5 z_kij[Aircraft_2,EDDM,EGPH] - 112.5 z_kij[Aircraft_3,EDDM,EGPH]
+   - 240 z_kij[Aircraft_4,EDDM,EGPH] <= 0
+ Capacity_EDDM_LROP: x_ij[EDDM,LROP] - 33.75 z_kij[Aircraft_1,EDDM,LROP]
+   - 52.5 z_kij[Aircraft_2,EDDM,LROP] - 112.5 z_kij[Aircraft_3,EDDM,LROP]
+   - 240 z_kij[Aircraft_4,EDDM,LROP] <= 0
+ Capacity_EDDM_LGIR: x_ij[EDDM,LGIR] - 33.75 z_kij[Aircraft_1,EDDM,LGIR]
+   - 52.5 z_kij[Aircraft_2,EDDM,LGIR] - 112.5 z_kij[Aircraft_3,EDDM,LGIR]
+   - 240 z_kij[Aircraft_4,EDDM,LGIR] <= 0
+ Capacity_EDDM_BIKF: x_ij[EDDM,BIKF] - 33.75 z_kij[Aircraft_1,EDDM,BIKF]
+   - 52.5 z_kij[Aircraft_2,EDDM,BIKF] - 112.5 z_kij[Aircraft_3,EDDM,BIKF]
+   - 240 z_kij[Aircraft_4,EDDM,BIKF] <= 0
+ Capacity_EDDM_LICJ: x_ij[EDDM,LICJ] - 33.75 z_kij[Aircraft_1,EDDM,LICJ]
+   - 52.5 z_kij[Aircraft_2,EDDM,LICJ] - 112.5 z_kij[Aircraft_3,EDDM,LICJ]
+   - 240 z_kij[Aircraft_4,EDDM,LICJ] <= 0
+ Capacity_EDDM_LPMA: x_ij[EDDM,LPMA] - 33.75 z_kij[Aircraft_1,EDDM,LPMA]
+   - 52.5 z_kij[Aircraft_2,EDDM,LPMA] - 112.5 z_kij[Aircraft_3,EDDM,LPMA]
+   - 240 z_kij[Aircraft_4,EDDM,LPMA] <= 0
+ Capacity_LIRF_EGLL: x_ij[LIRF,EGLL] - 33.75 z_kij[Aircraft_1,LIRF,EGLL]
+   - 52.5 z_kij[Aircraft_2,LIRF,EGLL] - 112.5 z_kij[Aircraft_3,LIRF,EGLL]
+   - 240 z_kij[Aircraft_4,LIRF,EGLL] <= 0
+ Capacity_LIRF_LFPG: x_ij[LIRF,LFPG] - 33.75 z_kij[Aircraft_1,LIRF,LFPG]
+   - 52.5 z_kij[Aircraft_2,LIRF,LFPG] - 112.5 z_kij[Aircraft_3,LIRF,LFPG]
+   - 240 z_kij[Aircraft_4,LIRF,LFPG] <= 0
+ Capacity_LIRF_EHAM: x_ij[LIRF,EHAM] - 33.75 z_kij[Aircraft_1,LIRF,EHAM]
+   - 52.5 z_kij[Aircraft_2,LIRF,EHAM] - 112.5 z_kij[Aircraft_3,LIRF,EHAM]
+   - 240 z_kij[Aircraft_4,LIRF,EHAM] <= 0
+ Capacity_LIRF_EDDF: x_ij[LIRF,EDDF] - 33.75 z_kij[Aircraft_1,LIRF,EDDF]
+   - 52.5 z_kij[Aircraft_2,LIRF,EDDF] - 112.5 z_kij[Aircraft_3,LIRF,EDDF]
+   - 240 z_kij[Aircraft_4,LIRF,EDDF] + w_ij[LIRF,EGLL] + w_ij[LIRF,LFPG]
+   + w_ij[LIRF,EHAM] + w_ij[LIRF,EDDF] + w_ij[LIRF,LEMF] + w_ij[LIRF,LEBL]
+   + w_ij[LIRF,EDDM] + w_ij[LIRF,EIDW] + w_ij[LIRF,ESSA] + w_ij[LIRF,LPPT]
+   + w_ij[LIRF,EDDT] + w_ij[LIRF,EFHK] + w_ij[LIRF,EPWA] + w_ij[LIRF,EGPH]
+   + w_ij[LIRF,LROP] + w_ij[LIRF,LGIR] + w_ij[LIRF,BIKF] + w_ij[LIRF,LICJ]
+   + w_ij[LIRF,LPMA] <= 0
+ Capacity_LIRF_LEMF: x_ij[LIRF,LEMF] - 33.75 z_kij[Aircraft_1,LIRF,LEMF]
+   - 52.5 z_kij[Aircraft_2,LIRF,LEMF] - 112.5 z_kij[Aircraft_3,LIRF,LEMF]
+   - 240 z_kij[Aircraft_4,LIRF,LEMF] <= 0
+ Capacity_LIRF_LEBL: x_ij[LIRF,LEBL] - 33.75 z_kij[Aircraft_1,LIRF,LEBL]
+   - 52.5 z_kij[Aircraft_2,LIRF,LEBL] - 112.5 z_kij[Aircraft_3,LIRF,LEBL]
+   - 240 z_kij[Aircraft_4,LIRF,LEBL] <= 0
+ Capacity_LIRF_EDDM: x_ij[LIRF,EDDM] - 33.75 z_kij[Aircraft_1,LIRF,EDDM]
+   - 52.5 z_kij[Aircraft_2,LIRF,EDDM] - 112.5 z_kij[Aircraft_3,LIRF,EDDM]
+   - 240 z_kij[Aircraft_4,LIRF,EDDM] <= 0
+ Capacity_LIRF_EIDW: x_ij[LIRF,EIDW] - 33.75 z_kij[Aircraft_1,LIRF,EIDW]
+   - 52.5 z_kij[Aircraft_2,LIRF,EIDW] - 112.5 z_kij[Aircraft_3,LIRF,EIDW]
+   - 240 z_kij[Aircraft_4,LIRF,EIDW] <= 0
+ Capacity_LIRF_ESSA: x_ij[LIRF,ESSA] - 33.75 z_kij[Aircraft_1,LIRF,ESSA]
+   - 52.5 z_kij[Aircraft_2,LIRF,ESSA] - 112.5 z_kij[Aircraft_3,LIRF,ESSA]
+   - 240 z_kij[Aircraft_4,LIRF,ESSA] <= 0
+ Capacity_LIRF_LPPT: x_ij[LIRF,LPPT] - 33.75 z_kij[Aircraft_1,LIRF,LPPT]
+   - 52.5 z_kij[Aircraft_2,LIRF,LPPT] - 112.5 z_kij[Aircraft_3,LIRF,LPPT]
+   - 240 z_kij[Aircraft_4,LIRF,LPPT] <= 0
+ Capacity_LIRF_EDDT: x_ij[LIRF,EDDT] - 33.75 z_kij[Aircraft_1,LIRF,EDDT]
+   - 52.5 z_kij[Aircraft_2,LIRF,EDDT] - 112.5 z_kij[Aircraft_3,LIRF,EDDT]
+   - 240 z_kij[Aircraft_4,LIRF,EDDT] <= 0
+ Capacity_LIRF_EFHK: x_ij[LIRF,EFHK] - 33.75 z_kij[Aircraft_1,LIRF,EFHK]
+   - 52.5 z_kij[Aircraft_2,LIRF,EFHK] - 112.5 z_kij[Aircraft_3,LIRF,EFHK]
+   - 240 z_kij[Aircraft_4,LIRF,EFHK] <= 0
+ Capacity_LIRF_EPWA: x_ij[LIRF,EPWA] - 33.75 z_kij[Aircraft_1,LIRF,EPWA]
+   - 52.5 z_kij[Aircraft_2,LIRF,EPWA] - 112.5 z_kij[Aircraft_3,LIRF,EPWA]
+   - 240 z_kij[Aircraft_4,LIRF,EPWA] <= 0
+ Capacity_LIRF_EGPH: x_ij[LIRF,EGPH] - 33.75 z_kij[Aircraft_1,LIRF,EGPH]
+   - 52.5 z_kij[Aircraft_2,LIRF,EGPH] - 112.5 z_kij[Aircraft_3,LIRF,EGPH]
+   - 240 z_kij[Aircraft_4,LIRF,EGPH] <= 0
+ Capacity_LIRF_LROP: x_ij[LIRF,LROP] - 33.75 z_kij[Aircraft_1,LIRF,LROP]
+   - 52.5 z_kij[Aircraft_2,LIRF,LROP] - 112.5 z_kij[Aircraft_3,LIRF,LROP]
+   - 240 z_kij[Aircraft_4,LIRF,LROP] <= 0
+ Capacity_LIRF_LGIR: x_ij[LIRF,LGIR] - 33.75 z_kij[Aircraft_1,LIRF,LGIR]
+   - 52.5 z_kij[Aircraft_2,LIRF,LGIR] - 112.5 z_kij[Aircraft_3,LIRF,LGIR]
+   - 240 z_kij[Aircraft_4,LIRF,LGIR] <= 0
+ Capacity_LIRF_BIKF: x_ij[LIRF,BIKF] - 33.75 z_kij[Aircraft_1,LIRF,BIKF]
+   - 52.5 z_kij[Aircraft_2,LIRF,BIKF] - 112.5 z_kij[Aircraft_3,LIRF,BIKF]
+   - 240 z_kij[Aircraft_4,LIRF,BIKF] <= 0
+ Capacity_LIRF_LICJ: x_ij[LIRF,LICJ] - 33.75 z_kij[Aircraft_1,LIRF,LICJ]
+   - 52.5 z_kij[Aircraft_2,LIRF,LICJ] - 112.5 z_kij[Aircraft_3,LIRF,LICJ]
+   - 240 z_kij[Aircraft_4,LIRF,LICJ] <= 0
+ Capacity_LIRF_LPMA: x_ij[LIRF,LPMA] - 33.75 z_kij[Aircraft_1,LIRF,LPMA]
+   - 52.5 z_kij[Aircraft_2,LIRF,LPMA] - 112.5 z_kij[Aircraft_3,LIRF,LPMA]
+   - 240 z_kij[Aircraft_4,LIRF,LPMA] <= 0
+ Capacity_EIDW_EGLL: x_ij[EIDW,EGLL] - 33.75 z_kij[Aircraft_1,EIDW,EGLL]
+   - 52.5 z_kij[Aircraft_2,EIDW,EGLL] - 112.5 z_kij[Aircraft_3,EIDW,EGLL]
+   - 240 z_kij[Aircraft_4,EIDW,EGLL] <= 0
+ Capacity_EIDW_LFPG: x_ij[EIDW,LFPG] - 33.75 z_kij[Aircraft_1,EIDW,LFPG]
+   - 52.5 z_kij[Aircraft_2,EIDW,LFPG] - 112.5 z_kij[Aircraft_3,EIDW,LFPG]
+   - 240 z_kij[Aircraft_4,EIDW,LFPG] <= 0
+ Capacity_EIDW_EHAM: x_ij[EIDW,EHAM] - 33.75 z_kij[Aircraft_1,EIDW,EHAM]
+   - 52.5 z_kij[Aircraft_2,EIDW,EHAM] - 112.5 z_kij[Aircraft_3,EIDW,EHAM]
+   - 240 z_kij[Aircraft_4,EIDW,EHAM] <= 0
+ Capacity_EIDW_EDDF: x_ij[EIDW,EDDF] - 33.75 z_kij[Aircraft_1,EIDW,EDDF]
+   - 52.5 z_kij[Aircraft_2,EIDW,EDDF] - 112.5 z_kij[Aircraft_3,EIDW,EDDF]
+   - 240 z_kij[Aircraft_4,EIDW,EDDF] + w_ij[EIDW,EGLL] + w_ij[EIDW,LFPG]
+   + w_ij[EIDW,EHAM] + w_ij[EIDW,EDDF] + w_ij[EIDW,LEMF] + w_ij[EIDW,LEBL]
+   + w_ij[EIDW,EDDM] + w_ij[EIDW,LIRF] + w_ij[EIDW,ESSA] + w_ij[EIDW,LPPT]
+   + w_ij[EIDW,EDDT] + w_ij[EIDW,EFHK] + w_ij[EIDW,EPWA] + w_ij[EIDW,EGPH]
+   + w_ij[EIDW,LROP] + w_ij[EIDW,LGIR] + w_ij[EIDW,BIKF] + w_ij[EIDW,LICJ]
+   + w_ij[EIDW,LPMA] <= 0
+ Capacity_EIDW_LEMF: x_ij[EIDW,LEMF] - 33.75 z_kij[Aircraft_1,EIDW,LEMF]
+   - 52.5 z_kij[Aircraft_2,EIDW,LEMF] - 112.5 z_kij[Aircraft_3,EIDW,LEMF]
+   - 240 z_kij[Aircraft_4,EIDW,LEMF] <= 0
+ Capacity_EIDW_LEBL: x_ij[EIDW,LEBL] - 33.75 z_kij[Aircraft_1,EIDW,LEBL]
+   - 52.5 z_kij[Aircraft_2,EIDW,LEBL] - 112.5 z_kij[Aircraft_3,EIDW,LEBL]
+   - 240 z_kij[Aircraft_4,EIDW,LEBL] <= 0
+ Capacity_EIDW_EDDM: x_ij[EIDW,EDDM] - 33.75 z_kij[Aircraft_1,EIDW,EDDM]
+   - 52.5 z_kij[Aircraft_2,EIDW,EDDM] - 112.5 z_kij[Aircraft_3,EIDW,EDDM]
+   - 240 z_kij[Aircraft_4,EIDW,EDDM] <= 0
+ Capacity_EIDW_LIRF: x_ij[EIDW,LIRF] - 33.75 z_kij[Aircraft_1,EIDW,LIRF]
+   - 52.5 z_kij[Aircraft_2,EIDW,LIRF] - 112.5 z_kij[Aircraft_3,EIDW,LIRF]
+   - 240 z_kij[Aircraft_4,EIDW,LIRF] <= 0
+ Capacity_EIDW_ESSA: x_ij[EIDW,ESSA] - 33.75 z_kij[Aircraft_1,EIDW,ESSA]
+   - 52.5 z_kij[Aircraft_2,EIDW,ESSA] - 112.5 z_kij[Aircraft_3,EIDW,ESSA]
+   - 240 z_kij[Aircraft_4,EIDW,ESSA] <= 0
+ Capacity_EIDW_LPPT: x_ij[EIDW,LPPT] - 33.75 z_kij[Aircraft_1,EIDW,LPPT]
+   - 52.5 z_kij[Aircraft_2,EIDW,LPPT] - 112.5 z_kij[Aircraft_3,EIDW,LPPT]
+   - 240 z_kij[Aircraft_4,EIDW,LPPT] <= 0
+ Capacity_EIDW_EDDT: x_ij[EIDW,EDDT] - 33.75 z_kij[Aircraft_1,EIDW,EDDT]
+   - 52.5 z_kij[Aircraft_2,EIDW,EDDT] - 112.5 z_kij[Aircraft_3,EIDW,EDDT]
+   - 240 z_kij[Aircraft_4,EIDW,EDDT] <= 0
+ Capacity_EIDW_EFHK: x_ij[EIDW,EFHK] - 33.75 z_kij[Aircraft_1,EIDW,EFHK]
+   - 52.5 z_kij[Aircraft_2,EIDW,EFHK] - 112.5 z_kij[Aircraft_3,EIDW,EFHK]
+   - 240 z_kij[Aircraft_4,EIDW,EFHK] <= 0
+ Capacity_EIDW_EPWA: x_ij[EIDW,EPWA] - 33.75 z_kij[Aircraft_1,EIDW,EPWA]
+   - 52.5 z_kij[Aircraft_2,EIDW,EPWA] - 112.5 z_kij[Aircraft_3,EIDW,EPWA]
+   - 240 z_kij[Aircraft_4,EIDW,EPWA] <= 0
+ Capacity_EIDW_EGPH: x_ij[EIDW,EGPH] - 33.75 z_kij[Aircraft_1,EIDW,EGPH]
+   - 52.5 z_kij[Aircraft_2,EIDW,EGPH] - 112.5 z_kij[Aircraft_3,EIDW,EGPH]
+   - 240 z_kij[Aircraft_4,EIDW,EGPH] <= 0
+ Capacity_EIDW_LROP: x_ij[EIDW,LROP] - 33.75 z_kij[Aircraft_1,EIDW,LROP]
+   - 52.5 z_kij[Aircraft_2,EIDW,LROP] - 112.5 z_kij[Aircraft_3,EIDW,LROP]
+   - 240 z_kij[Aircraft_4,EIDW,LROP] <= 0
+ Capacity_EIDW_LGIR: x_ij[EIDW,LGIR] - 33.75 z_kij[Aircraft_1,EIDW,LGIR]
+   - 52.5 z_kij[Aircraft_2,EIDW,LGIR] - 112.5 z_kij[Aircraft_3,EIDW,LGIR]
+   - 240 z_kij[Aircraft_4,EIDW,LGIR] <= 0
+ Capacity_EIDW_BIKF: x_ij[EIDW,BIKF] - 33.75 z_kij[Aircraft_1,EIDW,BIKF]
+   - 52.5 z_kij[Aircraft_2,EIDW,BIKF] - 112.5 z_kij[Aircraft_3,EIDW,BIKF]
+   - 240 z_kij[Aircraft_4,EIDW,BIKF] <= 0
+ Capacity_EIDW_LICJ: x_ij[EIDW,LICJ] - 33.75 z_kij[Aircraft_1,EIDW,LICJ]
+   - 52.5 z_kij[Aircraft_2,EIDW,LICJ] - 112.5 z_kij[Aircraft_3,EIDW,LICJ]
+   - 240 z_kij[Aircraft_4,EIDW,LICJ] <= 0
+ Capacity_EIDW_LPMA: x_ij[EIDW,LPMA] - 33.75 z_kij[Aircraft_1,EIDW,LPMA]
+   - 52.5 z_kij[Aircraft_2,EIDW,LPMA] - 112.5 z_kij[Aircraft_3,EIDW,LPMA]
+   - 240 z_kij[Aircraft_4,EIDW,LPMA] <= 0
+ Capacity_ESSA_EGLL: x_ij[ESSA,EGLL] - 33.75 z_kij[Aircraft_1,ESSA,EGLL]
+   - 52.5 z_kij[Aircraft_2,ESSA,EGLL] - 112.5 z_kij[Aircraft_3,ESSA,EGLL]
+   - 240 z_kij[Aircraft_4,ESSA,EGLL] <= 0
+ Capacity_ESSA_LFPG: x_ij[ESSA,LFPG] - 33.75 z_kij[Aircraft_1,ESSA,LFPG]
+   - 52.5 z_kij[Aircraft_2,ESSA,LFPG] - 112.5 z_kij[Aircraft_3,ESSA,LFPG]
+   - 240 z_kij[Aircraft_4,ESSA,LFPG] <= 0
+ Capacity_ESSA_EHAM: x_ij[ESSA,EHAM] - 33.75 z_kij[Aircraft_1,ESSA,EHAM]
+   - 52.5 z_kij[Aircraft_2,ESSA,EHAM] - 112.5 z_kij[Aircraft_3,ESSA,EHAM]
+   - 240 z_kij[Aircraft_4,ESSA,EHAM] <= 0
+ Capacity_ESSA_EDDF: x_ij[ESSA,EDDF] - 33.75 z_kij[Aircraft_1,ESSA,EDDF]
+   - 52.5 z_kij[Aircraft_2,ESSA,EDDF] - 112.5 z_kij[Aircraft_3,ESSA,EDDF]
+   - 240 z_kij[Aircraft_4,ESSA,EDDF] + w_ij[ESSA,EGLL] + w_ij[ESSA,LFPG]
+   + w_ij[ESSA,EHAM] + w_ij[ESSA,EDDF] + w_ij[ESSA,LEMF] + w_ij[ESSA,LEBL]
+   + w_ij[ESSA,EDDM] + w_ij[ESSA,LIRF] + w_ij[ESSA,EIDW] + w_ij[ESSA,LPPT]
+   + w_ij[ESSA,EDDT] + w_ij[ESSA,EFHK] + w_ij[ESSA,EPWA] + w_ij[ESSA,EGPH]
+   + w_ij[ESSA,LROP] + w_ij[ESSA,LGIR] + w_ij[ESSA,BIKF] + w_ij[ESSA,LICJ]
+   + w_ij[ESSA,LPMA] <= 0
+ Capacity_ESSA_LEMF: x_ij[ESSA,LEMF] - 33.75 z_kij[Aircraft_1,ESSA,LEMF]
+   - 52.5 z_kij[Aircraft_2,ESSA,LEMF] - 112.5 z_kij[Aircraft_3,ESSA,LEMF]
+   - 240 z_kij[Aircraft_4,ESSA,LEMF] <= 0
+ Capacity_ESSA_LEBL: x_ij[ESSA,LEBL] - 33.75 z_kij[Aircraft_1,ESSA,LEBL]
+   - 52.5 z_kij[Aircraft_2,ESSA,LEBL] - 112.5 z_kij[Aircraft_3,ESSA,LEBL]
+   - 240 z_kij[Aircraft_4,ESSA,LEBL] <= 0
+ Capacity_ESSA_EDDM: x_ij[ESSA,EDDM] - 33.75 z_kij[Aircraft_1,ESSA,EDDM]
+   - 52.5 z_kij[Aircraft_2,ESSA,EDDM] - 112.5 z_kij[Aircraft_3,ESSA,EDDM]
+   - 240 z_kij[Aircraft_4,ESSA,EDDM] <= 0
+ Capacity_ESSA_LIRF: x_ij[ESSA,LIRF] - 33.75 z_kij[Aircraft_1,ESSA,LIRF]
+   - 52.5 z_kij[Aircraft_2,ESSA,LIRF] - 112.5 z_kij[Aircraft_3,ESSA,LIRF]
+   - 240 z_kij[Aircraft_4,ESSA,LIRF] <= 0
+ Capacity_ESSA_EIDW: x_ij[ESSA,EIDW] - 33.75 z_kij[Aircraft_1,ESSA,EIDW]
+   - 52.5 z_kij[Aircraft_2,ESSA,EIDW] - 112.5 z_kij[Aircraft_3,ESSA,EIDW]
+   - 240 z_kij[Aircraft_4,ESSA,EIDW] <= 0
+ Capacity_ESSA_LPPT: x_ij[ESSA,LPPT] - 33.75 z_kij[Aircraft_1,ESSA,LPPT]
+   - 52.5 z_kij[Aircraft_2,ESSA,LPPT] - 112.5 z_kij[Aircraft_3,ESSA,LPPT]
+   - 240 z_kij[Aircraft_4,ESSA,LPPT] <= 0
+ Capacity_ESSA_EDDT: x_ij[ESSA,EDDT] - 33.75 z_kij[Aircraft_1,ESSA,EDDT]
+   - 52.5 z_kij[Aircraft_2,ESSA,EDDT] - 112.5 z_kij[Aircraft_3,ESSA,EDDT]
+   - 240 z_kij[Aircraft_4,ESSA,EDDT] <= 0
+ Capacity_ESSA_EFHK: x_ij[ESSA,EFHK] - 33.75 z_kij[Aircraft_1,ESSA,EFHK]
+   - 52.5 z_kij[Aircraft_2,ESSA,EFHK] - 112.5 z_kij[Aircraft_3,ESSA,EFHK]
+   - 240 z_kij[Aircraft_4,ESSA,EFHK] <= 0
+ Capacity_ESSA_EPWA: x_ij[ESSA,EPWA] - 33.75 z_kij[Aircraft_1,ESSA,EPWA]
+   - 52.5 z_kij[Aircraft_2,ESSA,EPWA] - 112.5 z_kij[Aircraft_3,ESSA,EPWA]
+   - 240 z_kij[Aircraft_4,ESSA,EPWA] <= 0
+ Capacity_ESSA_EGPH: x_ij[ESSA,EGPH] - 33.75 z_kij[Aircraft_1,ESSA,EGPH]
+   - 52.5 z_kij[Aircraft_2,ESSA,EGPH] - 112.5 z_kij[Aircraft_3,ESSA,EGPH]
+   - 240 z_kij[Aircraft_4,ESSA,EGPH] <= 0
+ Capacity_ESSA_LROP: x_ij[ESSA,LROP] - 33.75 z_kij[Aircraft_1,ESSA,LROP]
+   - 52.5 z_kij[Aircraft_2,ESSA,LROP] - 112.5 z_kij[Aircraft_3,ESSA,LROP]
+   - 240 z_kij[Aircraft_4,ESSA,LROP] <= 0
+ Capacity_ESSA_LGIR: x_ij[ESSA,LGIR] - 33.75 z_kij[Aircraft_1,ESSA,LGIR]
+   - 52.5 z_kij[Aircraft_2,ESSA,LGIR] - 112.5 z_kij[Aircraft_3,ESSA,LGIR]
+   - 240 z_kij[Aircraft_4,ESSA,LGIR] <= 0
+ Capacity_ESSA_BIKF: x_ij[ESSA,BIKF] - 33.75 z_kij[Aircraft_1,ESSA,BIKF]
+   - 52.5 z_kij[Aircraft_2,ESSA,BIKF] - 112.5 z_kij[Aircraft_3,ESSA,BIKF]
+   - 240 z_kij[Aircraft_4,ESSA,BIKF] <= 0
+ Capacity_ESSA_LICJ: x_ij[ESSA,LICJ] - 33.75 z_kij[Aircraft_1,ESSA,LICJ]
+   - 52.5 z_kij[Aircraft_2,ESSA,LICJ] - 112.5 z_kij[Aircraft_3,ESSA,LICJ]
+   - 240 z_kij[Aircraft_4,ESSA,LICJ] <= 0
+ Capacity_ESSA_LPMA: x_ij[ESSA,LPMA] - 33.75 z_kij[Aircraft_1,ESSA,LPMA]
+   - 52.5 z_kij[Aircraft_2,ESSA,LPMA] - 112.5 z_kij[Aircraft_3,ESSA,LPMA]
+   - 240 z_kij[Aircraft_4,ESSA,LPMA] <= 0
+ Capacity_LPPT_EGLL: x_ij[LPPT,EGLL] - 33.75 z_kij[Aircraft_1,LPPT,EGLL]
+   - 52.5 z_kij[Aircraft_2,LPPT,EGLL] - 112.5 z_kij[Aircraft_3,LPPT,EGLL]
+   - 240 z_kij[Aircraft_4,LPPT,EGLL] <= 0
+ Capacity_LPPT_LFPG: x_ij[LPPT,LFPG] - 33.75 z_kij[Aircraft_1,LPPT,LFPG]
+   - 52.5 z_kij[Aircraft_2,LPPT,LFPG] - 112.5 z_kij[Aircraft_3,LPPT,LFPG]
+   - 240 z_kij[Aircraft_4,LPPT,LFPG] <= 0
+ Capacity_LPPT_EHAM: x_ij[LPPT,EHAM] - 33.75 z_kij[Aircraft_1,LPPT,EHAM]
+   - 52.5 z_kij[Aircraft_2,LPPT,EHAM] - 112.5 z_kij[Aircraft_3,LPPT,EHAM]
+   - 240 z_kij[Aircraft_4,LPPT,EHAM] <= 0
+ Capacity_LPPT_EDDF: x_ij[LPPT,EDDF] - 33.75 z_kij[Aircraft_1,LPPT,EDDF]
+   - 52.5 z_kij[Aircraft_2,LPPT,EDDF] - 112.5 z_kij[Aircraft_3,LPPT,EDDF]
+   - 240 z_kij[Aircraft_4,LPPT,EDDF] + w_ij[LPPT,EGLL] + w_ij[LPPT,LFPG]
+   + w_ij[LPPT,EHAM] + w_ij[LPPT,EDDF] + w_ij[LPPT,LEMF] + w_ij[LPPT,LEBL]
+   + w_ij[LPPT,EDDM] + w_ij[LPPT,LIRF] + w_ij[LPPT,EIDW] + w_ij[LPPT,ESSA]
+   + w_ij[LPPT,EDDT] + w_ij[LPPT,EFHK] + w_ij[LPPT,EPWA] + w_ij[LPPT,EGPH]
+   + w_ij[LPPT,LROP] + w_ij[LPPT,LGIR] + w_ij[LPPT,BIKF] + w_ij[LPPT,LICJ]
+   + w_ij[LPPT,LPMA] <= 0
+ Capacity_LPPT_LEMF: x_ij[LPPT,LEMF] - 33.75 z_kij[Aircraft_1,LPPT,LEMF]
+   - 52.5 z_kij[Aircraft_2,LPPT,LEMF] - 112.5 z_kij[Aircraft_3,LPPT,LEMF]
+   - 240 z_kij[Aircraft_4,LPPT,LEMF] <= 0
+ Capacity_LPPT_LEBL: x_ij[LPPT,LEBL] - 33.75 z_kij[Aircraft_1,LPPT,LEBL]
+   - 52.5 z_kij[Aircraft_2,LPPT,LEBL] - 112.5 z_kij[Aircraft_3,LPPT,LEBL]
+   - 240 z_kij[Aircraft_4,LPPT,LEBL] <= 0
+ Capacity_LPPT_EDDM: x_ij[LPPT,EDDM] - 33.75 z_kij[Aircraft_1,LPPT,EDDM]
+   - 52.5 z_kij[Aircraft_2,LPPT,EDDM] - 112.5 z_kij[Aircraft_3,LPPT,EDDM]
+   - 240 z_kij[Aircraft_4,LPPT,EDDM] <= 0
+ Capacity_LPPT_LIRF: x_ij[LPPT,LIRF] - 33.75 z_kij[Aircraft_1,LPPT,LIRF]
+   - 52.5 z_kij[Aircraft_2,LPPT,LIRF] - 112.5 z_kij[Aircraft_3,LPPT,LIRF]
+   - 240 z_kij[Aircraft_4,LPPT,LIRF] <= 0
+ Capacity_LPPT_EIDW: x_ij[LPPT,EIDW] - 33.75 z_kij[Aircraft_1,LPPT,EIDW]
+   - 52.5 z_kij[Aircraft_2,LPPT,EIDW] - 112.5 z_kij[Aircraft_3,LPPT,EIDW]
+   - 240 z_kij[Aircraft_4,LPPT,EIDW] <= 0
+ Capacity_LPPT_ESSA: x_ij[LPPT,ESSA] - 33.75 z_kij[Aircraft_1,LPPT,ESSA]
+   - 52.5 z_kij[Aircraft_2,LPPT,ESSA] - 112.5 z_kij[Aircraft_3,LPPT,ESSA]
+   - 240 z_kij[Aircraft_4,LPPT,ESSA] <= 0
+ Capacity_LPPT_EDDT: x_ij[LPPT,EDDT] - 33.75 z_kij[Aircraft_1,LPPT,EDDT]
+   - 52.5 z_kij[Aircraft_2,LPPT,EDDT] - 112.5 z_kij[Aircraft_3,LPPT,EDDT]
+   - 240 z_kij[Aircraft_4,LPPT,EDDT] <= 0
+ Capacity_LPPT_EFHK: x_ij[LPPT,EFHK] - 33.75 z_kij[Aircraft_1,LPPT,EFHK]
+   - 52.5 z_kij[Aircraft_2,LPPT,EFHK] - 112.5 z_kij[Aircraft_3,LPPT,EFHK]
+   - 240 z_kij[Aircraft_4,LPPT,EFHK] <= 0
+ Capacity_LPPT_EPWA: x_ij[LPPT,EPWA] - 33.75 z_kij[Aircraft_1,LPPT,EPWA]
+   - 52.5 z_kij[Aircraft_2,LPPT,EPWA] - 112.5 z_kij[Aircraft_3,LPPT,EPWA]
+   - 240 z_kij[Aircraft_4,LPPT,EPWA] <= 0
+ Capacity_LPPT_EGPH: x_ij[LPPT,EGPH] - 33.75 z_kij[Aircraft_1,LPPT,EGPH]
+   - 52.5 z_kij[Aircraft_2,LPPT,EGPH] - 112.5 z_kij[Aircraft_3,LPPT,EGPH]
+   - 240 z_kij[Aircraft_4,LPPT,EGPH] <= 0
+ Capacity_LPPT_LROP: x_ij[LPPT,LROP] - 33.75 z_kij[Aircraft_1,LPPT,LROP]
+   - 52.5 z_kij[Aircraft_2,LPPT,LROP] - 112.5 z_kij[Aircraft_3,LPPT,LROP]
+   - 240 z_kij[Aircraft_4,LPPT,LROP] <= 0
+ Capacity_LPPT_LGIR: x_ij[LPPT,LGIR] - 33.75 z_kij[Aircraft_1,LPPT,LGIR]
+   - 52.5 z_kij[Aircraft_2,LPPT,LGIR] - 112.5 z_kij[Aircraft_3,LPPT,LGIR]
+   - 240 z_kij[Aircraft_4,LPPT,LGIR] <= 0
+ Capacity_LPPT_BIKF: x_ij[LPPT,BIKF] - 33.75 z_kij[Aircraft_1,LPPT,BIKF]
+   - 52.5 z_kij[Aircraft_2,LPPT,BIKF] - 112.5 z_kij[Aircraft_3,LPPT,BIKF]
+   - 240 z_kij[Aircraft_4,LPPT,BIKF] <= 0
+ Capacity_LPPT_LICJ: x_ij[LPPT,LICJ] - 33.75 z_kij[Aircraft_1,LPPT,LICJ]
+   - 52.5 z_kij[Aircraft_2,LPPT,LICJ] - 112.5 z_kij[Aircraft_3,LPPT,LICJ]
+   - 240 z_kij[Aircraft_4,LPPT,LICJ] <= 0
+ Capacity_LPPT_LPMA: x_ij[LPPT,LPMA] - 33.75 z_kij[Aircraft_1,LPPT,LPMA]
+   - 52.5 z_kij[Aircraft_2,LPPT,LPMA] - 112.5 z_kij[Aircraft_3,LPPT,LPMA]
+   - 240 z_kij[Aircraft_4,LPPT,LPMA] <= 0
+ Capacity_EDDT_EGLL: x_ij[EDDT,EGLL] - 33.75 z_kij[Aircraft_1,EDDT,EGLL]
+   - 52.5 z_kij[Aircraft_2,EDDT,EGLL] - 112.5 z_kij[Aircraft_3,EDDT,EGLL]
+   - 240 z_kij[Aircraft_4,EDDT,EGLL] <= 0
+ Capacity_EDDT_LFPG: x_ij[EDDT,LFPG] - 33.75 z_kij[Aircraft_1,EDDT,LFPG]
+   - 52.5 z_kij[Aircraft_2,EDDT,LFPG] - 112.5 z_kij[Aircraft_3,EDDT,LFPG]
+   - 240 z_kij[Aircraft_4,EDDT,LFPG] <= 0
+ Capacity_EDDT_EHAM: x_ij[EDDT,EHAM] - 33.75 z_kij[Aircraft_1,EDDT,EHAM]
+   - 52.5 z_kij[Aircraft_2,EDDT,EHAM] - 112.5 z_kij[Aircraft_3,EDDT,EHAM]
+   - 240 z_kij[Aircraft_4,EDDT,EHAM] <= 0
+ Capacity_EDDT_EDDF: x_ij[EDDT,EDDF] - 33.75 z_kij[Aircraft_1,EDDT,EDDF]
+   - 52.5 z_kij[Aircraft_2,EDDT,EDDF] - 112.5 z_kij[Aircraft_3,EDDT,EDDF]
+   - 240 z_kij[Aircraft_4,EDDT,EDDF] + w_ij[EDDT,EGLL] + w_ij[EDDT,LFPG]
+   + w_ij[EDDT,EHAM] + w_ij[EDDT,EDDF] + w_ij[EDDT,LEMF] + w_ij[EDDT,LEBL]
+   + w_ij[EDDT,EDDM] + w_ij[EDDT,LIRF] + w_ij[EDDT,EIDW] + w_ij[EDDT,ESSA]
+   + w_ij[EDDT,LPPT] + w_ij[EDDT,EFHK] + w_ij[EDDT,EPWA] + w_ij[EDDT,EGPH]
+   + w_ij[EDDT,LROP] + w_ij[EDDT,LGIR] + w_ij[EDDT,BIKF] + w_ij[EDDT,LICJ]
+   + w_ij[EDDT,LPMA] <= 0
+ Capacity_EDDT_LEMF: x_ij[EDDT,LEMF] - 33.75 z_kij[Aircraft_1,EDDT,LEMF]
+   - 52.5 z_kij[Aircraft_2,EDDT,LEMF] - 112.5 z_kij[Aircraft_3,EDDT,LEMF]
+   - 240 z_kij[Aircraft_4,EDDT,LEMF] <= 0
+ Capacity_EDDT_LEBL: x_ij[EDDT,LEBL] - 33.75 z_kij[Aircraft_1,EDDT,LEBL]
+   - 52.5 z_kij[Aircraft_2,EDDT,LEBL] - 112.5 z_kij[Aircraft_3,EDDT,LEBL]
+   - 240 z_kij[Aircraft_4,EDDT,LEBL] <= 0
+ Capacity_EDDT_EDDM: x_ij[EDDT,EDDM] - 33.75 z_kij[Aircraft_1,EDDT,EDDM]
+   - 52.5 z_kij[Aircraft_2,EDDT,EDDM] - 112.5 z_kij[Aircraft_3,EDDT,EDDM]
+   - 240 z_kij[Aircraft_4,EDDT,EDDM] <= 0
+ Capacity_EDDT_LIRF: x_ij[EDDT,LIRF] - 33.75 z_kij[Aircraft_1,EDDT,LIRF]
+   - 52.5 z_kij[Aircraft_2,EDDT,LIRF] - 112.5 z_kij[Aircraft_3,EDDT,LIRF]
+   - 240 z_kij[Aircraft_4,EDDT,LIRF] <= 0
+ Capacity_EDDT_EIDW: x_ij[EDDT,EIDW] - 33.75 z_kij[Aircraft_1,EDDT,EIDW]
+   - 52.5 z_kij[Aircraft_2,EDDT,EIDW] - 112.5 z_kij[Aircraft_3,EDDT,EIDW]
+   - 240 z_kij[Aircraft_4,EDDT,EIDW] <= 0
+ Capacity_EDDT_ESSA: x_ij[EDDT,ESSA] - 33.75 z_kij[Aircraft_1,EDDT,ESSA]
+   - 52.5 z_kij[Aircraft_2,EDDT,ESSA] - 112.5 z_kij[Aircraft_3,EDDT,ESSA]
+   - 240 z_kij[Aircraft_4,EDDT,ESSA] <= 0
+ Capacity_EDDT_LPPT: x_ij[EDDT,LPPT] - 33.75 z_kij[Aircraft_1,EDDT,LPPT]
+   - 52.5 z_kij[Aircraft_2,EDDT,LPPT] - 112.5 z_kij[Aircraft_3,EDDT,LPPT]
+   - 240 z_kij[Aircraft_4,EDDT,LPPT] <= 0
+ Capacity_EDDT_EFHK: x_ij[EDDT,EFHK] - 33.75 z_kij[Aircraft_1,EDDT,EFHK]
+   - 52.5 z_kij[Aircraft_2,EDDT,EFHK] - 112.5 z_kij[Aircraft_3,EDDT,EFHK]
+   - 240 z_kij[Aircraft_4,EDDT,EFHK] <= 0
+ Capacity_EDDT_EPWA: x_ij[EDDT,EPWA] - 33.75 z_kij[Aircraft_1,EDDT,EPWA]
+   - 52.5 z_kij[Aircraft_2,EDDT,EPWA] - 112.5 z_kij[Aircraft_3,EDDT,EPWA]
+   - 240 z_kij[Aircraft_4,EDDT,EPWA] <= 0
+ Capacity_EDDT_EGPH: x_ij[EDDT,EGPH] - 33.75 z_kij[Aircraft_1,EDDT,EGPH]
+   - 52.5 z_kij[Aircraft_2,EDDT,EGPH] - 112.5 z_kij[Aircraft_3,EDDT,EGPH]
+   - 240 z_kij[Aircraft_4,EDDT,EGPH] <= 0
+ Capacity_EDDT_LROP: x_ij[EDDT,LROP] - 33.75 z_kij[Aircraft_1,EDDT,LROP]
+   - 52.5 z_kij[Aircraft_2,EDDT,LROP] - 112.5 z_kij[Aircraft_3,EDDT,LROP]
+   - 240 z_kij[Aircraft_4,EDDT,LROP] <= 0
+ Capacity_EDDT_LGIR: x_ij[EDDT,LGIR] - 33.75 z_kij[Aircraft_1,EDDT,LGIR]
+   - 52.5 z_kij[Aircraft_2,EDDT,LGIR] - 112.5 z_kij[Aircraft_3,EDDT,LGIR]
+   - 240 z_kij[Aircraft_4,EDDT,LGIR] <= 0
+ Capacity_EDDT_BIKF: x_ij[EDDT,BIKF] - 33.75 z_kij[Aircraft_1,EDDT,BIKF]
+   - 52.5 z_kij[Aircraft_2,EDDT,BIKF] - 112.5 z_kij[Aircraft_3,EDDT,BIKF]
+   - 240 z_kij[Aircraft_4,EDDT,BIKF] <= 0
+ Capacity_EDDT_LICJ: x_ij[EDDT,LICJ] - 33.75 z_kij[Aircraft_1,EDDT,LICJ]
+   - 52.5 z_kij[Aircraft_2,EDDT,LICJ] - 112.5 z_kij[Aircraft_3,EDDT,LICJ]
+   - 240 z_kij[Aircraft_4,EDDT,LICJ] <= 0
+ Capacity_EDDT_LPMA: x_ij[EDDT,LPMA] - 33.75 z_kij[Aircraft_1,EDDT,LPMA]
+   - 52.5 z_kij[Aircraft_2,EDDT,LPMA] - 112.5 z_kij[Aircraft_3,EDDT,LPMA]
+   - 240 z_kij[Aircraft_4,EDDT,LPMA] <= 0
+ Capacity_EFHK_EGLL: x_ij[EFHK,EGLL] - 33.75 z_kij[Aircraft_1,EFHK,EGLL]
+   - 52.5 z_kij[Aircraft_2,EFHK,EGLL] - 112.5 z_kij[Aircraft_3,EFHK,EGLL]
+   - 240 z_kij[Aircraft_4,EFHK,EGLL] <= 0
+ Capacity_EFHK_LFPG: x_ij[EFHK,LFPG] - 33.75 z_kij[Aircraft_1,EFHK,LFPG]
+   - 52.5 z_kij[Aircraft_2,EFHK,LFPG] - 112.5 z_kij[Aircraft_3,EFHK,LFPG]
+   - 240 z_kij[Aircraft_4,EFHK,LFPG] <= 0
+ Capacity_EFHK_EHAM: x_ij[EFHK,EHAM] - 33.75 z_kij[Aircraft_1,EFHK,EHAM]
+   - 52.5 z_kij[Aircraft_2,EFHK,EHAM] - 112.5 z_kij[Aircraft_3,EFHK,EHAM]
+   - 240 z_kij[Aircraft_4,EFHK,EHAM] <= 0
+ Capacity_EFHK_EDDF: x_ij[EFHK,EDDF] - 33.75 z_kij[Aircraft_1,EFHK,EDDF]
+   - 52.5 z_kij[Aircraft_2,EFHK,EDDF] - 112.5 z_kij[Aircraft_3,EFHK,EDDF]
+   - 240 z_kij[Aircraft_4,EFHK,EDDF] + w_ij[EFHK,EGLL] + w_ij[EFHK,LFPG]
+   + w_ij[EFHK,EHAM] + w_ij[EFHK,EDDF] + w_ij[EFHK,LEMF] + w_ij[EFHK,LEBL]
+   + w_ij[EFHK,EDDM] + w_ij[EFHK,LIRF] + w_ij[EFHK,EIDW] + w_ij[EFHK,ESSA]
+   + w_ij[EFHK,LPPT] + w_ij[EFHK,EDDT] + w_ij[EFHK,EPWA] + w_ij[EFHK,EGPH]
+   + w_ij[EFHK,LROP] + w_ij[EFHK,LGIR] + w_ij[EFHK,BIKF] + w_ij[EFHK,LICJ]
+   + w_ij[EFHK,LPMA] <= 0
+ Capacity_EFHK_LEMF: x_ij[EFHK,LEMF] - 33.75 z_kij[Aircraft_1,EFHK,LEMF]
+   - 52.5 z_kij[Aircraft_2,EFHK,LEMF] - 112.5 z_kij[Aircraft_3,EFHK,LEMF]
+   - 240 z_kij[Aircraft_4,EFHK,LEMF] <= 0
+ Capacity_EFHK_LEBL: x_ij[EFHK,LEBL] - 33.75 z_kij[Aircraft_1,EFHK,LEBL]
+   - 52.5 z_kij[Aircraft_2,EFHK,LEBL] - 112.5 z_kij[Aircraft_3,EFHK,LEBL]
+   - 240 z_kij[Aircraft_4,EFHK,LEBL] <= 0
+ Capacity_EFHK_EDDM: x_ij[EFHK,EDDM] - 33.75 z_kij[Aircraft_1,EFHK,EDDM]
+   - 52.5 z_kij[Aircraft_2,EFHK,EDDM] - 112.5 z_kij[Aircraft_3,EFHK,EDDM]
+   - 240 z_kij[Aircraft_4,EFHK,EDDM] <= 0
+ Capacity_EFHK_LIRF: x_ij[EFHK,LIRF] - 33.75 z_kij[Aircraft_1,EFHK,LIRF]
+   - 52.5 z_kij[Aircraft_2,EFHK,LIRF] - 112.5 z_kij[Aircraft_3,EFHK,LIRF]
+   - 240 z_kij[Aircraft_4,EFHK,LIRF] <= 0
+ Capacity_EFHK_EIDW: x_ij[EFHK,EIDW] - 33.75 z_kij[Aircraft_1,EFHK,EIDW]
+   - 52.5 z_kij[Aircraft_2,EFHK,EIDW] - 112.5 z_kij[Aircraft_3,EFHK,EIDW]
+   - 240 z_kij[Aircraft_4,EFHK,EIDW] <= 0
+ Capacity_EFHK_ESSA: x_ij[EFHK,ESSA] - 33.75 z_kij[Aircraft_1,EFHK,ESSA]
+   - 52.5 z_kij[Aircraft_2,EFHK,ESSA] - 112.5 z_kij[Aircraft_3,EFHK,ESSA]
+   - 240 z_kij[Aircraft_4,EFHK,ESSA] <= 0
+ Capacity_EFHK_LPPT: x_ij[EFHK,LPPT] - 33.75 z_kij[Aircraft_1,EFHK,LPPT]
+   - 52.5 z_kij[Aircraft_2,EFHK,LPPT] - 112.5 z_kij[Aircraft_3,EFHK,LPPT]
+   - 240 z_kij[Aircraft_4,EFHK,LPPT] <= 0
+ Capacity_EFHK_EDDT: x_ij[EFHK,EDDT] - 33.75 z_kij[Aircraft_1,EFHK,EDDT]
+   - 52.5 z_kij[Aircraft_2,EFHK,EDDT] - 112.5 z_kij[Aircraft_3,EFHK,EDDT]
+   - 240 z_kij[Aircraft_4,EFHK,EDDT] <= 0
+ Capacity_EFHK_EPWA: x_ij[EFHK,EPWA] - 33.75 z_kij[Aircraft_1,EFHK,EPWA]
+   - 52.5 z_kij[Aircraft_2,EFHK,EPWA] - 112.5 z_kij[Aircraft_3,EFHK,EPWA]
+   - 240 z_kij[Aircraft_4,EFHK,EPWA] <= 0
+ Capacity_EFHK_EGPH: x_ij[EFHK,EGPH] - 33.75 z_kij[Aircraft_1,EFHK,EGPH]
+   - 52.5 z_kij[Aircraft_2,EFHK,EGPH] - 112.5 z_kij[Aircraft_3,EFHK,EGPH]
+   - 240 z_kij[Aircraft_4,EFHK,EGPH] <= 0
+ Capacity_EFHK_LROP: x_ij[EFHK,LROP] - 33.75 z_kij[Aircraft_1,EFHK,LROP]
+   - 52.5 z_kij[Aircraft_2,EFHK,LROP] - 112.5 z_kij[Aircraft_3,EFHK,LROP]
+   - 240 z_kij[Aircraft_4,EFHK,LROP] <= 0
+ Capacity_EFHK_LGIR: x_ij[EFHK,LGIR] - 33.75 z_kij[Aircraft_1,EFHK,LGIR]
+   - 52.5 z_kij[Aircraft_2,EFHK,LGIR] - 112.5 z_kij[Aircraft_3,EFHK,LGIR]
+   - 240 z_kij[Aircraft_4,EFHK,LGIR] <= 0
+ Capacity_EFHK_BIKF: x_ij[EFHK,BIKF] - 33.75 z_kij[Aircraft_1,EFHK,BIKF]
+   - 52.5 z_kij[Aircraft_2,EFHK,BIKF] - 112.5 z_kij[Aircraft_3,EFHK,BIKF]
+   - 240 z_kij[Aircraft_4,EFHK,BIKF] <= 0
+ Capacity_EFHK_LICJ: x_ij[EFHK,LICJ] - 33.75 z_kij[Aircraft_1,EFHK,LICJ]
+   - 52.5 z_kij[Aircraft_2,EFHK,LICJ] - 112.5 z_kij[Aircraft_3,EFHK,LICJ]
+   - 240 z_kij[Aircraft_4,EFHK,LICJ] <= 0
+ Capacity_EFHK_LPMA: x_ij[EFHK,LPMA] - 33.75 z_kij[Aircraft_1,EFHK,LPMA]
+   - 52.5 z_kij[Aircraft_2,EFHK,LPMA] - 112.5 z_kij[Aircraft_3,EFHK,LPMA]
+   - 240 z_kij[Aircraft_4,EFHK,LPMA] <= 0
+ Capacity_EPWA_EGLL: x_ij[EPWA,EGLL] - 33.75 z_kij[Aircraft_1,EPWA,EGLL]
+   - 52.5 z_kij[Aircraft_2,EPWA,EGLL] - 112.5 z_kij[Aircraft_3,EPWA,EGLL]
+   - 240 z_kij[Aircraft_4,EPWA,EGLL] <= 0
+ Capacity_EPWA_LFPG: x_ij[EPWA,LFPG] - 33.75 z_kij[Aircraft_1,EPWA,LFPG]
+   - 52.5 z_kij[Aircraft_2,EPWA,LFPG] - 112.5 z_kij[Aircraft_3,EPWA,LFPG]
+   - 240 z_kij[Aircraft_4,EPWA,LFPG] <= 0
+ Capacity_EPWA_EHAM: x_ij[EPWA,EHAM] - 33.75 z_kij[Aircraft_1,EPWA,EHAM]
+   - 52.5 z_kij[Aircraft_2,EPWA,EHAM] - 112.5 z_kij[Aircraft_3,EPWA,EHAM]
+   - 240 z_kij[Aircraft_4,EPWA,EHAM] <= 0
+ Capacity_EPWA_EDDF: x_ij[EPWA,EDDF] - 33.75 z_kij[Aircraft_1,EPWA,EDDF]
+   - 52.5 z_kij[Aircraft_2,EPWA,EDDF] - 112.5 z_kij[Aircraft_3,EPWA,EDDF]
+   - 240 z_kij[Aircraft_4,EPWA,EDDF] + w_ij[EPWA,EGLL] + w_ij[EPWA,LFPG]
+   + w_ij[EPWA,EHAM] + w_ij[EPWA,EDDF] + w_ij[EPWA,LEMF] + w_ij[EPWA,LEBL]
+   + w_ij[EPWA,EDDM] + w_ij[EPWA,LIRF] + w_ij[EPWA,EIDW] + w_ij[EPWA,ESSA]
+   + w_ij[EPWA,LPPT] + w_ij[EPWA,EDDT] + w_ij[EPWA,EFHK] + w_ij[EPWA,EGPH]
+   + w_ij[EPWA,LROP] + w_ij[EPWA,LGIR] + w_ij[EPWA,BIKF] + w_ij[EPWA,LICJ]
+   + w_ij[EPWA,LPMA] <= 0
+ Capacity_EPWA_LEMF: x_ij[EPWA,LEMF] - 33.75 z_kij[Aircraft_1,EPWA,LEMF]
+   - 52.5 z_kij[Aircraft_2,EPWA,LEMF] - 112.5 z_kij[Aircraft_3,EPWA,LEMF]
+   - 240 z_kij[Aircraft_4,EPWA,LEMF] <= 0
+ Capacity_EPWA_LEBL: x_ij[EPWA,LEBL] - 33.75 z_kij[Aircraft_1,EPWA,LEBL]
+   - 52.5 z_kij[Aircraft_2,EPWA,LEBL] - 112.5 z_kij[Aircraft_3,EPWA,LEBL]
+   - 240 z_kij[Aircraft_4,EPWA,LEBL] <= 0
+ Capacity_EPWA_EDDM: x_ij[EPWA,EDDM] - 33.75 z_kij[Aircraft_1,EPWA,EDDM]
+   - 52.5 z_kij[Aircraft_2,EPWA,EDDM] - 112.5 z_kij[Aircraft_3,EPWA,EDDM]
+   - 240 z_kij[Aircraft_4,EPWA,EDDM] <= 0
+ Capacity_EPWA_LIRF: x_ij[EPWA,LIRF] - 33.75 z_kij[Aircraft_1,EPWA,LIRF]
+   - 52.5 z_kij[Aircraft_2,EPWA,LIRF] - 112.5 z_kij[Aircraft_3,EPWA,LIRF]
+   - 240 z_kij[Aircraft_4,EPWA,LIRF] <= 0
+ Capacity_EPWA_EIDW: x_ij[EPWA,EIDW] - 33.75 z_kij[Aircraft_1,EPWA,EIDW]
+   - 52.5 z_kij[Aircraft_2,EPWA,EIDW] - 112.5 z_kij[Aircraft_3,EPWA,EIDW]
+   - 240 z_kij[Aircraft_4,EPWA,EIDW] <= 0
+ Capacity_EPWA_ESSA: x_ij[EPWA,ESSA] - 33.75 z_kij[Aircraft_1,EPWA,ESSA]
+   - 52.5 z_kij[Aircraft_2,EPWA,ESSA] - 112.5 z_kij[Aircraft_3,EPWA,ESSA]
+   - 240 z_kij[Aircraft_4,EPWA,ESSA] <= 0
+ Capacity_EPWA_LPPT: x_ij[EPWA,LPPT] - 33.75 z_kij[Aircraft_1,EPWA,LPPT]
+   - 52.5 z_kij[Aircraft_2,EPWA,LPPT] - 112.5 z_kij[Aircraft_3,EPWA,LPPT]
+   - 240 z_kij[Aircraft_4,EPWA,LPPT] <= 0
+ Capacity_EPWA_EDDT: x_ij[EPWA,EDDT] - 33.75 z_kij[Aircraft_1,EPWA,EDDT]
+   - 52.5 z_kij[Aircraft_2,EPWA,EDDT] - 112.5 z_kij[Aircraft_3,EPWA,EDDT]
+   - 240 z_kij[Aircraft_4,EPWA,EDDT] <= 0
+ Capacity_EPWA_EFHK: x_ij[EPWA,EFHK] - 33.75 z_kij[Aircraft_1,EPWA,EFHK]
+   - 52.5 z_kij[Aircraft_2,EPWA,EFHK] - 112.5 z_kij[Aircraft_3,EPWA,EFHK]
+   - 240 z_kij[Aircraft_4,EPWA,EFHK] <= 0
+ Capacity_EPWA_EGPH: x_ij[EPWA,EGPH] - 33.75 z_kij[Aircraft_1,EPWA,EGPH]
+   - 52.5 z_kij[Aircraft_2,EPWA,EGPH] - 112.5 z_kij[Aircraft_3,EPWA,EGPH]
+   - 240 z_kij[Aircraft_4,EPWA,EGPH] <= 0
+ Capacity_EPWA_LROP: x_ij[EPWA,LROP] - 33.75 z_kij[Aircraft_1,EPWA,LROP]
+   - 52.5 z_kij[Aircraft_2,EPWA,LROP] - 112.5 z_kij[Aircraft_3,EPWA,LROP]
+   - 240 z_kij[Aircraft_4,EPWA,LROP] <= 0
+ Capacity_EPWA_LGIR: x_ij[EPWA,LGIR] - 33.75 z_kij[Aircraft_1,EPWA,LGIR]
+   - 52.5 z_kij[Aircraft_2,EPWA,LGIR] - 112.5 z_kij[Aircraft_3,EPWA,LGIR]
+   - 240 z_kij[Aircraft_4,EPWA,LGIR] <= 0
+ Capacity_EPWA_BIKF: x_ij[EPWA,BIKF] - 33.75 z_kij[Aircraft_1,EPWA,BIKF]
+   - 52.5 z_kij[Aircraft_2,EPWA,BIKF] - 112.5 z_kij[Aircraft_3,EPWA,BIKF]
+   - 240 z_kij[Aircraft_4,EPWA,BIKF] <= 0
+ Capacity_EPWA_LICJ: x_ij[EPWA,LICJ] - 33.75 z_kij[Aircraft_1,EPWA,LICJ]
+   - 52.5 z_kij[Aircraft_2,EPWA,LICJ] - 112.5 z_kij[Aircraft_3,EPWA,LICJ]
+   - 240 z_kij[Aircraft_4,EPWA,LICJ] <= 0
+ Capacity_EPWA_LPMA: x_ij[EPWA,LPMA] - 33.75 z_kij[Aircraft_1,EPWA,LPMA]
+   - 52.5 z_kij[Aircraft_2,EPWA,LPMA] - 112.5 z_kij[Aircraft_3,EPWA,LPMA]
+   - 240 z_kij[Aircraft_4,EPWA,LPMA] <= 0
+ Capacity_EGPH_EGLL: x_ij[EGPH,EGLL] - 33.75 z_kij[Aircraft_1,EGPH,EGLL]
+   - 52.5 z_kij[Aircraft_2,EGPH,EGLL] - 112.5 z_kij[Aircraft_3,EGPH,EGLL]
+   - 240 z_kij[Aircraft_4,EGPH,EGLL] <= 0
+ Capacity_EGPH_LFPG: x_ij[EGPH,LFPG] - 33.75 z_kij[Aircraft_1,EGPH,LFPG]
+   - 52.5 z_kij[Aircraft_2,EGPH,LFPG] - 112.5 z_kij[Aircraft_3,EGPH,LFPG]
+   - 240 z_kij[Aircraft_4,EGPH,LFPG] <= 0
+ Capacity_EGPH_EHAM: x_ij[EGPH,EHAM] - 33.75 z_kij[Aircraft_1,EGPH,EHAM]
+   - 52.5 z_kij[Aircraft_2,EGPH,EHAM] - 112.5 z_kij[Aircraft_3,EGPH,EHAM]
+   - 240 z_kij[Aircraft_4,EGPH,EHAM] <= 0
+ Capacity_EGPH_EDDF: x_ij[EGPH,EDDF] - 33.75 z_kij[Aircraft_1,EGPH,EDDF]
+   - 52.5 z_kij[Aircraft_2,EGPH,EDDF] - 112.5 z_kij[Aircraft_3,EGPH,EDDF]
+   - 240 z_kij[Aircraft_4,EGPH,EDDF] + w_ij[EGPH,EGLL] + w_ij[EGPH,LFPG]
+   + w_ij[EGPH,EHAM] + w_ij[EGPH,EDDF] + w_ij[EGPH,LEMF] + w_ij[EGPH,LEBL]
+   + w_ij[EGPH,EDDM] + w_ij[EGPH,LIRF] + w_ij[EGPH,EIDW] + w_ij[EGPH,ESSA]
+   + w_ij[EGPH,LPPT] + w_ij[EGPH,EDDT] + w_ij[EGPH,EFHK] + w_ij[EGPH,EPWA]
+   + w_ij[EGPH,LROP] + w_ij[EGPH,LGIR] + w_ij[EGPH,BIKF] + w_ij[EGPH,LICJ]
+   + w_ij[EGPH,LPMA] <= 0
+ Capacity_EGPH_LEMF: x_ij[EGPH,LEMF] - 33.75 z_kij[Aircraft_1,EGPH,LEMF]
+   - 52.5 z_kij[Aircraft_2,EGPH,LEMF] - 112.5 z_kij[Aircraft_3,EGPH,LEMF]
+   - 240 z_kij[Aircraft_4,EGPH,LEMF] <= 0
+ Capacity_EGPH_LEBL: x_ij[EGPH,LEBL] - 33.75 z_kij[Aircraft_1,EGPH,LEBL]
+   - 52.5 z_kij[Aircraft_2,EGPH,LEBL] - 112.5 z_kij[Aircraft_3,EGPH,LEBL]
+   - 240 z_kij[Aircraft_4,EGPH,LEBL] <= 0
+ Capacity_EGPH_EDDM: x_ij[EGPH,EDDM] - 33.75 z_kij[Aircraft_1,EGPH,EDDM]
+   - 52.5 z_kij[Aircraft_2,EGPH,EDDM] - 112.5 z_kij[Aircraft_3,EGPH,EDDM]
+   - 240 z_kij[Aircraft_4,EGPH,EDDM] <= 0
+ Capacity_EGPH_LIRF: x_ij[EGPH,LIRF] - 33.75 z_kij[Aircraft_1,EGPH,LIRF]
+   - 52.5 z_kij[Aircraft_2,EGPH,LIRF] - 112.5 z_kij[Aircraft_3,EGPH,LIRF]
+   - 240 z_kij[Aircraft_4,EGPH,LIRF] <= 0
+ Capacity_EGPH_EIDW: x_ij[EGPH,EIDW] - 33.75 z_kij[Aircraft_1,EGPH,EIDW]
+   - 52.5 z_kij[Aircraft_2,EGPH,EIDW] - 112.5 z_kij[Aircraft_3,EGPH,EIDW]
+   - 240 z_kij[Aircraft_4,EGPH,EIDW] <= 0
+ Capacity_EGPH_ESSA: x_ij[EGPH,ESSA] - 33.75 z_kij[Aircraft_1,EGPH,ESSA]
+   - 52.5 z_kij[Aircraft_2,EGPH,ESSA] - 112.5 z_kij[Aircraft_3,EGPH,ESSA]
+   - 240 z_kij[Aircraft_4,EGPH,ESSA] <= 0
+ Capacity_EGPH_LPPT: x_ij[EGPH,LPPT] - 33.75 z_kij[Aircraft_1,EGPH,LPPT]
+   - 52.5 z_kij[Aircraft_2,EGPH,LPPT] - 112.5 z_kij[Aircraft_3,EGPH,LPPT]
+   - 240 z_kij[Aircraft_4,EGPH,LPPT] <= 0
+ Capacity_EGPH_EDDT: x_ij[EGPH,EDDT] - 33.75 z_kij[Aircraft_1,EGPH,EDDT]
+   - 52.5 z_kij[Aircraft_2,EGPH,EDDT] - 112.5 z_kij[Aircraft_3,EGPH,EDDT]
+   - 240 z_kij[Aircraft_4,EGPH,EDDT] <= 0
+ Capacity_EGPH_EFHK: x_ij[EGPH,EFHK] - 33.75 z_kij[Aircraft_1,EGPH,EFHK]
+   - 52.5 z_kij[Aircraft_2,EGPH,EFHK] - 112.5 z_kij[Aircraft_3,EGPH,EFHK]
+   - 240 z_kij[Aircraft_4,EGPH,EFHK] <= 0
+ Capacity_EGPH_EPWA: x_ij[EGPH,EPWA] - 33.75 z_kij[Aircraft_1,EGPH,EPWA]
+   - 52.5 z_kij[Aircraft_2,EGPH,EPWA] - 112.5 z_kij[Aircraft_3,EGPH,EPWA]
+   - 240 z_kij[Aircraft_4,EGPH,EPWA] <= 0
+ Capacity_EGPH_LROP: x_ij[EGPH,LROP] - 33.75 z_kij[Aircraft_1,EGPH,LROP]
+   - 52.5 z_kij[Aircraft_2,EGPH,LROP] - 112.5 z_kij[Aircraft_3,EGPH,LROP]
+   - 240 z_kij[Aircraft_4,EGPH,LROP] <= 0
+ Capacity_EGPH_LGIR: x_ij[EGPH,LGIR] - 33.75 z_kij[Aircraft_1,EGPH,LGIR]
+   - 52.5 z_kij[Aircraft_2,EGPH,LGIR] - 112.5 z_kij[Aircraft_3,EGPH,LGIR]
+   - 240 z_kij[Aircraft_4,EGPH,LGIR] <= 0
+ Capacity_EGPH_BIKF: x_ij[EGPH,BIKF] - 33.75 z_kij[Aircraft_1,EGPH,BIKF]
+   - 52.5 z_kij[Aircraft_2,EGPH,BIKF] - 112.5 z_kij[Aircraft_3,EGPH,BIKF]
+   - 240 z_kij[Aircraft_4,EGPH,BIKF] <= 0
+ Capacity_EGPH_LICJ: x_ij[EGPH,LICJ] - 33.75 z_kij[Aircraft_1,EGPH,LICJ]
+   - 52.5 z_kij[Aircraft_2,EGPH,LICJ] - 112.5 z_kij[Aircraft_3,EGPH,LICJ]
+   - 240 z_kij[Aircraft_4,EGPH,LICJ] <= 0
+ Capacity_EGPH_LPMA: x_ij[EGPH,LPMA] - 33.75 z_kij[Aircraft_1,EGPH,LPMA]
+   - 52.5 z_kij[Aircraft_2,EGPH,LPMA] - 112.5 z_kij[Aircraft_3,EGPH,LPMA]
+   - 240 z_kij[Aircraft_4,EGPH,LPMA] <= 0
+ Capacity_LROP_EGLL: x_ij[LROP,EGLL] - 33.75 z_kij[Aircraft_1,LROP,EGLL]
+   - 52.5 z_kij[Aircraft_2,LROP,EGLL] - 112.5 z_kij[Aircraft_3,LROP,EGLL]
+   - 240 z_kij[Aircraft_4,LROP,EGLL] <= 0
+ Capacity_LROP_LFPG: x_ij[LROP,LFPG] - 33.75 z_kij[Aircraft_1,LROP,LFPG]
+   - 52.5 z_kij[Aircraft_2,LROP,LFPG] - 112.5 z_kij[Aircraft_3,LROP,LFPG]
+   - 240 z_kij[Aircraft_4,LROP,LFPG] <= 0
+ Capacity_LROP_EHAM: x_ij[LROP,EHAM] - 33.75 z_kij[Aircraft_1,LROP,EHAM]
+   - 52.5 z_kij[Aircraft_2,LROP,EHAM] - 112.5 z_kij[Aircraft_3,LROP,EHAM]
+   - 240 z_kij[Aircraft_4,LROP,EHAM] <= 0
+ Capacity_LROP_EDDF: x_ij[LROP,EDDF] - 33.75 z_kij[Aircraft_1,LROP,EDDF]
+   - 52.5 z_kij[Aircraft_2,LROP,EDDF] - 112.5 z_kij[Aircraft_3,LROP,EDDF]
+   - 240 z_kij[Aircraft_4,LROP,EDDF] + w_ij[LROP,EGLL] + w_ij[LROP,LFPG]
+   + w_ij[LROP,EHAM] + w_ij[LROP,EDDF] + w_ij[LROP,LEMF] + w_ij[LROP,LEBL]
+   + w_ij[LROP,EDDM] + w_ij[LROP,LIRF] + w_ij[LROP,EIDW] + w_ij[LROP,ESSA]
+   + w_ij[LROP,LPPT] + w_ij[LROP,EDDT] + w_ij[LROP,EFHK] + w_ij[LROP,EPWA]
+   + w_ij[LROP,EGPH] + w_ij[LROP,LGIR] + w_ij[LROP,BIKF] + w_ij[LROP,LICJ]
+   + w_ij[LROP,LPMA] <= 0
+ Capacity_LROP_LEMF: x_ij[LROP,LEMF] - 33.75 z_kij[Aircraft_1,LROP,LEMF]
+   - 52.5 z_kij[Aircraft_2,LROP,LEMF] - 112.5 z_kij[Aircraft_3,LROP,LEMF]
+   - 240 z_kij[Aircraft_4,LROP,LEMF] <= 0
+ Capacity_LROP_LEBL: x_ij[LROP,LEBL] - 33.75 z_kij[Aircraft_1,LROP,LEBL]
+   - 52.5 z_kij[Aircraft_2,LROP,LEBL] - 112.5 z_kij[Aircraft_3,LROP,LEBL]
+   - 240 z_kij[Aircraft_4,LROP,LEBL] <= 0
+ Capacity_LROP_EDDM: x_ij[LROP,EDDM] - 33.75 z_kij[Aircraft_1,LROP,EDDM]
+   - 52.5 z_kij[Aircraft_2,LROP,EDDM] - 112.5 z_kij[Aircraft_3,LROP,EDDM]
+   - 240 z_kij[Aircraft_4,LROP,EDDM] <= 0
+ Capacity_LROP_LIRF: x_ij[LROP,LIRF] - 33.75 z_kij[Aircraft_1,LROP,LIRF]
+   - 52.5 z_kij[Aircraft_2,LROP,LIRF] - 112.5 z_kij[Aircraft_3,LROP,LIRF]
+   - 240 z_kij[Aircraft_4,LROP,LIRF] <= 0
+ Capacity_LROP_EIDW: x_ij[LROP,EIDW] - 33.75 z_kij[Aircraft_1,LROP,EIDW]
+   - 52.5 z_kij[Aircraft_2,LROP,EIDW] - 112.5 z_kij[Aircraft_3,LROP,EIDW]
+   - 240 z_kij[Aircraft_4,LROP,EIDW] <= 0
+ Capacity_LROP_ESSA: x_ij[LROP,ESSA] - 33.75 z_kij[Aircraft_1,LROP,ESSA]
+   - 52.5 z_kij[Aircraft_2,LROP,ESSA] - 112.5 z_kij[Aircraft_3,LROP,ESSA]
+   - 240 z_kij[Aircraft_4,LROP,ESSA] <= 0
+ Capacity_LROP_LPPT: x_ij[LROP,LPPT] - 33.75 z_kij[Aircraft_1,LROP,LPPT]
+   - 52.5 z_kij[Aircraft_2,LROP,LPPT] - 112.5 z_kij[Aircraft_3,LROP,LPPT]
+   - 240 z_kij[Aircraft_4,LROP,LPPT] <= 0
+ Capacity_LROP_EDDT: x_ij[LROP,EDDT] - 33.75 z_kij[Aircraft_1,LROP,EDDT]
+   - 52.5 z_kij[Aircraft_2,LROP,EDDT] - 112.5 z_kij[Aircraft_3,LROP,EDDT]
+   - 240 z_kij[Aircraft_4,LROP,EDDT] <= 0
+ Capacity_LROP_EFHK: x_ij[LROP,EFHK] - 33.75 z_kij[Aircraft_1,LROP,EFHK]
+   - 52.5 z_kij[Aircraft_2,LROP,EFHK] - 112.5 z_kij[Aircraft_3,LROP,EFHK]
+   - 240 z_kij[Aircraft_4,LROP,EFHK] <= 0
+ Capacity_LROP_EPWA: x_ij[LROP,EPWA] - 33.75 z_kij[Aircraft_1,LROP,EPWA]
+   - 52.5 z_kij[Aircraft_2,LROP,EPWA] - 112.5 z_kij[Aircraft_3,LROP,EPWA]
+   - 240 z_kij[Aircraft_4,LROP,EPWA] <= 0
+ Capacity_LROP_EGPH: x_ij[LROP,EGPH] - 33.75 z_kij[Aircraft_1,LROP,EGPH]
+   - 52.5 z_kij[Aircraft_2,LROP,EGPH] - 112.5 z_kij[Aircraft_3,LROP,EGPH]
+   - 240 z_kij[Aircraft_4,LROP,EGPH] <= 0
+ Capacity_LROP_LGIR: x_ij[LROP,LGIR] - 33.75 z_kij[Aircraft_1,LROP,LGIR]
+   - 52.5 z_kij[Aircraft_2,LROP,LGIR] - 112.5 z_kij[Aircraft_3,LROP,LGIR]
+   - 240 z_kij[Aircraft_4,LROP,LGIR] <= 0
+ Capacity_LROP_BIKF: x_ij[LROP,BIKF] - 33.75 z_kij[Aircraft_1,LROP,BIKF]
+   - 52.5 z_kij[Aircraft_2,LROP,BIKF] - 112.5 z_kij[Aircraft_3,LROP,BIKF]
+   - 240 z_kij[Aircraft_4,LROP,BIKF] <= 0
+ Capacity_LROP_LICJ: x_ij[LROP,LICJ] - 33.75 z_kij[Aircraft_1,LROP,LICJ]
+   - 52.5 z_kij[Aircraft_2,LROP,LICJ] - 112.5 z_kij[Aircraft_3,LROP,LICJ]
+   - 240 z_kij[Aircraft_4,LROP,LICJ] <= 0
+ Capacity_LROP_LPMA: x_ij[LROP,LPMA] - 33.75 z_kij[Aircraft_1,LROP,LPMA]
+   - 52.5 z_kij[Aircraft_2,LROP,LPMA] - 112.5 z_kij[Aircraft_3,LROP,LPMA]
+   - 240 z_kij[Aircraft_4,LROP,LPMA] <= 0
+ Capacity_LGIR_EGLL: x_ij[LGIR,EGLL] - 33.75 z_kij[Aircraft_1,LGIR,EGLL]
+   - 52.5 z_kij[Aircraft_2,LGIR,EGLL] - 112.5 z_kij[Aircraft_3,LGIR,EGLL]
+   - 240 z_kij[Aircraft_4,LGIR,EGLL] <= 0
+ Capacity_LGIR_LFPG: x_ij[LGIR,LFPG] - 33.75 z_kij[Aircraft_1,LGIR,LFPG]
+   - 52.5 z_kij[Aircraft_2,LGIR,LFPG] - 112.5 z_kij[Aircraft_3,LGIR,LFPG]
+   - 240 z_kij[Aircraft_4,LGIR,LFPG] <= 0
+ Capacity_LGIR_EHAM: x_ij[LGIR,EHAM] - 33.75 z_kij[Aircraft_1,LGIR,EHAM]
+   - 52.5 z_kij[Aircraft_2,LGIR,EHAM] - 112.5 z_kij[Aircraft_3,LGIR,EHAM]
+   - 240 z_kij[Aircraft_4,LGIR,EHAM] <= 0
+ Capacity_LGIR_EDDF: x_ij[LGIR,EDDF] - 33.75 z_kij[Aircraft_1,LGIR,EDDF]
+   - 52.5 z_kij[Aircraft_2,LGIR,EDDF] - 112.5 z_kij[Aircraft_3,LGIR,EDDF]
+   - 240 z_kij[Aircraft_4,LGIR,EDDF] + w_ij[LGIR,EGLL] + w_ij[LGIR,LFPG]
+   + w_ij[LGIR,EHAM] + w_ij[LGIR,EDDF] + w_ij[LGIR,LEMF] + w_ij[LGIR,LEBL]
+   + w_ij[LGIR,EDDM] + w_ij[LGIR,LIRF] + w_ij[LGIR,EIDW] + w_ij[LGIR,ESSA]
+   + w_ij[LGIR,LPPT] + w_ij[LGIR,EDDT] + w_ij[LGIR,EFHK] + w_ij[LGIR,EPWA]
+   + w_ij[LGIR,EGPH] + w_ij[LGIR,LROP] + w_ij[LGIR,BIKF] + w_ij[LGIR,LICJ]
+   + w_ij[LGIR,LPMA] <= 0
+ Capacity_LGIR_LEMF: x_ij[LGIR,LEMF] - 33.75 z_kij[Aircraft_1,LGIR,LEMF]
+   - 52.5 z_kij[Aircraft_2,LGIR,LEMF] - 112.5 z_kij[Aircraft_3,LGIR,LEMF]
+   - 240 z_kij[Aircraft_4,LGIR,LEMF] <= 0
+ Capacity_LGIR_LEBL: x_ij[LGIR,LEBL] - 33.75 z_kij[Aircraft_1,LGIR,LEBL]
+   - 52.5 z_kij[Aircraft_2,LGIR,LEBL] - 112.5 z_kij[Aircraft_3,LGIR,LEBL]
+   - 240 z_kij[Aircraft_4,LGIR,LEBL] <= 0
+ Capacity_LGIR_EDDM: x_ij[LGIR,EDDM] - 33.75 z_kij[Aircraft_1,LGIR,EDDM]
+   - 52.5 z_kij[Aircraft_2,LGIR,EDDM] - 112.5 z_kij[Aircraft_3,LGIR,EDDM]
+   - 240 z_kij[Aircraft_4,LGIR,EDDM] <= 0
+ Capacity_LGIR_LIRF: x_ij[LGIR,LIRF] - 33.75 z_kij[Aircraft_1,LGIR,LIRF]
+   - 52.5 z_kij[Aircraft_2,LGIR,LIRF] - 112.5 z_kij[Aircraft_3,LGIR,LIRF]
+   - 240 z_kij[Aircraft_4,LGIR,LIRF] <= 0
+ Capacity_LGIR_EIDW: x_ij[LGIR,EIDW] - 33.75 z_kij[Aircraft_1,LGIR,EIDW]
+   - 52.5 z_kij[Aircraft_2,LGIR,EIDW] - 112.5 z_kij[Aircraft_3,LGIR,EIDW]
+   - 240 z_kij[Aircraft_4,LGIR,EIDW] <= 0
+ Capacity_LGIR_ESSA: x_ij[LGIR,ESSA] - 33.75 z_kij[Aircraft_1,LGIR,ESSA]
+   - 52.5 z_kij[Aircraft_2,LGIR,ESSA] - 112.5 z_kij[Aircraft_3,LGIR,ESSA]
+   - 240 z_kij[Aircraft_4,LGIR,ESSA] <= 0
+ Capacity_LGIR_LPPT: x_ij[LGIR,LPPT] - 33.75 z_kij[Aircraft_1,LGIR,LPPT]
+   - 52.5 z_kij[Aircraft_2,LGIR,LPPT] - 112.5 z_kij[Aircraft_3,LGIR,LPPT]
+   - 240 z_kij[Aircraft_4,LGIR,LPPT] <= 0
+ Capacity_LGIR_EDDT: x_ij[LGIR,EDDT] - 33.75 z_kij[Aircraft_1,LGIR,EDDT]
+   - 52.5 z_kij[Aircraft_2,LGIR,EDDT] - 112.5 z_kij[Aircraft_3,LGIR,EDDT]
+   - 240 z_kij[Aircraft_4,LGIR,EDDT] <= 0
+ Capacity_LGIR_EFHK: x_ij[LGIR,EFHK] - 33.75 z_kij[Aircraft_1,LGIR,EFHK]
+   - 52.5 z_kij[Aircraft_2,LGIR,EFHK] - 112.5 z_kij[Aircraft_3,LGIR,EFHK]
+   - 240 z_kij[Aircraft_4,LGIR,EFHK] <= 0
+ Capacity_LGIR_EPWA: x_ij[LGIR,EPWA] - 33.75 z_kij[Aircraft_1,LGIR,EPWA]
+   - 52.5 z_kij[Aircraft_2,LGIR,EPWA] - 112.5 z_kij[Aircraft_3,LGIR,EPWA]
+   - 240 z_kij[Aircraft_4,LGIR,EPWA] <= 0
+ Capacity_LGIR_EGPH: x_ij[LGIR,EGPH] - 33.75 z_kij[Aircraft_1,LGIR,EGPH]
+   - 52.5 z_kij[Aircraft_2,LGIR,EGPH] - 112.5 z_kij[Aircraft_3,LGIR,EGPH]
+   - 240 z_kij[Aircraft_4,LGIR,EGPH] <= 0
+ Capacity_LGIR_LROP: x_ij[LGIR,LROP] - 33.75 z_kij[Aircraft_1,LGIR,LROP]
+   - 52.5 z_kij[Aircraft_2,LGIR,LROP] - 112.5 z_kij[Aircraft_3,LGIR,LROP]
+   - 240 z_kij[Aircraft_4,LGIR,LROP] <= 0
+ Capacity_LGIR_BIKF: x_ij[LGIR,BIKF] - 33.75 z_kij[Aircraft_1,LGIR,BIKF]
+   - 52.5 z_kij[Aircraft_2,LGIR,BIKF] - 112.5 z_kij[Aircraft_3,LGIR,BIKF]
+   - 240 z_kij[Aircraft_4,LGIR,BIKF] <= 0
+ Capacity_LGIR_LICJ: x_ij[LGIR,LICJ] - 33.75 z_kij[Aircraft_1,LGIR,LICJ]
+   - 52.5 z_kij[Aircraft_2,LGIR,LICJ] - 112.5 z_kij[Aircraft_3,LGIR,LICJ]
+   - 240 z_kij[Aircraft_4,LGIR,LICJ] <= 0
+ Capacity_LGIR_LPMA: x_ij[LGIR,LPMA] - 33.75 z_kij[Aircraft_1,LGIR,LPMA]
+   - 52.5 z_kij[Aircraft_2,LGIR,LPMA] - 112.5 z_kij[Aircraft_3,LGIR,LPMA]
+   - 240 z_kij[Aircraft_4,LGIR,LPMA] <= 0
+ Capacity_BIKF_EGLL: x_ij[BIKF,EGLL] - 33.75 z_kij[Aircraft_1,BIKF,EGLL]
+   - 52.5 z_kij[Aircraft_2,BIKF,EGLL] - 112.5 z_kij[Aircraft_3,BIKF,EGLL]
+   - 240 z_kij[Aircraft_4,BIKF,EGLL] <= 0
+ Capacity_BIKF_LFPG: x_ij[BIKF,LFPG] - 33.75 z_kij[Aircraft_1,BIKF,LFPG]
+   - 52.5 z_kij[Aircraft_2,BIKF,LFPG] - 112.5 z_kij[Aircraft_3,BIKF,LFPG]
+   - 240 z_kij[Aircraft_4,BIKF,LFPG] <= 0
+ Capacity_BIKF_EHAM: x_ij[BIKF,EHAM] - 33.75 z_kij[Aircraft_1,BIKF,EHAM]
+   - 52.5 z_kij[Aircraft_2,BIKF,EHAM] - 112.5 z_kij[Aircraft_3,BIKF,EHAM]
+   - 240 z_kij[Aircraft_4,BIKF,EHAM] <= 0
+ Capacity_BIKF_EDDF: x_ij[BIKF,EDDF] - 33.75 z_kij[Aircraft_1,BIKF,EDDF]
+   - 52.5 z_kij[Aircraft_2,BIKF,EDDF] - 112.5 z_kij[Aircraft_3,BIKF,EDDF]
+   - 240 z_kij[Aircraft_4,BIKF,EDDF] + w_ij[BIKF,EGLL] + w_ij[BIKF,LFPG]
+   + w_ij[BIKF,EHAM] + w_ij[BIKF,EDDF] + w_ij[BIKF,LEMF] + w_ij[BIKF,LEBL]
+   + w_ij[BIKF,EDDM] + w_ij[BIKF,LIRF] + w_ij[BIKF,EIDW] + w_ij[BIKF,ESSA]
+   + w_ij[BIKF,LPPT] + w_ij[BIKF,EDDT] + w_ij[BIKF,EFHK] + w_ij[BIKF,EPWA]
+   + w_ij[BIKF,EGPH] + w_ij[BIKF,LROP] + w_ij[BIKF,LGIR] + w_ij[BIKF,LICJ]
+   + w_ij[BIKF,LPMA] <= 0
+ Capacity_BIKF_LEMF: x_ij[BIKF,LEMF] - 33.75 z_kij[Aircraft_1,BIKF,LEMF]
+   - 52.5 z_kij[Aircraft_2,BIKF,LEMF] - 112.5 z_kij[Aircraft_3,BIKF,LEMF]
+   - 240 z_kij[Aircraft_4,BIKF,LEMF] <= 0
+ Capacity_BIKF_LEBL: x_ij[BIKF,LEBL] - 33.75 z_kij[Aircraft_1,BIKF,LEBL]
+   - 52.5 z_kij[Aircraft_2,BIKF,LEBL] - 112.5 z_kij[Aircraft_3,BIKF,LEBL]
+   - 240 z_kij[Aircraft_4,BIKF,LEBL] <= 0
+ Capacity_BIKF_EDDM: x_ij[BIKF,EDDM] - 33.75 z_kij[Aircraft_1,BIKF,EDDM]
+   - 52.5 z_kij[Aircraft_2,BIKF,EDDM] - 112.5 z_kij[Aircraft_3,BIKF,EDDM]
+   - 240 z_kij[Aircraft_4,BIKF,EDDM] <= 0
+ Capacity_BIKF_LIRF: x_ij[BIKF,LIRF] - 33.75 z_kij[Aircraft_1,BIKF,LIRF]
+   - 52.5 z_kij[Aircraft_2,BIKF,LIRF] - 112.5 z_kij[Aircraft_3,BIKF,LIRF]
+   - 240 z_kij[Aircraft_4,BIKF,LIRF] <= 0
+ Capacity_BIKF_EIDW: x_ij[BIKF,EIDW] - 33.75 z_kij[Aircraft_1,BIKF,EIDW]
+   - 52.5 z_kij[Aircraft_2,BIKF,EIDW] - 112.5 z_kij[Aircraft_3,BIKF,EIDW]
+   - 240 z_kij[Aircraft_4,BIKF,EIDW] <= 0
+ Capacity_BIKF_ESSA: x_ij[BIKF,ESSA] - 33.75 z_kij[Aircraft_1,BIKF,ESSA]
+   - 52.5 z_kij[Aircraft_2,BIKF,ESSA] - 112.5 z_kij[Aircraft_3,BIKF,ESSA]
+   - 240 z_kij[Aircraft_4,BIKF,ESSA] <= 0
+ Capacity_BIKF_LPPT: x_ij[BIKF,LPPT] - 33.75 z_kij[Aircraft_1,BIKF,LPPT]
+   - 52.5 z_kij[Aircraft_2,BIKF,LPPT] - 112.5 z_kij[Aircraft_3,BIKF,LPPT]
+   - 240 z_kij[Aircraft_4,BIKF,LPPT] <= 0
+ Capacity_BIKF_EDDT: x_ij[BIKF,EDDT] - 33.75 z_kij[Aircraft_1,BIKF,EDDT]
+   - 52.5 z_kij[Aircraft_2,BIKF,EDDT] - 112.5 z_kij[Aircraft_3,BIKF,EDDT]
+   - 240 z_kij[Aircraft_4,BIKF,EDDT] <= 0
+ Capacity_BIKF_EFHK: x_ij[BIKF,EFHK] - 33.75 z_kij[Aircraft_1,BIKF,EFHK]
+   - 52.5 z_kij[Aircraft_2,BIKF,EFHK] - 112.5 z_kij[Aircraft_3,BIKF,EFHK]
+   - 240 z_kij[Aircraft_4,BIKF,EFHK] <= 0
+ Capacity_BIKF_EPWA: x_ij[BIKF,EPWA] - 33.75 z_kij[Aircraft_1,BIKF,EPWA]
+   - 52.5 z_kij[Aircraft_2,BIKF,EPWA] - 112.5 z_kij[Aircraft_3,BIKF,EPWA]
+   - 240 z_kij[Aircraft_4,BIKF,EPWA] <= 0
+ Capacity_BIKF_EGPH: x_ij[BIKF,EGPH] - 33.75 z_kij[Aircraft_1,BIKF,EGPH]
+   - 52.5 z_kij[Aircraft_2,BIKF,EGPH] - 112.5 z_kij[Aircraft_3,BIKF,EGPH]
+   - 240 z_kij[Aircraft_4,BIKF,EGPH] <= 0
+ Capacity_BIKF_LROP: x_ij[BIKF,LROP] - 33.75 z_kij[Aircraft_1,BIKF,LROP]
+   - 52.5 z_kij[Aircraft_2,BIKF,LROP] - 112.5 z_kij[Aircraft_3,BIKF,LROP]
+   - 240 z_kij[Aircraft_4,BIKF,LROP] <= 0
+ Capacity_BIKF_LGIR: x_ij[BIKF,LGIR] - 33.75 z_kij[Aircraft_1,BIKF,LGIR]
+   - 52.5 z_kij[Aircraft_2,BIKF,LGIR] - 112.5 z_kij[Aircraft_3,BIKF,LGIR]
+   - 240 z_kij[Aircraft_4,BIKF,LGIR] <= 0
+ Capacity_BIKF_LICJ: x_ij[BIKF,LICJ] - 33.75 z_kij[Aircraft_1,BIKF,LICJ]
+   - 52.5 z_kij[Aircraft_2,BIKF,LICJ] - 112.5 z_kij[Aircraft_3,BIKF,LICJ]
+   - 240 z_kij[Aircraft_4,BIKF,LICJ] <= 0
+ Capacity_BIKF_LPMA: x_ij[BIKF,LPMA] - 33.75 z_kij[Aircraft_1,BIKF,LPMA]
+   - 52.5 z_kij[Aircraft_2,BIKF,LPMA] - 112.5 z_kij[Aircraft_3,BIKF,LPMA]
+   - 240 z_kij[Aircraft_4,BIKF,LPMA] <= 0
+ Capacity_LICJ_EGLL: x_ij[LICJ,EGLL] - 33.75 z_kij[Aircraft_1,LICJ,EGLL]
+   - 52.5 z_kij[Aircraft_2,LICJ,EGLL] - 112.5 z_kij[Aircraft_3,LICJ,EGLL]
+   - 240 z_kij[Aircraft_4,LICJ,EGLL] <= 0
+ Capacity_LICJ_LFPG: x_ij[LICJ,LFPG] - 33.75 z_kij[Aircraft_1,LICJ,LFPG]
+   - 52.5 z_kij[Aircraft_2,LICJ,LFPG] - 112.5 z_kij[Aircraft_3,LICJ,LFPG]
+   - 240 z_kij[Aircraft_4,LICJ,LFPG] <= 0
+ Capacity_LICJ_EHAM: x_ij[LICJ,EHAM] - 33.75 z_kij[Aircraft_1,LICJ,EHAM]
+   - 52.5 z_kij[Aircraft_2,LICJ,EHAM] - 112.5 z_kij[Aircraft_3,LICJ,EHAM]
+   - 240 z_kij[Aircraft_4,LICJ,EHAM] <= 0
+ Capacity_LICJ_EDDF: x_ij[LICJ,EDDF] - 33.75 z_kij[Aircraft_1,LICJ,EDDF]
+   - 52.5 z_kij[Aircraft_2,LICJ,EDDF] - 112.5 z_kij[Aircraft_3,LICJ,EDDF]
+   - 240 z_kij[Aircraft_4,LICJ,EDDF] + w_ij[LICJ,EGLL] + w_ij[LICJ,LFPG]
+   + w_ij[LICJ,EHAM] + w_ij[LICJ,EDDF] + w_ij[LICJ,LEMF] + w_ij[LICJ,LEBL]
+   + w_ij[LICJ,EDDM] + w_ij[LICJ,LIRF] + w_ij[LICJ,EIDW] + w_ij[LICJ,ESSA]
+   + w_ij[LICJ,LPPT] + w_ij[LICJ,EDDT] + w_ij[LICJ,EFHK] + w_ij[LICJ,EPWA]
+   + w_ij[LICJ,EGPH] + w_ij[LICJ,LROP] + w_ij[LICJ,LGIR] + w_ij[LICJ,BIKF]
+   + w_ij[LICJ,LPMA] <= 0
+ Capacity_LICJ_LEMF: x_ij[LICJ,LEMF] - 33.75 z_kij[Aircraft_1,LICJ,LEMF]
+   - 52.5 z_kij[Aircraft_2,LICJ,LEMF] - 112.5 z_kij[Aircraft_3,LICJ,LEMF]
+   - 240 z_kij[Aircraft_4,LICJ,LEMF] <= 0
+ Capacity_LICJ_LEBL: x_ij[LICJ,LEBL] - 33.75 z_kij[Aircraft_1,LICJ,LEBL]
+   - 52.5 z_kij[Aircraft_2,LICJ,LEBL] - 112.5 z_kij[Aircraft_3,LICJ,LEBL]
+   - 240 z_kij[Aircraft_4,LICJ,LEBL] <= 0
+ Capacity_LICJ_EDDM: x_ij[LICJ,EDDM] - 33.75 z_kij[Aircraft_1,LICJ,EDDM]
+   - 52.5 z_kij[Aircraft_2,LICJ,EDDM] - 112.5 z_kij[Aircraft_3,LICJ,EDDM]
+   - 240 z_kij[Aircraft_4,LICJ,EDDM] <= 0
+ Capacity_LICJ_LIRF: x_ij[LICJ,LIRF] - 33.75 z_kij[Aircraft_1,LICJ,LIRF]
+   - 52.5 z_kij[Aircraft_2,LICJ,LIRF] - 112.5 z_kij[Aircraft_3,LICJ,LIRF]
+   - 240 z_kij[Aircraft_4,LICJ,LIRF] <= 0
+ Capacity_LICJ_EIDW: x_ij[LICJ,EIDW] - 33.75 z_kij[Aircraft_1,LICJ,EIDW]
+   - 52.5 z_kij[Aircraft_2,LICJ,EIDW] - 112.5 z_kij[Aircraft_3,LICJ,EIDW]
+   - 240 z_kij[Aircraft_4,LICJ,EIDW] <= 0
+ Capacity_LICJ_ESSA: x_ij[LICJ,ESSA] - 33.75 z_kij[Aircraft_1,LICJ,ESSA]
+   - 52.5 z_kij[Aircraft_2,LICJ,ESSA] - 112.5 z_kij[Aircraft_3,LICJ,ESSA]
+   - 240 z_kij[Aircraft_4,LICJ,ESSA] <= 0
+ Capacity_LICJ_LPPT: x_ij[LICJ,LPPT] - 33.75 z_kij[Aircraft_1,LICJ,LPPT]
+   - 52.5 z_kij[Aircraft_2,LICJ,LPPT] - 112.5 z_kij[Aircraft_3,LICJ,LPPT]
+   - 240 z_kij[Aircraft_4,LICJ,LPPT] <= 0
+ Capacity_LICJ_EDDT: x_ij[LICJ,EDDT] - 33.75 z_kij[Aircraft_1,LICJ,EDDT]
+   - 52.5 z_kij[Aircraft_2,LICJ,EDDT] - 112.5 z_kij[Aircraft_3,LICJ,EDDT]
+   - 240 z_kij[Aircraft_4,LICJ,EDDT] <= 0
+ Capacity_LICJ_EFHK: x_ij[LICJ,EFHK] - 33.75 z_kij[Aircraft_1,LICJ,EFHK]
+   - 52.5 z_kij[Aircraft_2,LICJ,EFHK] - 112.5 z_kij[Aircraft_3,LICJ,EFHK]
+   - 240 z_kij[Aircraft_4,LICJ,EFHK] <= 0
+ Capacity_LICJ_EPWA: x_ij[LICJ,EPWA] - 33.75 z_kij[Aircraft_1,LICJ,EPWA]
+   - 52.5 z_kij[Aircraft_2,LICJ,EPWA] - 112.5 z_kij[Aircraft_3,LICJ,EPWA]
+   - 240 z_kij[Aircraft_4,LICJ,EPWA] <= 0
+ Capacity_LICJ_EGPH: x_ij[LICJ,EGPH] - 33.75 z_kij[Aircraft_1,LICJ,EGPH]
+   - 52.5 z_kij[Aircraft_2,LICJ,EGPH] - 112.5 z_kij[Aircraft_3,LICJ,EGPH]
+   - 240 z_kij[Aircraft_4,LICJ,EGPH] <= 0
+ Capacity_LICJ_LROP: x_ij[LICJ,LROP] - 33.75 z_kij[Aircraft_1,LICJ,LROP]
+   - 52.5 z_kij[Aircraft_2,LICJ,LROP] - 112.5 z_kij[Aircraft_3,LICJ,LROP]
+   - 240 z_kij[Aircraft_4,LICJ,LROP] <= 0
+ Capacity_LICJ_LGIR: x_ij[LICJ,LGIR] - 33.75 z_kij[Aircraft_1,LICJ,LGIR]
+   - 52.5 z_kij[Aircraft_2,LICJ,LGIR] - 112.5 z_kij[Aircraft_3,LICJ,LGIR]
+   - 240 z_kij[Aircraft_4,LICJ,LGIR] <= 0
+ Capacity_LICJ_BIKF: x_ij[LICJ,BIKF] - 33.75 z_kij[Aircraft_1,LICJ,BIKF]
+   - 52.5 z_kij[Aircraft_2,LICJ,BIKF] - 112.5 z_kij[Aircraft_3,LICJ,BIKF]
+   - 240 z_kij[Aircraft_4,LICJ,BIKF] <= 0
+ Capacity_LICJ_LPMA: x_ij[LICJ,LPMA] - 33.75 z_kij[Aircraft_1,LICJ,LPMA]
+   - 52.5 z_kij[Aircraft_2,LICJ,LPMA] - 112.5 z_kij[Aircraft_3,LICJ,LPMA]
+   - 240 z_kij[Aircraft_4,LICJ,LPMA] <= 0
+ Capacity_LPMA_EGLL: x_ij[LPMA,EGLL] - 33.75 z_kij[Aircraft_1,LPMA,EGLL]
+   - 52.5 z_kij[Aircraft_2,LPMA,EGLL] - 112.5 z_kij[Aircraft_3,LPMA,EGLL]
+   - 240 z_kij[Aircraft_4,LPMA,EGLL] <= 0
+ Capacity_LPMA_LFPG: x_ij[LPMA,LFPG] - 33.75 z_kij[Aircraft_1,LPMA,LFPG]
+   - 52.5 z_kij[Aircraft_2,LPMA,LFPG] - 112.5 z_kij[Aircraft_3,LPMA,LFPG]
+   - 240 z_kij[Aircraft_4,LPMA,LFPG] <= 0
+ Capacity_LPMA_EHAM: x_ij[LPMA,EHAM] - 33.75 z_kij[Aircraft_1,LPMA,EHAM]
+   - 52.5 z_kij[Aircraft_2,LPMA,EHAM] - 112.5 z_kij[Aircraft_3,LPMA,EHAM]
+   - 240 z_kij[Aircraft_4,LPMA,EHAM] <= 0
+ Capacity_LPMA_EDDF: x_ij[LPMA,EDDF] - 33.75 z_kij[Aircraft_1,LPMA,EDDF]
+   - 52.5 z_kij[Aircraft_2,LPMA,EDDF] - 112.5 z_kij[Aircraft_3,LPMA,EDDF]
+   - 240 z_kij[Aircraft_4,LPMA,EDDF] + w_ij[LPMA,EGLL] + w_ij[LPMA,LFPG]
+   + w_ij[LPMA,EHAM] + w_ij[LPMA,EDDF] + w_ij[LPMA,LEMF] + w_ij[LPMA,LEBL]
+   + w_ij[LPMA,EDDM] + w_ij[LPMA,LIRF] + w_ij[LPMA,EIDW] + w_ij[LPMA,ESSA]
+   + w_ij[LPMA,LPPT] + w_ij[LPMA,EDDT] + w_ij[LPMA,EFHK] + w_ij[LPMA,EPWA]
+   + w_ij[LPMA,EGPH] + w_ij[LPMA,LROP] + w_ij[LPMA,LGIR] + w_ij[LPMA,BIKF]
+   + w_ij[LPMA,LICJ] <= 0
+ Capacity_LPMA_LEMF: x_ij[LPMA,LEMF] - 33.75 z_kij[Aircraft_1,LPMA,LEMF]
+   - 52.5 z_kij[Aircraft_2,LPMA,LEMF] - 112.5 z_kij[Aircraft_3,LPMA,LEMF]
+   - 240 z_kij[Aircraft_4,LPMA,LEMF] <= 0
+ Capacity_LPMA_LEBL: x_ij[LPMA,LEBL] - 33.75 z_kij[Aircraft_1,LPMA,LEBL]
+   - 52.5 z_kij[Aircraft_2,LPMA,LEBL] - 112.5 z_kij[Aircraft_3,LPMA,LEBL]
+   - 240 z_kij[Aircraft_4,LPMA,LEBL] <= 0
+ Capacity_LPMA_EDDM: x_ij[LPMA,EDDM] - 33.75 z_kij[Aircraft_1,LPMA,EDDM]
+   - 52.5 z_kij[Aircraft_2,LPMA,EDDM] - 112.5 z_kij[Aircraft_3,LPMA,EDDM]
+   - 240 z_kij[Aircraft_4,LPMA,EDDM] <= 0
+ Capacity_LPMA_LIRF: x_ij[LPMA,LIRF] - 33.75 z_kij[Aircraft_1,LPMA,LIRF]
+   - 52.5 z_kij[Aircraft_2,LPMA,LIRF] - 112.5 z_kij[Aircraft_3,LPMA,LIRF]
+   - 240 z_kij[Aircraft_4,LPMA,LIRF] <= 0
+ Capacity_LPMA_EIDW: x_ij[LPMA,EIDW] - 33.75 z_kij[Aircraft_1,LPMA,EIDW]
+   - 52.5 z_kij[Aircraft_2,LPMA,EIDW] - 112.5 z_kij[Aircraft_3,LPMA,EIDW]
+   - 240 z_kij[Aircraft_4,LPMA,EIDW] <= 0
+ Capacity_LPMA_ESSA: x_ij[LPMA,ESSA] - 33.75 z_kij[Aircraft_1,LPMA,ESSA]
+   - 52.5 z_kij[Aircraft_2,LPMA,ESSA] - 112.5 z_kij[Aircraft_3,LPMA,ESSA]
+   - 240 z_kij[Aircraft_4,LPMA,ESSA] <= 0
+ Capacity_LPMA_LPPT: x_ij[LPMA,LPPT] - 33.75 z_kij[Aircraft_1,LPMA,LPPT]
+   - 52.5 z_kij[Aircraft_2,LPMA,LPPT] - 112.5 z_kij[Aircraft_3,LPMA,LPPT]
+   - 240 z_kij[Aircraft_4,LPMA,LPPT] <= 0
+ Capacity_LPMA_EDDT: x_ij[LPMA,EDDT] - 33.75 z_kij[Aircraft_1,LPMA,EDDT]
+   - 52.5 z_kij[Aircraft_2,LPMA,EDDT] - 112.5 z_kij[Aircraft_3,LPMA,EDDT]
+   - 240 z_kij[Aircraft_4,LPMA,EDDT] <= 0
+ Capacity_LPMA_EFHK: x_ij[LPMA,EFHK] - 33.75 z_kij[Aircraft_1,LPMA,EFHK]
+   - 52.5 z_kij[Aircraft_2,LPMA,EFHK] - 112.5 z_kij[Aircraft_3,LPMA,EFHK]
+   - 240 z_kij[Aircraft_4,LPMA,EFHK] <= 0
+ Capacity_LPMA_EPWA: x_ij[LPMA,EPWA] - 33.75 z_kij[Aircraft_1,LPMA,EPWA]
+   - 52.5 z_kij[Aircraft_2,LPMA,EPWA] - 112.5 z_kij[Aircraft_3,LPMA,EPWA]
+   - 240 z_kij[Aircraft_4,LPMA,EPWA] <= 0
+ Capacity_LPMA_EGPH: x_ij[LPMA,EGPH] - 33.75 z_kij[Aircraft_1,LPMA,EGPH]
+   - 52.5 z_kij[Aircraft_2,LPMA,EGPH] - 112.5 z_kij[Aircraft_3,LPMA,EGPH]
+   - 240 z_kij[Aircraft_4,LPMA,EGPH] <= 0
+ Capacity_LPMA_LROP: x_ij[LPMA,LROP] - 33.75 z_kij[Aircraft_1,LPMA,LROP]
+   - 52.5 z_kij[Aircraft_2,LPMA,LROP] - 112.5 z_kij[Aircraft_3,LPMA,LROP]
+   - 240 z_kij[Aircraft_4,LPMA,LROP] <= 0
+ Capacity_LPMA_LGIR: x_ij[LPMA,LGIR] - 33.75 z_kij[Aircraft_1,LPMA,LGIR]
+   - 52.5 z_kij[Aircraft_2,LPMA,LGIR] - 112.5 z_kij[Aircraft_3,LPMA,LGIR]
+   - 240 z_kij[Aircraft_4,LPMA,LGIR] <= 0
+ Capacity_LPMA_BIKF: x_ij[LPMA,BIKF] - 33.75 z_kij[Aircraft_1,LPMA,BIKF]
+   - 52.5 z_kij[Aircraft_2,LPMA,BIKF] - 112.5 z_kij[Aircraft_3,LPMA,BIKF]
+   - 240 z_kij[Aircraft_4,LPMA,BIKF] <= 0
+ Capacity_LPMA_LICJ: x_ij[LPMA,LICJ] - 33.75 z_kij[Aircraft_1,LPMA,LICJ]
+   - 52.5 z_kij[Aircraft_2,LPMA,LICJ] - 112.5 z_kij[Aircraft_3,LPMA,LICJ]
+   - 240 z_kij[Aircraft_4,LPMA,LICJ] <= 0
  FlowBalance_Aircraft_1_EGLL: z_kij[Aircraft_1,EGLL,LFPG]
    + z_kij[Aircraft_1,EGLL,EHAM] + z_kij[Aircraft_1,EGLL,EDDF]
    + z_kij[Aircraft_1,EGLL,LEMF] + z_kij[Aircraft_1,EGLL,LEBL]
@@ -6032,63 +5690,62 @@ Subject To
    + z_kij[Aircraft_4,LPMA,EGPH] + z_kij[Aircraft_4,LPMA,LROP]
    + z_kij[Aircraft_4,LPMA,LGIR] + z_kij[Aircraft_4,LPMA,BIKF]
    + z_kij[Aircraft_4,LPMA,LICJ] = 0
- TotalTime_Aircraft_1: 1.047939393939394 z_kij[Aircraft_1,EGLL,LFPG]
-   + 1.090121212121212 z_kij[Aircraft_1,EGLL,EHAM]
-   + 2.023878787878788 z_kij[Aircraft_1,EGLL,EDDF]
-   + 2.682121212121212 z_kij[Aircraft_1,EGLL,LEMF]
-   + 2.50339393939394 z_kij[Aircraft_1,EGLL,LEBL]
-   + 2.128666666666667 z_kij[Aircraft_1,EGLL,EDDM]
-   + 3.041939393939394 z_kij[Aircraft_1,EGLL,LIRF]
-   + 1.233575757575758 z_kij[Aircraft_1,EGLL,EIDW]
-   + 3.075757575757576 z_kij[Aircraft_1,EGLL,ESSA]
-   + 3.260121212121212 z_kij[Aircraft_1,EGLL,LPPT]
-   + 2.138848484848485 z_kij[Aircraft_1,EGLL,EDDT]
-   + 3.776666666666666 z_kij[Aircraft_1,EGLL,EFHK]
-   + 3.088666666666666 z_kij[Aircraft_1,EGLL,EPWA]
-   + 1.386666666666667 z_kij[Aircraft_1,EGLL,EGPH]
-   + 4.241757575757577 z_kij[Aircraft_1,EGLL,LROP]
-   + 5.352484848484848 z_kij[Aircraft_1,EGLL,LGIR]
-   + 3.862121212121212 z_kij[Aircraft_1,EGLL,BIKF]
-   + 3.751575757575758 z_kij[Aircraft_1,EGLL,LICJ]
-   + 4.910121212121212 z_kij[Aircraft_1,EGLL,LPMA]
-   + 1.047939393939394 z_kij[Aircraft_1,LFPG,EGLL]
-   + 1.140848484848485 z_kij[Aircraft_1,LFPG,EHAM]
-   + 1.64969696969697 z_kij[Aircraft_1,LFPG,EDDF]
-   + 2.352121212121212 z_kij[Aircraft_1,LFPG,LEMF]
-   + 1.977939393939394 z_kij[Aircraft_1,LFPG,LEBL]
-   + 1.655939393939394 z_kij[Aircraft_1,LFPG,EDDM]
-   + 2.417939393939394 z_kij[Aircraft_1,LFPG,LIRF]
-   + 1.843939393939394 z_kij[Aircraft_1,LFPG,EIDW]
-   + 3.215212121212121 z_kij[Aircraft_1,LFPG,ESSA]
-   + 3.089393939393939 z_kij[Aircraft_1,LFPG,LPPT]
-   + 1.963030303030303 z_kij[Aircraft_1,LFPG,EDDT]
-   + 3.863212121212121 z_kij[Aircraft_1,LFPG,EFHK]
-   + 2.857575757575757 z_kij[Aircraft_1,LFPG,EPWA]
-   + 1.996121212121212 z_kij[Aircraft_1,LFPG,EGPH]
-   + 3.780484848484848 z_kij[Aircraft_1,LFPG,LROP]
-   + 4.761757575757576 z_kij[Aircraft_1,LFPG,LGIR]
-   + 4.49139393939394 z_kij[Aircraft_1,LFPG,BIKF]
-   + 3.120848484848485 z_kij[Aircraft_1,LFPG,LICJ]
-   + 4.819393939393939 z_kij[Aircraft_1,LFPG,LPMA]
-   + 1.090121212121212 z_kij[Aircraft_1,EHAM,EGLL]
-   + 1.140848484848485 z_kij[Aircraft_1,EHAM,LFPG]
-   + 1.499878787878788 z_kij[Aircraft_1,EHAM,EDDF]
-   + 3.072484848484848 z_kij[Aircraft_1,EHAM,LEMF]
-   + 2.673212121212121 z_kij[Aircraft_1,EHAM,LEBL]
-   + 1.62430303030303 z_kij[Aircraft_1,EHAM,EDDM]
-   + 2.774484848484848 z_kij[Aircraft_1,EHAM,LIRF]
-   + 1.780666666666667 z_kij[Aircraft_1,EHAM,EIDW]
-   + 2.511575757575757 z_kij[Aircraft_1,EHAM,ESSA]
-   + 3.773575757575757 z_kij[Aircraft_1,EHAM,LPPT]
-   + 1.467939393939394 z_kij[Aircraft_1,EHAM,EDDT]
-   + 3.182666666666667 z_kij[Aircraft_1,EHAM,EFHK]
-   + 2.418848484848485 z_kij[Aircraft_1,EHAM,EPWA]
-   + 1.62830303030303 z_kij[Aircraft_1,EHAM,EGPH]
-   + 3.658848484848485 z_kij[Aircraft_1,EHAM,LROP]
-   + 4.92739393939394 z_kij[Aircraft_1,EHAM,LGIR]
-   + 4.121575757575758 z_kij[Aircraft_1,EHAM,BIKF]
-   + 3.529575757575757 z_kij[Aircraft_1,EHAM,LICJ]
-   + 5.477575757575758 z_kij[Aircraft_1,EHAM,LPMA]
+ TotalTime_Aircraft_1: 1.256272727272727 z_kij[Aircraft_1,EGLL,LFPG]
+   + 1.298454545454546 z_kij[Aircraft_1,EGLL,EHAM]
+   + 1.607212121212121 z_kij[Aircraft_1,EGLL,EDDF]
+   + 2.890454545454546 z_kij[Aircraft_1,EGLL,LEMF]
+   + 2.711727272727273 z_kij[Aircraft_1,EGLL,LEBL]
+   + 2.337 z_kij[Aircraft_1,EGLL,EDDM]
+   + 3.250272727272728 z_kij[Aircraft_1,EGLL,LIRF]
+   + 1.441909090909091 z_kij[Aircraft_1,EGLL,EIDW]
+   + 3.284090909090909 z_kij[Aircraft_1,EGLL,ESSA]
+   + 3.468454545454545 z_kij[Aircraft_1,EGLL,LPPT]
+   + 2.347181818181818 z_kij[Aircraft_1,EGLL,EDDT]
+   + 3.985 z_kij[Aircraft_1,EGLL,EFHK] + 3.297 z_kij[Aircraft_1,EGLL,EPWA]
+   + 1.595 z_kij[Aircraft_1,EGLL,EGPH]
+   + 4.45009090909091 z_kij[Aircraft_1,EGLL,LROP]
+   + 5.560818181818181 z_kij[Aircraft_1,EGLL,LGIR]
+   + 4.070454545454545 z_kij[Aircraft_1,EGLL,BIKF]
+   + 3.959909090909091 z_kij[Aircraft_1,EGLL,LICJ]
+   + 5.118454545454545 z_kij[Aircraft_1,EGLL,LPMA]
+   + 1.256272727272727 z_kij[Aircraft_1,LFPG,EGLL]
+   + 1.349181818181818 z_kij[Aircraft_1,LFPG,EHAM]
+   + 1.233030303030303 z_kij[Aircraft_1,LFPG,EDDF]
+   + 2.560454545454546 z_kij[Aircraft_1,LFPG,LEMF]
+   + 2.186272727272727 z_kij[Aircraft_1,LFPG,LEBL]
+   + 1.864272727272727 z_kij[Aircraft_1,LFPG,EDDM]
+   + 2.626272727272728 z_kij[Aircraft_1,LFPG,LIRF]
+   + 2.052272727272727 z_kij[Aircraft_1,LFPG,EIDW]
+   + 3.423545454545454 z_kij[Aircraft_1,LFPG,ESSA]
+   + 3.297727272727273 z_kij[Aircraft_1,LFPG,LPPT]
+   + 2.171363636363636 z_kij[Aircraft_1,LFPG,EDDT]
+   + 4.071545454545454 z_kij[Aircraft_1,LFPG,EFHK]
+   + 3.065909090909091 z_kij[Aircraft_1,LFPG,EPWA]
+   + 2.204454545454546 z_kij[Aircraft_1,LFPG,EGPH]
+   + 3.988818181818182 z_kij[Aircraft_1,LFPG,LROP]
+   + 4.970090909090909 z_kij[Aircraft_1,LFPG,LGIR]
+   + 4.699727272727273 z_kij[Aircraft_1,LFPG,BIKF]
+   + 3.329181818181818 z_kij[Aircraft_1,LFPG,LICJ]
+   + 5.027727272727272 z_kij[Aircraft_1,LFPG,LPMA]
+   + 1.298454545454546 z_kij[Aircraft_1,EHAM,EGLL]
+   + 1.349181818181818 z_kij[Aircraft_1,EHAM,LFPG]
+   + 1.083212121212121 z_kij[Aircraft_1,EHAM,EDDF]
+   + 3.280818181818182 z_kij[Aircraft_1,EHAM,LEMF]
+   + 2.881545454545454 z_kij[Aircraft_1,EHAM,LEBL]
+   + 1.832636363636364 z_kij[Aircraft_1,EHAM,EDDM]
+   + 2.982818181818182 z_kij[Aircraft_1,EHAM,LIRF]
+   + 1.989 z_kij[Aircraft_1,EHAM,EIDW]
+   + 2.719909090909091 z_kij[Aircraft_1,EHAM,ESSA]
+   + 3.981909090909091 z_kij[Aircraft_1,EHAM,LPPT]
+   + 1.676272727272727 z_kij[Aircraft_1,EHAM,EDDT]
+   + 3.391 z_kij[Aircraft_1,EHAM,EFHK]
+   + 2.627181818181818 z_kij[Aircraft_1,EHAM,EPWA]
+   + 1.836636363636364 z_kij[Aircraft_1,EHAM,EGPH]
+   + 3.867181818181818 z_kij[Aircraft_1,EHAM,LROP]
+   + 5.135727272727273 z_kij[Aircraft_1,EHAM,LGIR]
+   + 4.329909090909091 z_kij[Aircraft_1,EHAM,BIKF]
+   + 3.737909090909091 z_kij[Aircraft_1,EHAM,LICJ]
+   + 5.685909090909091 z_kij[Aircraft_1,EHAM,LPMA]
    + 1.815545454545455 z_kij[Aircraft_1,EDDF,EGLL]
    + 1.441363636363636 z_kij[Aircraft_1,EDDF,LFPG]
    + 1.291545454545455 z_kij[Aircraft_1,EDDF,EHAM]
@@ -6108,368 +5765,367 @@ Subject To
    + 4.990818181818182 z_kij[Aircraft_1,EDDF,BIKF]
    + 3.130636363636364 z_kij[Aircraft_1,EDDF,LICJ]
    + 5.781363636363636 z_kij[Aircraft_1,EDDF,LPMA]
-   + 2.682121212121212 z_kij[Aircraft_1,LEMF,EGLL]
-   + 2.352121212121212 z_kij[Aircraft_1,LEMF,LFPG]
-   + 3.072484848484848 z_kij[Aircraft_1,LEMF,EHAM]
-   + 3.418969696969697 z_kij[Aircraft_1,LEMF,EDDF]
-   + 1.294666666666667 z_kij[Aircraft_1,LEMF,LEBL]
-   + 3.138484848484848 z_kij[Aircraft_1,LEMF,EDDM]
-   + 2.834121212121212 z_kij[Aircraft_1,LEMF,LIRF]
-   + 3.060666666666667 z_kij[Aircraft_1,LEMF,EIDW]
-   + 5.146303030303031 z_kij[Aircraft_1,LEMF,ESSA]
-   + 1.349212121212121 z_kij[Aircraft_1,LEMF,LPPT]
-   + 3.786848484848484 z_kij[Aircraft_1,LEMF,EDDT]
-   + 5.775575757575758 z_kij[Aircraft_1,LEMF,EFHK]
-   + 4.545939393939394 z_kij[Aircraft_1,LEMF,EPWA]
-   + 3.545939393939394 z_kij[Aircraft_1,LEMF,EGPH]
-   + 4.885757575757576 z_kij[Aircraft_1,LEMF,LROP]
-   + 5.09539393939394 z_kij[Aircraft_1,LEMF,LGIR]
-   + 5.67539393939394 z_kij[Aircraft_1,LEMF,BIKF]
-   + 3.095757575757576 z_kij[Aircraft_1,LEMF,LICJ]
-   + 3.070848484848485 z_kij[Aircraft_1,LEMF,LPMA]
-   + 2.50339393939394 z_kij[Aircraft_1,LEBL,EGLL]
-   + 1.977939393939394 z_kij[Aircraft_1,LEBL,LFPG]
-   + 2.673212121212121 z_kij[Aircraft_1,LEBL,EHAM]
-   + 2.82169696969697 z_kij[Aircraft_1,LEBL,EDDF]
-   + 1.294666666666667 z_kij[Aircraft_1,LEBL,LEMF]
-   + 2.406848484848485 z_kij[Aircraft_1,LEBL,EDDM]
-   + 1.956484848484848 z_kij[Aircraft_1,LEBL,LIRF]
-   + 3.117030303030303 z_kij[Aircraft_1,LEBL,EIDW]
-   + 4.625575757575758 z_kij[Aircraft_1,LEBL,ESSA]
-   + 2.223939393939394 z_kij[Aircraft_1,LEBL,LPPT]
-   + 3.162848484848485 z_kij[Aircraft_1,LEBL,EDDT]
-   + 5.195030303030303 z_kij[Aircraft_1,LEBL,EFHK]
-   + 3.816121212121212 z_kij[Aircraft_1,LEBL,EPWA]
-   + 3.465030303030303 z_kij[Aircraft_1,LEBL,EGPH]
-   + 4.017575757575758 z_kij[Aircraft_1,LEBL,LROP]
-   + 4.260303030303031 z_kij[Aircraft_1,LEBL,LGIR]
-   + 5.836848484848485 z_kij[Aircraft_1,LEBL,BIKF]
-   + 2.27739393939394 z_kij[Aircraft_1,LEBL,LICJ]
-   + 3.911212121212121 z_kij[Aircraft_1,LEBL,LPMA]
-   + 2.128666666666667 z_kij[Aircraft_1,EDDM,EGLL]
-   + 1.655939393939394 z_kij[Aircraft_1,EDDM,LFPG]
-   + 1.62430303030303 z_kij[Aircraft_1,EDDM,EHAM]
-   + 1.377151515151515 z_kij[Aircraft_1,EDDM,EDDF]
-   + 3.138484848484848 z_kij[Aircraft_1,EDDM,LEMF]
-   + 2.406848484848485 z_kij[Aircraft_1,EDDM,LEBL]
-   + 1.743212121212121 z_kij[Aircraft_1,EDDM,LIRF]
-   + 2.928121212121212 z_kij[Aircraft_1,EDDM,EIDW]
-   + 2.811757575757575 z_kij[Aircraft_1,EDDM,ESSA]
-   + 4.023212121212121 z_kij[Aircraft_1,EDDM,LPPT]
-   + 1.288666666666667 z_kij[Aircraft_1,EDDM,EDDT]
-   + 3.279393939393939 z_kij[Aircraft_1,EDDM,EFHK]
-   + 1.829939393939394 z_kij[Aircraft_1,EDDM,EPWA]
-   + 2.835393939393939 z_kij[Aircraft_1,EDDM,EGPH]
-   + 2.545757575757575 z_kij[Aircraft_1,EDDM,LROP]
-   + 3.721757575757576 z_kij[Aircraft_1,EDDM,LGIR]
-   + 5.310848484848486 z_kij[Aircraft_1,EDDM,BIKF]
-   + 2.499575757575757 z_kij[Aircraft_1,EDDM,LICJ]
-   + 5.776484848484849 z_kij[Aircraft_1,EDDM,LPMA]
-   + 3.041939393939394 z_kij[Aircraft_1,LIRF,EGLL]
-   + 2.417939393939394 z_kij[Aircraft_1,LIRF,LFPG]
-   + 2.774484848484848 z_kij[Aircraft_1,LIRF,EHAM]
-   + 2.575333333333333 z_kij[Aircraft_1,LIRF,EDDF]
-   + 2.834121212121212 z_kij[Aircraft_1,LIRF,LEMF]
-   + 1.956484848484848 z_kij[Aircraft_1,LIRF,LEBL]
-   + 1.743212121212121 z_kij[Aircraft_1,LIRF,EDDM]
-   + 3.845030303030303 z_kij[Aircraft_1,LIRF,EIDW]
-   + 4.095030303030303 z_kij[Aircraft_1,LIRF,ESSA]
-   + 3.759757575757576 z_kij[Aircraft_1,LIRF,LPPT]
-   + 2.596666666666667 z_kij[Aircraft_1,LIRF,EDDT]
-   + 4.477939393939394 z_kij[Aircraft_1,LIRF,EFHK]
-   + 2.829393939393939 z_kij[Aircraft_1,LIRF,EPWA]
-   + 3.933575757575758 z_kij[Aircraft_1,LIRF,EGPH]
-   + 2.53030303030303 z_kij[Aircraft_1,LIRF,LROP]
-   + 2.839575757575757 z_kij[Aircraft_1,LIRF,LGIR]
-   + 6.451212121212121 z_kij[Aircraft_1,LIRF,BIKF]
-   + 1.180848484848485 z_kij[Aircraft_1,LIRF,LICJ]
-   + 5.405575757575758 z_kij[Aircraft_1,LIRF,LPMA]
-   + 1.233575757575758 z_kij[Aircraft_1,EIDW,EGLL]
-   + 1.843939393939394 z_kij[Aircraft_1,EIDW,LFPG]
-   + 1.780666666666667 z_kij[Aircraft_1,EIDW,EHAM]
-   + 2.809515151515152 z_kij[Aircraft_1,EIDW,EDDF]
-   + 3.060666666666667 z_kij[Aircraft_1,EIDW,LEMF]
-   + 3.117030303030303 z_kij[Aircraft_1,EIDW,LEBL]
-   + 2.928121212121212 z_kij[Aircraft_1,EIDW,EDDM]
-   + 3.845030303030303 z_kij[Aircraft_1,EIDW,LIRF]
-   + 3.370848484848485 z_kij[Aircraft_1,EIDW,ESSA]
-   + 3.403030303030303 z_kij[Aircraft_1,EIDW,LPPT]
-   + 2.795575757575758 z_kij[Aircraft_1,EIDW,EDDT]
-   + 4.095393939393939 z_kij[Aircraft_1,EIDW,EFHK]
-   + 3.735757575757575 z_kij[Aircraft_1,EIDW,EPWA]
-   + 1.029757575757576 z_kij[Aircraft_1,EIDW,EGPH]
-   + 5.016484848484849 z_kij[Aircraft_1,EIDW,LROP]
-   + 6.169212121212122 z_kij[Aircraft_1,EIDW,LGIR]
-   + 3.139575757575757 z_kij[Aircraft_1,EIDW,BIKF]
-   + 4.537575757575758 z_kij[Aircraft_1,EIDW,LICJ]
-   + 4.87339393939394 z_kij[Aircraft_1,EIDW,LPMA]
-   + 3.075757575757576 z_kij[Aircraft_1,ESSA,EGLL]
-   + 3.215212121212121 z_kij[Aircraft_1,ESSA,LFPG]
-   + 2.511575757575757 z_kij[Aircraft_1,ESSA,EHAM]
-   + 3.056969696969697 z_kij[Aircraft_1,ESSA,EDDF]
-   + 5.146303030303031 z_kij[Aircraft_1,ESSA,LEMF]
-   + 4.625575757575758 z_kij[Aircraft_1,ESSA,LEBL]
-   + 2.811757575757575 z_kij[Aircraft_1,ESSA,EDDM]
-   + 4.095030303030303 z_kij[Aircraft_1,ESSA,LIRF]
-   + 3.370848484848485 z_kij[Aircraft_1,ESSA,EIDW]
-   + 5.868121212121213 z_kij[Aircraft_1,ESSA,LPPT]
-   + 1.941757575757576 z_kij[Aircraft_1,ESSA,EDDT]
-   + 1.141393939393939 z_kij[Aircraft_1,ESSA,EFHK]
-   + 1.968666666666667 z_kij[Aircraft_1,ESSA,EPWA]
-   + 2.817212121212121 z_kij[Aircraft_1,ESSA,EGPH]
-   + 3.624121212121212 z_kij[Aircraft_1,ESSA,LROP]
-   + 5.424121212121213 z_kij[Aircraft_1,ESSA,LGIR]
-   + 4.312121212121212 z_kij[Aircraft_1,ESSA,BIKF]
-   + 4.811939393939395 z_kij[Aircraft_1,ESSA,LICJ]
-   + 7.560484848484848 z_kij[Aircraft_1,ESSA,LPMA]
-   + 3.260121212121212 z_kij[Aircraft_1,LPPT,EGLL]
-   + 3.089393939393939 z_kij[Aircraft_1,LPPT,LFPG]
-   + 3.773575757575757 z_kij[Aircraft_1,LPPT,EHAM]
-   + 4.240242424242424 z_kij[Aircraft_1,LPPT,EDDF]
-   + 1.349212121212121 z_kij[Aircraft_1,LPPT,LEMF]
-   + 2.223939393939394 z_kij[Aircraft_1,LPPT,LEBL]
-   + 4.023212121212121 z_kij[Aircraft_1,LPPT,EDDM]
-   + 3.759757575757576 z_kij[Aircraft_1,LPPT,LIRF]
-   + 3.403030303030303 z_kij[Aircraft_1,LPPT,EIDW]
-   + 5.868121212121213 z_kij[Aircraft_1,LPPT,ESSA]
-   + 4.603393939393939 z_kij[Aircraft_1,LPPT,EDDT]
-   + 6.532848484848485 z_kij[Aircraft_1,LPPT,EFHK]
-   + 5.414848484848485 z_kij[Aircraft_1,LPPT,EPWA]
-   + 3.973212121212121 z_kij[Aircraft_1,LPPT,EGPH]
-   + 5.818121212121213 z_kij[Aircraft_1,LPPT,LROP]
-   + 5.963939393939394 z_kij[Aircraft_1,LPPT,LGIR]
-   + 5.76230303030303 z_kij[Aircraft_1,LPPT,BIKF]
-   + 3.965030303030303 z_kij[Aircraft_1,LPPT,LICJ]
-   + 2.171393939393939 z_kij[Aircraft_1,LPPT,LPMA]
-   + 2.138848484848485 z_kij[Aircraft_1,EDDT,EGLL]
-   + 1.963030303030303 z_kij[Aircraft_1,EDDT,LFPG]
-   + 1.467939393939394 z_kij[Aircraft_1,EDDT,EHAM]
-   + 1.618242424242424 z_kij[Aircraft_1,EDDT,EDDF]
-   + 3.786848484848484 z_kij[Aircraft_1,EDDT,LEMF]
-   + 3.162848484848485 z_kij[Aircraft_1,EDDT,LEBL]
-   + 1.288666666666667 z_kij[Aircraft_1,EDDT,EDDM]
-   + 2.596666666666667 z_kij[Aircraft_1,EDDT,LIRF]
-   + 2.795575757575758 z_kij[Aircraft_1,EDDT,EIDW]
-   + 1.941757575757576 z_kij[Aircraft_1,EDDT,ESSA]
-   + 4.603393939393939 z_kij[Aircraft_1,EDDT,LPPT]
-   + 2.450848484848485 z_kij[Aircraft_1,EDDT,EFHK]
-   + 1.367575757575758 z_kij[Aircraft_1,EDDT,EPWA]
-   + 2.494121212121212 z_kij[Aircraft_1,EDDT,EGPH]
-   + 2.763939393939394 z_kij[Aircraft_1,EDDT,LROP]
-   + 4.293030303030303 z_kij[Aircraft_1,EDDT,LGIR]
-   + 4.790666666666667 z_kij[Aircraft_1,EDDT,BIKF]
-   + 3.337757575757575 z_kij[Aircraft_1,EDDT,LICJ]
-   + 6.349212121212122 z_kij[Aircraft_1,EDDT,LPMA]
-   + 3.776666666666666 z_kij[Aircraft_1,EFHK,EGLL]
-   + 3.863212121212121 z_kij[Aircraft_1,EFHK,LFPG]
-   + 3.182666666666667 z_kij[Aircraft_1,EFHK,EHAM]
-   + 3.629515151515152 z_kij[Aircraft_1,EFHK,EDDF]
-   + 5.775575757575758 z_kij[Aircraft_1,EFHK,LEMF]
-   + 5.195030303030303 z_kij[Aircraft_1,EFHK,LEBL]
-   + 3.279393939393939 z_kij[Aircraft_1,EFHK,EDDM]
-   + 4.477939393939394 z_kij[Aircraft_1,EFHK,LIRF]
-   + 4.095393939393939 z_kij[Aircraft_1,EFHK,EIDW]
-   + 1.141393939393939 z_kij[Aircraft_1,EFHK,ESSA]
-   + 6.532848484848485 z_kij[Aircraft_1,EFHK,LPPT]
-   + 2.450848484848485 z_kij[Aircraft_1,EFHK,EDDT]
-   + 2.123939393939394 z_kij[Aircraft_1,EFHK,EPWA]
-   + 3.539757575757576 z_kij[Aircraft_1,EFHK,EGPH]
-   + 3.603030303030303 z_kij[Aircraft_1,EFHK,LROP]
-   + 5.466484848484849 z_kij[Aircraft_1,EFHK,LGIR]
-   + 4.860848484848486 z_kij[Aircraft_1,EFHK,BIKF]
-   + 5.146121212121212 z_kij[Aircraft_1,EFHK,LICJ]
-   + 8.243575757575758 z_kij[Aircraft_1,EFHK,LPMA]
-   + 3.088666666666666 z_kij[Aircraft_1,EPWA,EGLL]
-   + 2.857575757575757 z_kij[Aircraft_1,EPWA,LFPG]
-   + 2.418848484848485 z_kij[Aircraft_1,EPWA,EHAM]
-   + 2.462787878787879 z_kij[Aircraft_1,EPWA,EDDF]
-   + 4.545939393939394 z_kij[Aircraft_1,EPWA,LEMF]
-   + 3.816121212121212 z_kij[Aircraft_1,EPWA,LEBL]
-   + 1.829939393939394 z_kij[Aircraft_1,EPWA,EDDM]
-   + 2.829393939393939 z_kij[Aircraft_1,EPWA,LIRF]
-   + 3.735757575757575 z_kij[Aircraft_1,EPWA,EIDW]
-   + 1.968666666666667 z_kij[Aircraft_1,EPWA,ESSA]
-   + 5.414848484848485 z_kij[Aircraft_1,EPWA,LPPT]
-   + 1.367575757575758 z_kij[Aircraft_1,EPWA,EDDT]
-   + 2.123939393939394 z_kij[Aircraft_1,EPWA,EFHK]
-   + 3.387393939393939 z_kij[Aircraft_1,EPWA,EGPH]
-   + 2.097939393939394 z_kij[Aircraft_1,EPWA,LROP]
-   + 3.872121212121212 z_kij[Aircraft_1,EPWA,LGIR]
-   + 5.51539393939394 z_kij[Aircraft_1,EPWA,BIKF]
-   + 3.456484848484849 z_kij[Aircraft_1,EPWA,LICJ]
-   + 7.169575757575758 z_kij[Aircraft_1,EPWA,LPMA]
-   + 1.386666666666667 z_kij[Aircraft_1,EGPH,EGLL]
-   + 1.996121212121212 z_kij[Aircraft_1,EGPH,LFPG]
-   + 1.62830303030303 z_kij[Aircraft_1,EGPH,EHAM]
-   + 2.711333333333334 z_kij[Aircraft_1,EGPH,EDDF]
-   + 3.545939393939394 z_kij[Aircraft_1,EGPH,LEMF]
-   + 3.465030303030303 z_kij[Aircraft_1,EGPH,LEBL]
-   + 2.835393939393939 z_kij[Aircraft_1,EGPH,EDDM]
-   + 3.933575757575758 z_kij[Aircraft_1,EGPH,LIRF]
-   + 1.029757575757576 z_kij[Aircraft_1,EGPH,EIDW]
-   + 2.817212121212121 z_kij[Aircraft_1,EGPH,ESSA]
-   + 3.973212121212121 z_kij[Aircraft_1,EGPH,LPPT]
-   + 2.494121212121212 z_kij[Aircraft_1,EGPH,EDDT]
-   + 3.539757575757576 z_kij[Aircraft_1,EGPH,EFHK]
-   + 3.387393939393939 z_kij[Aircraft_1,EGPH,EPWA]
-   + 4.814848484848485 z_kij[Aircraft_1,EGPH,LROP]
-   + 6.138848484848485 z_kij[Aircraft_1,EGPH,LGIR]
-   + 2.934121212121212 z_kij[Aircraft_1,EGPH,BIKF]
-   + 4.669030303030303 z_kij[Aircraft_1,EGPH,LICJ]
-   + 5.480848484848486 z_kij[Aircraft_1,EGPH,LPMA]
-   + 4.241757575757577 z_kij[Aircraft_1,LROP,EGLL]
-   + 3.780484848484848 z_kij[Aircraft_1,LROP,LFPG]
-   + 3.658848484848485 z_kij[Aircraft_1,LROP,EHAM]
-   + 3.467878787878788 z_kij[Aircraft_1,LROP,EDDF]
-   + 4.885757575757576 z_kij[Aircraft_1,LROP,LEMF]
-   + 4.017575757575758 z_kij[Aircraft_1,LROP,LEBL]
-   + 2.545757575757575 z_kij[Aircraft_1,LROP,EDDM]
-   + 2.53030303030303 z_kij[Aircraft_1,LROP,LIRF]
-   + 5.016484848484849 z_kij[Aircraft_1,LROP,EIDW]
-   + 3.624121212121212 z_kij[Aircraft_1,LROP,ESSA]
-   + 5.818121212121213 z_kij[Aircraft_1,LROP,LPPT]
-   + 2.763939393939394 z_kij[Aircraft_1,LROP,EDDT]
-   + 3.603030303030303 z_kij[Aircraft_1,LROP,EFHK]
-   + 2.097939393939394 z_kij[Aircraft_1,LROP,EPWA]
-   + 4.814848484848485 z_kij[Aircraft_1,LROP,EGPH]
-   + 2.28830303030303 z_kij[Aircraft_1,LROP,LGIR]
-   + 7.125030303030303 z_kij[Aircraft_1,LROP,BIKF]
-   + 2.749939393939394 z_kij[Aircraft_1,LROP,LICJ]
-   + 7.504666666666667 z_kij[Aircraft_1,LROP,LPMA]
-   + 5.352484848484848 z_kij[Aircraft_1,LGIR,EGLL]
-   + 4.761757575757576 z_kij[Aircraft_1,LGIR,LFPG]
-   + 4.92739393939394 z_kij[Aircraft_1,LGIR,EHAM]
-   + 4.67769696969697 z_kij[Aircraft_1,LGIR,EDDF]
-   + 5.09539393939394 z_kij[Aircraft_1,LGIR,LEMF]
-   + 4.260303030303031 z_kij[Aircraft_1,LGIR,LEBL]
-   + 3.721757575757576 z_kij[Aircraft_1,LGIR,EDDM]
-   + 2.839575757575757 z_kij[Aircraft_1,LGIR,LIRF]
-   + 6.169212121212122 z_kij[Aircraft_1,LGIR,EIDW]
-   + 5.424121212121213 z_kij[Aircraft_1,LGIR,ESSA]
-   + 5.963939393939394 z_kij[Aircraft_1,LGIR,LPPT]
-   + 4.293030303030303 z_kij[Aircraft_1,LGIR,EDDT]
-   + 5.466484848484849 z_kij[Aircraft_1,LGIR,EFHK]
-   + 3.872121212121212 z_kij[Aircraft_1,LGIR,EPWA]
-   + 6.138848484848485 z_kij[Aircraft_1,LGIR,EGPH]
-   + 2.28830303030303 z_kij[Aircraft_1,LGIR,LROP]
-   + 8.608121212121212 z_kij[Aircraft_1,LGIR,BIKF]
-   + 2.417939393939394 z_kij[Aircraft_1,LGIR,LICJ]
-   + 7.415030303030303 z_kij[Aircraft_1,LGIR,LPMA]
-   + 3.862121212121212 z_kij[Aircraft_1,BIKF,EGLL]
-   + 4.49139393939394 z_kij[Aircraft_1,BIKF,LFPG]
-   + 4.121575757575758 z_kij[Aircraft_1,BIKF,EHAM]
-   + 5.199151515151515 z_kij[Aircraft_1,BIKF,EDDF]
-   + 5.67539393939394 z_kij[Aircraft_1,BIKF,LEMF]
-   + 5.836848484848485 z_kij[Aircraft_1,BIKF,LEBL]
-   + 5.310848484848486 z_kij[Aircraft_1,BIKF,EDDM]
-   + 6.451212121212121 z_kij[Aircraft_1,BIKF,LIRF]
-   + 3.139575757575757 z_kij[Aircraft_1,BIKF,EIDW]
-   + 4.312121212121212 z_kij[Aircraft_1,BIKF,ESSA]
-   + 5.76230303030303 z_kij[Aircraft_1,BIKF,LPPT]
-   + 4.790666666666667 z_kij[Aircraft_1,BIKF,EDDT]
-   + 4.860848484848486 z_kij[Aircraft_1,BIKF,EFHK]
-   + 5.51539393939394 z_kij[Aircraft_1,BIKF,EPWA]
-   + 2.934121212121212 z_kij[Aircraft_1,BIKF,EGPH]
-   + 7.125030303030303 z_kij[Aircraft_1,BIKF,LROP]
-   + 8.608121212121212 z_kij[Aircraft_1,BIKF,LGIR]
-   + 7.18430303030303 z_kij[Aircraft_1,BIKF,LICJ]
-   + 6.784484848484849 z_kij[Aircraft_1,BIKF,LPMA]
-   + 3.751575757575758 z_kij[Aircraft_1,LICJ,EGLL]
-   + 3.120848484848485 z_kij[Aircraft_1,LICJ,LFPG]
-   + 3.529575757575757 z_kij[Aircraft_1,LICJ,EHAM]
-   + 3.338969696969697 z_kij[Aircraft_1,LICJ,EDDF]
-   + 3.095757575757576 z_kij[Aircraft_1,LICJ,LEMF]
-   + 2.27739393939394 z_kij[Aircraft_1,LICJ,LEBL]
-   + 2.499575757575757 z_kij[Aircraft_1,LICJ,EDDM]
-   + 1.180848484848485 z_kij[Aircraft_1,LICJ,LIRF]
-   + 4.537575757575758 z_kij[Aircraft_1,LICJ,EIDW]
-   + 4.811939393939395 z_kij[Aircraft_1,LICJ,ESSA]
-   + 3.965030303030303 z_kij[Aircraft_1,LICJ,LPPT]
-   + 3.337757575757575 z_kij[Aircraft_1,LICJ,EDDT]
-   + 5.146121212121212 z_kij[Aircraft_1,LICJ,EFHK]
-   + 3.456484848484849 z_kij[Aircraft_1,LICJ,EPWA]
-   + 4.669030303030303 z_kij[Aircraft_1,LICJ,EGPH]
-   + 2.749939393939394 z_kij[Aircraft_1,LICJ,LROP]
-   + 2.417939393939394 z_kij[Aircraft_1,LICJ,LGIR]
-   + 7.18430303030303 z_kij[Aircraft_1,LICJ,BIKF]
-   + 5.470484848484849 z_kij[Aircraft_1,LICJ,LPMA]
-   + 4.910121212121212 z_kij[Aircraft_1,LPMA,EGLL]
-   + 4.819393939393939 z_kij[Aircraft_1,LPMA,LFPG]
-   + 5.477575757575758 z_kij[Aircraft_1,LPMA,EHAM]
-   + 5.989696969696969 z_kij[Aircraft_1,LPMA,EDDF]
-   + 3.070848484848485 z_kij[Aircraft_1,LPMA,LEMF]
-   + 3.911212121212121 z_kij[Aircraft_1,LPMA,LEBL]
-   + 5.776484848484849 z_kij[Aircraft_1,LPMA,EDDM]
-   + 5.405575757575758 z_kij[Aircraft_1,LPMA,LIRF]
-   + 4.87339393939394 z_kij[Aircraft_1,LPMA,EIDW]
-   + 7.560484848484848 z_kij[Aircraft_1,LPMA,ESSA]
-   + 2.171393939393939 z_kij[Aircraft_1,LPMA,LPPT]
-   + 6.349212121212122 z_kij[Aircraft_1,LPMA,EDDT]
-   + 8.243575757575758 z_kij[Aircraft_1,LPMA,EFHK]
-   + 7.169575757575758 z_kij[Aircraft_1,LPMA,EPWA]
-   + 5.480848484848486 z_kij[Aircraft_1,LPMA,EGPH]
-   + 7.504666666666667 z_kij[Aircraft_1,LPMA,LROP]
-   + 7.415030303030303 z_kij[Aircraft_1,LPMA,LGIR]
-   + 6.784484848484849 z_kij[Aircraft_1,LPMA,BIKF]
-   + 5.470484848484849 z_kij[Aircraft_1,LPMA,LICJ] - 70 AC_k[Aircraft_1]
+   + 2.890454545454546 z_kij[Aircraft_1,LEMF,EGLL]
+   + 2.560454545454546 z_kij[Aircraft_1,LEMF,LFPG]
+   + 3.280818181818182 z_kij[Aircraft_1,LEMF,EHAM]
+   + 3.00230303030303 z_kij[Aircraft_1,LEMF,EDDF]
+   + 1.503 z_kij[Aircraft_1,LEMF,LEBL]
+   + 3.346818181818182 z_kij[Aircraft_1,LEMF,EDDM]
+   + 3.042454545454545 z_kij[Aircraft_1,LEMF,LIRF]
+   + 3.269 z_kij[Aircraft_1,LEMF,EIDW]
+   + 5.354636363636364 z_kij[Aircraft_1,LEMF,ESSA]
+   + 1.557545454545454 z_kij[Aircraft_1,LEMF,LPPT]
+   + 3.995181818181818 z_kij[Aircraft_1,LEMF,EDDT]
+   + 5.983909090909092 z_kij[Aircraft_1,LEMF,EFHK]
+   + 4.754272727272727 z_kij[Aircraft_1,LEMF,EPWA]
+   + 3.754272727272727 z_kij[Aircraft_1,LEMF,EGPH]
+   + 5.094090909090909 z_kij[Aircraft_1,LEMF,LROP]
+   + 5.303727272727273 z_kij[Aircraft_1,LEMF,LGIR]
+   + 5.883727272727273 z_kij[Aircraft_1,LEMF,BIKF]
+   + 3.304090909090909 z_kij[Aircraft_1,LEMF,LICJ]
+   + 3.279181818181818 z_kij[Aircraft_1,LEMF,LPMA]
+   + 2.711727272727273 z_kij[Aircraft_1,LEBL,EGLL]
+   + 2.186272727272727 z_kij[Aircraft_1,LEBL,LFPG]
+   + 2.881545454545454 z_kij[Aircraft_1,LEBL,EHAM]
+   + 2.405030303030303 z_kij[Aircraft_1,LEBL,EDDF]
+   + 1.503 z_kij[Aircraft_1,LEBL,LEMF]
+   + 2.615181818181818 z_kij[Aircraft_1,LEBL,EDDM]
+   + 2.164818181818182 z_kij[Aircraft_1,LEBL,LIRF]
+   + 3.325363636363636 z_kij[Aircraft_1,LEBL,EIDW]
+   + 4.833909090909091 z_kij[Aircraft_1,LEBL,ESSA]
+   + 2.432272727272728 z_kij[Aircraft_1,LEBL,LPPT]
+   + 3.371181818181818 z_kij[Aircraft_1,LEBL,EDDT]
+   + 5.403363636363636 z_kij[Aircraft_1,LEBL,EFHK]
+   + 4.024454545454546 z_kij[Aircraft_1,LEBL,EPWA]
+   + 3.673363636363636 z_kij[Aircraft_1,LEBL,EGPH]
+   + 4.225909090909092 z_kij[Aircraft_1,LEBL,LROP]
+   + 4.468636363636364 z_kij[Aircraft_1,LEBL,LGIR]
+   + 6.045181818181818 z_kij[Aircraft_1,LEBL,BIKF]
+   + 2.485727272727273 z_kij[Aircraft_1,LEBL,LICJ]
+   + 4.119545454545454 z_kij[Aircraft_1,LEBL,LPMA]
+   + 2.337 z_kij[Aircraft_1,EDDM,EGLL]
+   + 1.864272727272727 z_kij[Aircraft_1,EDDM,LFPG]
+   + 1.832636363636364 z_kij[Aircraft_1,EDDM,EHAM]
+   + 0.9604848484848485 z_kij[Aircraft_1,EDDM,EDDF]
+   + 3.346818181818182 z_kij[Aircraft_1,EDDM,LEMF]
+   + 2.615181818181818 z_kij[Aircraft_1,EDDM,LEBL]
+   + 1.951545454545455 z_kij[Aircraft_1,EDDM,LIRF]
+   + 3.136454545454545 z_kij[Aircraft_1,EDDM,EIDW]
+   + 3.020090909090909 z_kij[Aircraft_1,EDDM,ESSA]
+   + 4.231545454545454 z_kij[Aircraft_1,EDDM,LPPT]
+   + 1.497 z_kij[Aircraft_1,EDDM,EDDT]
+   + 3.487727272727273 z_kij[Aircraft_1,EDDM,EFHK]
+   + 2.038272727272727 z_kij[Aircraft_1,EDDM,EPWA]
+   + 3.043727272727273 z_kij[Aircraft_1,EDDM,EGPH]
+   + 2.754090909090909 z_kij[Aircraft_1,EDDM,LROP]
+   + 3.930090909090909 z_kij[Aircraft_1,EDDM,LGIR]
+   + 5.519181818181819 z_kij[Aircraft_1,EDDM,BIKF]
+   + 2.707909090909091 z_kij[Aircraft_1,EDDM,LICJ]
+   + 5.984818181818182 z_kij[Aircraft_1,EDDM,LPMA]
+   + 3.250272727272728 z_kij[Aircraft_1,LIRF,EGLL]
+   + 2.626272727272728 z_kij[Aircraft_1,LIRF,LFPG]
+   + 2.982818181818182 z_kij[Aircraft_1,LIRF,EHAM]
+   + 2.158666666666667 z_kij[Aircraft_1,LIRF,EDDF]
+   + 3.042454545454545 z_kij[Aircraft_1,LIRF,LEMF]
+   + 2.164818181818182 z_kij[Aircraft_1,LIRF,LEBL]
+   + 1.951545454545455 z_kij[Aircraft_1,LIRF,EDDM]
+   + 4.053363636363637 z_kij[Aircraft_1,LIRF,EIDW]
+   + 4.303363636363637 z_kij[Aircraft_1,LIRF,ESSA]
+   + 3.968090909090909 z_kij[Aircraft_1,LIRF,LPPT]
+   + 2.805 z_kij[Aircraft_1,LIRF,EDDT]
+   + 4.686272727272727 z_kij[Aircraft_1,LIRF,EFHK]
+   + 3.037727272727273 z_kij[Aircraft_1,LIRF,EPWA]
+   + 4.141909090909091 z_kij[Aircraft_1,LIRF,EGPH]
+   + 2.738636363636364 z_kij[Aircraft_1,LIRF,LROP]
+   + 3.047909090909091 z_kij[Aircraft_1,LIRF,LGIR]
+   + 6.659545454545454 z_kij[Aircraft_1,LIRF,BIKF]
+   + 1.389181818181818 z_kij[Aircraft_1,LIRF,LICJ]
+   + 5.613909090909091 z_kij[Aircraft_1,LIRF,LPMA]
+   + 1.441909090909091 z_kij[Aircraft_1,EIDW,EGLL]
+   + 2.052272727272727 z_kij[Aircraft_1,EIDW,LFPG]
+   + 1.989 z_kij[Aircraft_1,EIDW,EHAM]
+   + 2.392848484848485 z_kij[Aircraft_1,EIDW,EDDF]
+   + 3.269 z_kij[Aircraft_1,EIDW,LEMF]
+   + 3.325363636363636 z_kij[Aircraft_1,EIDW,LEBL]
+   + 3.136454545454545 z_kij[Aircraft_1,EIDW,EDDM]
+   + 4.053363636363637 z_kij[Aircraft_1,EIDW,LIRF]
+   + 3.579181818181818 z_kij[Aircraft_1,EIDW,ESSA]
+   + 3.611363636363636 z_kij[Aircraft_1,EIDW,LPPT]
+   + 3.003909090909091 z_kij[Aircraft_1,EIDW,EDDT]
+   + 4.303727272727272 z_kij[Aircraft_1,EIDW,EFHK]
+   + 3.944090909090909 z_kij[Aircraft_1,EIDW,EPWA]
+   + 1.238090909090909 z_kij[Aircraft_1,EIDW,EGPH]
+   + 5.224818181818182 z_kij[Aircraft_1,EIDW,LROP]
+   + 6.377545454545455 z_kij[Aircraft_1,EIDW,LGIR]
+   + 3.347909090909091 z_kij[Aircraft_1,EIDW,BIKF]
+   + 4.745909090909091 z_kij[Aircraft_1,EIDW,LICJ]
+   + 5.081727272727273 z_kij[Aircraft_1,EIDW,LPMA]
+   + 3.284090909090909 z_kij[Aircraft_1,ESSA,EGLL]
+   + 3.423545454545454 z_kij[Aircraft_1,ESSA,LFPG]
+   + 2.719909090909091 z_kij[Aircraft_1,ESSA,EHAM]
+   + 2.64030303030303 z_kij[Aircraft_1,ESSA,EDDF]
+   + 5.354636363636364 z_kij[Aircraft_1,ESSA,LEMF]
+   + 4.833909090909091 z_kij[Aircraft_1,ESSA,LEBL]
+   + 3.020090909090909 z_kij[Aircraft_1,ESSA,EDDM]
+   + 4.303363636363637 z_kij[Aircraft_1,ESSA,LIRF]
+   + 3.579181818181818 z_kij[Aircraft_1,ESSA,EIDW]
+   + 6.076454545454546 z_kij[Aircraft_1,ESSA,LPPT]
+   + 2.150090909090909 z_kij[Aircraft_1,ESSA,EDDT]
+   + 1.349727272727273 z_kij[Aircraft_1,ESSA,EFHK]
+   + 2.177 z_kij[Aircraft_1,ESSA,EPWA]
+   + 3.025545454545454 z_kij[Aircraft_1,ESSA,EGPH]
+   + 3.832454545454545 z_kij[Aircraft_1,ESSA,LROP]
+   + 5.632454545454546 z_kij[Aircraft_1,ESSA,LGIR]
+   + 4.520454545454546 z_kij[Aircraft_1,ESSA,BIKF]
+   + 5.020272727272728 z_kij[Aircraft_1,ESSA,LICJ]
+   + 7.768818181818181 z_kij[Aircraft_1,ESSA,LPMA]
+   + 3.468454545454545 z_kij[Aircraft_1,LPPT,EGLL]
+   + 3.297727272727273 z_kij[Aircraft_1,LPPT,LFPG]
+   + 3.981909090909091 z_kij[Aircraft_1,LPPT,EHAM]
+   + 3.823575757575757 z_kij[Aircraft_1,LPPT,EDDF]
+   + 1.557545454545454 z_kij[Aircraft_1,LPPT,LEMF]
+   + 2.432272727272728 z_kij[Aircraft_1,LPPT,LEBL]
+   + 4.231545454545454 z_kij[Aircraft_1,LPPT,EDDM]
+   + 3.968090909090909 z_kij[Aircraft_1,LPPT,LIRF]
+   + 3.611363636363636 z_kij[Aircraft_1,LPPT,EIDW]
+   + 6.076454545454546 z_kij[Aircraft_1,LPPT,ESSA]
+   + 4.811727272727272 z_kij[Aircraft_1,LPPT,EDDT]
+   + 6.741181818181818 z_kij[Aircraft_1,LPPT,EFHK]
+   + 5.623181818181818 z_kij[Aircraft_1,LPPT,EPWA]
+   + 4.181545454545454 z_kij[Aircraft_1,LPPT,EGPH]
+   + 6.026454545454546 z_kij[Aircraft_1,LPPT,LROP]
+   + 6.172272727272727 z_kij[Aircraft_1,LPPT,LGIR]
+   + 5.970636363636364 z_kij[Aircraft_1,LPPT,BIKF]
+   + 4.173363636363636 z_kij[Aircraft_1,LPPT,LICJ]
+   + 2.379727272727273 z_kij[Aircraft_1,LPPT,LPMA]
+   + 2.347181818181818 z_kij[Aircraft_1,EDDT,EGLL]
+   + 2.171363636363636 z_kij[Aircraft_1,EDDT,LFPG]
+   + 1.676272727272727 z_kij[Aircraft_1,EDDT,EHAM]
+   + 1.201575757575758 z_kij[Aircraft_1,EDDT,EDDF]
+   + 3.995181818181818 z_kij[Aircraft_1,EDDT,LEMF]
+   + 3.371181818181818 z_kij[Aircraft_1,EDDT,LEBL]
+   + 1.497 z_kij[Aircraft_1,EDDT,EDDM] + 2.805 z_kij[Aircraft_1,EDDT,LIRF]
+   + 3.003909090909091 z_kij[Aircraft_1,EDDT,EIDW]
+   + 2.150090909090909 z_kij[Aircraft_1,EDDT,ESSA]
+   + 4.811727272727272 z_kij[Aircraft_1,EDDT,LPPT]
+   + 2.659181818181818 z_kij[Aircraft_1,EDDT,EFHK]
+   + 1.575909090909091 z_kij[Aircraft_1,EDDT,EPWA]
+   + 2.702454545454545 z_kij[Aircraft_1,EDDT,EGPH]
+   + 2.972272727272727 z_kij[Aircraft_1,EDDT,LROP]
+   + 4.501363636363637 z_kij[Aircraft_1,EDDT,LGIR]
+   + 4.999 z_kij[Aircraft_1,EDDT,BIKF]
+   + 3.546090909090909 z_kij[Aircraft_1,EDDT,LICJ]
+   + 6.557545454545455 z_kij[Aircraft_1,EDDT,LPMA]
+   + 3.985 z_kij[Aircraft_1,EFHK,EGLL]
+   + 4.071545454545454 z_kij[Aircraft_1,EFHK,LFPG]
+   + 3.391 z_kij[Aircraft_1,EFHK,EHAM]
+   + 3.212848484848485 z_kij[Aircraft_1,EFHK,EDDF]
+   + 5.983909090909092 z_kij[Aircraft_1,EFHK,LEMF]
+   + 5.403363636363636 z_kij[Aircraft_1,EFHK,LEBL]
+   + 3.487727272727273 z_kij[Aircraft_1,EFHK,EDDM]
+   + 4.686272727272727 z_kij[Aircraft_1,EFHK,LIRF]
+   + 4.303727272727272 z_kij[Aircraft_1,EFHK,EIDW]
+   + 1.349727272727273 z_kij[Aircraft_1,EFHK,ESSA]
+   + 6.741181818181818 z_kij[Aircraft_1,EFHK,LPPT]
+   + 2.659181818181818 z_kij[Aircraft_1,EFHK,EDDT]
+   + 2.332272727272727 z_kij[Aircraft_1,EFHK,EPWA]
+   + 3.748090909090909 z_kij[Aircraft_1,EFHK,EGPH]
+   + 3.811363636363637 z_kij[Aircraft_1,EFHK,LROP]
+   + 5.674818181818182 z_kij[Aircraft_1,EFHK,LGIR]
+   + 5.069181818181819 z_kij[Aircraft_1,EFHK,BIKF]
+   + 5.354454545454545 z_kij[Aircraft_1,EFHK,LICJ]
+   + 8.451909090909091 z_kij[Aircraft_1,EFHK,LPMA]
+   + 3.297 z_kij[Aircraft_1,EPWA,EGLL]
+   + 3.065909090909091 z_kij[Aircraft_1,EPWA,LFPG]
+   + 2.627181818181818 z_kij[Aircraft_1,EPWA,EHAM]
+   + 2.046121212121212 z_kij[Aircraft_1,EPWA,EDDF]
+   + 4.754272727272727 z_kij[Aircraft_1,EPWA,LEMF]
+   + 4.024454545454546 z_kij[Aircraft_1,EPWA,LEBL]
+   + 2.038272727272727 z_kij[Aircraft_1,EPWA,EDDM]
+   + 3.037727272727273 z_kij[Aircraft_1,EPWA,LIRF]
+   + 3.944090909090909 z_kij[Aircraft_1,EPWA,EIDW]
+   + 2.177 z_kij[Aircraft_1,EPWA,ESSA]
+   + 5.623181818181818 z_kij[Aircraft_1,EPWA,LPPT]
+   + 1.575909090909091 z_kij[Aircraft_1,EPWA,EDDT]
+   + 2.332272727272727 z_kij[Aircraft_1,EPWA,EFHK]
+   + 3.595727272727273 z_kij[Aircraft_1,EPWA,EGPH]
+   + 2.306272727272727 z_kij[Aircraft_1,EPWA,LROP]
+   + 4.080454545454545 z_kij[Aircraft_1,EPWA,LGIR]
+   + 5.723727272727273 z_kij[Aircraft_1,EPWA,BIKF]
+   + 3.664818181818182 z_kij[Aircraft_1,EPWA,LICJ]
+   + 7.377909090909091 z_kij[Aircraft_1,EPWA,LPMA]
+   + 1.595 z_kij[Aircraft_1,EGPH,EGLL]
+   + 2.204454545454546 z_kij[Aircraft_1,EGPH,LFPG]
+   + 1.836636363636364 z_kij[Aircraft_1,EGPH,EHAM]
+   + 2.294666666666667 z_kij[Aircraft_1,EGPH,EDDF]
+   + 3.754272727272727 z_kij[Aircraft_1,EGPH,LEMF]
+   + 3.673363636363636 z_kij[Aircraft_1,EGPH,LEBL]
+   + 3.043727272727273 z_kij[Aircraft_1,EGPH,EDDM]
+   + 4.141909090909091 z_kij[Aircraft_1,EGPH,LIRF]
+   + 1.238090909090909 z_kij[Aircraft_1,EGPH,EIDW]
+   + 3.025545454545454 z_kij[Aircraft_1,EGPH,ESSA]
+   + 4.181545454545454 z_kij[Aircraft_1,EGPH,LPPT]
+   + 2.702454545454545 z_kij[Aircraft_1,EGPH,EDDT]
+   + 3.748090909090909 z_kij[Aircraft_1,EGPH,EFHK]
+   + 3.595727272727273 z_kij[Aircraft_1,EGPH,EPWA]
+   + 5.023181818181818 z_kij[Aircraft_1,EGPH,LROP]
+   + 6.347181818181818 z_kij[Aircraft_1,EGPH,LGIR]
+   + 3.142454545454545 z_kij[Aircraft_1,EGPH,BIKF]
+   + 4.877363636363636 z_kij[Aircraft_1,EGPH,LICJ]
+   + 5.689181818181819 z_kij[Aircraft_1,EGPH,LPMA]
+   + 4.45009090909091 z_kij[Aircraft_1,LROP,EGLL]
+   + 3.988818181818182 z_kij[Aircraft_1,LROP,LFPG]
+   + 3.867181818181818 z_kij[Aircraft_1,LROP,EHAM]
+   + 3.051212121212121 z_kij[Aircraft_1,LROP,EDDF]
+   + 5.094090909090909 z_kij[Aircraft_1,LROP,LEMF]
+   + 4.225909090909092 z_kij[Aircraft_1,LROP,LEBL]
+   + 2.754090909090909 z_kij[Aircraft_1,LROP,EDDM]
+   + 2.738636363636364 z_kij[Aircraft_1,LROP,LIRF]
+   + 5.224818181818182 z_kij[Aircraft_1,LROP,EIDW]
+   + 3.832454545454545 z_kij[Aircraft_1,LROP,ESSA]
+   + 6.026454545454546 z_kij[Aircraft_1,LROP,LPPT]
+   + 2.972272727272727 z_kij[Aircraft_1,LROP,EDDT]
+   + 3.811363636363637 z_kij[Aircraft_1,LROP,EFHK]
+   + 2.306272727272727 z_kij[Aircraft_1,LROP,EPWA]
+   + 5.023181818181818 z_kij[Aircraft_1,LROP,EGPH]
+   + 2.496636363636364 z_kij[Aircraft_1,LROP,LGIR]
+   + 7.333363636363636 z_kij[Aircraft_1,LROP,BIKF]
+   + 2.958272727272727 z_kij[Aircraft_1,LROP,LICJ]
+   + 7.713 z_kij[Aircraft_1,LROP,LPMA]
+   + 5.560818181818181 z_kij[Aircraft_1,LGIR,EGLL]
+   + 4.970090909090909 z_kij[Aircraft_1,LGIR,LFPG]
+   + 5.135727272727273 z_kij[Aircraft_1,LGIR,EHAM]
+   + 4.261030303030303 z_kij[Aircraft_1,LGIR,EDDF]
+   + 5.303727272727273 z_kij[Aircraft_1,LGIR,LEMF]
+   + 4.468636363636364 z_kij[Aircraft_1,LGIR,LEBL]
+   + 3.930090909090909 z_kij[Aircraft_1,LGIR,EDDM]
+   + 3.047909090909091 z_kij[Aircraft_1,LGIR,LIRF]
+   + 6.377545454545455 z_kij[Aircraft_1,LGIR,EIDW]
+   + 5.632454545454546 z_kij[Aircraft_1,LGIR,ESSA]
+   + 6.172272727272727 z_kij[Aircraft_1,LGIR,LPPT]
+   + 4.501363636363637 z_kij[Aircraft_1,LGIR,EDDT]
+   + 5.674818181818182 z_kij[Aircraft_1,LGIR,EFHK]
+   + 4.080454545454545 z_kij[Aircraft_1,LGIR,EPWA]
+   + 6.347181818181818 z_kij[Aircraft_1,LGIR,EGPH]
+   + 2.496636363636364 z_kij[Aircraft_1,LGIR,LROP]
+   + 8.816454545454546 z_kij[Aircraft_1,LGIR,BIKF]
+   + 2.626272727272728 z_kij[Aircraft_1,LGIR,LICJ]
+   + 7.623363636363636 z_kij[Aircraft_1,LGIR,LPMA]
+   + 4.070454545454545 z_kij[Aircraft_1,BIKF,EGLL]
+   + 4.699727272727273 z_kij[Aircraft_1,BIKF,LFPG]
+   + 4.329909090909091 z_kij[Aircraft_1,BIKF,EHAM]
+   + 4.782484848484849 z_kij[Aircraft_1,BIKF,EDDF]
+   + 5.883727272727273 z_kij[Aircraft_1,BIKF,LEMF]
+   + 6.045181818181818 z_kij[Aircraft_1,BIKF,LEBL]
+   + 5.519181818181819 z_kij[Aircraft_1,BIKF,EDDM]
+   + 6.659545454545454 z_kij[Aircraft_1,BIKF,LIRF]
+   + 3.347909090909091 z_kij[Aircraft_1,BIKF,EIDW]
+   + 4.520454545454546 z_kij[Aircraft_1,BIKF,ESSA]
+   + 5.970636363636364 z_kij[Aircraft_1,BIKF,LPPT]
+   + 4.999 z_kij[Aircraft_1,BIKF,EDDT]
+   + 5.069181818181819 z_kij[Aircraft_1,BIKF,EFHK]
+   + 5.723727272727273 z_kij[Aircraft_1,BIKF,EPWA]
+   + 3.142454545454545 z_kij[Aircraft_1,BIKF,EGPH]
+   + 7.333363636363636 z_kij[Aircraft_1,BIKF,LROP]
+   + 8.816454545454546 z_kij[Aircraft_1,BIKF,LGIR]
+   + 7.392636363636363 z_kij[Aircraft_1,BIKF,LICJ]
+   + 6.992818181818182 z_kij[Aircraft_1,BIKF,LPMA]
+   + 3.959909090909091 z_kij[Aircraft_1,LICJ,EGLL]
+   + 3.329181818181818 z_kij[Aircraft_1,LICJ,LFPG]
+   + 3.737909090909091 z_kij[Aircraft_1,LICJ,EHAM]
+   + 2.92230303030303 z_kij[Aircraft_1,LICJ,EDDF]
+   + 3.304090909090909 z_kij[Aircraft_1,LICJ,LEMF]
+   + 2.485727272727273 z_kij[Aircraft_1,LICJ,LEBL]
+   + 2.707909090909091 z_kij[Aircraft_1,LICJ,EDDM]
+   + 1.389181818181818 z_kij[Aircraft_1,LICJ,LIRF]
+   + 4.745909090909091 z_kij[Aircraft_1,LICJ,EIDW]
+   + 5.020272727272728 z_kij[Aircraft_1,LICJ,ESSA]
+   + 4.173363636363636 z_kij[Aircraft_1,LICJ,LPPT]
+   + 3.546090909090909 z_kij[Aircraft_1,LICJ,EDDT]
+   + 5.354454545454545 z_kij[Aircraft_1,LICJ,EFHK]
+   + 3.664818181818182 z_kij[Aircraft_1,LICJ,EPWA]
+   + 4.877363636363636 z_kij[Aircraft_1,LICJ,EGPH]
+   + 2.958272727272727 z_kij[Aircraft_1,LICJ,LROP]
+   + 2.626272727272728 z_kij[Aircraft_1,LICJ,LGIR]
+   + 7.392636363636363 z_kij[Aircraft_1,LICJ,BIKF]
+   + 5.678818181818182 z_kij[Aircraft_1,LICJ,LPMA]
+   + 5.118454545454545 z_kij[Aircraft_1,LPMA,EGLL]
+   + 5.027727272727272 z_kij[Aircraft_1,LPMA,LFPG]
+   + 5.685909090909091 z_kij[Aircraft_1,LPMA,EHAM]
+   + 5.573030303030303 z_kij[Aircraft_1,LPMA,EDDF]
+   + 3.279181818181818 z_kij[Aircraft_1,LPMA,LEMF]
+   + 4.119545454545454 z_kij[Aircraft_1,LPMA,LEBL]
+   + 5.984818181818182 z_kij[Aircraft_1,LPMA,EDDM]
+   + 5.613909090909091 z_kij[Aircraft_1,LPMA,LIRF]
+   + 5.081727272727273 z_kij[Aircraft_1,LPMA,EIDW]
+   + 7.768818181818181 z_kij[Aircraft_1,LPMA,ESSA]
+   + 2.379727272727273 z_kij[Aircraft_1,LPMA,LPPT]
+   + 6.557545454545455 z_kij[Aircraft_1,LPMA,EDDT]
+   + 8.451909090909091 z_kij[Aircraft_1,LPMA,EFHK]
+   + 7.377909090909091 z_kij[Aircraft_1,LPMA,EPWA]
+   + 5.689181818181819 z_kij[Aircraft_1,LPMA,EGPH]
+   + 7.713 z_kij[Aircraft_1,LPMA,LROP]
+   + 7.623363636363636 z_kij[Aircraft_1,LPMA,LGIR]
+   + 6.992818181818182 z_kij[Aircraft_1,LPMA,BIKF]
+   + 5.678818181818182 z_kij[Aircraft_1,LPMA,LICJ] - 70 AC_k[Aircraft_1]
    <= 0
- TotalTime_Aircraft_2: 1.006747967479675 z_kij[Aircraft_2,EGLL,LFPG]
-   + 1.035040650406504 z_kij[Aircraft_2,EGLL,EHAM]
-   + 1.96520325203252 z_kij[Aircraft_2,EGLL,EDDF]
-   + 2.102845528455285 z_kij[Aircraft_2,EGLL,LEMF]
-   + 1.982967479674797 z_kij[Aircraft_2,EGLL,LEBL]
-   + 1.731626016260163 z_kij[Aircraft_2,EGLL,EDDM]
-   + 2.344186991869919 z_kij[Aircraft_2,EGLL,LIRF]
-   + 1.131260162601626 z_kij[Aircraft_2,EGLL,EIDW]
-   + 2.366869918699187 z_kij[Aircraft_2,EGLL,ESSA]
-   + 2.490528455284553 z_kij[Aircraft_2,EGLL,LPPT]
-   + 1.738455284552846 z_kij[Aircraft_2,EGLL,EDDT]
-   + 2.836991869918699 z_kij[Aircraft_2,EGLL,EFHK]
-   + 2.375528455284553 z_kij[Aircraft_2,EGLL,EPWA]
-   + 1.233943089430894 z_kij[Aircraft_2,EGLL,EGPH]
-   + 3.148943089430895 z_kij[Aircraft_2,EGLL,LROP]
-   + 3.893943089430894 z_kij[Aircraft_2,EGLL,LGIR]
-   + 2.894308943089431 z_kij[Aircraft_2,EGLL,BIKF]
-   + 2.820162601626016 z_kij[Aircraft_2,EGLL,LICJ]
-   + 3.597235772357724 z_kij[Aircraft_2,EGLL,LPMA]
-   + 1.006747967479675 z_kij[Aircraft_2,LFPG,EGLL]
-   + 1.069065040650407 z_kij[Aircraft_2,LFPG,EHAM]
-   + 1.714227642276423 z_kij[Aircraft_2,LFPG,EDDF]
-   + 1.88150406504065 z_kij[Aircraft_2,LFPG,LEMF]
-   + 1.630528455284553 z_kij[Aircraft_2,LFPG,LEBL]
-   + 1.414552845528455 z_kij[Aircraft_2,LFPG,EDDM]
-   + 1.925650406504065 z_kij[Aircraft_2,LFPG,LIRF]
-   + 1.540650406504065 z_kij[Aircraft_2,LFPG,EIDW]
-   + 2.460406504065041 z_kij[Aircraft_2,LFPG,ESSA]
-   + 2.376016260162602 z_kij[Aircraft_2,LFPG,LPPT]
-   + 1.620528455284553 z_kij[Aircraft_2,LFPG,EDDT]
-   + 2.895040650406504 z_kij[Aircraft_2,LFPG,EFHK]
-   + 2.220528455284553 z_kij[Aircraft_2,LFPG,EPWA]
-   + 1.642723577235773 z_kij[Aircraft_2,LFPG,EGPH]
-   + 2.839552845528455 z_kij[Aircraft_2,LFPG,LROP]
-   + 3.497723577235773 z_kij[Aircraft_2,LFPG,LGIR]
-   + 3.316382113821138 z_kij[Aircraft_2,LFPG,BIKF]
-   + 2.397113821138211 z_kij[Aircraft_2,LFPG,LICJ]
-   + 3.536382113821138 z_kij[Aircraft_2,LFPG,LPMA]
-   + 1.035040650406504 z_kij[Aircraft_2,EHAM,EGLL]
-   + 1.069065040650407 z_kij[Aircraft_2,EHAM,LFPG]
-   + 1.613739837398374 z_kij[Aircraft_2,EHAM,EDDF]
-   + 2.364674796747968 z_kij[Aircraft_2,EHAM,LEMF]
-   + 2.096869918699187 z_kij[Aircraft_2,EHAM,LEBL]
-   + 1.393333333333334 z_kij[Aircraft_2,EHAM,EDDM]
-   + 2.164796747967479 z_kij[Aircraft_2,EHAM,LIRF]
-   + 1.498211382113821 z_kij[Aircraft_2,EHAM,EIDW]
-   + 1.988455284552846 z_kij[Aircraft_2,EHAM,ESSA]
-   + 2.834918699186992 z_kij[Aircraft_2,EHAM,LPPT]
-   + 1.288455284552846 z_kij[Aircraft_2,EHAM,EDDT]
-   + 2.438577235772358 z_kij[Aircraft_2,EHAM,EFHK]
-   + 1.926260162601626 z_kij[Aircraft_2,EHAM,EPWA]
-   + 1.396016260162602 z_kij[Aircraft_2,EHAM,EGPH]
-   + 2.757967479674797 z_kij[Aircraft_2,EHAM,LROP]
-   + 3.608821138211382 z_kij[Aircraft_2,EHAM,LGIR]
-   + 3.068333333333333 z_kij[Aircraft_2,EHAM,BIKF]
-   + 2.671260162601626 z_kij[Aircraft_2,EHAM,LICJ]
-   + 3.977845528455285 z_kij[Aircraft_2,EHAM,LPMA]
+ TotalTime_Aircraft_2: 1.298414634146341 z_kij[Aircraft_2,EGLL,LFPG]
+   + 1.326707317073171 z_kij[Aircraft_2,EGLL,EHAM]
+   + 1.381869918699187 z_kij[Aircraft_2,EGLL,EDDF]
+   + 2.394512195121951 z_kij[Aircraft_2,EGLL,LEMF]
+   + 2.274634146341463 z_kij[Aircraft_2,EGLL,LEBL]
+   + 2.023292682926829 z_kij[Aircraft_2,EGLL,EDDM]
+   + 2.635853658536585 z_kij[Aircraft_2,EGLL,LIRF]
+   + 1.422926829268293 z_kij[Aircraft_2,EGLL,EIDW]
+   + 2.658536585365853 z_kij[Aircraft_2,EGLL,ESSA]
+   + 2.78219512195122 z_kij[Aircraft_2,EGLL,LPPT]
+   + 2.030121951219512 z_kij[Aircraft_2,EGLL,EDDT]
+   + 3.128658536585366 z_kij[Aircraft_2,EGLL,EFHK]
+   + 2.667195121951219 z_kij[Aircraft_2,EGLL,EPWA]
+   + 1.525609756097561 z_kij[Aircraft_2,EGLL,EGPH]
+   + 3.440609756097561 z_kij[Aircraft_2,EGLL,LROP]
+   + 4.185609756097561 z_kij[Aircraft_2,EGLL,LGIR]
+   + 3.185975609756098 z_kij[Aircraft_2,EGLL,BIKF]
+   + 3.111829268292683 z_kij[Aircraft_2,EGLL,LICJ]
+   + 3.88890243902439 z_kij[Aircraft_2,EGLL,LPMA]
+   + 1.298414634146341 z_kij[Aircraft_2,LFPG,EGLL]
+   + 1.360731707317073 z_kij[Aircraft_2,LFPG,EHAM]
+   + 1.130894308943089 z_kij[Aircraft_2,LFPG,EDDF]
+   + 2.173170731707317 z_kij[Aircraft_2,LFPG,LEMF]
+   + 1.92219512195122 z_kij[Aircraft_2,LFPG,LEBL]
+   + 1.706219512195122 z_kij[Aircraft_2,LFPG,EDDM]
+   + 2.217317073170732 z_kij[Aircraft_2,LFPG,LIRF]
+   + 1.832317073170732 z_kij[Aircraft_2,LFPG,EIDW]
+   + 2.752073170731707 z_kij[Aircraft_2,LFPG,ESSA]
+   + 2.667682926829269 z_kij[Aircraft_2,LFPG,LPPT]
+   + 1.912195121951219 z_kij[Aircraft_2,LFPG,EDDT]
+   + 3.186707317073171 z_kij[Aircraft_2,LFPG,EFHK]
+   + 2.51219512195122 z_kij[Aircraft_2,LFPG,EPWA]
+   + 1.934390243902439 z_kij[Aircraft_2,LFPG,EGPH]
+   + 3.131219512195122 z_kij[Aircraft_2,LFPG,LROP]
+   + 3.789390243902439 z_kij[Aircraft_2,LFPG,LGIR]
+   + 3.608048780487805 z_kij[Aircraft_2,LFPG,BIKF]
+   + 2.688780487804878 z_kij[Aircraft_2,LFPG,LICJ]
+   + 3.828048780487805 z_kij[Aircraft_2,LFPG,LPMA]
+   + 1.326707317073171 z_kij[Aircraft_2,EHAM,EGLL]
+   + 1.360731707317073 z_kij[Aircraft_2,EHAM,LFPG]
+   + 1.030406504065041 z_kij[Aircraft_2,EHAM,EDDF]
+   + 2.656341463414634 z_kij[Aircraft_2,EHAM,LEMF]
+   + 2.388536585365854 z_kij[Aircraft_2,EHAM,LEBL]
+   + 1.685 z_kij[Aircraft_2,EHAM,EDDM]
+   + 2.456463414634146 z_kij[Aircraft_2,EHAM,LIRF]
+   + 1.789878048780488 z_kij[Aircraft_2,EHAM,EIDW]
+   + 2.280121951219512 z_kij[Aircraft_2,EHAM,ESSA]
+   + 3.126585365853658 z_kij[Aircraft_2,EHAM,LPPT]
+   + 1.580121951219512 z_kij[Aircraft_2,EHAM,EDDT]
+   + 2.730243902439025 z_kij[Aircraft_2,EHAM,EFHK]
+   + 2.217926829268293 z_kij[Aircraft_2,EHAM,EPWA]
+   + 1.687682926829268 z_kij[Aircraft_2,EHAM,EGPH]
+   + 3.049634146341464 z_kij[Aircraft_2,EHAM,LROP]
+   + 3.900487804878049 z_kij[Aircraft_2,EHAM,LGIR]
+   + 3.36 z_kij[Aircraft_2,EHAM,BIKF]
+   + 2.962926829268293 z_kij[Aircraft_2,EHAM,LICJ]
+   + 4.269512195121951 z_kij[Aircraft_2,EHAM,LPMA]
    + 1.673536585365853 z_kij[Aircraft_2,EDDF,EGLL]
    + 1.422560975609756 z_kij[Aircraft_2,EDDF,LFPG]
    + 1.322073170731707 z_kij[Aircraft_2,EDDF,EHAM]
@@ -6489,368 +6145,368 @@ Subject To
    + 3.803292682926829 z_kij[Aircraft_2,EDDF,BIKF]
    + 2.555609756097561 z_kij[Aircraft_2,EDDF,LICJ]
    + 4.333536585365854 z_kij[Aircraft_2,EDDF,LPMA]
-   + 2.102845528455285 z_kij[Aircraft_2,LEMF,EGLL]
-   + 1.88150406504065 z_kij[Aircraft_2,LEMF,LFPG]
-   + 2.364674796747968 z_kij[Aircraft_2,LEMF,EHAM]
-   + 2.900934959349593 z_kij[Aircraft_2,LEMF,EDDF]
-   + 1.172235772357724 z_kij[Aircraft_2,LEMF,LEBL]
-   + 2.408943089430895 z_kij[Aircraft_2,LEMF,EDDM]
-   + 2.204796747967479 z_kij[Aircraft_2,LEMF,LIRF]
-   + 2.356747967479675 z_kij[Aircraft_2,LEMF,EIDW]
-   + 3.755650406504065 z_kij[Aircraft_2,LEMF,ESSA]
-   + 1.208821138211382 z_kij[Aircraft_2,LEMF,LPPT]
-   + 2.843821138211382 z_kij[Aircraft_2,LEMF,EDDT]
-   + 4.177723577235772 z_kij[Aircraft_2,LEMF,EFHK]
-   + 3.352967479674797 z_kij[Aircraft_2,LEMF,EPWA]
-   + 2.682235772357723 z_kij[Aircraft_2,LEMF,EGPH]
-   + 3.58089430894309 z_kij[Aircraft_2,LEMF,LROP]
-   + 3.721504065040651 z_kij[Aircraft_2,LEMF,LGIR]
-   + 4.110528455284553 z_kij[Aircraft_2,LEMF,BIKF]
-   + 2.380284552845529 z_kij[Aircraft_2,LEMF,LICJ]
-   + 2.363577235772358 z_kij[Aircraft_2,LEMF,LPMA]
-   + 1.982967479674797 z_kij[Aircraft_2,LEBL,EGLL]
-   + 1.630528455284553 z_kij[Aircraft_2,LEBL,LFPG]
-   + 2.096869918699187 z_kij[Aircraft_2,LEBL,EHAM]
-   + 2.500325203252032 z_kij[Aircraft_2,LEBL,EDDF]
-   + 1.172235772357724 z_kij[Aircraft_2,LEBL,LEMF]
-   + 1.918211382113821 z_kij[Aircraft_2,LEBL,EDDM]
-   + 1.616138211382114 z_kij[Aircraft_2,LEBL,LIRF]
-   + 2.394552845528455 z_kij[Aircraft_2,LEBL,EIDW]
-   + 3.406382113821139 z_kij[Aircraft_2,LEBL,ESSA]
-   + 1.795528455284553 z_kij[Aircraft_2,LEBL,LPPT]
-   + 2.425284552845528 z_kij[Aircraft_2,LEBL,EDDT]
-   + 3.788333333333334 z_kij[Aircraft_2,LEBL,EFHK]
-   + 2.863455284552846 z_kij[Aircraft_2,LEBL,EPWA]
-   + 2.627967479674797 z_kij[Aircraft_2,LEBL,EGPH]
-   + 2.998577235772358 z_kij[Aircraft_2,LEBL,LROP]
-   + 3.161382113821138 z_kij[Aircraft_2,LEBL,LGIR]
-   + 4.218821138211382 z_kij[Aircraft_2,LEBL,BIKF]
-   + 1.831382113821138 z_kij[Aircraft_2,LEBL,LICJ]
-   + 2.927235772357724 z_kij[Aircraft_2,LEBL,LPMA]
-   + 1.731626016260163 z_kij[Aircraft_2,EDDM,EGLL]
-   + 1.414552845528455 z_kij[Aircraft_2,EDDM,LFPG]
-   + 1.393333333333334 z_kij[Aircraft_2,EDDM,EHAM]
-   + 1.531422764227642 z_kij[Aircraft_2,EDDM,EDDF]
-   + 2.408943089430895 z_kij[Aircraft_2,EDDM,LEMF]
-   + 1.918211382113821 z_kij[Aircraft_2,EDDM,LEBL]
-   + 1.473089430894309 z_kij[Aircraft_2,EDDM,LIRF]
-   + 2.267845528455285 z_kij[Aircraft_2,EDDM,EIDW]
-   + 2.18979674796748 z_kij[Aircraft_2,EDDM,ESSA]
-   + 3.002357723577236 z_kij[Aircraft_2,EDDM,LPPT]
-   + 1.168211382113821 z_kij[Aircraft_2,EDDM,EDDT]
-   + 2.503455284552845 z_kij[Aircraft_2,EDDM,EFHK]
-   + 1.531260162601626 z_kij[Aircraft_2,EDDM,EPWA]
-   + 2.205650406504065 z_kij[Aircraft_2,EDDM,EGPH]
-   + 2.011382113821138 z_kij[Aircraft_2,EDDM,LROP]
-   + 2.800162601626016 z_kij[Aircraft_2,EDDM,LGIR]
-   + 3.866016260162602 z_kij[Aircraft_2,EDDM,BIKF]
-   + 1.980406504065041 z_kij[Aircraft_2,EDDM,LICJ]
-   + 4.178333333333334 z_kij[Aircraft_2,EDDM,LPMA]
-   + 2.344186991869919 z_kij[Aircraft_2,LIRF,EGLL]
-   + 1.925650406504065 z_kij[Aircraft_2,LIRF,LFPG]
-   + 2.164796747967479 z_kij[Aircraft_2,LIRF,EHAM]
-   + 2.335081300813008 z_kij[Aircraft_2,LIRF,EDDF]
-   + 2.204796747967479 z_kij[Aircraft_2,LIRF,LEMF]
-   + 1.616138211382114 z_kij[Aircraft_2,LIRF,LEBL]
-   + 1.473089430894309 z_kij[Aircraft_2,LIRF,EDDM]
-   + 2.882845528455285 z_kij[Aircraft_2,LIRF,EIDW]
-   + 3.050528455284553 z_kij[Aircraft_2,LIRF,ESSA]
-   + 2.825650406504065 z_kij[Aircraft_2,LIRF,LPPT]
-   + 2.045528455284553 z_kij[Aircraft_2,LIRF,EDDT]
-   + 3.307357723577236 z_kij[Aircraft_2,LIRF,EFHK]
-   + 2.201626016260163 z_kij[Aircraft_2,LIRF,EPWA]
-   + 2.942235772357724 z_kij[Aircraft_2,LIRF,EGPH]
-   + 2.001016260162602 z_kij[Aircraft_2,LIRF,LROP]
-   + 2.208455284552846 z_kij[Aircraft_2,LIRF,LGIR]
-   + 4.630894308943089 z_kij[Aircraft_2,LIRF,BIKF]
-   + 1.095894308943089 z_kij[Aircraft_2,LIRF,LICJ]
-   + 3.929552845528455 z_kij[Aircraft_2,LIRF,LPMA]
-   + 1.131260162601626 z_kij[Aircraft_2,EIDW,EGLL]
-   + 1.540650406504065 z_kij[Aircraft_2,EIDW,LFPG]
-   + 1.498211382113821 z_kij[Aircraft_2,EIDW,EHAM]
-   + 2.492154471544715 z_kij[Aircraft_2,EIDW,EDDF]
-   + 2.356747967479675 z_kij[Aircraft_2,EIDW,LEMF]
-   + 2.394552845528455 z_kij[Aircraft_2,EIDW,LEBL]
-   + 2.267845528455285 z_kij[Aircraft_2,EIDW,EDDM]
-   + 2.882845528455285 z_kij[Aircraft_2,EIDW,LIRF]
-   + 2.56479674796748 z_kij[Aircraft_2,EIDW,ESSA]
-   + 2.586382113821138 z_kij[Aircraft_2,EIDW,LPPT]
-   + 2.178943089430895 z_kij[Aircraft_2,EIDW,EDDT]
-   + 3.050772357723577 z_kij[Aircraft_2,EIDW,EFHK]
-   + 2.809552845528455 z_kij[Aircraft_2,EIDW,EPWA]
-   + 0.9945528455284554 z_kij[Aircraft_2,EIDW,EGPH]
-   + 3.668577235772358 z_kij[Aircraft_2,EIDW,LROP]
-   + 4.441747967479674 z_kij[Aircraft_2,EIDW,LGIR]
-   + 2.409674796747967 z_kij[Aircraft_2,EIDW,BIKF]
-   + 3.347357723577236 z_kij[Aircraft_2,EIDW,LICJ]
-   + 3.57260162601626 z_kij[Aircraft_2,EIDW,LPMA]
-   + 2.366869918699187 z_kij[Aircraft_2,ESSA,EGLL]
-   + 2.460406504065041 z_kij[Aircraft_2,ESSA,LFPG]
-   + 1.988455284552846 z_kij[Aircraft_2,ESSA,EHAM]
-   + 2.658130081300813 z_kij[Aircraft_2,ESSA,EDDF]
-   + 3.755650406504065 z_kij[Aircraft_2,ESSA,LEMF]
-   + 3.406382113821139 z_kij[Aircraft_2,ESSA,LEBL]
-   + 2.18979674796748 z_kij[Aircraft_2,ESSA,EDDM]
-   + 3.050528455284553 z_kij[Aircraft_2,ESSA,LIRF]
-   + 2.56479674796748 z_kij[Aircraft_2,ESSA,EIDW]
-   + 4.23979674796748 z_kij[Aircraft_2,ESSA,LPPT]
-   + 1.606260162601626 z_kij[Aircraft_2,ESSA,EDDT]
-   + 1.069430894308943 z_kij[Aircraft_2,ESSA,EFHK]
-   + 1.624308943089431 z_kij[Aircraft_2,ESSA,EPWA]
-   + 2.193455284552845 z_kij[Aircraft_2,ESSA,EGPH]
-   + 2.734674796747968 z_kij[Aircraft_2,ESSA,LROP]
-   + 3.941991869918699 z_kij[Aircraft_2,ESSA,LGIR]
-   + 3.196138211382114 z_kij[Aircraft_2,ESSA,BIKF]
-   + 3.531382113821139 z_kij[Aircraft_2,ESSA,LICJ]
-   + 5.374918699186991 z_kij[Aircraft_2,ESSA,LPMA]
-   + 2.490528455284553 z_kij[Aircraft_2,LPPT,EGLL]
-   + 2.376016260162602 z_kij[Aircraft_2,LPPT,LFPG]
-   + 2.834918699186992 z_kij[Aircraft_2,LPPT,EHAM]
-   + 3.451788617886179 z_kij[Aircraft_2,LPPT,EDDF]
-   + 1.208821138211382 z_kij[Aircraft_2,LPPT,LEMF]
-   + 1.795528455284553 z_kij[Aircraft_2,LPPT,LEBL]
-   + 3.002357723577236 z_kij[Aircraft_2,LPPT,EDDM]
-   + 2.825650406504065 z_kij[Aircraft_2,LPPT,LIRF]
-   + 2.586382113821138 z_kij[Aircraft_2,LPPT,EIDW]
-   + 4.23979674796748 z_kij[Aircraft_2,LPPT,ESSA]
-   + 3.39150406504065 z_kij[Aircraft_2,LPPT,EDDT]
-   + 4.685650406504065 z_kij[Aircraft_2,LPPT,EFHK]
-   + 3.935772357723577 z_kij[Aircraft_2,LPPT,EPWA]
-   + 2.968821138211382 z_kij[Aircraft_2,LPPT,EGPH]
-   + 4.206260162601626 z_kij[Aircraft_2,LPPT,LROP]
-   + 4.304065040650406 z_kij[Aircraft_2,LPPT,LGIR]
-   + 4.168821138211382 z_kij[Aircraft_2,LPPT,BIKF]
-   + 2.963333333333333 z_kij[Aircraft_2,LPPT,LICJ]
-   + 1.760284552845528 z_kij[Aircraft_2,LPPT,LPMA]
-   + 1.738455284552846 z_kij[Aircraft_2,EDDT,EGLL]
-   + 1.620528455284553 z_kij[Aircraft_2,EDDT,LFPG]
-   + 1.288455284552846 z_kij[Aircraft_2,EDDT,EHAM]
-   + 1.693130081300813 z_kij[Aircraft_2,EDDT,EDDF]
-   + 2.843821138211382 z_kij[Aircraft_2,EDDT,LEMF]
-   + 2.425284552845528 z_kij[Aircraft_2,EDDT,LEBL]
-   + 1.168211382113821 z_kij[Aircraft_2,EDDT,EDDM]
-   + 2.045528455284553 z_kij[Aircraft_2,EDDT,LIRF]
-   + 2.178943089430895 z_kij[Aircraft_2,EDDT,EIDW]
-   + 1.606260162601626 z_kij[Aircraft_2,EDDT,ESSA]
-   + 3.39150406504065 z_kij[Aircraft_2,EDDT,LPPT]
-   + 1.947723577235772 z_kij[Aircraft_2,EDDT,EFHK]
-   + 1.221138211382114 z_kij[Aircraft_2,EDDT,EPWA]
-   + 1.976747967479675 z_kij[Aircraft_2,EDDT,EGPH]
-   + 2.157723577235772 z_kij[Aircraft_2,EDDT,LROP]
-   + 3.183333333333334 z_kij[Aircraft_2,EDDT,LGIR]
-   + 3.517113821138211 z_kij[Aircraft_2,EDDT,BIKF]
-   + 2.54260162601626 z_kij[Aircraft_2,EDDT,LICJ]
-   + 4.562479674796748 z_kij[Aircraft_2,EDDT,LPMA]
-   + 2.836991869918699 z_kij[Aircraft_2,EFHK,EGLL]
-   + 2.895040650406504 z_kij[Aircraft_2,EFHK,LFPG]
-   + 2.438577235772358 z_kij[Aircraft_2,EFHK,EHAM]
-   + 3.042154471544715 z_kij[Aircraft_2,EFHK,EDDF]
-   + 4.177723577235772 z_kij[Aircraft_2,EFHK,LEMF]
-   + 3.788333333333334 z_kij[Aircraft_2,EFHK,LEBL]
-   + 2.503455284552845 z_kij[Aircraft_2,EFHK,EDDM]
-   + 3.307357723577236 z_kij[Aircraft_2,EFHK,LIRF]
-   + 3.050772357723577 z_kij[Aircraft_2,EFHK,EIDW]
-   + 1.069430894308943 z_kij[Aircraft_2,EFHK,ESSA]
-   + 4.685650406504065 z_kij[Aircraft_2,EFHK,LPPT]
-   + 1.947723577235772 z_kij[Aircraft_2,EFHK,EDDT]
-   + 1.728455284552846 z_kij[Aircraft_2,EFHK,EPWA]
-   + 2.678089430894309 z_kij[Aircraft_2,EFHK,EGPH]
-   + 2.720528455284553 z_kij[Aircraft_2,EFHK,LROP]
-   + 3.970406504065041 z_kij[Aircraft_2,EFHK,LGIR]
-   + 3.564186991869919 z_kij[Aircraft_2,EFHK,BIKF]
-   + 3.755528455284553 z_kij[Aircraft_2,EFHK,LICJ]
-   + 5.833089430894309 z_kij[Aircraft_2,EFHK,LPMA]
-   + 2.375528455284553 z_kij[Aircraft_2,EPWA,EGLL]
-   + 2.220528455284553 z_kij[Aircraft_2,EPWA,LFPG]
-   + 1.926260162601626 z_kij[Aircraft_2,EPWA,EHAM]
-   + 2.25959349593496 z_kij[Aircraft_2,EPWA,EDDF]
-   + 3.352967479674797 z_kij[Aircraft_2,EPWA,LEMF]
-   + 2.863455284552846 z_kij[Aircraft_2,EPWA,LEBL]
-   + 1.531260162601626 z_kij[Aircraft_2,EPWA,EDDM]
-   + 2.201626016260163 z_kij[Aircraft_2,EPWA,LIRF]
-   + 2.809552845528455 z_kij[Aircraft_2,EPWA,EIDW]
-   + 1.624308943089431 z_kij[Aircraft_2,EPWA,ESSA]
-   + 3.935772357723577 z_kij[Aircraft_2,EPWA,LPPT]
-   + 1.221138211382114 z_kij[Aircraft_2,EPWA,EDDT]
-   + 1.728455284552846 z_kij[Aircraft_2,EPWA,EFHK]
-   + 2.57589430894309 z_kij[Aircraft_2,EPWA,EGPH]
-   + 1.711016260162602 z_kij[Aircraft_2,EPWA,LROP]
-   + 2.901016260162602 z_kij[Aircraft_2,EPWA,LGIR]
-   + 4.003211382113821 z_kij[Aircraft_2,EPWA,BIKF]
-   + 2.622235772357724 z_kij[Aircraft_2,EPWA,LICJ]
-   + 5.112723577235772 z_kij[Aircraft_2,EPWA,LPMA]
-   + 1.233943089430894 z_kij[Aircraft_2,EGPH,EGLL]
-   + 1.642723577235773 z_kij[Aircraft_2,EGPH,LFPG]
-   + 1.396016260162602 z_kij[Aircraft_2,EGPH,EHAM]
-   + 2.42630081300813 z_kij[Aircraft_2,EGPH,EDDF]
-   + 2.682235772357723 z_kij[Aircraft_2,EGPH,LEMF]
-   + 2.627967479674797 z_kij[Aircraft_2,EGPH,LEBL]
-   + 2.205650406504065 z_kij[Aircraft_2,EGPH,EDDM]
-   + 2.942235772357724 z_kij[Aircraft_2,EGPH,LIRF]
-   + 0.9945528455284554 z_kij[Aircraft_2,EGPH,EIDW]
-   + 2.193455284552845 z_kij[Aircraft_2,EGPH,ESSA]
-   + 2.968821138211382 z_kij[Aircraft_2,EGPH,LPPT]
-   + 1.976747967479675 z_kij[Aircraft_2,EGPH,EDDT]
-   + 2.678089430894309 z_kij[Aircraft_2,EGPH,EFHK]
-   + 2.57589430894309 z_kij[Aircraft_2,EGPH,EPWA]
-   + 3.533333333333334 z_kij[Aircraft_2,EGPH,LROP]
-   + 4.421382113821138 z_kij[Aircraft_2,EGPH,LGIR]
-   + 2.271869918699187 z_kij[Aircraft_2,EGPH,BIKF]
-   + 3.435528455284553 z_kij[Aircraft_2,EGPH,LICJ]
-   + 3.980040650406504 z_kij[Aircraft_2,EGPH,LPMA]
-   + 3.148943089430895 z_kij[Aircraft_2,LROP,EGLL]
-   + 2.839552845528455 z_kij[Aircraft_2,LROP,LFPG]
-   + 2.757967479674797 z_kij[Aircraft_2,LROP,EHAM]
-   + 2.933739837398374 z_kij[Aircraft_2,LROP,EDDF]
-   + 3.58089430894309 z_kij[Aircraft_2,LROP,LEMF]
-   + 2.998577235772358 z_kij[Aircraft_2,LROP,LEBL]
-   + 2.011382113821138 z_kij[Aircraft_2,LROP,EDDM]
-   + 2.001016260162602 z_kij[Aircraft_2,LROP,LIRF]
-   + 3.668577235772358 z_kij[Aircraft_2,LROP,EIDW]
-   + 2.734674796747968 z_kij[Aircraft_2,LROP,ESSA]
-   + 4.206260162601626 z_kij[Aircraft_2,LROP,LPPT]
-   + 2.157723577235772 z_kij[Aircraft_2,LROP,EDDT]
-   + 2.720528455284553 z_kij[Aircraft_2,LROP,EFHK]
-   + 1.711016260162602 z_kij[Aircraft_2,LROP,EPWA]
-   + 3.533333333333334 z_kij[Aircraft_2,LROP,EGPH]
-   + 1.83869918699187 z_kij[Aircraft_2,LROP,LGIR]
-   + 5.082845528455284 z_kij[Aircraft_2,LROP,BIKF]
-   + 2.148333333333333 z_kij[Aircraft_2,LROP,LICJ]
-   + 5.337479674796747 z_kij[Aircraft_2,LROP,LPMA]
-   + 3.893943089430894 z_kij[Aircraft_2,LGIR,EGLL]
-   + 3.497723577235773 z_kij[Aircraft_2,LGIR,LFPG]
-   + 3.608821138211382 z_kij[Aircraft_2,LGIR,EHAM]
-   + 3.74520325203252 z_kij[Aircraft_2,LGIR,EDDF]
-   + 3.721504065040651 z_kij[Aircraft_2,LGIR,LEMF]
-   + 3.161382113821138 z_kij[Aircraft_2,LGIR,LEBL]
-   + 2.800162601626016 z_kij[Aircraft_2,LGIR,EDDM]
-   + 2.208455284552846 z_kij[Aircraft_2,LGIR,LIRF]
-   + 4.441747967479674 z_kij[Aircraft_2,LGIR,EIDW]
-   + 3.941991869918699 z_kij[Aircraft_2,LGIR,ESSA]
-   + 4.304065040650406 z_kij[Aircraft_2,LGIR,LPPT]
-   + 3.183333333333334 z_kij[Aircraft_2,LGIR,EDDT]
-   + 3.970406504065041 z_kij[Aircraft_2,LGIR,EFHK]
-   + 2.901016260162602 z_kij[Aircraft_2,LGIR,EPWA]
-   + 4.421382113821138 z_kij[Aircraft_2,LGIR,EGPH]
-   + 1.83869918699187 z_kij[Aircraft_2,LGIR,LROP]
-   + 6.07760162601626 z_kij[Aircraft_2,LGIR,BIKF]
-   + 1.925650406504065 z_kij[Aircraft_2,LGIR,LICJ]
-   + 5.277357723577236 z_kij[Aircraft_2,LGIR,LPMA]
-   + 2.894308943089431 z_kij[Aircraft_2,BIKF,EGLL]
-   + 3.316382113821138 z_kij[Aircraft_2,BIKF,LFPG]
-   + 3.068333333333333 z_kij[Aircraft_2,BIKF,EHAM]
-   + 4.094959349593496 z_kij[Aircraft_2,BIKF,EDDF]
-   + 4.110528455284553 z_kij[Aircraft_2,BIKF,LEMF]
-   + 4.218821138211382 z_kij[Aircraft_2,BIKF,LEBL]
-   + 3.866016260162602 z_kij[Aircraft_2,BIKF,EDDM]
-   + 4.630894308943089 z_kij[Aircraft_2,BIKF,LIRF]
-   + 2.409674796747967 z_kij[Aircraft_2,BIKF,EIDW]
-   + 3.196138211382114 z_kij[Aircraft_2,BIKF,ESSA]
-   + 4.168821138211382 z_kij[Aircraft_2,BIKF,LPPT]
-   + 3.517113821138211 z_kij[Aircraft_2,BIKF,EDDT]
-   + 3.564186991869919 z_kij[Aircraft_2,BIKF,EFHK]
-   + 4.003211382113821 z_kij[Aircraft_2,BIKF,EPWA]
-   + 2.271869918699187 z_kij[Aircraft_2,BIKF,EGPH]
-   + 5.082845528455284 z_kij[Aircraft_2,BIKF,LROP]
-   + 6.07760162601626 z_kij[Aircraft_2,BIKF,LGIR]
-   + 5.12260162601626 z_kij[Aircraft_2,BIKF,LICJ]
-   + 4.854430894308943 z_kij[Aircraft_2,BIKF,LPMA]
-   + 2.820162601626016 z_kij[Aircraft_2,LICJ,EGLL]
-   + 2.397113821138211 z_kij[Aircraft_2,LICJ,LFPG]
-   + 2.671260162601626 z_kij[Aircraft_2,LICJ,EHAM]
-   + 2.847276422764228 z_kij[Aircraft_2,LICJ,EDDF]
-   + 2.380284552845529 z_kij[Aircraft_2,LICJ,LEMF]
-   + 1.831382113821138 z_kij[Aircraft_2,LICJ,LEBL]
-   + 1.980406504065041 z_kij[Aircraft_2,LICJ,EDDM]
-   + 1.095894308943089 z_kij[Aircraft_2,LICJ,LIRF]
-   + 3.347357723577236 z_kij[Aircraft_2,LICJ,EIDW]
-   + 3.531382113821139 z_kij[Aircraft_2,LICJ,ESSA]
-   + 2.963333333333333 z_kij[Aircraft_2,LICJ,LPPT]
-   + 2.54260162601626 z_kij[Aircraft_2,LICJ,EDDT]
-   + 3.755528455284553 z_kij[Aircraft_2,LICJ,EFHK]
-   + 2.622235772357724 z_kij[Aircraft_2,LICJ,EPWA]
-   + 3.435528455284553 z_kij[Aircraft_2,LICJ,EGPH]
-   + 2.148333333333333 z_kij[Aircraft_2,LICJ,LROP]
-   + 1.925650406504065 z_kij[Aircraft_2,LICJ,LGIR]
-   + 5.12260162601626 z_kij[Aircraft_2,LICJ,BIKF]
-   + 3.973089430894309 z_kij[Aircraft_2,LICJ,LPMA]
-   + 3.597235772357724 z_kij[Aircraft_2,LPMA,EGLL]
-   + 3.536382113821138 z_kij[Aircraft_2,LPMA,LFPG]
-   + 3.977845528455285 z_kij[Aircraft_2,LPMA,EHAM]
-   + 4.62520325203252 z_kij[Aircraft_2,LPMA,EDDF]
-   + 2.363577235772358 z_kij[Aircraft_2,LPMA,LEMF]
-   + 2.927235772357724 z_kij[Aircraft_2,LPMA,LEBL]
-   + 4.178333333333334 z_kij[Aircraft_2,LPMA,EDDM]
-   + 3.929552845528455 z_kij[Aircraft_2,LPMA,LIRF]
-   + 3.57260162601626 z_kij[Aircraft_2,LPMA,EIDW]
-   + 5.374918699186991 z_kij[Aircraft_2,LPMA,ESSA]
-   + 1.760284552845528 z_kij[Aircraft_2,LPMA,LPPT]
-   + 4.562479674796748 z_kij[Aircraft_2,LPMA,EDDT]
-   + 5.833089430894309 z_kij[Aircraft_2,LPMA,EFHK]
-   + 5.112723577235772 z_kij[Aircraft_2,LPMA,EPWA]
-   + 3.980040650406504 z_kij[Aircraft_2,LPMA,EGPH]
-   + 5.337479674796747 z_kij[Aircraft_2,LPMA,LROP]
-   + 5.277357723577236 z_kij[Aircraft_2,LPMA,LGIR]
-   + 4.854430894308943 z_kij[Aircraft_2,LPMA,BIKF]
-   + 3.973089430894309 z_kij[Aircraft_2,LPMA,LICJ] - 70 AC_k[Aircraft_2]
+   + 2.394512195121951 z_kij[Aircraft_2,LEMF,EGLL]
+   + 2.173170731707317 z_kij[Aircraft_2,LEMF,LFPG]
+   + 2.656341463414634 z_kij[Aircraft_2,LEMF,EHAM]
+   + 2.31760162601626 z_kij[Aircraft_2,LEMF,EDDF]
+   + 1.46390243902439 z_kij[Aircraft_2,LEMF,LEBL]
+   + 2.700609756097561 z_kij[Aircraft_2,LEMF,EDDM]
+   + 2.496463414634146 z_kij[Aircraft_2,LEMF,LIRF]
+   + 2.648414634146341 z_kij[Aircraft_2,LEMF,EIDW]
+   + 4.047317073170731 z_kij[Aircraft_2,LEMF,ESSA]
+   + 1.500487804878049 z_kij[Aircraft_2,LEMF,LPPT]
+   + 3.135487804878049 z_kij[Aircraft_2,LEMF,EDDT]
+   + 4.469390243902439 z_kij[Aircraft_2,LEMF,EFHK]
+   + 3.644634146341463 z_kij[Aircraft_2,LEMF,EPWA]
+   + 2.97390243902439 z_kij[Aircraft_2,LEMF,EGPH]
+   + 3.872560975609756 z_kij[Aircraft_2,LEMF,LROP]
+   + 4.013170731707318 z_kij[Aircraft_2,LEMF,LGIR]
+   + 4.40219512195122 z_kij[Aircraft_2,LEMF,BIKF]
+   + 2.671951219512195 z_kij[Aircraft_2,LEMF,LICJ]
+   + 2.655243902439024 z_kij[Aircraft_2,LEMF,LPMA]
+   + 2.274634146341463 z_kij[Aircraft_2,LEBL,EGLL]
+   + 1.92219512195122 z_kij[Aircraft_2,LEBL,LFPG]
+   + 2.388536585365854 z_kij[Aircraft_2,LEBL,EHAM]
+   + 1.916991869918699 z_kij[Aircraft_2,LEBL,EDDF]
+   + 1.46390243902439 z_kij[Aircraft_2,LEBL,LEMF]
+   + 2.209878048780488 z_kij[Aircraft_2,LEBL,EDDM]
+   + 1.90780487804878 z_kij[Aircraft_2,LEBL,LIRF]
+   + 2.686219512195122 z_kij[Aircraft_2,LEBL,EIDW]
+   + 3.698048780487805 z_kij[Aircraft_2,LEBL,ESSA]
+   + 2.087195121951219 z_kij[Aircraft_2,LEBL,LPPT]
+   + 2.716951219512195 z_kij[Aircraft_2,LEBL,EDDT]
+   + 4.08 z_kij[Aircraft_2,LEBL,EFHK]
+   + 3.155121951219512 z_kij[Aircraft_2,LEBL,EPWA]
+   + 2.919634146341463 z_kij[Aircraft_2,LEBL,EGPH]
+   + 3.290243902439024 z_kij[Aircraft_2,LEBL,LROP]
+   + 3.453048780487805 z_kij[Aircraft_2,LEBL,LGIR]
+   + 4.510487804878048 z_kij[Aircraft_2,LEBL,BIKF]
+   + 2.123048780487805 z_kij[Aircraft_2,LEBL,LICJ]
+   + 3.21890243902439 z_kij[Aircraft_2,LEBL,LPMA]
+   + 2.023292682926829 z_kij[Aircraft_2,EDDM,EGLL]
+   + 1.706219512195122 z_kij[Aircraft_2,EDDM,LFPG]
+   + 1.685 z_kij[Aircraft_2,EDDM,EHAM]
+   + 0.9480894308943091 z_kij[Aircraft_2,EDDM,EDDF]
+   + 2.700609756097561 z_kij[Aircraft_2,EDDM,LEMF]
+   + 2.209878048780488 z_kij[Aircraft_2,EDDM,LEBL]
+   + 1.764756097560976 z_kij[Aircraft_2,EDDM,LIRF]
+   + 2.559512195121951 z_kij[Aircraft_2,EDDM,EIDW]
+   + 2.481463414634146 z_kij[Aircraft_2,EDDM,ESSA]
+   + 3.294024390243902 z_kij[Aircraft_2,EDDM,LPPT]
+   + 1.459878048780488 z_kij[Aircraft_2,EDDM,EDDT]
+   + 2.795121951219512 z_kij[Aircraft_2,EDDM,EFHK]
+   + 1.822926829268293 z_kij[Aircraft_2,EDDM,EPWA]
+   + 2.497317073170731 z_kij[Aircraft_2,EDDM,EGPH]
+   + 2.303048780487805 z_kij[Aircraft_2,EDDM,LROP]
+   + 3.091829268292683 z_kij[Aircraft_2,EDDM,LGIR]
+   + 4.157682926829269 z_kij[Aircraft_2,EDDM,BIKF]
+   + 2.272073170731707 z_kij[Aircraft_2,EDDM,LICJ]
+   + 4.47 z_kij[Aircraft_2,EDDM,LPMA]
+   + 2.635853658536585 z_kij[Aircraft_2,LIRF,EGLL]
+   + 2.217317073170732 z_kij[Aircraft_2,LIRF,LFPG]
+   + 2.456463414634146 z_kij[Aircraft_2,LIRF,EHAM]
+   + 1.751747967479675 z_kij[Aircraft_2,LIRF,EDDF]
+   + 2.496463414634146 z_kij[Aircraft_2,LIRF,LEMF]
+   + 1.90780487804878 z_kij[Aircraft_2,LIRF,LEBL]
+   + 1.764756097560976 z_kij[Aircraft_2,LIRF,EDDM]
+   + 3.174512195121951 z_kij[Aircraft_2,LIRF,EIDW]
+   + 3.34219512195122 z_kij[Aircraft_2,LIRF,ESSA]
+   + 3.117317073170732 z_kij[Aircraft_2,LIRF,LPPT]
+   + 2.337195121951219 z_kij[Aircraft_2,LIRF,EDDT]
+   + 3.599024390243902 z_kij[Aircraft_2,LIRF,EFHK]
+   + 2.493292682926829 z_kij[Aircraft_2,LIRF,EPWA]
+   + 3.23390243902439 z_kij[Aircraft_2,LIRF,EGPH]
+   + 2.292682926829269 z_kij[Aircraft_2,LIRF,LROP]
+   + 2.500121951219512 z_kij[Aircraft_2,LIRF,LGIR]
+   + 4.922560975609756 z_kij[Aircraft_2,LIRF,BIKF]
+   + 1.387560975609756 z_kij[Aircraft_2,LIRF,LICJ]
+   + 4.221219512195121 z_kij[Aircraft_2,LIRF,LPMA]
+   + 1.422926829268293 z_kij[Aircraft_2,EIDW,EGLL]
+   + 1.832317073170732 z_kij[Aircraft_2,EIDW,LFPG]
+   + 1.789878048780488 z_kij[Aircraft_2,EIDW,EHAM]
+   + 1.908821138211382 z_kij[Aircraft_2,EIDW,EDDF]
+   + 2.648414634146341 z_kij[Aircraft_2,EIDW,LEMF]
+   + 2.686219512195122 z_kij[Aircraft_2,EIDW,LEBL]
+   + 2.559512195121951 z_kij[Aircraft_2,EIDW,EDDM]
+   + 3.174512195121951 z_kij[Aircraft_2,EIDW,LIRF]
+   + 2.856463414634146 z_kij[Aircraft_2,EIDW,ESSA]
+   + 2.878048780487805 z_kij[Aircraft_2,EIDW,LPPT]
+   + 2.470609756097561 z_kij[Aircraft_2,EIDW,EDDT]
+   + 3.342439024390244 z_kij[Aircraft_2,EIDW,EFHK]
+   + 3.101219512195122 z_kij[Aircraft_2,EIDW,EPWA]
+   + 1.286219512195122 z_kij[Aircraft_2,EIDW,EGPH]
+   + 3.960243902439025 z_kij[Aircraft_2,EIDW,LROP]
+   + 4.733414634146341 z_kij[Aircraft_2,EIDW,LGIR]
+   + 2.701341463414634 z_kij[Aircraft_2,EIDW,BIKF]
+   + 3.639024390243903 z_kij[Aircraft_2,EIDW,LICJ]
+   + 3.864268292682927 z_kij[Aircraft_2,EIDW,LPMA]
+   + 2.658536585365853 z_kij[Aircraft_2,ESSA,EGLL]
+   + 2.752073170731707 z_kij[Aircraft_2,ESSA,LFPG]
+   + 2.280121951219512 z_kij[Aircraft_2,ESSA,EHAM]
+   + 2.07479674796748 z_kij[Aircraft_2,ESSA,EDDF]
+   + 4.047317073170731 z_kij[Aircraft_2,ESSA,LEMF]
+   + 3.698048780487805 z_kij[Aircraft_2,ESSA,LEBL]
+   + 2.481463414634146 z_kij[Aircraft_2,ESSA,EDDM]
+   + 3.34219512195122 z_kij[Aircraft_2,ESSA,LIRF]
+   + 2.856463414634146 z_kij[Aircraft_2,ESSA,EIDW]
+   + 4.531463414634146 z_kij[Aircraft_2,ESSA,LPPT]
+   + 1.897926829268293 z_kij[Aircraft_2,ESSA,EDDT]
+   + 1.36109756097561 z_kij[Aircraft_2,ESSA,EFHK]
+   + 1.915975609756098 z_kij[Aircraft_2,ESSA,EPWA]
+   + 2.485121951219512 z_kij[Aircraft_2,ESSA,EGPH]
+   + 3.026341463414634 z_kij[Aircraft_2,ESSA,LROP]
+   + 4.233658536585366 z_kij[Aircraft_2,ESSA,LGIR]
+   + 3.48780487804878 z_kij[Aircraft_2,ESSA,BIKF]
+   + 3.823048780487805 z_kij[Aircraft_2,ESSA,LICJ]
+   + 5.666585365853658 z_kij[Aircraft_2,ESSA,LPMA]
+   + 2.78219512195122 z_kij[Aircraft_2,LPPT,EGLL]
+   + 2.667682926829269 z_kij[Aircraft_2,LPPT,LFPG]
+   + 3.126585365853658 z_kij[Aircraft_2,LPPT,EHAM]
+   + 2.868455284552846 z_kij[Aircraft_2,LPPT,EDDF]
+   + 1.500487804878049 z_kij[Aircraft_2,LPPT,LEMF]
+   + 2.087195121951219 z_kij[Aircraft_2,LPPT,LEBL]
+   + 3.294024390243902 z_kij[Aircraft_2,LPPT,EDDM]
+   + 3.117317073170732 z_kij[Aircraft_2,LPPT,LIRF]
+   + 2.878048780487805 z_kij[Aircraft_2,LPPT,EIDW]
+   + 4.531463414634146 z_kij[Aircraft_2,LPPT,ESSA]
+   + 3.683170731707317 z_kij[Aircraft_2,LPPT,EDDT]
+   + 4.977317073170732 z_kij[Aircraft_2,LPPT,EFHK]
+   + 4.227439024390244 z_kij[Aircraft_2,LPPT,EPWA]
+   + 3.260487804878049 z_kij[Aircraft_2,LPPT,EGPH]
+   + 4.497926829268293 z_kij[Aircraft_2,LPPT,LROP]
+   + 4.595731707317073 z_kij[Aircraft_2,LPPT,LGIR]
+   + 4.460487804878049 z_kij[Aircraft_2,LPPT,BIKF]
+   + 3.255 z_kij[Aircraft_2,LPPT,LICJ]
+   + 2.051951219512195 z_kij[Aircraft_2,LPPT,LPMA]
+   + 2.030121951219512 z_kij[Aircraft_2,EDDT,EGLL]
+   + 1.912195121951219 z_kij[Aircraft_2,EDDT,LFPG]
+   + 1.580121951219512 z_kij[Aircraft_2,EDDT,EHAM]
+   + 1.10979674796748 z_kij[Aircraft_2,EDDT,EDDF]
+   + 3.135487804878049 z_kij[Aircraft_2,EDDT,LEMF]
+   + 2.716951219512195 z_kij[Aircraft_2,EDDT,LEBL]
+   + 1.459878048780488 z_kij[Aircraft_2,EDDT,EDDM]
+   + 2.337195121951219 z_kij[Aircraft_2,EDDT,LIRF]
+   + 2.470609756097561 z_kij[Aircraft_2,EDDT,EIDW]
+   + 1.897926829268293 z_kij[Aircraft_2,EDDT,ESSA]
+   + 3.683170731707317 z_kij[Aircraft_2,EDDT,LPPT]
+   + 2.239390243902439 z_kij[Aircraft_2,EDDT,EFHK]
+   + 1.51280487804878 z_kij[Aircraft_2,EDDT,EPWA]
+   + 2.268414634146342 z_kij[Aircraft_2,EDDT,EGPH]
+   + 2.449390243902439 z_kij[Aircraft_2,EDDT,LROP]
+   + 3.475 z_kij[Aircraft_2,EDDT,LGIR]
+   + 3.808780487804878 z_kij[Aircraft_2,EDDT,BIKF]
+   + 2.834268292682927 z_kij[Aircraft_2,EDDT,LICJ]
+   + 4.854146341463415 z_kij[Aircraft_2,EDDT,LPMA]
+   + 3.128658536585366 z_kij[Aircraft_2,EFHK,EGLL]
+   + 3.186707317073171 z_kij[Aircraft_2,EFHK,LFPG]
+   + 2.730243902439025 z_kij[Aircraft_2,EFHK,EHAM]
+   + 2.458821138211382 z_kij[Aircraft_2,EFHK,EDDF]
+   + 4.469390243902439 z_kij[Aircraft_2,EFHK,LEMF]
+   + 4.08 z_kij[Aircraft_2,EFHK,LEBL]
+   + 2.795121951219512 z_kij[Aircraft_2,EFHK,EDDM]
+   + 3.599024390243902 z_kij[Aircraft_2,EFHK,LIRF]
+   + 3.342439024390244 z_kij[Aircraft_2,EFHK,EIDW]
+   + 1.36109756097561 z_kij[Aircraft_2,EFHK,ESSA]
+   + 4.977317073170732 z_kij[Aircraft_2,EFHK,LPPT]
+   + 2.239390243902439 z_kij[Aircraft_2,EFHK,EDDT]
+   + 2.020121951219512 z_kij[Aircraft_2,EFHK,EPWA]
+   + 2.969756097560976 z_kij[Aircraft_2,EFHK,EGPH]
+   + 3.01219512195122 z_kij[Aircraft_2,EFHK,LROP]
+   + 4.262073170731707 z_kij[Aircraft_2,EFHK,LGIR]
+   + 3.855853658536585 z_kij[Aircraft_2,EFHK,BIKF]
+   + 4.047195121951219 z_kij[Aircraft_2,EFHK,LICJ]
+   + 6.124756097560976 z_kij[Aircraft_2,EFHK,LPMA]
+   + 2.667195121951219 z_kij[Aircraft_2,EPWA,EGLL]
+   + 2.51219512195122 z_kij[Aircraft_2,EPWA,LFPG]
+   + 2.217926829268293 z_kij[Aircraft_2,EPWA,EHAM]
+   + 1.676260162601626 z_kij[Aircraft_2,EPWA,EDDF]
+   + 3.644634146341463 z_kij[Aircraft_2,EPWA,LEMF]
+   + 3.155121951219512 z_kij[Aircraft_2,EPWA,LEBL]
+   + 1.822926829268293 z_kij[Aircraft_2,EPWA,EDDM]
+   + 2.493292682926829 z_kij[Aircraft_2,EPWA,LIRF]
+   + 3.101219512195122 z_kij[Aircraft_2,EPWA,EIDW]
+   + 1.915975609756098 z_kij[Aircraft_2,EPWA,ESSA]
+   + 4.227439024390244 z_kij[Aircraft_2,EPWA,LPPT]
+   + 1.51280487804878 z_kij[Aircraft_2,EPWA,EDDT]
+   + 2.020121951219512 z_kij[Aircraft_2,EPWA,EFHK]
+   + 2.867560975609756 z_kij[Aircraft_2,EPWA,EGPH]
+   + 2.002682926829269 z_kij[Aircraft_2,EPWA,LROP]
+   + 3.192682926829268 z_kij[Aircraft_2,EPWA,LGIR]
+   + 4.294878048780488 z_kij[Aircraft_2,EPWA,BIKF]
+   + 2.91390243902439 z_kij[Aircraft_2,EPWA,LICJ]
+   + 5.404390243902439 z_kij[Aircraft_2,EPWA,LPMA]
+   + 1.525609756097561 z_kij[Aircraft_2,EGPH,EGLL]
+   + 1.934390243902439 z_kij[Aircraft_2,EGPH,LFPG]
+   + 1.687682926829268 z_kij[Aircraft_2,EGPH,EHAM]
+   + 1.842967479674797 z_kij[Aircraft_2,EGPH,EDDF]
+   + 2.97390243902439 z_kij[Aircraft_2,EGPH,LEMF]
+   + 2.919634146341463 z_kij[Aircraft_2,EGPH,LEBL]
+   + 2.497317073170731 z_kij[Aircraft_2,EGPH,EDDM]
+   + 3.23390243902439 z_kij[Aircraft_2,EGPH,LIRF]
+   + 1.286219512195122 z_kij[Aircraft_2,EGPH,EIDW]
+   + 2.485121951219512 z_kij[Aircraft_2,EGPH,ESSA]
+   + 3.260487804878049 z_kij[Aircraft_2,EGPH,LPPT]
+   + 2.268414634146342 z_kij[Aircraft_2,EGPH,EDDT]
+   + 2.969756097560976 z_kij[Aircraft_2,EGPH,EFHK]
+   + 2.867560975609756 z_kij[Aircraft_2,EGPH,EPWA]
+   + 3.825 z_kij[Aircraft_2,EGPH,LROP]
+   + 4.713048780487805 z_kij[Aircraft_2,EGPH,LGIR]
+   + 2.563536585365854 z_kij[Aircraft_2,EGPH,BIKF]
+   + 3.72719512195122 z_kij[Aircraft_2,EGPH,LICJ]
+   + 4.271707317073171 z_kij[Aircraft_2,EGPH,LPMA]
+   + 3.440609756097561 z_kij[Aircraft_2,LROP,EGLL]
+   + 3.131219512195122 z_kij[Aircraft_2,LROP,LFPG]
+   + 3.049634146341464 z_kij[Aircraft_2,LROP,EHAM]
+   + 2.350406504065041 z_kij[Aircraft_2,LROP,EDDF]
+   + 3.872560975609756 z_kij[Aircraft_2,LROP,LEMF]
+   + 3.290243902439024 z_kij[Aircraft_2,LROP,LEBL]
+   + 2.303048780487805 z_kij[Aircraft_2,LROP,EDDM]
+   + 2.292682926829269 z_kij[Aircraft_2,LROP,LIRF]
+   + 3.960243902439025 z_kij[Aircraft_2,LROP,EIDW]
+   + 3.026341463414634 z_kij[Aircraft_2,LROP,ESSA]
+   + 4.497926829268293 z_kij[Aircraft_2,LROP,LPPT]
+   + 2.449390243902439 z_kij[Aircraft_2,LROP,EDDT]
+   + 3.01219512195122 z_kij[Aircraft_2,LROP,EFHK]
+   + 2.002682926829269 z_kij[Aircraft_2,LROP,EPWA]
+   + 3.825 z_kij[Aircraft_2,LROP,EGPH]
+   + 2.130365853658537 z_kij[Aircraft_2,LROP,LGIR]
+   + 5.374512195121951 z_kij[Aircraft_2,LROP,BIKF]
+   + 2.44 z_kij[Aircraft_2,LROP,LICJ]
+   + 5.629146341463414 z_kij[Aircraft_2,LROP,LPMA]
+   + 4.185609756097561 z_kij[Aircraft_2,LGIR,EGLL]
+   + 3.789390243902439 z_kij[Aircraft_2,LGIR,LFPG]
+   + 3.900487804878049 z_kij[Aircraft_2,LGIR,EHAM]
+   + 3.161869918699187 z_kij[Aircraft_2,LGIR,EDDF]
+   + 4.013170731707318 z_kij[Aircraft_2,LGIR,LEMF]
+   + 3.453048780487805 z_kij[Aircraft_2,LGIR,LEBL]
+   + 3.091829268292683 z_kij[Aircraft_2,LGIR,EDDM]
+   + 2.500121951219512 z_kij[Aircraft_2,LGIR,LIRF]
+   + 4.733414634146341 z_kij[Aircraft_2,LGIR,EIDW]
+   + 4.233658536585366 z_kij[Aircraft_2,LGIR,ESSA]
+   + 4.595731707317073 z_kij[Aircraft_2,LGIR,LPPT]
+   + 3.475 z_kij[Aircraft_2,LGIR,EDDT]
+   + 4.262073170731707 z_kij[Aircraft_2,LGIR,EFHK]
+   + 3.192682926829268 z_kij[Aircraft_2,LGIR,EPWA]
+   + 4.713048780487805 z_kij[Aircraft_2,LGIR,EGPH]
+   + 2.130365853658537 z_kij[Aircraft_2,LGIR,LROP]
+   + 6.369268292682927 z_kij[Aircraft_2,LGIR,BIKF]
+   + 2.217317073170732 z_kij[Aircraft_2,LGIR,LICJ]
+   + 5.569024390243903 z_kij[Aircraft_2,LGIR,LPMA]
+   + 3.185975609756098 z_kij[Aircraft_2,BIKF,EGLL]
+   + 3.608048780487805 z_kij[Aircraft_2,BIKF,LFPG]
+   + 3.36 z_kij[Aircraft_2,BIKF,EHAM]
+   + 3.511626016260163 z_kij[Aircraft_2,BIKF,EDDF]
+   + 4.40219512195122 z_kij[Aircraft_2,BIKF,LEMF]
+   + 4.510487804878048 z_kij[Aircraft_2,BIKF,LEBL]
+   + 4.157682926829269 z_kij[Aircraft_2,BIKF,EDDM]
+   + 4.922560975609756 z_kij[Aircraft_2,BIKF,LIRF]
+   + 2.701341463414634 z_kij[Aircraft_2,BIKF,EIDW]
+   + 3.48780487804878 z_kij[Aircraft_2,BIKF,ESSA]
+   + 4.460487804878049 z_kij[Aircraft_2,BIKF,LPPT]
+   + 3.808780487804878 z_kij[Aircraft_2,BIKF,EDDT]
+   + 3.855853658536585 z_kij[Aircraft_2,BIKF,EFHK]
+   + 4.294878048780488 z_kij[Aircraft_2,BIKF,EPWA]
+   + 2.563536585365854 z_kij[Aircraft_2,BIKF,EGPH]
+   + 5.374512195121951 z_kij[Aircraft_2,BIKF,LROP]
+   + 6.369268292682927 z_kij[Aircraft_2,BIKF,LGIR]
+   + 5.414268292682927 z_kij[Aircraft_2,BIKF,LICJ]
+   + 5.14609756097561 z_kij[Aircraft_2,BIKF,LPMA]
+   + 3.111829268292683 z_kij[Aircraft_2,LICJ,EGLL]
+   + 2.688780487804878 z_kij[Aircraft_2,LICJ,LFPG]
+   + 2.962926829268293 z_kij[Aircraft_2,LICJ,EHAM]
+   + 2.263943089430894 z_kij[Aircraft_2,LICJ,EDDF]
+   + 2.671951219512195 z_kij[Aircraft_2,LICJ,LEMF]
+   + 2.123048780487805 z_kij[Aircraft_2,LICJ,LEBL]
+   + 2.272073170731707 z_kij[Aircraft_2,LICJ,EDDM]
+   + 1.387560975609756 z_kij[Aircraft_2,LICJ,LIRF]
+   + 3.639024390243903 z_kij[Aircraft_2,LICJ,EIDW]
+   + 3.823048780487805 z_kij[Aircraft_2,LICJ,ESSA]
+   + 3.255 z_kij[Aircraft_2,LICJ,LPPT]
+   + 2.834268292682927 z_kij[Aircraft_2,LICJ,EDDT]
+   + 4.047195121951219 z_kij[Aircraft_2,LICJ,EFHK]
+   + 2.91390243902439 z_kij[Aircraft_2,LICJ,EPWA]
+   + 3.72719512195122 z_kij[Aircraft_2,LICJ,EGPH]
+   + 2.44 z_kij[Aircraft_2,LICJ,LROP]
+   + 2.217317073170732 z_kij[Aircraft_2,LICJ,LGIR]
+   + 5.414268292682927 z_kij[Aircraft_2,LICJ,BIKF]
+   + 4.264756097560976 z_kij[Aircraft_2,LICJ,LPMA]
+   + 3.88890243902439 z_kij[Aircraft_2,LPMA,EGLL]
+   + 3.828048780487805 z_kij[Aircraft_2,LPMA,LFPG]
+   + 4.269512195121951 z_kij[Aircraft_2,LPMA,EHAM]
+   + 4.041869918699187 z_kij[Aircraft_2,LPMA,EDDF]
+   + 2.655243902439024 z_kij[Aircraft_2,LPMA,LEMF]
+   + 3.21890243902439 z_kij[Aircraft_2,LPMA,LEBL]
+   + 4.47 z_kij[Aircraft_2,LPMA,EDDM]
+   + 4.221219512195121 z_kij[Aircraft_2,LPMA,LIRF]
+   + 3.864268292682927 z_kij[Aircraft_2,LPMA,EIDW]
+   + 5.666585365853658 z_kij[Aircraft_2,LPMA,ESSA]
+   + 2.051951219512195 z_kij[Aircraft_2,LPMA,LPPT]
+   + 4.854146341463415 z_kij[Aircraft_2,LPMA,EDDT]
+   + 6.124756097560976 z_kij[Aircraft_2,LPMA,EFHK]
+   + 5.404390243902439 z_kij[Aircraft_2,LPMA,EPWA]
+   + 4.271707317073171 z_kij[Aircraft_2,LPMA,EGPH]
+   + 5.629146341463414 z_kij[Aircraft_2,LPMA,LROP]
+   + 5.569024390243903 z_kij[Aircraft_2,LPMA,LGIR]
+   + 5.14609756097561 z_kij[Aircraft_2,LPMA,BIKF]
+   + 4.264756097560976 z_kij[Aircraft_2,LPMA,LICJ] - 70 AC_k[Aircraft_2]
    <= 0
- TotalTime_Aircraft_3: 1.158470588235294 z_kij[Aircraft_3,EGLL,LFPG]
-   + 1.185764705882353 z_kij[Aircraft_3,EGLL,EHAM]
-   + 2.27035294117647 z_kij[Aircraft_3,EGLL,EDDF]
-   + 2.215882352941176 z_kij[Aircraft_3,EGLL,LEMF]
-   + 2.100235294117647 z_kij[Aircraft_3,EGLL,LEBL]
-   + 1.857764705882353 z_kij[Aircraft_3,EGLL,EDDM]
-   + 2.448705882352941 z_kij[Aircraft_3,EGLL,LIRF]
-   + 1.278588235294118 z_kij[Aircraft_3,EGLL,EIDW]
-   + 2.470588235294118 z_kij[Aircraft_3,EGLL,ESSA]
-   + 2.589882352941177 z_kij[Aircraft_3,EGLL,LPPT]
-   + 1.864352941176471 z_kij[Aircraft_3,EGLL,EDDT]
-   + 2.924117647058824 z_kij[Aircraft_3,EGLL,EFHK]
-   + 2.478941176470588 z_kij[Aircraft_3,EGLL,EPWA]
-   + 1.377647058823529 z_kij[Aircraft_3,EGLL,EGPH]
-   + 3.225058823529412 z_kij[Aircraft_3,EGLL,LROP]
-   + 3.943764705882353 z_kij[Aircraft_3,EGLL,LGIR]
-   + 2.979411764705882 z_kij[Aircraft_3,EGLL,BIKF]
-   + 2.907882352941177 z_kij[Aircraft_3,EGLL,LICJ]
-   + 3.657529411764706 z_kij[Aircraft_3,EGLL,LPMA]
-   + 1.158470588235294 z_kij[Aircraft_3,LFPG,EGLL]
-   + 1.218588235294118 z_kij[Aircraft_3,LFPG,EHAM]
-   + 2.028235294117647 z_kij[Aircraft_3,LFPG,EDDF]
-   + 2.002352941176471 z_kij[Aircraft_3,LFPG,LEMF]
-   + 1.760235294117647 z_kij[Aircraft_3,LFPG,LEBL]
-   + 1.551882352941176 z_kij[Aircraft_3,LFPG,EDDM]
-   + 2.044941176470588 z_kij[Aircraft_3,LFPG,LIRF]
-   + 1.673529411764706 z_kij[Aircraft_3,LFPG,EIDW]
-   + 2.560823529411765 z_kij[Aircraft_3,LFPG,ESSA]
-   + 2.479411764705882 z_kij[Aircraft_3,LFPG,LPPT]
-   + 1.750588235294118 z_kij[Aircraft_3,LFPG,EDDT]
-   + 2.980117647058823 z_kij[Aircraft_3,LFPG,EFHK]
-   + 2.329411764705882 z_kij[Aircraft_3,LFPG,EPWA]
-   + 1.772 z_kij[Aircraft_3,LFPG,EGPH]
-   + 2.926588235294118 z_kij[Aircraft_3,LFPG,LROP]
-   + 3.561529411764706 z_kij[Aircraft_3,LFPG,LGIR]
-   + 3.386588235294118 z_kij[Aircraft_3,LFPG,BIKF]
-   + 2.499764705882353 z_kij[Aircraft_3,LFPG,LICJ]
-   + 3.598823529411765 z_kij[Aircraft_3,LFPG,LPMA]
-   + 1.185764705882353 z_kij[Aircraft_3,EHAM,EGLL]
-   + 1.218588235294118 z_kij[Aircraft_3,EHAM,LFPG]
-   + 1.931294117647059 z_kij[Aircraft_3,EHAM,EDDF]
-   + 2.468470588235294 z_kij[Aircraft_3,EHAM,LEMF]
-   + 2.210117647058824 z_kij[Aircraft_3,EHAM,LEBL]
-   + 1.531411764705882 z_kij[Aircraft_3,EHAM,EDDM]
-   + 2.275647058823529 z_kij[Aircraft_3,EHAM,LIRF]
-   + 1.632588235294118 z_kij[Aircraft_3,EHAM,EIDW]
-   + 2.105529411764706 z_kij[Aircraft_3,EHAM,ESSA]
-   + 2.922117647058823 z_kij[Aircraft_3,EHAM,LPPT]
-   + 1.430235294117647 z_kij[Aircraft_3,EHAM,EDDT]
-   + 2.539764705882353 z_kij[Aircraft_3,EHAM,EFHK]
-   + 2.045529411764706 z_kij[Aircraft_3,EHAM,EPWA]
-   + 1.534 z_kij[Aircraft_3,EHAM,EGPH]
-   + 2.847882352941177 z_kij[Aircraft_3,EHAM,LROP]
-   + 3.668705882352941 z_kij[Aircraft_3,EHAM,LGIR]
-   + 3.147294117647059 z_kij[Aircraft_3,EHAM,BIKF]
-   + 2.764235294117647 z_kij[Aircraft_3,EHAM,LICJ]
-   + 4.024705882352942 z_kij[Aircraft_3,EHAM,LPMA]
+ TotalTime_Aircraft_3: 1.533470588235294 z_kij[Aircraft_3,EGLL,LFPG]
+   + 1.560764705882353 z_kij[Aircraft_3,EGLL,EHAM]
+   + 1.52035294117647 z_kij[Aircraft_3,EGLL,EDDF]
+   + 2.590882352941176 z_kij[Aircraft_3,EGLL,LEMF]
+   + 2.475235294117647 z_kij[Aircraft_3,EGLL,LEBL]
+   + 2.232764705882353 z_kij[Aircraft_3,EGLL,EDDM]
+   + 2.823705882352941 z_kij[Aircraft_3,EGLL,LIRF]
+   + 1.653588235294118 z_kij[Aircraft_3,EGLL,EIDW]
+   + 2.845588235294118 z_kij[Aircraft_3,EGLL,ESSA]
+   + 2.964882352941177 z_kij[Aircraft_3,EGLL,LPPT]
+   + 2.23935294117647 z_kij[Aircraft_3,EGLL,EDDT]
+   + 3.299117647058824 z_kij[Aircraft_3,EGLL,EFHK]
+   + 2.853941176470588 z_kij[Aircraft_3,EGLL,EPWA]
+   + 1.752647058823529 z_kij[Aircraft_3,EGLL,EGPH]
+   + 3.600058823529412 z_kij[Aircraft_3,EGLL,LROP]
+   + 4.318764705882353 z_kij[Aircraft_3,EGLL,LGIR]
+   + 3.354411764705882 z_kij[Aircraft_3,EGLL,BIKF]
+   + 3.282882352941177 z_kij[Aircraft_3,EGLL,LICJ]
+   + 4.032529411764706 z_kij[Aircraft_3,EGLL,LPMA]
+   + 1.533470588235294 z_kij[Aircraft_3,LFPG,EGLL]
+   + 1.593588235294118 z_kij[Aircraft_3,LFPG,EHAM]
+   + 1.278235294117647 z_kij[Aircraft_3,LFPG,EDDF]
+   + 2.377352941176471 z_kij[Aircraft_3,LFPG,LEMF]
+   + 2.135235294117647 z_kij[Aircraft_3,LFPG,LEBL]
+   + 1.926882352941176 z_kij[Aircraft_3,LFPG,EDDM]
+   + 2.419941176470588 z_kij[Aircraft_3,LFPG,LIRF]
+   + 2.048529411764706 z_kij[Aircraft_3,LFPG,EIDW]
+   + 2.935823529411765 z_kij[Aircraft_3,LFPG,ESSA]
+   + 2.854411764705882 z_kij[Aircraft_3,LFPG,LPPT]
+   + 2.125588235294118 z_kij[Aircraft_3,LFPG,EDDT]
+   + 3.355117647058823 z_kij[Aircraft_3,LFPG,EFHK]
+   + 2.704411764705882 z_kij[Aircraft_3,LFPG,EPWA]
+   + 2.147 z_kij[Aircraft_3,LFPG,EGPH]
+   + 3.301588235294118 z_kij[Aircraft_3,LFPG,LROP]
+   + 3.936529411764706 z_kij[Aircraft_3,LFPG,LGIR]
+   + 3.761588235294118 z_kij[Aircraft_3,LFPG,BIKF]
+   + 2.874764705882353 z_kij[Aircraft_3,LFPG,LICJ]
+   + 3.973823529411765 z_kij[Aircraft_3,LFPG,LPMA]
+   + 1.560764705882353 z_kij[Aircraft_3,EHAM,EGLL]
+   + 1.593588235294118 z_kij[Aircraft_3,EHAM,LFPG]
+   + 1.181294117647059 z_kij[Aircraft_3,EHAM,EDDF]
+   + 2.843470588235294 z_kij[Aircraft_3,EHAM,LEMF]
+   + 2.585117647058824 z_kij[Aircraft_3,EHAM,LEBL]
+   + 1.906411764705882 z_kij[Aircraft_3,EHAM,EDDM]
+   + 2.650647058823529 z_kij[Aircraft_3,EHAM,LIRF]
+   + 2.007588235294118 z_kij[Aircraft_3,EHAM,EIDW]
+   + 2.480529411764706 z_kij[Aircraft_3,EHAM,ESSA]
+   + 3.297117647058823 z_kij[Aircraft_3,EHAM,LPPT]
+   + 1.805235294117647 z_kij[Aircraft_3,EHAM,EDDT]
+   + 2.914764705882353 z_kij[Aircraft_3,EHAM,EFHK]
+   + 2.420529411764706 z_kij[Aircraft_3,EHAM,EPWA]
+   + 1.909 z_kij[Aircraft_3,EHAM,EGPH]
+   + 3.222882352941177 z_kij[Aircraft_3,EHAM,LROP]
+   + 4.043705882352942 z_kij[Aircraft_3,EHAM,LGIR]
+   + 3.522294117647059 z_kij[Aircraft_3,EHAM,BIKF]
+   + 3.139235294117647 z_kij[Aircraft_3,EHAM,LICJ]
+   + 4.399705882352942 z_kij[Aircraft_3,EHAM,LPMA]
    + 1.89535294117647 z_kij[Aircraft_3,EDDF,EGLL]
    + 1.653235294117647 z_kij[Aircraft_3,EDDF,LFPG]
    + 1.556294117647059 z_kij[Aircraft_3,EDDF,EHAM]
@@ -6870,366 +6526,366 @@ Subject To
    + 3.949941176470588 z_kij[Aircraft_3,EDDF,BIKF]
    + 2.746294117647059 z_kij[Aircraft_3,EDDF,LICJ]
    + 4.461470588235294 z_kij[Aircraft_3,EDDF,LPMA]
-   + 2.215882352941176 z_kij[Aircraft_3,LEMF,EGLL]
-   + 2.002352941176471 z_kij[Aircraft_3,LEMF,LFPG]
-   + 2.468470588235294 z_kij[Aircraft_3,LEMF,EHAM]
-   + 3.173058823529412 z_kij[Aircraft_3,LEMF,EDDF]
-   + 1.318117647058823 z_kij[Aircraft_3,LEMF,LEBL]
-   + 2.511176470588235 z_kij[Aircraft_3,LEMF,EDDM]
-   + 2.314235294117647 z_kij[Aircraft_3,LEMF,LIRF]
-   + 2.460823529411765 z_kij[Aircraft_3,LEMF,EIDW]
-   + 3.810352941176471 z_kij[Aircraft_3,LEMF,ESSA]
-   + 1.353411764705882 z_kij[Aircraft_3,LEMF,LPPT]
-   + 2.930705882352941 z_kij[Aircraft_3,LEMF,EDDT]
-   + 4.217529411764707 z_kij[Aircraft_3,LEMF,EFHK]
-   + 3.421882352941176 z_kij[Aircraft_3,LEMF,EPWA]
-   + 2.774823529411765 z_kij[Aircraft_3,LEMF,EGPH]
-   + 3.641764705882353 z_kij[Aircraft_3,LEMF,LROP]
-   + 3.777411764705882 z_kij[Aircraft_3,LEMF,LGIR]
-   + 4.152705882352942 z_kij[Aircraft_3,LEMF,BIKF]
-   + 2.483529411764706 z_kij[Aircraft_3,LEMF,LICJ]
-   + 2.467411764705882 z_kij[Aircraft_3,LEMF,LPMA]
-   + 2.100235294117647 z_kij[Aircraft_3,LEBL,EGLL]
-   + 1.760235294117647 z_kij[Aircraft_3,LEBL,LFPG]
-   + 2.210117647058824 z_kij[Aircraft_3,LEBL,EHAM]
-   + 2.786588235294118 z_kij[Aircraft_3,LEBL,EDDF]
-   + 1.318117647058823 z_kij[Aircraft_3,LEBL,LEMF]
-   + 2.037764705882353 z_kij[Aircraft_3,LEBL,EDDM]
-   + 1.74635294117647 z_kij[Aircraft_3,LEBL,LIRF]
-   + 2.497294117647059 z_kij[Aircraft_3,LEBL,EIDW]
-   + 3.473411764705883 z_kij[Aircraft_3,LEBL,ESSA]
-   + 1.919411764705882 z_kij[Aircraft_3,LEBL,LPPT]
-   + 2.526941176470588 z_kij[Aircraft_3,LEBL,EDDT]
-   + 3.841882352941176 z_kij[Aircraft_3,LEBL,EFHK]
-   + 2.949647058823529 z_kij[Aircraft_3,LEBL,EPWA]
-   + 2.722470588235294 z_kij[Aircraft_3,LEBL,EGPH]
-   + 3.08 z_kij[Aircraft_3,LEBL,LROP]
-   + 3.237058823529412 z_kij[Aircraft_3,LEBL,LGIR]
-   + 4.257176470588235 z_kij[Aircraft_3,LEBL,BIKF]
-   + 1.954 z_kij[Aircraft_3,LEBL,LICJ]
-   + 3.011176470588235 z_kij[Aircraft_3,LEBL,LPMA]
-   + 1.857764705882353 z_kij[Aircraft_3,EDDM,EGLL]
-   + 1.551882352941176 z_kij[Aircraft_3,EDDM,LFPG]
-   + 1.531411764705882 z_kij[Aircraft_3,EDDM,EHAM]
-   + 1.851882352941177 z_kij[Aircraft_3,EDDM,EDDF]
-   + 2.511176470588235 z_kij[Aircraft_3,EDDM,LEMF]
-   + 2.037764705882353 z_kij[Aircraft_3,EDDM,LEBL]
-   + 1.608352941176471 z_kij[Aircraft_3,EDDM,LIRF]
-   + 2.375058823529412 z_kij[Aircraft_3,EDDM,EIDW]
-   + 2.299764705882353 z_kij[Aircraft_3,EDDM,ESSA]
-   + 3.083647058823529 z_kij[Aircraft_3,EDDM,LPPT]
-   + 1.314235294117647 z_kij[Aircraft_3,EDDM,EDDT]
-   + 2.602352941176471 z_kij[Aircraft_3,EDDM,EFHK]
-   + 1.664470588235294 z_kij[Aircraft_3,EDDM,EPWA]
-   + 2.315058823529411 z_kij[Aircraft_3,EDDM,EGPH]
-   + 2.12764705882353 z_kij[Aircraft_3,EDDM,LROP]
-   + 2.888588235294117 z_kij[Aircraft_3,EDDM,LGIR]
-   + 3.916823529411765 z_kij[Aircraft_3,EDDM,BIKF]
-   + 2.097764705882353 z_kij[Aircraft_3,EDDM,LICJ]
-   + 4.218117647058824 z_kij[Aircraft_3,EDDM,LPMA]
-   + 2.448705882352941 z_kij[Aircraft_3,LIRF,EGLL]
-   + 2.044941176470588 z_kij[Aircraft_3,LIRF,LFPG]
-   + 2.275647058823529 z_kij[Aircraft_3,LIRF,EHAM]
-   + 2.627176470588235 z_kij[Aircraft_3,LIRF,EDDF]
-   + 2.314235294117647 z_kij[Aircraft_3,LIRF,LEMF]
-   + 1.74635294117647 z_kij[Aircraft_3,LIRF,LEBL]
-   + 1.608352941176471 z_kij[Aircraft_3,LIRF,EDDM]
-   + 2.96835294117647 z_kij[Aircraft_3,LIRF,EIDW]
-   + 3.130117647058823 z_kij[Aircraft_3,LIRF,ESSA]
-   + 2.913176470588235 z_kij[Aircraft_3,LIRF,LPPT]
-   + 2.160588235294118 z_kij[Aircraft_3,LIRF,EDDT]
-   + 3.377882352941176 z_kij[Aircraft_3,LIRF,EFHK]
-   + 2.311176470588236 z_kij[Aircraft_3,LIRF,EPWA]
-   + 3.025647058823529 z_kij[Aircraft_3,LIRF,EGPH]
-   + 2.117647058823529 z_kij[Aircraft_3,LIRF,LROP]
-   + 2.317764705882353 z_kij[Aircraft_3,LIRF,LGIR]
-   + 4.654705882352941 z_kij[Aircraft_3,LIRF,BIKF]
-   + 1.244470588235294 z_kij[Aircraft_3,LIRF,LICJ]
-   + 3.978117647058824 z_kij[Aircraft_3,LIRF,LPMA]
-   + 1.278588235294118 z_kij[Aircraft_3,EIDW,EGLL]
-   + 1.673529411764706 z_kij[Aircraft_3,EIDW,LFPG]
-   + 1.632588235294118 z_kij[Aircraft_3,EIDW,EHAM]
-   + 2.778705882352941 z_kij[Aircraft_3,EIDW,EDDF]
-   + 2.460823529411765 z_kij[Aircraft_3,EIDW,LEMF]
-   + 2.497294117647059 z_kij[Aircraft_3,EIDW,LEBL]
-   + 2.375058823529412 z_kij[Aircraft_3,EIDW,EDDM]
-   + 2.96835294117647 z_kij[Aircraft_3,EIDW,LIRF]
-   + 2.661529411764706 z_kij[Aircraft_3,EIDW,ESSA]
-   + 2.682352941176471 z_kij[Aircraft_3,EIDW,LPPT]
-   + 2.289294117647059 z_kij[Aircraft_3,EIDW,EDDT]
-   + 3.13035294117647 z_kij[Aircraft_3,EIDW,EFHK]
-   + 2.897647058823529 z_kij[Aircraft_3,EIDW,EPWA]
-   + 1.146705882352941 z_kij[Aircraft_3,EIDW,EGPH]
-   + 3.726352941176471 z_kij[Aircraft_3,EIDW,LROP]
-   + 4.472235294117647 z_kij[Aircraft_3,EIDW,LGIR]
-   + 2.511882352941177 z_kij[Aircraft_3,EIDW,BIKF]
-   + 3.416470588235294 z_kij[Aircraft_3,EIDW,LICJ]
-   + 3.633764705882353 z_kij[Aircraft_3,EIDW,LPMA]
-   + 2.470588235294118 z_kij[Aircraft_3,ESSA,EGLL]
-   + 2.560823529411765 z_kij[Aircraft_3,ESSA,LFPG]
-   + 2.105529411764706 z_kij[Aircraft_3,ESSA,EHAM]
-   + 2.938823529411764 z_kij[Aircraft_3,ESSA,EDDF]
-   + 3.810352941176471 z_kij[Aircraft_3,ESSA,LEMF]
-   + 3.473411764705883 z_kij[Aircraft_3,ESSA,LEBL]
-   + 2.299764705882353 z_kij[Aircraft_3,ESSA,EDDM]
-   + 3.130117647058823 z_kij[Aircraft_3,ESSA,LIRF]
-   + 2.661529411764706 z_kij[Aircraft_3,ESSA,EIDW]
-   + 4.277411764705882 z_kij[Aircraft_3,ESSA,LPPT]
-   + 1.736823529411765 z_kij[Aircraft_3,ESSA,EDDT]
-   + 1.218941176470588 z_kij[Aircraft_3,ESSA,EFHK]
-   + 1.754235294117647 z_kij[Aircraft_3,ESSA,EPWA]
-   + 2.303294117647058 z_kij[Aircraft_3,ESSA,EGPH]
-   + 2.825411764705882 z_kij[Aircraft_3,ESSA,LROP]
-   + 3.990117647058824 z_kij[Aircraft_3,ESSA,LGIR]
-   + 3.270588235294118 z_kij[Aircraft_3,ESSA,BIKF]
-   + 3.594 z_kij[Aircraft_3,ESSA,LICJ]
-   + 5.372470588235294 z_kij[Aircraft_3,ESSA,LPMA]
-   + 2.589882352941177 z_kij[Aircraft_3,LPPT,EGLL]
-   + 2.479411764705882 z_kij[Aircraft_3,LPPT,LFPG]
-   + 2.922117647058823 z_kij[Aircraft_3,LPPT,EHAM]
-   + 3.704470588235294 z_kij[Aircraft_3,LPPT,EDDF]
-   + 1.353411764705882 z_kij[Aircraft_3,LPPT,LEMF]
-   + 1.919411764705882 z_kij[Aircraft_3,LPPT,LEBL]
-   + 3.083647058823529 z_kij[Aircraft_3,LPPT,EDDM]
-   + 2.913176470588235 z_kij[Aircraft_3,LPPT,LIRF]
-   + 2.682352941176471 z_kij[Aircraft_3,LPPT,EIDW]
-   + 4.277411764705882 z_kij[Aircraft_3,LPPT,ESSA]
-   + 3.459058823529412 z_kij[Aircraft_3,LPPT,EDDT]
-   + 4.707529411764706 z_kij[Aircraft_3,LPPT,EFHK]
-   + 3.984117647058823 z_kij[Aircraft_3,LPPT,EPWA]
-   + 3.051294117647059 z_kij[Aircraft_3,LPPT,EGPH]
-   + 4.245058823529412 z_kij[Aircraft_3,LPPT,LROP]
-   + 4.339411764705883 z_kij[Aircraft_3,LPPT,LGIR]
-   + 4.208941176470589 z_kij[Aircraft_3,LPPT,BIKF]
-   + 3.046 z_kij[Aircraft_3,LPPT,LICJ]
-   + 1.885411764705882 z_kij[Aircraft_3,LPPT,LPMA]
-   + 1.864352941176471 z_kij[Aircraft_3,EDDT,EGLL]
-   + 1.750588235294118 z_kij[Aircraft_3,EDDT,LFPG]
-   + 1.430235294117647 z_kij[Aircraft_3,EDDT,EHAM]
-   + 2.007882352941176 z_kij[Aircraft_3,EDDT,EDDF]
-   + 2.930705882352941 z_kij[Aircraft_3,EDDT,LEMF]
-   + 2.526941176470588 z_kij[Aircraft_3,EDDT,LEBL]
-   + 1.314235294117647 z_kij[Aircraft_3,EDDT,EDDM]
-   + 2.160588235294118 z_kij[Aircraft_3,EDDT,LIRF]
-   + 2.289294117647059 z_kij[Aircraft_3,EDDT,EIDW]
-   + 1.736823529411765 z_kij[Aircraft_3,EDDT,ESSA]
-   + 3.459058823529412 z_kij[Aircraft_3,EDDT,LPPT]
-   + 2.066235294117647 z_kij[Aircraft_3,EDDT,EFHK]
-   + 1.365294117647059 z_kij[Aircraft_3,EDDT,EPWA]
-   + 2.094235294117647 z_kij[Aircraft_3,EDDT,EGPH]
-   + 2.268823529411764 z_kij[Aircraft_3,EDDT,LROP]
-   + 3.258235294117647 z_kij[Aircraft_3,EDDT,LGIR]
-   + 3.580235294117647 z_kij[Aircraft_3,EDDT,BIKF]
-   + 2.640117647058823 z_kij[Aircraft_3,EDDT,LICJ]
-   + 4.588705882352942 z_kij[Aircraft_3,EDDT,LPMA]
-   + 2.924117647058824 z_kij[Aircraft_3,EFHK,EGLL]
-   + 2.980117647058823 z_kij[Aircraft_3,EFHK,LFPG]
-   + 2.539764705882353 z_kij[Aircraft_3,EFHK,EHAM]
-   + 3.309294117647059 z_kij[Aircraft_3,EFHK,EDDF]
-   + 4.217529411764707 z_kij[Aircraft_3,EFHK,LEMF]
-   + 3.841882352941176 z_kij[Aircraft_3,EFHK,LEBL]
-   + 2.602352941176471 z_kij[Aircraft_3,EFHK,EDDM]
-   + 3.377882352941176 z_kij[Aircraft_3,EFHK,LIRF]
-   + 3.13035294117647 z_kij[Aircraft_3,EFHK,EIDW]
-   + 1.218941176470588 z_kij[Aircraft_3,EFHK,ESSA]
-   + 4.707529411764706 z_kij[Aircraft_3,EFHK,LPPT]
-   + 2.066235294117647 z_kij[Aircraft_3,EFHK,EDDT]
-   + 1.854705882352941 z_kij[Aircraft_3,EFHK,EPWA]
-   + 2.770823529411765 z_kij[Aircraft_3,EFHK,EGPH]
-   + 2.811764705882353 z_kij[Aircraft_3,EFHK,LROP]
-   + 4.017529411764706 z_kij[Aircraft_3,EFHK,LGIR]
-   + 3.625647058823529 z_kij[Aircraft_3,EFHK,BIKF]
-   + 3.810235294117647 z_kij[Aircraft_3,EFHK,LICJ]
-   + 5.814470588235294 z_kij[Aircraft_3,EFHK,LPMA]
-   + 2.478941176470588 z_kij[Aircraft_3,EPWA,EGLL]
-   + 2.329411764705882 z_kij[Aircraft_3,EPWA,LFPG]
-   + 2.045529411764706 z_kij[Aircraft_3,EPWA,EHAM]
-   + 2.554352941176471 z_kij[Aircraft_3,EPWA,EDDF]
-   + 3.421882352941176 z_kij[Aircraft_3,EPWA,LEMF]
-   + 2.949647058823529 z_kij[Aircraft_3,EPWA,LEBL]
-   + 1.664470588235294 z_kij[Aircraft_3,EPWA,EDDM]
-   + 2.311176470588236 z_kij[Aircraft_3,EPWA,LIRF]
-   + 2.897647058823529 z_kij[Aircraft_3,EPWA,EIDW]
-   + 1.754235294117647 z_kij[Aircraft_3,EPWA,ESSA]
-   + 3.984117647058823 z_kij[Aircraft_3,EPWA,LPPT]
-   + 1.365294117647059 z_kij[Aircraft_3,EPWA,EDDT]
-   + 1.854705882352941 z_kij[Aircraft_3,EPWA,EFHK]
-   + 2.672235294117647 z_kij[Aircraft_3,EPWA,EGPH]
-   + 1.837882352941177 z_kij[Aircraft_3,EPWA,LROP]
-   + 2.985882352941176 z_kij[Aircraft_3,EPWA,LGIR]
-   + 4.049176470588236 z_kij[Aircraft_3,EPWA,BIKF]
-   + 2.716941176470589 z_kij[Aircraft_3,EPWA,LICJ]
-   + 5.119529411764706 z_kij[Aircraft_3,EPWA,LPMA]
-   + 1.377647058823529 z_kij[Aircraft_3,EGPH,EGLL]
-   + 1.772 z_kij[Aircraft_3,EGPH,LFPG] + 1.534 z_kij[Aircraft_3,EGPH,EHAM]
-   + 2.715176470588236 z_kij[Aircraft_3,EGPH,EDDF]
-   + 2.774823529411765 z_kij[Aircraft_3,EGPH,LEMF]
-   + 2.722470588235294 z_kij[Aircraft_3,EGPH,LEBL]
-   + 2.315058823529411 z_kij[Aircraft_3,EGPH,EDDM]
-   + 3.025647058823529 z_kij[Aircraft_3,EGPH,LIRF]
-   + 1.146705882352941 z_kij[Aircraft_3,EGPH,EIDW]
-   + 2.303294117647058 z_kij[Aircraft_3,EGPH,ESSA]
-   + 3.051294117647059 z_kij[Aircraft_3,EGPH,LPPT]
-   + 2.094235294117647 z_kij[Aircraft_3,EGPH,EDDT]
-   + 2.770823529411765 z_kij[Aircraft_3,EGPH,EFHK]
-   + 2.672235294117647 z_kij[Aircraft_3,EGPH,EPWA]
-   + 3.595882352941176 z_kij[Aircraft_3,EGPH,LROP]
-   + 4.452588235294117 z_kij[Aircraft_3,EGPH,LGIR]
-   + 2.378941176470588 z_kij[Aircraft_3,EGPH,BIKF]
-   + 3.501529411764706 z_kij[Aircraft_3,EGPH,LICJ]
-   + 4.026823529411764 z_kij[Aircraft_3,EGPH,LPMA]
-   + 3.225058823529412 z_kij[Aircraft_3,LROP,EGLL]
-   + 2.926588235294118 z_kij[Aircraft_3,LROP,LFPG]
-   + 2.847882352941177 z_kij[Aircraft_3,LROP,EHAM]
-   + 3.204705882352941 z_kij[Aircraft_3,LROP,EDDF]
-   + 3.641764705882353 z_kij[Aircraft_3,LROP,LEMF]
-   + 3.08 z_kij[Aircraft_3,LROP,LEBL]
-   + 2.12764705882353 z_kij[Aircraft_3,LROP,EDDM]
-   + 2.117647058823529 z_kij[Aircraft_3,LROP,LIRF]
-   + 3.726352941176471 z_kij[Aircraft_3,LROP,EIDW]
-   + 2.825411764705882 z_kij[Aircraft_3,LROP,ESSA]
-   + 4.245058823529412 z_kij[Aircraft_3,LROP,LPPT]
-   + 2.268823529411764 z_kij[Aircraft_3,LROP,EDDT]
-   + 2.811764705882353 z_kij[Aircraft_3,LROP,EFHK]
-   + 1.837882352941177 z_kij[Aircraft_3,LROP,EPWA]
-   + 3.595882352941176 z_kij[Aircraft_3,LROP,EGPH]
-   + 1.961058823529412 z_kij[Aircraft_3,LROP,LGIR]
-   + 5.090705882352941 z_kij[Aircraft_3,LROP,BIKF]
-   + 2.259764705882353 z_kij[Aircraft_3,LROP,LICJ]
-   + 5.336352941176471 z_kij[Aircraft_3,LROP,LPMA]
-   + 3.943764705882353 z_kij[Aircraft_3,LGIR,EGLL]
-   + 3.561529411764706 z_kij[Aircraft_3,LGIR,LFPG]
-   + 3.668705882352941 z_kij[Aircraft_3,LGIR,EHAM]
-   + 3.987529411764706 z_kij[Aircraft_3,LGIR,EDDF]
-   + 3.777411764705882 z_kij[Aircraft_3,LGIR,LEMF]
-   + 3.237058823529412 z_kij[Aircraft_3,LGIR,LEBL]
-   + 2.888588235294117 z_kij[Aircraft_3,LGIR,EDDM]
-   + 2.317764705882353 z_kij[Aircraft_3,LGIR,LIRF]
-   + 4.472235294117647 z_kij[Aircraft_3,LGIR,EIDW]
-   + 3.990117647058824 z_kij[Aircraft_3,LGIR,ESSA]
-   + 4.339411764705883 z_kij[Aircraft_3,LGIR,LPPT]
-   + 3.258235294117647 z_kij[Aircraft_3,LGIR,EDDT]
-   + 4.017529411764706 z_kij[Aircraft_3,LGIR,EFHK]
-   + 2.985882352941176 z_kij[Aircraft_3,LGIR,EPWA]
-   + 4.452588235294117 z_kij[Aircraft_3,LGIR,EGPH]
-   + 1.961058823529412 z_kij[Aircraft_3,LGIR,LROP]
-   + 6.050352941176471 z_kij[Aircraft_3,LGIR,BIKF]
-   + 2.044941176470588 z_kij[Aircraft_3,LGIR,LICJ]
-   + 5.278352941176471 z_kij[Aircraft_3,LGIR,LPMA]
-   + 2.979411764705882 z_kij[Aircraft_3,BIKF,EGLL]
-   + 3.386588235294118 z_kij[Aircraft_3,BIKF,LFPG]
-   + 3.147294117647059 z_kij[Aircraft_3,BIKF,EHAM]
-   + 4.324941176470588 z_kij[Aircraft_3,BIKF,EDDF]
-   + 4.152705882352942 z_kij[Aircraft_3,BIKF,LEMF]
-   + 4.257176470588235 z_kij[Aircraft_3,BIKF,LEBL]
-   + 3.916823529411765 z_kij[Aircraft_3,BIKF,EDDM]
-   + 4.654705882352941 z_kij[Aircraft_3,BIKF,LIRF]
-   + 2.511882352941177 z_kij[Aircraft_3,BIKF,EIDW]
-   + 3.270588235294118 z_kij[Aircraft_3,BIKF,ESSA]
-   + 4.208941176470589 z_kij[Aircraft_3,BIKF,LPPT]
-   + 3.580235294117647 z_kij[Aircraft_3,BIKF,EDDT]
-   + 3.625647058823529 z_kij[Aircraft_3,BIKF,EFHK]
-   + 4.049176470588236 z_kij[Aircraft_3,BIKF,EPWA]
-   + 2.378941176470588 z_kij[Aircraft_3,BIKF,EGPH]
-   + 5.090705882352941 z_kij[Aircraft_3,BIKF,LROP]
-   + 6.050352941176471 z_kij[Aircraft_3,BIKF,LGIR]
-   + 5.129058823529411 z_kij[Aircraft_3,BIKF,LICJ]
-   + 4.870352941176471 z_kij[Aircraft_3,BIKF,LPMA]
-   + 2.907882352941177 z_kij[Aircraft_3,LICJ,EGLL]
-   + 2.499764705882353 z_kij[Aircraft_3,LICJ,LFPG]
-   + 2.764235294117647 z_kij[Aircraft_3,LICJ,EHAM]
-   + 3.121294117647059 z_kij[Aircraft_3,LICJ,EDDF]
-   + 2.483529411764706 z_kij[Aircraft_3,LICJ,LEMF]
-   + 1.954 z_kij[Aircraft_3,LICJ,LEBL]
-   + 2.097764705882353 z_kij[Aircraft_3,LICJ,EDDM]
-   + 1.244470588235294 z_kij[Aircraft_3,LICJ,LIRF]
-   + 3.416470588235294 z_kij[Aircraft_3,LICJ,EIDW]
-   + 3.594 z_kij[Aircraft_3,LICJ,ESSA] + 3.046 z_kij[Aircraft_3,LICJ,LPPT]
-   + 2.640117647058823 z_kij[Aircraft_3,LICJ,EDDT]
-   + 3.810235294117647 z_kij[Aircraft_3,LICJ,EFHK]
-   + 2.716941176470589 z_kij[Aircraft_3,LICJ,EPWA]
-   + 3.501529411764706 z_kij[Aircraft_3,LICJ,EGPH]
-   + 2.259764705882353 z_kij[Aircraft_3,LICJ,LROP]
-   + 2.044941176470588 z_kij[Aircraft_3,LICJ,LGIR]
-   + 5.129058823529411 z_kij[Aircraft_3,LICJ,BIKF]
-   + 4.020117647058823 z_kij[Aircraft_3,LICJ,LPMA]
-   + 3.657529411764706 z_kij[Aircraft_3,LPMA,EGLL]
-   + 3.598823529411765 z_kij[Aircraft_3,LPMA,LFPG]
-   + 4.024705882352942 z_kij[Aircraft_3,LPMA,EHAM]
-   + 4.836470588235294 z_kij[Aircraft_3,LPMA,EDDF]
-   + 2.467411764705882 z_kij[Aircraft_3,LPMA,LEMF]
-   + 3.011176470588235 z_kij[Aircraft_3,LPMA,LEBL]
-   + 4.218117647058824 z_kij[Aircraft_3,LPMA,EDDM]
-   + 3.978117647058824 z_kij[Aircraft_3,LPMA,LIRF]
-   + 3.633764705882353 z_kij[Aircraft_3,LPMA,EIDW]
-   + 5.372470588235294 z_kij[Aircraft_3,LPMA,ESSA]
-   + 1.885411764705882 z_kij[Aircraft_3,LPMA,LPPT]
-   + 4.588705882352942 z_kij[Aircraft_3,LPMA,EDDT]
-   + 5.814470588235294 z_kij[Aircraft_3,LPMA,EFHK]
-   + 5.119529411764706 z_kij[Aircraft_3,LPMA,EPWA]
-   + 4.026823529411764 z_kij[Aircraft_3,LPMA,EGPH]
-   + 5.336352941176471 z_kij[Aircraft_3,LPMA,LROP]
-   + 5.278352941176471 z_kij[Aircraft_3,LPMA,LGIR]
-   + 4.870352941176471 z_kij[Aircraft_3,LPMA,BIKF]
-   + 4.020117647058823 z_kij[Aircraft_3,LPMA,LICJ] - 70 AC_k[Aircraft_3]
+   + 2.590882352941176 z_kij[Aircraft_3,LEMF,EGLL]
+   + 2.377352941176471 z_kij[Aircraft_3,LEMF,LFPG]
+   + 2.843470588235294 z_kij[Aircraft_3,LEMF,EHAM]
+   + 2.423058823529412 z_kij[Aircraft_3,LEMF,EDDF]
+   + 1.693117647058823 z_kij[Aircraft_3,LEMF,LEBL]
+   + 2.886176470588235 z_kij[Aircraft_3,LEMF,EDDM]
+   + 2.689235294117647 z_kij[Aircraft_3,LEMF,LIRF]
+   + 2.835823529411765 z_kij[Aircraft_3,LEMF,EIDW]
+   + 4.185352941176471 z_kij[Aircraft_3,LEMF,ESSA]
+   + 1.728411764705882 z_kij[Aircraft_3,LEMF,LPPT]
+   + 3.305705882352941 z_kij[Aircraft_3,LEMF,EDDT]
+   + 4.592529411764707 z_kij[Aircraft_3,LEMF,EFHK]
+   + 3.796882352941176 z_kij[Aircraft_3,LEMF,EPWA]
+   + 3.149823529411765 z_kij[Aircraft_3,LEMF,EGPH]
+   + 4.016764705882353 z_kij[Aircraft_3,LEMF,LROP]
+   + 4.152411764705882 z_kij[Aircraft_3,LEMF,LGIR]
+   + 4.527705882352942 z_kij[Aircraft_3,LEMF,BIKF]
+   + 2.858529411764706 z_kij[Aircraft_3,LEMF,LICJ]
+   + 2.842411764705882 z_kij[Aircraft_3,LEMF,LPMA]
+   + 2.475235294117647 z_kij[Aircraft_3,LEBL,EGLL]
+   + 2.135235294117647 z_kij[Aircraft_3,LEBL,LFPG]
+   + 2.585117647058824 z_kij[Aircraft_3,LEBL,EHAM]
+   + 2.036588235294118 z_kij[Aircraft_3,LEBL,EDDF]
+   + 1.693117647058823 z_kij[Aircraft_3,LEBL,LEMF]
+   + 2.412764705882353 z_kij[Aircraft_3,LEBL,EDDM]
+   + 2.12135294117647 z_kij[Aircraft_3,LEBL,LIRF]
+   + 2.872294117647059 z_kij[Aircraft_3,LEBL,EIDW]
+   + 3.848411764705883 z_kij[Aircraft_3,LEBL,ESSA]
+   + 2.294411764705882 z_kij[Aircraft_3,LEBL,LPPT]
+   + 2.901941176470588 z_kij[Aircraft_3,LEBL,EDDT]
+   + 4.216882352941177 z_kij[Aircraft_3,LEBL,EFHK]
+   + 3.324647058823529 z_kij[Aircraft_3,LEBL,EPWA]
+   + 3.097470588235294 z_kij[Aircraft_3,LEBL,EGPH]
+   + 3.455 z_kij[Aircraft_3,LEBL,LROP]
+   + 3.612058823529412 z_kij[Aircraft_3,LEBL,LGIR]
+   + 4.632176470588235 z_kij[Aircraft_3,LEBL,BIKF]
+   + 2.329 z_kij[Aircraft_3,LEBL,LICJ]
+   + 3.386176470588235 z_kij[Aircraft_3,LEBL,LPMA]
+   + 2.232764705882353 z_kij[Aircraft_3,EDDM,EGLL]
+   + 1.926882352941176 z_kij[Aircraft_3,EDDM,LFPG]
+   + 1.906411764705882 z_kij[Aircraft_3,EDDM,EHAM]
+   + 1.101882352941177 z_kij[Aircraft_3,EDDM,EDDF]
+   + 2.886176470588235 z_kij[Aircraft_3,EDDM,LEMF]
+   + 2.412764705882353 z_kij[Aircraft_3,EDDM,LEBL]
+   + 1.983352941176471 z_kij[Aircraft_3,EDDM,LIRF]
+   + 2.750058823529412 z_kij[Aircraft_3,EDDM,EIDW]
+   + 2.674764705882353 z_kij[Aircraft_3,EDDM,ESSA]
+   + 3.458647058823529 z_kij[Aircraft_3,EDDM,LPPT]
+   + 1.689235294117647 z_kij[Aircraft_3,EDDM,EDDT]
+   + 2.977352941176471 z_kij[Aircraft_3,EDDM,EFHK]
+   + 2.039470588235294 z_kij[Aircraft_3,EDDM,EPWA]
+   + 2.690058823529411 z_kij[Aircraft_3,EDDM,EGPH]
+   + 2.50264705882353 z_kij[Aircraft_3,EDDM,LROP]
+   + 3.263588235294117 z_kij[Aircraft_3,EDDM,LGIR]
+   + 4.291823529411765 z_kij[Aircraft_3,EDDM,BIKF]
+   + 2.472764705882353 z_kij[Aircraft_3,EDDM,LICJ]
+   + 4.593117647058824 z_kij[Aircraft_3,EDDM,LPMA]
+   + 2.823705882352941 z_kij[Aircraft_3,LIRF,EGLL]
+   + 2.419941176470588 z_kij[Aircraft_3,LIRF,LFPG]
+   + 2.650647058823529 z_kij[Aircraft_3,LIRF,EHAM]
+   + 1.877176470588235 z_kij[Aircraft_3,LIRF,EDDF]
+   + 2.689235294117647 z_kij[Aircraft_3,LIRF,LEMF]
+   + 2.12135294117647 z_kij[Aircraft_3,LIRF,LEBL]
+   + 1.983352941176471 z_kij[Aircraft_3,LIRF,EDDM]
+   + 3.34335294117647 z_kij[Aircraft_3,LIRF,EIDW]
+   + 3.505117647058823 z_kij[Aircraft_3,LIRF,ESSA]
+   + 3.288176470588235 z_kij[Aircraft_3,LIRF,LPPT]
+   + 2.535588235294118 z_kij[Aircraft_3,LIRF,EDDT]
+   + 3.752882352941176 z_kij[Aircraft_3,LIRF,EFHK]
+   + 2.686176470588236 z_kij[Aircraft_3,LIRF,EPWA]
+   + 3.400647058823529 z_kij[Aircraft_3,LIRF,EGPH]
+   + 2.492647058823529 z_kij[Aircraft_3,LIRF,LROP]
+   + 2.692764705882353 z_kij[Aircraft_3,LIRF,LGIR]
+   + 5.029705882352941 z_kij[Aircraft_3,LIRF,BIKF]
+   + 1.619470588235294 z_kij[Aircraft_3,LIRF,LICJ]
+   + 4.353117647058824 z_kij[Aircraft_3,LIRF,LPMA]
+   + 1.653588235294118 z_kij[Aircraft_3,EIDW,EGLL]
+   + 2.048529411764706 z_kij[Aircraft_3,EIDW,LFPG]
+   + 2.007588235294118 z_kij[Aircraft_3,EIDW,EHAM]
+   + 2.028705882352941 z_kij[Aircraft_3,EIDW,EDDF]
+   + 2.835823529411765 z_kij[Aircraft_3,EIDW,LEMF]
+   + 2.872294117647059 z_kij[Aircraft_3,EIDW,LEBL]
+   + 2.750058823529412 z_kij[Aircraft_3,EIDW,EDDM]
+   + 3.34335294117647 z_kij[Aircraft_3,EIDW,LIRF]
+   + 3.036529411764706 z_kij[Aircraft_3,EIDW,ESSA]
+   + 3.057352941176471 z_kij[Aircraft_3,EIDW,LPPT]
+   + 2.664294117647059 z_kij[Aircraft_3,EIDW,EDDT]
+   + 3.50535294117647 z_kij[Aircraft_3,EIDW,EFHK]
+   + 3.272647058823529 z_kij[Aircraft_3,EIDW,EPWA]
+   + 1.521705882352941 z_kij[Aircraft_3,EIDW,EGPH]
+   + 4.10135294117647 z_kij[Aircraft_3,EIDW,LROP]
+   + 4.847235294117647 z_kij[Aircraft_3,EIDW,LGIR]
+   + 2.886882352941177 z_kij[Aircraft_3,EIDW,BIKF]
+   + 3.791470588235294 z_kij[Aircraft_3,EIDW,LICJ]
+   + 4.008764705882353 z_kij[Aircraft_3,EIDW,LPMA]
+   + 2.845588235294118 z_kij[Aircraft_3,ESSA,EGLL]
+   + 2.935823529411765 z_kij[Aircraft_3,ESSA,LFPG]
+   + 2.480529411764706 z_kij[Aircraft_3,ESSA,EHAM]
+   + 2.188823529411764 z_kij[Aircraft_3,ESSA,EDDF]
+   + 4.185352941176471 z_kij[Aircraft_3,ESSA,LEMF]
+   + 3.848411764705883 z_kij[Aircraft_3,ESSA,LEBL]
+   + 2.674764705882353 z_kij[Aircraft_3,ESSA,EDDM]
+   + 3.505117647058823 z_kij[Aircraft_3,ESSA,LIRF]
+   + 3.036529411764706 z_kij[Aircraft_3,ESSA,EIDW]
+   + 4.652411764705882 z_kij[Aircraft_3,ESSA,LPPT]
+   + 2.111823529411764 z_kij[Aircraft_3,ESSA,EDDT]
+   + 1.593941176470588 z_kij[Aircraft_3,ESSA,EFHK]
+   + 2.129235294117647 z_kij[Aircraft_3,ESSA,EPWA]
+   + 2.678294117647058 z_kij[Aircraft_3,ESSA,EGPH]
+   + 3.200411764705882 z_kij[Aircraft_3,ESSA,LROP]
+   + 4.365117647058824 z_kij[Aircraft_3,ESSA,LGIR]
+   + 3.645588235294118 z_kij[Aircraft_3,ESSA,BIKF]
+   + 3.969 z_kij[Aircraft_3,ESSA,LICJ]
+   + 5.747470588235294 z_kij[Aircraft_3,ESSA,LPMA]
+   + 2.964882352941177 z_kij[Aircraft_3,LPPT,EGLL]
+   + 2.854411764705882 z_kij[Aircraft_3,LPPT,LFPG]
+   + 3.297117647058823 z_kij[Aircraft_3,LPPT,EHAM]
+   + 2.954470588235294 z_kij[Aircraft_3,LPPT,EDDF]
+   + 1.728411764705882 z_kij[Aircraft_3,LPPT,LEMF]
+   + 2.294411764705882 z_kij[Aircraft_3,LPPT,LEBL]
+   + 3.458647058823529 z_kij[Aircraft_3,LPPT,EDDM]
+   + 3.288176470588235 z_kij[Aircraft_3,LPPT,LIRF]
+   + 3.057352941176471 z_kij[Aircraft_3,LPPT,EIDW]
+   + 4.652411764705882 z_kij[Aircraft_3,LPPT,ESSA]
+   + 3.834058823529412 z_kij[Aircraft_3,LPPT,EDDT]
+   + 5.082529411764706 z_kij[Aircraft_3,LPPT,EFHK]
+   + 4.359117647058824 z_kij[Aircraft_3,LPPT,EPWA]
+   + 3.426294117647059 z_kij[Aircraft_3,LPPT,EGPH]
+   + 4.620058823529412 z_kij[Aircraft_3,LPPT,LROP]
+   + 4.714411764705883 z_kij[Aircraft_3,LPPT,LGIR]
+   + 4.583941176470589 z_kij[Aircraft_3,LPPT,BIKF]
+   + 3.421 z_kij[Aircraft_3,LPPT,LICJ]
+   + 2.260411764705882 z_kij[Aircraft_3,LPPT,LPMA]
+   + 2.23935294117647 z_kij[Aircraft_3,EDDT,EGLL]
+   + 2.125588235294118 z_kij[Aircraft_3,EDDT,LFPG]
+   + 1.805235294117647 z_kij[Aircraft_3,EDDT,EHAM]
+   + 1.257882352941176 z_kij[Aircraft_3,EDDT,EDDF]
+   + 3.305705882352941 z_kij[Aircraft_3,EDDT,LEMF]
+   + 2.901941176470588 z_kij[Aircraft_3,EDDT,LEBL]
+   + 1.689235294117647 z_kij[Aircraft_3,EDDT,EDDM]
+   + 2.535588235294118 z_kij[Aircraft_3,EDDT,LIRF]
+   + 2.664294117647059 z_kij[Aircraft_3,EDDT,EIDW]
+   + 2.111823529411764 z_kij[Aircraft_3,EDDT,ESSA]
+   + 3.834058823529412 z_kij[Aircraft_3,EDDT,LPPT]
+   + 2.441235294117647 z_kij[Aircraft_3,EDDT,EFHK]
+   + 1.740294117647059 z_kij[Aircraft_3,EDDT,EPWA]
+   + 2.469235294117647 z_kij[Aircraft_3,EDDT,EGPH]
+   + 2.643823529411764 z_kij[Aircraft_3,EDDT,LROP]
+   + 3.633235294117647 z_kij[Aircraft_3,EDDT,LGIR]
+   + 3.955235294117647 z_kij[Aircraft_3,EDDT,BIKF]
+   + 3.015117647058823 z_kij[Aircraft_3,EDDT,LICJ]
+   + 4.963705882352942 z_kij[Aircraft_3,EDDT,LPMA]
+   + 3.299117647058824 z_kij[Aircraft_3,EFHK,EGLL]
+   + 3.355117647058823 z_kij[Aircraft_3,EFHK,LFPG]
+   + 2.914764705882353 z_kij[Aircraft_3,EFHK,EHAM]
+   + 2.559294117647059 z_kij[Aircraft_3,EFHK,EDDF]
+   + 4.592529411764707 z_kij[Aircraft_3,EFHK,LEMF]
+   + 4.216882352941177 z_kij[Aircraft_3,EFHK,LEBL]
+   + 2.977352941176471 z_kij[Aircraft_3,EFHK,EDDM]
+   + 3.752882352941176 z_kij[Aircraft_3,EFHK,LIRF]
+   + 3.50535294117647 z_kij[Aircraft_3,EFHK,EIDW]
+   + 1.593941176470588 z_kij[Aircraft_3,EFHK,ESSA]
+   + 5.082529411764706 z_kij[Aircraft_3,EFHK,LPPT]
+   + 2.441235294117647 z_kij[Aircraft_3,EFHK,EDDT]
+   + 2.229705882352941 z_kij[Aircraft_3,EFHK,EPWA]
+   + 3.145823529411765 z_kij[Aircraft_3,EFHK,EGPH]
+   + 3.186764705882353 z_kij[Aircraft_3,EFHK,LROP]
+   + 4.392529411764706 z_kij[Aircraft_3,EFHK,LGIR]
+   + 4.00064705882353 z_kij[Aircraft_3,EFHK,BIKF]
+   + 4.185235294117646 z_kij[Aircraft_3,EFHK,LICJ]
+   + 6.189470588235294 z_kij[Aircraft_3,EFHK,LPMA]
+   + 2.853941176470588 z_kij[Aircraft_3,EPWA,EGLL]
+   + 2.704411764705882 z_kij[Aircraft_3,EPWA,LFPG]
+   + 2.420529411764706 z_kij[Aircraft_3,EPWA,EHAM]
+   + 1.804352941176471 z_kij[Aircraft_3,EPWA,EDDF]
+   + 3.796882352941176 z_kij[Aircraft_3,EPWA,LEMF]
+   + 3.324647058823529 z_kij[Aircraft_3,EPWA,LEBL]
+   + 2.039470588235294 z_kij[Aircraft_3,EPWA,EDDM]
+   + 2.686176470588236 z_kij[Aircraft_3,EPWA,LIRF]
+   + 3.272647058823529 z_kij[Aircraft_3,EPWA,EIDW]
+   + 2.129235294117647 z_kij[Aircraft_3,EPWA,ESSA]
+   + 4.359117647058824 z_kij[Aircraft_3,EPWA,LPPT]
+   + 1.740294117647059 z_kij[Aircraft_3,EPWA,EDDT]
+   + 2.229705882352941 z_kij[Aircraft_3,EPWA,EFHK]
+   + 3.047235294117647 z_kij[Aircraft_3,EPWA,EGPH]
+   + 2.212882352941176 z_kij[Aircraft_3,EPWA,LROP]
+   + 3.360882352941176 z_kij[Aircraft_3,EPWA,LGIR]
+   + 4.424176470588236 z_kij[Aircraft_3,EPWA,BIKF]
+   + 3.091941176470589 z_kij[Aircraft_3,EPWA,LICJ]
+   + 5.494529411764706 z_kij[Aircraft_3,EPWA,LPMA]
+   + 1.752647058823529 z_kij[Aircraft_3,EGPH,EGLL]
+   + 2.147 z_kij[Aircraft_3,EGPH,LFPG] + 1.909 z_kij[Aircraft_3,EGPH,EHAM]
+   + 1.965176470588235 z_kij[Aircraft_3,EGPH,EDDF]
+   + 3.149823529411765 z_kij[Aircraft_3,EGPH,LEMF]
+   + 3.097470588235294 z_kij[Aircraft_3,EGPH,LEBL]
+   + 2.690058823529411 z_kij[Aircraft_3,EGPH,EDDM]
+   + 3.400647058823529 z_kij[Aircraft_3,EGPH,LIRF]
+   + 1.521705882352941 z_kij[Aircraft_3,EGPH,EIDW]
+   + 2.678294117647058 z_kij[Aircraft_3,EGPH,ESSA]
+   + 3.426294117647059 z_kij[Aircraft_3,EGPH,LPPT]
+   + 2.469235294117647 z_kij[Aircraft_3,EGPH,EDDT]
+   + 3.145823529411765 z_kij[Aircraft_3,EGPH,EFHK]
+   + 3.047235294117647 z_kij[Aircraft_3,EGPH,EPWA]
+   + 3.970882352941176 z_kij[Aircraft_3,EGPH,LROP]
+   + 4.827588235294117 z_kij[Aircraft_3,EGPH,LGIR]
+   + 2.753941176470588 z_kij[Aircraft_3,EGPH,BIKF]
+   + 3.876529411764706 z_kij[Aircraft_3,EGPH,LICJ]
+   + 4.401823529411764 z_kij[Aircraft_3,EGPH,LPMA]
+   + 3.600058823529412 z_kij[Aircraft_3,LROP,EGLL]
+   + 3.301588235294118 z_kij[Aircraft_3,LROP,LFPG]
+   + 3.222882352941177 z_kij[Aircraft_3,LROP,EHAM]
+   + 2.454705882352941 z_kij[Aircraft_3,LROP,EDDF]
+   + 4.016764705882353 z_kij[Aircraft_3,LROP,LEMF]
+   + 3.455 z_kij[Aircraft_3,LROP,LEBL]
+   + 2.50264705882353 z_kij[Aircraft_3,LROP,EDDM]
+   + 2.492647058823529 z_kij[Aircraft_3,LROP,LIRF]
+   + 4.10135294117647 z_kij[Aircraft_3,LROP,EIDW]
+   + 3.200411764705882 z_kij[Aircraft_3,LROP,ESSA]
+   + 4.620058823529412 z_kij[Aircraft_3,LROP,LPPT]
+   + 2.643823529411764 z_kij[Aircraft_3,LROP,EDDT]
+   + 3.186764705882353 z_kij[Aircraft_3,LROP,EFHK]
+   + 2.212882352941176 z_kij[Aircraft_3,LROP,EPWA]
+   + 3.970882352941176 z_kij[Aircraft_3,LROP,EGPH]
+   + 2.336058823529412 z_kij[Aircraft_3,LROP,LGIR]
+   + 5.465705882352941 z_kij[Aircraft_3,LROP,BIKF]
+   + 2.634764705882353 z_kij[Aircraft_3,LROP,LICJ]
+   + 5.711352941176471 z_kij[Aircraft_3,LROP,LPMA]
+   + 4.318764705882353 z_kij[Aircraft_3,LGIR,EGLL]
+   + 3.936529411764706 z_kij[Aircraft_3,LGIR,LFPG]
+   + 4.043705882352942 z_kij[Aircraft_3,LGIR,EHAM]
+   + 3.237529411764706 z_kij[Aircraft_3,LGIR,EDDF]
+   + 4.152411764705882 z_kij[Aircraft_3,LGIR,LEMF]
+   + 3.612058823529412 z_kij[Aircraft_3,LGIR,LEBL]
+   + 3.263588235294117 z_kij[Aircraft_3,LGIR,EDDM]
+   + 2.692764705882353 z_kij[Aircraft_3,LGIR,LIRF]
+   + 4.847235294117647 z_kij[Aircraft_3,LGIR,EIDW]
+   + 4.365117647058824 z_kij[Aircraft_3,LGIR,ESSA]
+   + 4.714411764705883 z_kij[Aircraft_3,LGIR,LPPT]
+   + 3.633235294117647 z_kij[Aircraft_3,LGIR,EDDT]
+   + 4.392529411764706 z_kij[Aircraft_3,LGIR,EFHK]
+   + 3.360882352941176 z_kij[Aircraft_3,LGIR,EPWA]
+   + 4.827588235294117 z_kij[Aircraft_3,LGIR,EGPH]
+   + 2.336058823529412 z_kij[Aircraft_3,LGIR,LROP]
+   + 6.425352941176471 z_kij[Aircraft_3,LGIR,BIKF]
+   + 2.419941176470588 z_kij[Aircraft_3,LGIR,LICJ]
+   + 5.653352941176471 z_kij[Aircraft_3,LGIR,LPMA]
+   + 3.354411764705882 z_kij[Aircraft_3,BIKF,EGLL]
+   + 3.761588235294118 z_kij[Aircraft_3,BIKF,LFPG]
+   + 3.522294117647059 z_kij[Aircraft_3,BIKF,EHAM]
+   + 3.574941176470588 z_kij[Aircraft_3,BIKF,EDDF]
+   + 4.527705882352942 z_kij[Aircraft_3,BIKF,LEMF]
+   + 4.632176470588235 z_kij[Aircraft_3,BIKF,LEBL]
+   + 4.291823529411765 z_kij[Aircraft_3,BIKF,EDDM]
+   + 5.029705882352941 z_kij[Aircraft_3,BIKF,LIRF]
+   + 2.886882352941177 z_kij[Aircraft_3,BIKF,EIDW]
+   + 3.645588235294118 z_kij[Aircraft_3,BIKF,ESSA]
+   + 4.583941176470589 z_kij[Aircraft_3,BIKF,LPPT]
+   + 3.955235294117647 z_kij[Aircraft_3,BIKF,EDDT]
+   + 4.00064705882353 z_kij[Aircraft_3,BIKF,EFHK]
+   + 4.424176470588236 z_kij[Aircraft_3,BIKF,EPWA]
+   + 2.753941176470588 z_kij[Aircraft_3,BIKF,EGPH]
+   + 5.465705882352941 z_kij[Aircraft_3,BIKF,LROP]
+   + 6.425352941176471 z_kij[Aircraft_3,BIKF,LGIR]
+   + 5.504058823529411 z_kij[Aircraft_3,BIKF,LICJ]
+   + 5.245352941176471 z_kij[Aircraft_3,BIKF,LPMA]
+   + 3.282882352941177 z_kij[Aircraft_3,LICJ,EGLL]
+   + 2.874764705882353 z_kij[Aircraft_3,LICJ,LFPG]
+   + 3.139235294117647 z_kij[Aircraft_3,LICJ,EHAM]
+   + 2.371294117647059 z_kij[Aircraft_3,LICJ,EDDF]
+   + 2.858529411764706 z_kij[Aircraft_3,LICJ,LEMF]
+   + 2.329 z_kij[Aircraft_3,LICJ,LEBL]
+   + 2.472764705882353 z_kij[Aircraft_3,LICJ,EDDM]
+   + 1.619470588235294 z_kij[Aircraft_3,LICJ,LIRF]
+   + 3.791470588235294 z_kij[Aircraft_3,LICJ,EIDW]
+   + 3.969 z_kij[Aircraft_3,LICJ,ESSA] + 3.421 z_kij[Aircraft_3,LICJ,LPPT]
+   + 3.015117647058823 z_kij[Aircraft_3,LICJ,EDDT]
+   + 4.185235294117646 z_kij[Aircraft_3,LICJ,EFHK]
+   + 3.091941176470589 z_kij[Aircraft_3,LICJ,EPWA]
+   + 3.876529411764706 z_kij[Aircraft_3,LICJ,EGPH]
+   + 2.634764705882353 z_kij[Aircraft_3,LICJ,LROP]
+   + 2.419941176470588 z_kij[Aircraft_3,LICJ,LGIR]
+   + 5.504058823529411 z_kij[Aircraft_3,LICJ,BIKF]
+   + 4.395117647058823 z_kij[Aircraft_3,LICJ,LPMA]
+   + 4.032529411764706 z_kij[Aircraft_3,LPMA,EGLL]
+   + 3.973823529411765 z_kij[Aircraft_3,LPMA,LFPG]
+   + 4.399705882352942 z_kij[Aircraft_3,LPMA,EHAM]
+   + 4.086470588235294 z_kij[Aircraft_3,LPMA,EDDF]
+   + 2.842411764705882 z_kij[Aircraft_3,LPMA,LEMF]
+   + 3.386176470588235 z_kij[Aircraft_3,LPMA,LEBL]
+   + 4.593117647058824 z_kij[Aircraft_3,LPMA,EDDM]
+   + 4.353117647058824 z_kij[Aircraft_3,LPMA,LIRF]
+   + 4.008764705882353 z_kij[Aircraft_3,LPMA,EIDW]
+   + 5.747470588235294 z_kij[Aircraft_3,LPMA,ESSA]
+   + 2.260411764705882 z_kij[Aircraft_3,LPMA,LPPT]
+   + 4.963705882352942 z_kij[Aircraft_3,LPMA,EDDT]
+   + 6.189470588235294 z_kij[Aircraft_3,LPMA,EFHK]
+   + 5.494529411764706 z_kij[Aircraft_3,LPMA,EPWA]
+   + 4.401823529411764 z_kij[Aircraft_3,LPMA,EGPH]
+   + 5.711352941176471 z_kij[Aircraft_3,LPMA,LROP]
+   + 5.653352941176471 z_kij[Aircraft_3,LPMA,LGIR]
+   + 5.245352941176471 z_kij[Aircraft_3,LPMA,BIKF]
+   + 4.395117647058823 z_kij[Aircraft_3,LPMA,LICJ] - 70 AC_k[Aircraft_3]
    <= 0
- TotalTime_Aircraft_4: 1.399080459770115 z_kij[Aircraft_4,EGLL,LFPG]
-   + 1.425747126436782 z_kij[Aircraft_4,EGLL,EHAM]
-   + 2.752643678160919 z_kij[Aircraft_4,EGLL,EDDF]
-   + 2.432183908045977 z_kij[Aircraft_4,EGLL,LEMF]
-   + 2.319195402298851 z_kij[Aircraft_4,EGLL,LEBL]
-   + 2.082298850574713 z_kij[Aircraft_4,EGLL,EDDM]
-   + 2.659655172413793 z_kij[Aircraft_4,EGLL,LIRF]
-   + 1.516436781609195 z_kij[Aircraft_4,EGLL,EIDW]
-   + 2.681034482758621 z_kij[Aircraft_4,EGLL,ESSA]
-   + 2.797586206896552 z_kij[Aircraft_4,EGLL,LPPT]
-   + 2.088735632183908 z_kij[Aircraft_4,EGLL,EDDT]
-   + 3.124137931034483 z_kij[Aircraft_4,EGLL,EFHK]
-   + 2.68919540229885 z_kij[Aircraft_4,EGLL,EPWA]
-   + 1.613218390804598 z_kij[Aircraft_4,EGLL,EGPH]
-   + 3.41816091954023 z_kij[Aircraft_4,EGLL,LROP]
-   + 4.120344827586207 z_kij[Aircraft_4,EGLL,LGIR]
-   + 3.17816091954023 z_kij[Aircraft_4,EGLL,BIKF]
-   + 3.108275862068965 z_kij[Aircraft_4,EGLL,LICJ]
-   + 3.840689655172414 z_kij[Aircraft_4,EGLL,LPMA]
-   + 1.399080459770115 z_kij[Aircraft_4,LFPG,EGLL]
-   + 1.457816091954023 z_kij[Aircraft_4,LFPG,EHAM]
-   + 2.516091954022988 z_kij[Aircraft_4,LFPG,EDDF]
-   + 2.223563218390805 z_kij[Aircraft_4,LFPG,LEMF]
-   + 1.987011494252874 z_kij[Aircraft_4,LFPG,LEBL]
-   + 1.783448275862069 z_kij[Aircraft_4,LFPG,EDDM]
-   + 2.265172413793104 z_kij[Aircraft_4,LFPG,LIRF]
-   + 1.902298850574712 z_kij[Aircraft_4,LFPG,EIDW]
-   + 2.769195402298851 z_kij[Aircraft_4,LFPG,ESSA]
-   + 2.689655172413793 z_kij[Aircraft_4,LFPG,LPPT]
-   + 1.977586206896552 z_kij[Aircraft_4,LFPG,EDDT]
-   + 3.178850574712643 z_kij[Aircraft_4,LFPG,EFHK]
-   + 2.543103448275862 z_kij[Aircraft_4,LFPG,EPWA]
-   + 1.998505747126437 z_kij[Aircraft_4,LFPG,EGPH]
-   + 3.126551724137931 z_kij[Aircraft_4,LFPG,LROP]
-   + 3.746896551724138 z_kij[Aircraft_4,LFPG,LGIR]
-   + 3.575977011494253 z_kij[Aircraft_4,LFPG,BIKF]
-   + 2.709540229885057 z_kij[Aircraft_4,LFPG,LICJ]
-   + 3.783333333333333 z_kij[Aircraft_4,LFPG,LPMA]
-   + 1.425747126436782 z_kij[Aircraft_4,EHAM,EGLL]
-   + 1.457816091954023 z_kij[Aircraft_4,EHAM,LFPG]
-   + 2.421379310344828 z_kij[Aircraft_4,EHAM,EDDF]
-   + 2.678965517241379 z_kij[Aircraft_4,EHAM,LEMF]
-   + 2.426551724137931 z_kij[Aircraft_4,EHAM,LEBL]
-   + 1.763448275862069 z_kij[Aircraft_4,EHAM,EDDM]
-   + 2.490574712643678 z_kij[Aircraft_4,EHAM,LIRF]
-   + 1.862298850574713 z_kij[Aircraft_4,EHAM,EIDW]
-   + 2.324367816091954 z_kij[Aircraft_4,EHAM,ESSA]
-   + 3.122183908045977 z_kij[Aircraft_4,EHAM,LPPT]
-   + 1.664597701149425 z_kij[Aircraft_4,EHAM,EDDT]
-   + 2.748620689655172 z_kij[Aircraft_4,EHAM,EFHK]
-   + 2.265747126436782 z_kij[Aircraft_4,EHAM,EPWA]
-   + 1.765977011494253 z_kij[Aircraft_4,EHAM,EGPH]
-   + 3.049655172413793 z_kij[Aircraft_4,EHAM,LROP]
-   + 3.851609195402299 z_kij[Aircraft_4,EHAM,LGIR]
-   + 3.342183908045977 z_kij[Aircraft_4,EHAM,BIKF]
-   + 2.967931034482759 z_kij[Aircraft_4,EHAM,LICJ]
-   + 4.199425287356322 z_kij[Aircraft_4,EHAM,LPMA]
+ TotalTime_Aircraft_4: 1.899080459770115 z_kij[Aircraft_4,EGLL,LFPG]
+   + 1.925747126436782 z_kij[Aircraft_4,EGLL,EHAM]
+   + 1.752643678160919 z_kij[Aircraft_4,EGLL,EDDF]
+   + 2.932183908045977 z_kij[Aircraft_4,EGLL,LEMF]
+   + 2.819195402298851 z_kij[Aircraft_4,EGLL,LEBL]
+   + 2.582298850574713 z_kij[Aircraft_4,EGLL,EDDM]
+   + 3.159655172413793 z_kij[Aircraft_4,EGLL,LIRF]
+   + 2.016436781609195 z_kij[Aircraft_4,EGLL,EIDW]
+   + 3.181034482758621 z_kij[Aircraft_4,EGLL,ESSA]
+   + 3.297586206896552 z_kij[Aircraft_4,EGLL,LPPT]
+   + 2.588735632183908 z_kij[Aircraft_4,EGLL,EDDT]
+   + 3.624137931034483 z_kij[Aircraft_4,EGLL,EFHK]
+   + 3.18919540229885 z_kij[Aircraft_4,EGLL,EPWA]
+   + 2.113218390804598 z_kij[Aircraft_4,EGLL,EGPH]
+   + 3.91816091954023 z_kij[Aircraft_4,EGLL,LROP]
+   + 4.620344827586207 z_kij[Aircraft_4,EGLL,LGIR]
+   + 3.67816091954023 z_kij[Aircraft_4,EGLL,BIKF]
+   + 3.608275862068965 z_kij[Aircraft_4,EGLL,LICJ]
+   + 4.340689655172413 z_kij[Aircraft_4,EGLL,LPMA]
+   + 1.899080459770115 z_kij[Aircraft_4,LFPG,EGLL]
+   + 1.957816091954023 z_kij[Aircraft_4,LFPG,EHAM]
+   + 1.516091954022988 z_kij[Aircraft_4,LFPG,EDDF]
+   + 2.723563218390805 z_kij[Aircraft_4,LFPG,LEMF]
+   + 2.487011494252874 z_kij[Aircraft_4,LFPG,LEBL]
+   + 2.283448275862069 z_kij[Aircraft_4,LFPG,EDDM]
+   + 2.765172413793104 z_kij[Aircraft_4,LFPG,LIRF]
+   + 2.402298850574712 z_kij[Aircraft_4,LFPG,EIDW]
+   + 3.269195402298851 z_kij[Aircraft_4,LFPG,ESSA]
+   + 3.189655172413793 z_kij[Aircraft_4,LFPG,LPPT]
+   + 2.477586206896552 z_kij[Aircraft_4,LFPG,EDDT]
+   + 3.678850574712643 z_kij[Aircraft_4,LFPG,EFHK]
+   + 3.043103448275862 z_kij[Aircraft_4,LFPG,EPWA]
+   + 2.498505747126437 z_kij[Aircraft_4,LFPG,EGPH]
+   + 3.626551724137931 z_kij[Aircraft_4,LFPG,LROP]
+   + 4.246896551724138 z_kij[Aircraft_4,LFPG,LGIR]
+   + 4.075977011494253 z_kij[Aircraft_4,LFPG,BIKF]
+   + 3.209540229885057 z_kij[Aircraft_4,LFPG,LICJ]
+   + 4.283333333333333 z_kij[Aircraft_4,LFPG,LPMA]
+   + 1.925747126436782 z_kij[Aircraft_4,EHAM,EGLL]
+   + 1.957816091954023 z_kij[Aircraft_4,EHAM,LFPG]
+   + 1.421379310344828 z_kij[Aircraft_4,EHAM,EDDF]
+   + 3.178965517241379 z_kij[Aircraft_4,EHAM,LEMF]
+   + 2.926551724137931 z_kij[Aircraft_4,EHAM,LEBL]
+   + 2.263448275862069 z_kij[Aircraft_4,EHAM,EDDM]
+   + 2.990574712643678 z_kij[Aircraft_4,EHAM,LIRF]
+   + 2.362298850574713 z_kij[Aircraft_4,EHAM,EIDW]
+   + 2.824367816091954 z_kij[Aircraft_4,EHAM,ESSA]
+   + 3.622183908045977 z_kij[Aircraft_4,EHAM,LPPT]
+   + 2.164597701149425 z_kij[Aircraft_4,EHAM,EDDT]
+   + 3.248620689655172 z_kij[Aircraft_4,EHAM,EFHK]
+   + 2.765747126436782 z_kij[Aircraft_4,EHAM,EPWA]
+   + 2.265977011494253 z_kij[Aircraft_4,EHAM,EGPH]
+   + 3.549655172413793 z_kij[Aircraft_4,EHAM,LROP]
+   + 4.351609195402299 z_kij[Aircraft_4,EHAM,LGIR]
+   + 3.842183908045977 z_kij[Aircraft_4,EHAM,BIKF]
+   + 3.467931034482759 z_kij[Aircraft_4,EHAM,LICJ]
+   + 4.699425287356322 z_kij[Aircraft_4,EHAM,LPMA]
    + 2.252643678160919 z_kij[Aircraft_4,EDDF,EGLL]
    + 2.016091954022988 z_kij[Aircraft_4,EDDF,LFPG]
    + 1.921379310344828 z_kij[Aircraft_4,EDDF,EHAM]
@@ -7249,310 +6905,310 @@ Subject To
    + 4.26 z_kij[Aircraft_4,EDDF,BIKF]
    + 3.084022988505747 z_kij[Aircraft_4,EDDF,LICJ]
    + 4.759770114942529 z_kij[Aircraft_4,EDDF,LPMA]
-   + 2.432183908045977 z_kij[Aircraft_4,LEMF,EGLL]
-   + 2.223563218390805 z_kij[Aircraft_4,LEMF,LFPG]
-   + 2.678965517241379 z_kij[Aircraft_4,LEMF,EHAM]
-   + 3.634597701149425 z_kij[Aircraft_4,LEMF,EDDF]
-   + 1.555057471264368 z_kij[Aircraft_4,LEMF,LEBL]
-   + 2.720689655172414 z_kij[Aircraft_4,LEMF,EDDM]
-   + 2.528275862068965 z_kij[Aircraft_4,LEMF,LIRF]
-   + 2.671494252873563 z_kij[Aircraft_4,LEMF,EIDW]
-   + 3.99 z_kij[Aircraft_4,LEMF,ESSA]
-   + 1.589540229885058 z_kij[Aircraft_4,LEMF,LPPT]
-   + 3.130574712643678 z_kij[Aircraft_4,LEMF,EDDT]
-   + 4.387816091954023 z_kij[Aircraft_4,LEMF,EFHK]
-   + 3.610459770114943 z_kij[Aircraft_4,LEMF,EPWA]
-   + 2.978275862068966 z_kij[Aircraft_4,LEMF,EGPH]
-   + 3.825287356321839 z_kij[Aircraft_4,LEMF,LROP]
-   + 3.957816091954023 z_kij[Aircraft_4,LEMF,LGIR]
-   + 4.32448275862069 z_kij[Aircraft_4,LEMF,BIKF]
-   + 2.69367816091954 z_kij[Aircraft_4,LEMF,LICJ]
-   + 2.677931034482758 z_kij[Aircraft_4,LEMF,LPMA]
-   + 2.319195402298851 z_kij[Aircraft_4,LEBL,EGLL]
-   + 1.987011494252874 z_kij[Aircraft_4,LEBL,LFPG]
-   + 2.426551724137931 z_kij[Aircraft_4,LEBL,EHAM]
-   + 3.257011494252874 z_kij[Aircraft_4,LEBL,EDDF]
-   + 1.555057471264368 z_kij[Aircraft_4,LEBL,LEMF]
-   + 2.25816091954023 z_kij[Aircraft_4,LEBL,EDDM]
-   + 1.973448275862069 z_kij[Aircraft_4,LEBL,LIRF]
-   + 2.707126436781609 z_kij[Aircraft_4,LEBL,EIDW]
-   + 3.66080459770115 z_kij[Aircraft_4,LEBL,ESSA]
-   + 2.142528735632184 z_kij[Aircraft_4,LEBL,LPPT]
-   + 2.736091954022989 z_kij[Aircraft_4,LEBL,EDDT]
-   + 4.020804597701149 z_kij[Aircraft_4,LEBL,EFHK]
-   + 3.149080459770115 z_kij[Aircraft_4,LEBL,EPWA]
-   + 2.927126436781609 z_kij[Aircraft_4,LEBL,EGPH]
-   + 3.276436781609195 z_kij[Aircraft_4,LEBL,LROP]
-   + 3.429885057471264 z_kij[Aircraft_4,LEBL,LGIR]
-   + 4.426551724137931 z_kij[Aircraft_4,LEBL,BIKF]
-   + 2.17632183908046 z_kij[Aircraft_4,LEBL,LICJ]
-   + 3.20919540229885 z_kij[Aircraft_4,LEBL,LPMA]
-   + 2.082298850574713 z_kij[Aircraft_4,EDDM,EGLL]
-   + 1.783448275862069 z_kij[Aircraft_4,EDDM,LFPG]
-   + 1.763448275862069 z_kij[Aircraft_4,EDDM,EHAM]
-   + 2.343793103448276 z_kij[Aircraft_4,EDDM,EDDF]
-   + 2.720689655172414 z_kij[Aircraft_4,EDDM,LEMF]
-   + 2.25816091954023 z_kij[Aircraft_4,EDDM,LEBL]
-   + 1.838620689655172 z_kij[Aircraft_4,EDDM,LIRF]
-   + 2.587701149425287 z_kij[Aircraft_4,EDDM,EIDW]
-   + 2.514137931034483 z_kij[Aircraft_4,EDDM,ESSA]
-   + 3.28 z_kij[Aircraft_4,EDDM,LPPT]
-   + 1.551264367816092 z_kij[Aircraft_4,EDDM,EDDT]
-   + 2.809770114942529 z_kij[Aircraft_4,EDDM,EFHK]
-   + 1.893448275862069 z_kij[Aircraft_4,EDDM,EPWA]
-   + 2.529080459770115 z_kij[Aircraft_4,EDDM,EGPH]
-   + 2.345977011494253 z_kij[Aircraft_4,EDDM,LROP]
-   + 3.089425287356322 z_kij[Aircraft_4,EDDM,LGIR]
-   + 4.094022988505747 z_kij[Aircraft_4,EDDM,BIKF]
-   + 2.316781609195402 z_kij[Aircraft_4,EDDM,LICJ]
-   + 4.388390804597702 z_kij[Aircraft_4,EDDM,LPMA]
-   + 2.659655172413793 z_kij[Aircraft_4,LIRF,EGLL]
-   + 2.265172413793104 z_kij[Aircraft_4,LIRF,LFPG]
-   + 2.490574712643678 z_kij[Aircraft_4,LIRF,EHAM]
-   + 3.101264367816092 z_kij[Aircraft_4,LIRF,EDDF]
-   + 2.528275862068965 z_kij[Aircraft_4,LIRF,LEMF]
-   + 1.973448275862069 z_kij[Aircraft_4,LIRF,LEBL]
-   + 1.838620689655172 z_kij[Aircraft_4,LIRF,EDDM]
-   + 3.167356321839081 z_kij[Aircraft_4,LIRF,EIDW]
-   + 3.325402298850574 z_kij[Aircraft_4,LIRF,ESSA]
-   + 3.113448275862069 z_kij[Aircraft_4,LIRF,LPPT]
-   + 2.37816091954023 z_kij[Aircraft_4,LIRF,EDDT]
-   + 3.567471264367816 z_kij[Aircraft_4,LIRF,EFHK]
-   + 2.525287356321839 z_kij[Aircraft_4,LIRF,EPWA]
-   + 3.223333333333333 z_kij[Aircraft_4,LIRF,EGPH]
-   + 2.336206896551724 z_kij[Aircraft_4,LIRF,LROP]
-   + 2.531724137931034 z_kij[Aircraft_4,LIRF,LGIR]
-   + 4.814942528735632 z_kij[Aircraft_4,LIRF,BIKF]
-   + 1.483103448275862 z_kij[Aircraft_4,LIRF,LICJ]
-   + 4.153908045977012 z_kij[Aircraft_4,LIRF,LPMA]
-   + 1.516436781609195 z_kij[Aircraft_4,EIDW,EGLL]
-   + 1.902298850574712 z_kij[Aircraft_4,EIDW,LFPG]
-   + 1.862298850574713 z_kij[Aircraft_4,EIDW,EHAM]
-   + 3.249310344827586 z_kij[Aircraft_4,EIDW,EDDF]
-   + 2.671494252873563 z_kij[Aircraft_4,EIDW,LEMF]
-   + 2.707126436781609 z_kij[Aircraft_4,EIDW,LEBL]
-   + 2.587701149425287 z_kij[Aircraft_4,EIDW,EDDM]
-   + 3.167356321839081 z_kij[Aircraft_4,EIDW,LIRF]
-   + 2.867586206896552 z_kij[Aircraft_4,EIDW,ESSA]
-   + 2.887931034482759 z_kij[Aircraft_4,EIDW,LPPT]
-   + 2.503908045977012 z_kij[Aircraft_4,EIDW,EDDT]
-   + 3.325632183908046 z_kij[Aircraft_4,EIDW,EFHK]
-   + 3.098275862068966 z_kij[Aircraft_4,EIDW,EPWA]
-   + 1.387586206896552 z_kij[Aircraft_4,EIDW,EGPH]
-   + 3.907931034482759 z_kij[Aircraft_4,EIDW,LROP]
-   + 4.636666666666667 z_kij[Aircraft_4,EIDW,LGIR]
-   + 2.721379310344827 z_kij[Aircraft_4,EIDW,BIKF]
-   + 3.605172413793103 z_kij[Aircraft_4,EIDW,LICJ]
-   + 3.817471264367816 z_kij[Aircraft_4,EIDW,LPMA]
-   + 2.681034482758621 z_kij[Aircraft_4,ESSA,EGLL]
-   + 2.769195402298851 z_kij[Aircraft_4,ESSA,LFPG]
-   + 2.324367816091954 z_kij[Aircraft_4,ESSA,EHAM]
-   + 3.405747126436782 z_kij[Aircraft_4,ESSA,EDDF]
-   + 3.99 z_kij[Aircraft_4,ESSA,LEMF]
-   + 3.66080459770115 z_kij[Aircraft_4,ESSA,LEBL]
-   + 2.514137931034483 z_kij[Aircraft_4,ESSA,EDDM]
-   + 3.325402298850574 z_kij[Aircraft_4,ESSA,LIRF]
-   + 2.867586206896552 z_kij[Aircraft_4,ESSA,EIDW]
-   + 4.44632183908046 z_kij[Aircraft_4,ESSA,LPPT]
-   + 1.964137931034483 z_kij[Aircraft_4,ESSA,EDDT]
-   + 1.45816091954023 z_kij[Aircraft_4,ESSA,EFHK]
-   + 1.981149425287356 z_kij[Aircraft_4,ESSA,EPWA]
-   + 2.517586206896552 z_kij[Aircraft_4,ESSA,EGPH]
-   + 3.027701149425287 z_kij[Aircraft_4,ESSA,LROP]
-   + 4.165632183908046 z_kij[Aircraft_4,ESSA,LGIR]
-   + 3.462643678160919 z_kij[Aircraft_4,ESSA,BIKF]
-   + 3.778620689655173 z_kij[Aircraft_4,ESSA,LICJ]
-   + 5.516206896551724 z_kij[Aircraft_4,ESSA,LPMA]
-   + 2.797586206896552 z_kij[Aircraft_4,LPPT,EGLL]
-   + 2.689655172413793 z_kij[Aircraft_4,LPPT,LFPG]
-   + 3.122183908045977 z_kij[Aircraft_4,LPPT,EHAM]
-   + 4.153793103448276 z_kij[Aircraft_4,LPPT,EDDF]
-   + 1.589540229885058 z_kij[Aircraft_4,LPPT,LEMF]
-   + 2.142528735632184 z_kij[Aircraft_4,LPPT,LEBL]
-   + 3.28 z_kij[Aircraft_4,LPPT,EDDM]
-   + 3.113448275862069 z_kij[Aircraft_4,LPPT,LIRF]
-   + 2.887931034482759 z_kij[Aircraft_4,LPPT,EIDW]
-   + 4.44632183908046 z_kij[Aircraft_4,LPPT,ESSA]
-   + 3.646781609195402 z_kij[Aircraft_4,LPPT,EDDT]
-   + 4.866551724137931 z_kij[Aircraft_4,LPPT,EFHK]
-   + 4.159770114942528 z_kij[Aircraft_4,LPPT,EPWA]
-   + 3.248390804597701 z_kij[Aircraft_4,LPPT,EGPH]
-   + 4.414712643678161 z_kij[Aircraft_4,LPPT,LROP]
-   + 4.506896551724138 z_kij[Aircraft_4,LPPT,LGIR]
-   + 4.379425287356321 z_kij[Aircraft_4,LPPT,BIKF]
-   + 3.243218390804598 z_kij[Aircraft_4,LPPT,LICJ]
-   + 2.109310344827586 z_kij[Aircraft_4,LPPT,LPMA]
-   + 2.088735632183908 z_kij[Aircraft_4,EDDT,EGLL]
-   + 1.977586206896552 z_kij[Aircraft_4,EDDT,LFPG]
-   + 1.664597701149425 z_kij[Aircraft_4,EDDT,EHAM]
-   + 2.496206896551724 z_kij[Aircraft_4,EDDT,EDDF]
-   + 3.130574712643678 z_kij[Aircraft_4,EDDT,LEMF]
-   + 2.736091954022989 z_kij[Aircraft_4,EDDT,LEBL]
-   + 1.551264367816092 z_kij[Aircraft_4,EDDT,EDDM]
-   + 2.37816091954023 z_kij[Aircraft_4,EDDT,LIRF]
-   + 2.503908045977012 z_kij[Aircraft_4,EDDT,EIDW]
-   + 1.964137931034483 z_kij[Aircraft_4,EDDT,ESSA]
-   + 3.646781609195402 z_kij[Aircraft_4,EDDT,LPPT]
-   + 2.285977011494253 z_kij[Aircraft_4,EDDT,EFHK]
-   + 1.601149425287356 z_kij[Aircraft_4,EDDT,EPWA]
-   + 2.313333333333333 z_kij[Aircraft_4,EDDT,EGPH]
-   + 2.483908045977012 z_kij[Aircraft_4,EDDT,LROP]
-   + 3.450574712643678 z_kij[Aircraft_4,EDDT,LGIR]
-   + 3.765172413793103 z_kij[Aircraft_4,EDDT,BIKF]
-   + 2.846666666666667 z_kij[Aircraft_4,EDDT,LICJ]
-   + 4.750459770114943 z_kij[Aircraft_4,EDDT,LPMA]
-   + 3.124137931034483 z_kij[Aircraft_4,EFHK,EGLL]
-   + 3.178850574712643 z_kij[Aircraft_4,EFHK,LFPG]
-   + 2.748620689655172 z_kij[Aircraft_4,EFHK,EHAM]
-   + 3.767701149425287 z_kij[Aircraft_4,EFHK,EDDF]
-   + 4.387816091954023 z_kij[Aircraft_4,EFHK,LEMF]
-   + 4.020804597701149 z_kij[Aircraft_4,EFHK,LEBL]
-   + 2.809770114942529 z_kij[Aircraft_4,EFHK,EDDM]
-   + 3.567471264367816 z_kij[Aircraft_4,EFHK,LIRF]
-   + 3.325632183908046 z_kij[Aircraft_4,EFHK,EIDW]
-   + 1.45816091954023 z_kij[Aircraft_4,EFHK,ESSA]
-   + 4.866551724137931 z_kij[Aircraft_4,EFHK,LPPT]
-   + 2.285977011494253 z_kij[Aircraft_4,EFHK,EDDT]
-   + 2.079310344827586 z_kij[Aircraft_4,EFHK,EPWA]
-   + 2.974367816091954 z_kij[Aircraft_4,EFHK,EGPH]
-   + 3.014367816091954 z_kij[Aircraft_4,EFHK,LROP]
-   + 4.192413793103448 z_kij[Aircraft_4,EFHK,LGIR]
-   + 3.809540229885058 z_kij[Aircraft_4,EFHK,BIKF]
-   + 3.989885057471264 z_kij[Aircraft_4,EFHK,LICJ]
-   + 5.948045977011494 z_kij[Aircraft_4,EFHK,LPMA]
-   + 2.68919540229885 z_kij[Aircraft_4,EPWA,EGLL]
-   + 2.543103448275862 z_kij[Aircraft_4,EPWA,LFPG]
-   + 2.265747126436782 z_kij[Aircraft_4,EPWA,EHAM]
-   + 3.030114942528736 z_kij[Aircraft_4,EPWA,EDDF]
-   + 3.610459770114943 z_kij[Aircraft_4,EPWA,LEMF]
-   + 3.149080459770115 z_kij[Aircraft_4,EPWA,LEBL]
-   + 1.893448275862069 z_kij[Aircraft_4,EPWA,EDDM]
-   + 2.525287356321839 z_kij[Aircraft_4,EPWA,LIRF]
-   + 3.098275862068966 z_kij[Aircraft_4,EPWA,EIDW]
-   + 1.981149425287356 z_kij[Aircraft_4,EPWA,ESSA]
-   + 4.159770114942528 z_kij[Aircraft_4,EPWA,LPPT]
-   + 1.601149425287356 z_kij[Aircraft_4,EPWA,EDDT]
-   + 2.079310344827586 z_kij[Aircraft_4,EPWA,EFHK]
-   + 2.878045977011494 z_kij[Aircraft_4,EPWA,EGPH]
-   + 2.062873563218391 z_kij[Aircraft_4,EPWA,LROP]
-   + 3.18448275862069 z_kij[Aircraft_4,EPWA,LGIR]
-   + 4.223333333333334 z_kij[Aircraft_4,EPWA,BIKF]
-   + 2.921724137931035 z_kij[Aircraft_4,EPWA,LICJ]
-   + 5.269080459770115 z_kij[Aircraft_4,EPWA,LPMA]
-   + 1.613218390804598 z_kij[Aircraft_4,EGPH,EGLL]
-   + 1.998505747126437 z_kij[Aircraft_4,EGPH,LFPG]
-   + 1.765977011494253 z_kij[Aircraft_4,EGPH,EHAM]
-   + 3.187241379310345 z_kij[Aircraft_4,EGPH,EDDF]
-   + 2.978275862068966 z_kij[Aircraft_4,EGPH,LEMF]
-   + 2.927126436781609 z_kij[Aircraft_4,EGPH,LEBL]
-   + 2.529080459770115 z_kij[Aircraft_4,EGPH,EDDM]
-   + 3.223333333333333 z_kij[Aircraft_4,EGPH,LIRF]
-   + 1.387586206896552 z_kij[Aircraft_4,EGPH,EIDW]
-   + 2.517586206896552 z_kij[Aircraft_4,EGPH,ESSA]
-   + 3.248390804597701 z_kij[Aircraft_4,EGPH,LPPT]
-   + 2.313333333333333 z_kij[Aircraft_4,EGPH,EDDT]
-   + 2.974367816091954 z_kij[Aircraft_4,EGPH,EFHK]
-   + 2.878045977011494 z_kij[Aircraft_4,EGPH,EPWA]
-   + 3.780459770114942 z_kij[Aircraft_4,EGPH,LROP]
-   + 4.617471264367816 z_kij[Aircraft_4,EGPH,LGIR]
-   + 2.591494252873563 z_kij[Aircraft_4,EGPH,BIKF]
-   + 3.688275862068966 z_kij[Aircraft_4,EGPH,LICJ]
-   + 4.201494252873563 z_kij[Aircraft_4,EGPH,LPMA]
-   + 3.41816091954023 z_kij[Aircraft_4,LROP,EGLL]
-   + 3.126551724137931 z_kij[Aircraft_4,LROP,LFPG]
-   + 3.049655172413793 z_kij[Aircraft_4,LROP,EHAM]
-   + 3.665517241379311 z_kij[Aircraft_4,LROP,EDDF]
-   + 3.825287356321839 z_kij[Aircraft_4,LROP,LEMF]
-   + 3.276436781609195 z_kij[Aircraft_4,LROP,LEBL]
-   + 2.345977011494253 z_kij[Aircraft_4,LROP,EDDM]
-   + 2.336206896551724 z_kij[Aircraft_4,LROP,LIRF]
-   + 3.907931034482759 z_kij[Aircraft_4,LROP,EIDW]
-   + 3.027701149425287 z_kij[Aircraft_4,LROP,ESSA]
-   + 4.414712643678161 z_kij[Aircraft_4,LROP,LPPT]
-   + 2.483908045977012 z_kij[Aircraft_4,LROP,EDDT]
-   + 3.014367816091954 z_kij[Aircraft_4,LROP,EFHK]
-   + 2.062873563218391 z_kij[Aircraft_4,LROP,EPWA]
-   + 3.780459770114942 z_kij[Aircraft_4,LROP,EGPH]
-   + 2.183218390804598 z_kij[Aircraft_4,LROP,LGIR]
-   + 5.240919540229885 z_kij[Aircraft_4,LROP,BIKF]
-   + 2.475057471264368 z_kij[Aircraft_4,LROP,LICJ]
-   + 5.480919540229885 z_kij[Aircraft_4,LROP,LPMA]
-   + 4.120344827586207 z_kij[Aircraft_4,LGIR,EGLL]
-   + 3.746896551724138 z_kij[Aircraft_4,LGIR,LFPG]
-   + 3.851609195402299 z_kij[Aircraft_4,LGIR,EHAM]
-   + 4.430344827586207 z_kij[Aircraft_4,LGIR,EDDF]
-   + 3.957816091954023 z_kij[Aircraft_4,LGIR,LEMF]
-   + 3.429885057471264 z_kij[Aircraft_4,LGIR,LEBL]
-   + 3.089425287356322 z_kij[Aircraft_4,LGIR,EDDM]
-   + 2.531724137931034 z_kij[Aircraft_4,LGIR,LIRF]
-   + 4.636666666666667 z_kij[Aircraft_4,LGIR,EIDW]
-   + 4.165632183908046 z_kij[Aircraft_4,LGIR,ESSA]
-   + 4.506896551724138 z_kij[Aircraft_4,LGIR,LPPT]
-   + 3.450574712643678 z_kij[Aircraft_4,LGIR,EDDT]
-   + 4.192413793103448 z_kij[Aircraft_4,LGIR,EFHK]
-   + 3.18448275862069 z_kij[Aircraft_4,LGIR,EPWA]
-   + 4.617471264367816 z_kij[Aircraft_4,LGIR,EGPH]
-   + 2.183218390804598 z_kij[Aircraft_4,LGIR,LROP]
-   + 6.178505747126437 z_kij[Aircraft_4,LGIR,BIKF]
-   + 2.265172413793104 z_kij[Aircraft_4,LGIR,LICJ]
-   + 5.424252873563218 z_kij[Aircraft_4,LGIR,LPMA]
-   + 3.17816091954023 z_kij[Aircraft_4,BIKF,EGLL]
-   + 3.575977011494253 z_kij[Aircraft_4,BIKF,LFPG]
-   + 3.342183908045977 z_kij[Aircraft_4,BIKF,EHAM]
-   + 4.76 z_kij[Aircraft_4,BIKF,EDDF]
-   + 4.32448275862069 z_kij[Aircraft_4,BIKF,LEMF]
-   + 4.426551724137931 z_kij[Aircraft_4,BIKF,LEBL]
-   + 4.094022988505747 z_kij[Aircraft_4,BIKF,EDDM]
-   + 4.814942528735632 z_kij[Aircraft_4,BIKF,LIRF]
-   + 2.721379310344827 z_kij[Aircraft_4,BIKF,EIDW]
-   + 3.462643678160919 z_kij[Aircraft_4,BIKF,ESSA]
-   + 4.379425287356321 z_kij[Aircraft_4,BIKF,LPPT]
-   + 3.765172413793103 z_kij[Aircraft_4,BIKF,EDDT]
-   + 3.809540229885058 z_kij[Aircraft_4,BIKF,EFHK]
-   + 4.223333333333334 z_kij[Aircraft_4,BIKF,EPWA]
-   + 2.591494252873563 z_kij[Aircraft_4,BIKF,EGPH]
-   + 5.240919540229885 z_kij[Aircraft_4,BIKF,LROP]
-   + 6.178505747126437 z_kij[Aircraft_4,BIKF,LGIR]
-   + 5.278390804597701 z_kij[Aircraft_4,BIKF,LICJ]
-   + 5.025632183908046 z_kij[Aircraft_4,BIKF,LPMA]
-   + 3.108275862068965 z_kij[Aircraft_4,LICJ,EGLL]
-   + 2.709540229885057 z_kij[Aircraft_4,LICJ,LFPG]
-   + 2.967931034482759 z_kij[Aircraft_4,LICJ,EHAM]
-   + 3.584022988505747 z_kij[Aircraft_4,LICJ,EDDF]
-   + 2.69367816091954 z_kij[Aircraft_4,LICJ,LEMF]
-   + 2.17632183908046 z_kij[Aircraft_4,LICJ,LEBL]
-   + 2.316781609195402 z_kij[Aircraft_4,LICJ,EDDM]
-   + 1.483103448275862 z_kij[Aircraft_4,LICJ,LIRF]
-   + 3.605172413793103 z_kij[Aircraft_4,LICJ,EIDW]
-   + 3.778620689655173 z_kij[Aircraft_4,LICJ,ESSA]
-   + 3.243218390804598 z_kij[Aircraft_4,LICJ,LPPT]
-   + 2.846666666666667 z_kij[Aircraft_4,LICJ,EDDT]
-   + 3.989885057471264 z_kij[Aircraft_4,LICJ,EFHK]
-   + 2.921724137931035 z_kij[Aircraft_4,LICJ,EPWA]
-   + 3.688275862068966 z_kij[Aircraft_4,LICJ,EGPH]
-   + 2.475057471264368 z_kij[Aircraft_4,LICJ,LROP]
-   + 2.265172413793104 z_kij[Aircraft_4,LICJ,LGIR]
-   + 5.278390804597701 z_kij[Aircraft_4,LICJ,BIKF]
-   + 4.194942528735632 z_kij[Aircraft_4,LICJ,LPMA]
-   + 3.840689655172414 z_kij[Aircraft_4,LPMA,EGLL]
-   + 3.783333333333333 z_kij[Aircraft_4,LPMA,LFPG]
-   + 4.199425287356322 z_kij[Aircraft_4,LPMA,EHAM]
-   + 5.259770114942529 z_kij[Aircraft_4,LPMA,EDDF]
-   + 2.677931034482758 z_kij[Aircraft_4,LPMA,LEMF]
-   + 3.20919540229885 z_kij[Aircraft_4,LPMA,LEBL]
-   + 4.388390804597702 z_kij[Aircraft_4,LPMA,EDDM]
-   + 4.153908045977012 z_kij[Aircraft_4,LPMA,LIRF]
-   + 3.817471264367816 z_kij[Aircraft_4,LPMA,EIDW]
-   + 5.516206896551724 z_kij[Aircraft_4,LPMA,ESSA]
-   + 2.109310344827586 z_kij[Aircraft_4,LPMA,LPPT]
-   + 4.750459770114943 z_kij[Aircraft_4,LPMA,EDDT]
-   + 5.948045977011494 z_kij[Aircraft_4,LPMA,EFHK]
-   + 5.269080459770115 z_kij[Aircraft_4,LPMA,EPWA]
-   + 4.201494252873563 z_kij[Aircraft_4,LPMA,EGPH]
-   + 5.480919540229885 z_kij[Aircraft_4,LPMA,LROP]
-   + 5.424252873563218 z_kij[Aircraft_4,LPMA,LGIR]
-   + 5.025632183908046 z_kij[Aircraft_4,LPMA,BIKF]
-   + 4.194942528735632 z_kij[Aircraft_4,LPMA,LICJ] - 70 AC_k[Aircraft_4]
+   + 2.932183908045977 z_kij[Aircraft_4,LEMF,EGLL]
+   + 2.723563218390805 z_kij[Aircraft_4,LEMF,LFPG]
+   + 3.178965517241379 z_kij[Aircraft_4,LEMF,EHAM]
+   + 2.634597701149425 z_kij[Aircraft_4,LEMF,EDDF]
+   + 2.055057471264368 z_kij[Aircraft_4,LEMF,LEBL]
+   + 3.220689655172414 z_kij[Aircraft_4,LEMF,EDDM]
+   + 3.028275862068965 z_kij[Aircraft_4,LEMF,LIRF]
+   + 3.171494252873563 z_kij[Aircraft_4,LEMF,EIDW]
+   + 4.49 z_kij[Aircraft_4,LEMF,ESSA]
+   + 2.089540229885058 z_kij[Aircraft_4,LEMF,LPPT]
+   + 3.630574712643678 z_kij[Aircraft_4,LEMF,EDDT]
+   + 4.887816091954023 z_kij[Aircraft_4,LEMF,EFHK]
+   + 4.110459770114943 z_kij[Aircraft_4,LEMF,EPWA]
+   + 3.478275862068966 z_kij[Aircraft_4,LEMF,EGPH]
+   + 4.325287356321839 z_kij[Aircraft_4,LEMF,LROP]
+   + 4.457816091954023 z_kij[Aircraft_4,LEMF,LGIR]
+   + 4.82448275862069 z_kij[Aircraft_4,LEMF,BIKF]
+   + 3.19367816091954 z_kij[Aircraft_4,LEMF,LICJ]
+   + 3.177931034482758 z_kij[Aircraft_4,LEMF,LPMA]
+   + 2.819195402298851 z_kij[Aircraft_4,LEBL,EGLL]
+   + 2.487011494252874 z_kij[Aircraft_4,LEBL,LFPG]
+   + 2.926551724137931 z_kij[Aircraft_4,LEBL,EHAM]
+   + 2.257011494252874 z_kij[Aircraft_4,LEBL,EDDF]
+   + 2.055057471264368 z_kij[Aircraft_4,LEBL,LEMF]
+   + 2.75816091954023 z_kij[Aircraft_4,LEBL,EDDM]
+   + 2.473448275862069 z_kij[Aircraft_4,LEBL,LIRF]
+   + 3.207126436781609 z_kij[Aircraft_4,LEBL,EIDW]
+   + 4.16080459770115 z_kij[Aircraft_4,LEBL,ESSA]
+   + 2.642528735632184 z_kij[Aircraft_4,LEBL,LPPT]
+   + 3.236091954022989 z_kij[Aircraft_4,LEBL,EDDT]
+   + 4.520804597701149 z_kij[Aircraft_4,LEBL,EFHK]
+   + 3.649080459770115 z_kij[Aircraft_4,LEBL,EPWA]
+   + 3.427126436781609 z_kij[Aircraft_4,LEBL,EGPH]
+   + 3.776436781609195 z_kij[Aircraft_4,LEBL,LROP]
+   + 3.929885057471264 z_kij[Aircraft_4,LEBL,LGIR]
+   + 4.926551724137931 z_kij[Aircraft_4,LEBL,BIKF]
+   + 2.67632183908046 z_kij[Aircraft_4,LEBL,LICJ]
+   + 3.70919540229885 z_kij[Aircraft_4,LEBL,LPMA]
+   + 2.582298850574713 z_kij[Aircraft_4,EDDM,EGLL]
+   + 2.283448275862069 z_kij[Aircraft_4,EDDM,LFPG]
+   + 2.263448275862069 z_kij[Aircraft_4,EDDM,EHAM]
+   + 1.343793103448276 z_kij[Aircraft_4,EDDM,EDDF]
+   + 3.220689655172414 z_kij[Aircraft_4,EDDM,LEMF]
+   + 2.75816091954023 z_kij[Aircraft_4,EDDM,LEBL]
+   + 2.338620689655173 z_kij[Aircraft_4,EDDM,LIRF]
+   + 3.087701149425287 z_kij[Aircraft_4,EDDM,EIDW]
+   + 3.014137931034483 z_kij[Aircraft_4,EDDM,ESSA]
+   + 3.78 z_kij[Aircraft_4,EDDM,LPPT]
+   + 2.051264367816092 z_kij[Aircraft_4,EDDM,EDDT]
+   + 3.309770114942529 z_kij[Aircraft_4,EDDM,EFHK]
+   + 2.393448275862069 z_kij[Aircraft_4,EDDM,EPWA]
+   + 3.029080459770115 z_kij[Aircraft_4,EDDM,EGPH]
+   + 2.845977011494253 z_kij[Aircraft_4,EDDM,LROP]
+   + 3.589425287356322 z_kij[Aircraft_4,EDDM,LGIR]
+   + 4.594022988505747 z_kij[Aircraft_4,EDDM,BIKF]
+   + 2.816781609195402 z_kij[Aircraft_4,EDDM,LICJ]
+   + 4.888390804597702 z_kij[Aircraft_4,EDDM,LPMA]
+   + 3.159655172413793 z_kij[Aircraft_4,LIRF,EGLL]
+   + 2.765172413793104 z_kij[Aircraft_4,LIRF,LFPG]
+   + 2.990574712643678 z_kij[Aircraft_4,LIRF,EHAM]
+   + 2.101264367816092 z_kij[Aircraft_4,LIRF,EDDF]
+   + 3.028275862068965 z_kij[Aircraft_4,LIRF,LEMF]
+   + 2.473448275862069 z_kij[Aircraft_4,LIRF,LEBL]
+   + 2.338620689655173 z_kij[Aircraft_4,LIRF,EDDM]
+   + 3.667356321839081 z_kij[Aircraft_4,LIRF,EIDW]
+   + 3.825402298850574 z_kij[Aircraft_4,LIRF,ESSA]
+   + 3.613448275862069 z_kij[Aircraft_4,LIRF,LPPT]
+   + 2.87816091954023 z_kij[Aircraft_4,LIRF,EDDT]
+   + 4.067471264367816 z_kij[Aircraft_4,LIRF,EFHK]
+   + 3.025287356321839 z_kij[Aircraft_4,LIRF,EPWA]
+   + 3.723333333333333 z_kij[Aircraft_4,LIRF,EGPH]
+   + 2.836206896551724 z_kij[Aircraft_4,LIRF,LROP]
+   + 3.031724137931034 z_kij[Aircraft_4,LIRF,LGIR]
+   + 5.314942528735632 z_kij[Aircraft_4,LIRF,BIKF]
+   + 1.983103448275862 z_kij[Aircraft_4,LIRF,LICJ]
+   + 4.653908045977012 z_kij[Aircraft_4,LIRF,LPMA]
+   + 2.016436781609195 z_kij[Aircraft_4,EIDW,EGLL]
+   + 2.402298850574712 z_kij[Aircraft_4,EIDW,LFPG]
+   + 2.362298850574713 z_kij[Aircraft_4,EIDW,EHAM]
+   + 2.249310344827586 z_kij[Aircraft_4,EIDW,EDDF]
+   + 3.171494252873563 z_kij[Aircraft_4,EIDW,LEMF]
+   + 3.207126436781609 z_kij[Aircraft_4,EIDW,LEBL]
+   + 3.087701149425287 z_kij[Aircraft_4,EIDW,EDDM]
+   + 3.667356321839081 z_kij[Aircraft_4,EIDW,LIRF]
+   + 3.367586206896552 z_kij[Aircraft_4,EIDW,ESSA]
+   + 3.387931034482759 z_kij[Aircraft_4,EIDW,LPPT]
+   + 3.003908045977012 z_kij[Aircraft_4,EIDW,EDDT]
+   + 3.825632183908046 z_kij[Aircraft_4,EIDW,EFHK]
+   + 3.598275862068966 z_kij[Aircraft_4,EIDW,EPWA]
+   + 1.887586206896552 z_kij[Aircraft_4,EIDW,EGPH]
+   + 4.407931034482759 z_kij[Aircraft_4,EIDW,LROP]
+   + 5.136666666666667 z_kij[Aircraft_4,EIDW,LGIR]
+   + 3.221379310344827 z_kij[Aircraft_4,EIDW,BIKF]
+   + 4.105172413793103 z_kij[Aircraft_4,EIDW,LICJ]
+   + 4.317471264367816 z_kij[Aircraft_4,EIDW,LPMA]
+   + 3.181034482758621 z_kij[Aircraft_4,ESSA,EGLL]
+   + 3.269195402298851 z_kij[Aircraft_4,ESSA,LFPG]
+   + 2.824367816091954 z_kij[Aircraft_4,ESSA,EHAM]
+   + 2.405747126436782 z_kij[Aircraft_4,ESSA,EDDF]
+   + 4.49 z_kij[Aircraft_4,ESSA,LEMF]
+   + 4.16080459770115 z_kij[Aircraft_4,ESSA,LEBL]
+   + 3.014137931034483 z_kij[Aircraft_4,ESSA,EDDM]
+   + 3.825402298850574 z_kij[Aircraft_4,ESSA,LIRF]
+   + 3.367586206896552 z_kij[Aircraft_4,ESSA,EIDW]
+   + 4.94632183908046 z_kij[Aircraft_4,ESSA,LPPT]
+   + 2.464137931034483 z_kij[Aircraft_4,ESSA,EDDT]
+   + 1.95816091954023 z_kij[Aircraft_4,ESSA,EFHK]
+   + 2.481149425287356 z_kij[Aircraft_4,ESSA,EPWA]
+   + 3.017586206896552 z_kij[Aircraft_4,ESSA,EGPH]
+   + 3.527701149425287 z_kij[Aircraft_4,ESSA,LROP]
+   + 4.665632183908046 z_kij[Aircraft_4,ESSA,LGIR]
+   + 3.962643678160919 z_kij[Aircraft_4,ESSA,BIKF]
+   + 4.278620689655172 z_kij[Aircraft_4,ESSA,LICJ]
+   + 6.016206896551724 z_kij[Aircraft_4,ESSA,LPMA]
+   + 3.297586206896552 z_kij[Aircraft_4,LPPT,EGLL]
+   + 3.189655172413793 z_kij[Aircraft_4,LPPT,LFPG]
+   + 3.622183908045977 z_kij[Aircraft_4,LPPT,EHAM]
+   + 3.153793103448276 z_kij[Aircraft_4,LPPT,EDDF]
+   + 2.089540229885058 z_kij[Aircraft_4,LPPT,LEMF]
+   + 2.642528735632184 z_kij[Aircraft_4,LPPT,LEBL]
+   + 3.78 z_kij[Aircraft_4,LPPT,EDDM]
+   + 3.613448275862069 z_kij[Aircraft_4,LPPT,LIRF]
+   + 3.387931034482759 z_kij[Aircraft_4,LPPT,EIDW]
+   + 4.94632183908046 z_kij[Aircraft_4,LPPT,ESSA]
+   + 4.146781609195402 z_kij[Aircraft_4,LPPT,EDDT]
+   + 5.366551724137931 z_kij[Aircraft_4,LPPT,EFHK]
+   + 4.659770114942528 z_kij[Aircraft_4,LPPT,EPWA]
+   + 3.748390804597701 z_kij[Aircraft_4,LPPT,EGPH]
+   + 4.914712643678161 z_kij[Aircraft_4,LPPT,LROP]
+   + 5.006896551724138 z_kij[Aircraft_4,LPPT,LGIR]
+   + 4.879425287356321 z_kij[Aircraft_4,LPPT,BIKF]
+   + 3.743218390804598 z_kij[Aircraft_4,LPPT,LICJ]
+   + 2.609310344827586 z_kij[Aircraft_4,LPPT,LPMA]
+   + 2.588735632183908 z_kij[Aircraft_4,EDDT,EGLL]
+   + 2.477586206896552 z_kij[Aircraft_4,EDDT,LFPG]
+   + 2.164597701149425 z_kij[Aircraft_4,EDDT,EHAM]
+   + 1.496206896551724 z_kij[Aircraft_4,EDDT,EDDF]
+   + 3.630574712643678 z_kij[Aircraft_4,EDDT,LEMF]
+   + 3.236091954022989 z_kij[Aircraft_4,EDDT,LEBL]
+   + 2.051264367816092 z_kij[Aircraft_4,EDDT,EDDM]
+   + 2.87816091954023 z_kij[Aircraft_4,EDDT,LIRF]
+   + 3.003908045977012 z_kij[Aircraft_4,EDDT,EIDW]
+   + 2.464137931034483 z_kij[Aircraft_4,EDDT,ESSA]
+   + 4.146781609195402 z_kij[Aircraft_4,EDDT,LPPT]
+   + 2.785977011494253 z_kij[Aircraft_4,EDDT,EFHK]
+   + 2.101149425287356 z_kij[Aircraft_4,EDDT,EPWA]
+   + 2.813333333333333 z_kij[Aircraft_4,EDDT,EGPH]
+   + 2.983908045977012 z_kij[Aircraft_4,EDDT,LROP]
+   + 3.950574712643678 z_kij[Aircraft_4,EDDT,LGIR]
+   + 4.265172413793103 z_kij[Aircraft_4,EDDT,BIKF]
+   + 3.346666666666667 z_kij[Aircraft_4,EDDT,LICJ]
+   + 5.250459770114943 z_kij[Aircraft_4,EDDT,LPMA]
+   + 3.624137931034483 z_kij[Aircraft_4,EFHK,EGLL]
+   + 3.678850574712643 z_kij[Aircraft_4,EFHK,LFPG]
+   + 3.248620689655172 z_kij[Aircraft_4,EFHK,EHAM]
+   + 2.767701149425287 z_kij[Aircraft_4,EFHK,EDDF]
+   + 4.887816091954023 z_kij[Aircraft_4,EFHK,LEMF]
+   + 4.520804597701149 z_kij[Aircraft_4,EFHK,LEBL]
+   + 3.309770114942529 z_kij[Aircraft_4,EFHK,EDDM]
+   + 4.067471264367816 z_kij[Aircraft_4,EFHK,LIRF]
+   + 3.825632183908046 z_kij[Aircraft_4,EFHK,EIDW]
+   + 1.95816091954023 z_kij[Aircraft_4,EFHK,ESSA]
+   + 5.366551724137931 z_kij[Aircraft_4,EFHK,LPPT]
+   + 2.785977011494253 z_kij[Aircraft_4,EFHK,EDDT]
+   + 2.579310344827586 z_kij[Aircraft_4,EFHK,EPWA]
+   + 3.474367816091954 z_kij[Aircraft_4,EFHK,EGPH]
+   + 3.514367816091954 z_kij[Aircraft_4,EFHK,LROP]
+   + 4.692413793103448 z_kij[Aircraft_4,EFHK,LGIR]
+   + 4.309540229885058 z_kij[Aircraft_4,EFHK,BIKF]
+   + 4.489885057471264 z_kij[Aircraft_4,EFHK,LICJ]
+   + 6.448045977011494 z_kij[Aircraft_4,EFHK,LPMA]
+   + 3.18919540229885 z_kij[Aircraft_4,EPWA,EGLL]
+   + 3.043103448275862 z_kij[Aircraft_4,EPWA,LFPG]
+   + 2.765747126436782 z_kij[Aircraft_4,EPWA,EHAM]
+   + 2.030114942528736 z_kij[Aircraft_4,EPWA,EDDF]
+   + 4.110459770114943 z_kij[Aircraft_4,EPWA,LEMF]
+   + 3.649080459770115 z_kij[Aircraft_4,EPWA,LEBL]
+   + 2.393448275862069 z_kij[Aircraft_4,EPWA,EDDM]
+   + 3.025287356321839 z_kij[Aircraft_4,EPWA,LIRF]
+   + 3.598275862068966 z_kij[Aircraft_4,EPWA,EIDW]
+   + 2.481149425287356 z_kij[Aircraft_4,EPWA,ESSA]
+   + 4.659770114942528 z_kij[Aircraft_4,EPWA,LPPT]
+   + 2.101149425287356 z_kij[Aircraft_4,EPWA,EDDT]
+   + 2.579310344827586 z_kij[Aircraft_4,EPWA,EFHK]
+   + 3.378045977011494 z_kij[Aircraft_4,EPWA,EGPH]
+   + 2.562873563218391 z_kij[Aircraft_4,EPWA,LROP]
+   + 3.68448275862069 z_kij[Aircraft_4,EPWA,LGIR]
+   + 4.723333333333334 z_kij[Aircraft_4,EPWA,BIKF]
+   + 3.421724137931035 z_kij[Aircraft_4,EPWA,LICJ]
+   + 5.769080459770115 z_kij[Aircraft_4,EPWA,LPMA]
+   + 2.113218390804598 z_kij[Aircraft_4,EGPH,EGLL]
+   + 2.498505747126437 z_kij[Aircraft_4,EGPH,LFPG]
+   + 2.265977011494253 z_kij[Aircraft_4,EGPH,EHAM]
+   + 2.187241379310345 z_kij[Aircraft_4,EGPH,EDDF]
+   + 3.478275862068966 z_kij[Aircraft_4,EGPH,LEMF]
+   + 3.427126436781609 z_kij[Aircraft_4,EGPH,LEBL]
+   + 3.029080459770115 z_kij[Aircraft_4,EGPH,EDDM]
+   + 3.723333333333333 z_kij[Aircraft_4,EGPH,LIRF]
+   + 1.887586206896552 z_kij[Aircraft_4,EGPH,EIDW]
+   + 3.017586206896552 z_kij[Aircraft_4,EGPH,ESSA]
+   + 3.748390804597701 z_kij[Aircraft_4,EGPH,LPPT]
+   + 2.813333333333333 z_kij[Aircraft_4,EGPH,EDDT]
+   + 3.474367816091954 z_kij[Aircraft_4,EGPH,EFHK]
+   + 3.378045977011494 z_kij[Aircraft_4,EGPH,EPWA]
+   + 4.280459770114943 z_kij[Aircraft_4,EGPH,LROP]
+   + 5.117471264367816 z_kij[Aircraft_4,EGPH,LGIR]
+   + 3.091494252873563 z_kij[Aircraft_4,EGPH,BIKF]
+   + 4.188275862068966 z_kij[Aircraft_4,EGPH,LICJ]
+   + 4.701494252873563 z_kij[Aircraft_4,EGPH,LPMA]
+   + 3.91816091954023 z_kij[Aircraft_4,LROP,EGLL]
+   + 3.626551724137931 z_kij[Aircraft_4,LROP,LFPG]
+   + 3.549655172413793 z_kij[Aircraft_4,LROP,EHAM]
+   + 2.665517241379311 z_kij[Aircraft_4,LROP,EDDF]
+   + 4.325287356321839 z_kij[Aircraft_4,LROP,LEMF]
+   + 3.776436781609195 z_kij[Aircraft_4,LROP,LEBL]
+   + 2.845977011494253 z_kij[Aircraft_4,LROP,EDDM]
+   + 2.836206896551724 z_kij[Aircraft_4,LROP,LIRF]
+   + 4.407931034482759 z_kij[Aircraft_4,LROP,EIDW]
+   + 3.527701149425287 z_kij[Aircraft_4,LROP,ESSA]
+   + 4.914712643678161 z_kij[Aircraft_4,LROP,LPPT]
+   + 2.983908045977012 z_kij[Aircraft_4,LROP,EDDT]
+   + 3.514367816091954 z_kij[Aircraft_4,LROP,EFHK]
+   + 2.562873563218391 z_kij[Aircraft_4,LROP,EPWA]
+   + 4.280459770114943 z_kij[Aircraft_4,LROP,EGPH]
+   + 2.683218390804598 z_kij[Aircraft_4,LROP,LGIR]
+   + 5.740919540229885 z_kij[Aircraft_4,LROP,BIKF]
+   + 2.975057471264368 z_kij[Aircraft_4,LROP,LICJ]
+   + 5.980919540229885 z_kij[Aircraft_4,LROP,LPMA]
+   + 4.620344827586207 z_kij[Aircraft_4,LGIR,EGLL]
+   + 4.246896551724138 z_kij[Aircraft_4,LGIR,LFPG]
+   + 4.351609195402299 z_kij[Aircraft_4,LGIR,EHAM]
+   + 3.430344827586207 z_kij[Aircraft_4,LGIR,EDDF]
+   + 4.457816091954023 z_kij[Aircraft_4,LGIR,LEMF]
+   + 3.929885057471264 z_kij[Aircraft_4,LGIR,LEBL]
+   + 3.589425287356322 z_kij[Aircraft_4,LGIR,EDDM]
+   + 3.031724137931034 z_kij[Aircraft_4,LGIR,LIRF]
+   + 5.136666666666667 z_kij[Aircraft_4,LGIR,EIDW]
+   + 4.665632183908046 z_kij[Aircraft_4,LGIR,ESSA]
+   + 5.006896551724138 z_kij[Aircraft_4,LGIR,LPPT]
+   + 3.950574712643678 z_kij[Aircraft_4,LGIR,EDDT]
+   + 4.692413793103448 z_kij[Aircraft_4,LGIR,EFHK]
+   + 3.68448275862069 z_kij[Aircraft_4,LGIR,EPWA]
+   + 5.117471264367816 z_kij[Aircraft_4,LGIR,EGPH]
+   + 2.683218390804598 z_kij[Aircraft_4,LGIR,LROP]
+   + 6.678505747126437 z_kij[Aircraft_4,LGIR,BIKF]
+   + 2.765172413793104 z_kij[Aircraft_4,LGIR,LICJ]
+   + 5.924252873563218 z_kij[Aircraft_4,LGIR,LPMA]
+   + 3.67816091954023 z_kij[Aircraft_4,BIKF,EGLL]
+   + 4.075977011494253 z_kij[Aircraft_4,BIKF,LFPG]
+   + 3.842183908045977 z_kij[Aircraft_4,BIKF,EHAM]
+   + 3.76 z_kij[Aircraft_4,BIKF,EDDF]
+   + 4.82448275862069 z_kij[Aircraft_4,BIKF,LEMF]
+   + 4.926551724137931 z_kij[Aircraft_4,BIKF,LEBL]
+   + 4.594022988505747 z_kij[Aircraft_4,BIKF,EDDM]
+   + 5.314942528735632 z_kij[Aircraft_4,BIKF,LIRF]
+   + 3.221379310344827 z_kij[Aircraft_4,BIKF,EIDW]
+   + 3.962643678160919 z_kij[Aircraft_4,BIKF,ESSA]
+   + 4.879425287356321 z_kij[Aircraft_4,BIKF,LPPT]
+   + 4.265172413793103 z_kij[Aircraft_4,BIKF,EDDT]
+   + 4.309540229885058 z_kij[Aircraft_4,BIKF,EFHK]
+   + 4.723333333333334 z_kij[Aircraft_4,BIKF,EPWA]
+   + 3.091494252873563 z_kij[Aircraft_4,BIKF,EGPH]
+   + 5.740919540229885 z_kij[Aircraft_4,BIKF,LROP]
+   + 6.678505747126437 z_kij[Aircraft_4,BIKF,LGIR]
+   + 5.778390804597701 z_kij[Aircraft_4,BIKF,LICJ]
+   + 5.525632183908046 z_kij[Aircraft_4,BIKF,LPMA]
+   + 3.608275862068965 z_kij[Aircraft_4,LICJ,EGLL]
+   + 3.209540229885057 z_kij[Aircraft_4,LICJ,LFPG]
+   + 3.467931034482759 z_kij[Aircraft_4,LICJ,EHAM]
+   + 2.584022988505747 z_kij[Aircraft_4,LICJ,EDDF]
+   + 3.19367816091954 z_kij[Aircraft_4,LICJ,LEMF]
+   + 2.67632183908046 z_kij[Aircraft_4,LICJ,LEBL]
+   + 2.816781609195402 z_kij[Aircraft_4,LICJ,EDDM]
+   + 1.983103448275862 z_kij[Aircraft_4,LICJ,LIRF]
+   + 4.105172413793103 z_kij[Aircraft_4,LICJ,EIDW]
+   + 4.278620689655172 z_kij[Aircraft_4,LICJ,ESSA]
+   + 3.743218390804598 z_kij[Aircraft_4,LICJ,LPPT]
+   + 3.346666666666667 z_kij[Aircraft_4,LICJ,EDDT]
+   + 4.489885057471264 z_kij[Aircraft_4,LICJ,EFHK]
+   + 3.421724137931035 z_kij[Aircraft_4,LICJ,EPWA]
+   + 4.188275862068966 z_kij[Aircraft_4,LICJ,EGPH]
+   + 2.975057471264368 z_kij[Aircraft_4,LICJ,LROP]
+   + 2.765172413793104 z_kij[Aircraft_4,LICJ,LGIR]
+   + 5.778390804597701 z_kij[Aircraft_4,LICJ,BIKF]
+   + 4.694942528735632 z_kij[Aircraft_4,LICJ,LPMA]
+   + 4.340689655172413 z_kij[Aircraft_4,LPMA,EGLL]
+   + 4.283333333333333 z_kij[Aircraft_4,LPMA,LFPG]
+   + 4.699425287356322 z_kij[Aircraft_4,LPMA,EHAM]
+   + 4.259770114942529 z_kij[Aircraft_4,LPMA,EDDF]
+   + 3.177931034482758 z_kij[Aircraft_4,LPMA,LEMF]
+   + 3.70919540229885 z_kij[Aircraft_4,LPMA,LEBL]
+   + 4.888390804597702 z_kij[Aircraft_4,LPMA,EDDM]
+   + 4.653908045977012 z_kij[Aircraft_4,LPMA,LIRF]
+   + 4.317471264367816 z_kij[Aircraft_4,LPMA,EIDW]
+   + 6.016206896551724 z_kij[Aircraft_4,LPMA,ESSA]
+   + 2.609310344827586 z_kij[Aircraft_4,LPMA,LPPT]
+   + 5.250459770114943 z_kij[Aircraft_4,LPMA,EDDT]
+   + 6.448045977011494 z_kij[Aircraft_4,LPMA,EFHK]
+   + 5.769080459770115 z_kij[Aircraft_4,LPMA,EPWA]
+   + 4.701494252873563 z_kij[Aircraft_4,LPMA,EGPH]
+   + 5.980919540229885 z_kij[Aircraft_4,LPMA,LROP]
+   + 5.924252873563218 z_kij[Aircraft_4,LPMA,LGIR]
+   + 5.525632183908046 z_kij[Aircraft_4,LPMA,BIKF]
+   + 4.694942528735632 z_kij[Aircraft_4,LPMA,LICJ] - 70 AC_k[Aircraft_4]
    <= 0
  RangeConstraint_Aircraft_1_EGLL_LFPG: z_kij[Aircraft_1,EGLL,LFPG]
    <= 100000

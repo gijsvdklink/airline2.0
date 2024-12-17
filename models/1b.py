@@ -192,11 +192,11 @@ for i in airports:
         if i != j:  # Exclude same airport pairs
             model.addConstr(
                 x[i, j] + w[i, j] <= demand_matrix[j][i],  # Demand is defined in the matrix
-                name=f"WeeklyDemand_{i}_{j}"
+                name=f"Demand_{i}_{j}"
             )
 
 # Print confirmation
-print("Weekly Demand Constraints (C1) added successfully.")
+print("Weekly demand (C1) added successfully.")
 
 
 
@@ -221,10 +221,10 @@ for i in airports:
                 quicksum(w[i, m] * (1 - g[j]) for m in airports if m != i) +  # Incoming transfer passengers to j
                 quicksum(w[m, i] * (1 - g[i]) for m in airports if m != j)   # Outgoing transfer passengers from i
                 <= quicksum(z[k, i, j] * aircraft_properties[k]['Seats'] * aircraft_properties[k]['LF'] for k in aircraft_types),  # Summed over aircraft types
-                name=f"WeeklyCapacity_{i}_{j}"
+                name=f"Capacity_{i}_{j}"
             )
 # Print confirmation
-print("Weekly Capacity Constraints (C2) added successfully.")
+print("Capacity Constraints (C2) added successfully.")
 
 # Flow Balance Constraint (C3)
 for k in aircraft_types:
@@ -238,18 +238,24 @@ for k in aircraft_types:
 print("Flow Balance Constraints (C3) added successfully.")
 
 
+# Precompute hub adjustment factors
+hub_adjustment = {j: 1 + 0.5 * g[j] for j in airports}
+
 # Total Time Constraint (C4)
 for k in aircraft_types:
     model.addConstr(
         quicksum(
             (
                 (distance_matrix[i][j] / aircraft_properties[k]['Speed']) +  # Flight time
-                aircraft_properties[k]['TAT']/60 * (1 + 0.5 * (1 - g[i]) + (1 - g[j]))  # Turnaround time and hub adjustment
-            ) * z[k, i, j]  # Total time for aircraft k between airports i and j
+                (aircraft_properties[k]['TAT'] / 60) * hub_adjustment[j]  # Precomputed adjustment
+            ) * z[k, i, j]
             for i in airports for j in airports if i != j
-        ) <= aircraft_properties[k]['BT'] * AC[k],  # Total time should be less than or equal to available time
+        ) <= aircraft_properties[k]['BT'] * AC[k],  # Available time
         name=f"TotalTime_{k}"
     )
+
+
+
 
 # Print confirmation
 print("Total Time Constraints (C4) added successfully.")
@@ -303,7 +309,9 @@ print("Slot Limitation Constraints (C7) added successfully.")
 print(f"Runway Length for EPWA: {runway_lengths['EPWA']}")
 print(f"Runway Requirement for Aircraft 4: {aircraft_properties['Aircraft 4']['Runway Requirement']}")
 
+
 model.optimize()
+
 
 
 
@@ -345,4 +353,8 @@ if model.status == GRB.OPTIMAL:
             print(f"Aircraft Type: {k}, Number Leased: {int(fleet_size)}")
 
 
-print('hoi')
+# Print g[j] voor elke airport j
+for j in airports:
+    print(f"g[{j}] = {g[j]}")
+print(f"Aantal luchthavens: {len(airports)}")
+print(f"Aantal vliegtuigtypes: {len(aircraft_types)}")
