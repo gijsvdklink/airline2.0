@@ -1,4 +1,4 @@
-\ Model PassengerReallocation
+\ Model PassengerMixFlow
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Minimize
   150 t_1^0 + 170 t_2^0 + 80 t_3^0 + 70 t_4^0 + 50 t_5^0 + 120 t_6^0
@@ -30,5 +30,20 @@ Subject To
  Demand_Limit_13: t_13^0 <= 30
  Demand_Limit_14: t_14^0 <= 75
  Demand_Limit_15: t_15^0 <= 80
+ NonNegative_t_1_0: t_1^0 >= 0
+ NonNegative_t_2_0: t_2^0 >= 0
+ NonNegative_t_3_0: t_3^0 >= 0
+ NonNegative_t_4_0: t_4^0 >= 0
+ NonNegative_t_5_0: t_5^0 >= 0
+ NonNegative_t_6_0: t_6^0 >= 0
+ NonNegative_t_7_0: t_7^0 >= 0
+ NonNegative_t_8_0: t_8^0 >= 0
+ NonNegative_t_9_0: t_9^0 >= 0
+ NonNegative_t_10_0: t_10^0 >= 0
+ NonNegative_t_11_0: t_11^0 >= 0
+ NonNegative_t_12_0: t_12^0 >= 0
+ NonNegative_t_13_0: t_13^0 >= 0
+ NonNegative_t_14_0: t_14^0 >= 0
+ NonNegative_t_15_0: t_15^0 >= 0
 Bounds
 End
