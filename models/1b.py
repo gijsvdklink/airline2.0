@@ -310,7 +310,10 @@ print("Slot Limitation Constraints (C7) added successfully.")
 print(f"Runway Length for EPWA: {runway_lengths['EPWA']}")
 print(f"Runway Requirement for Aircraft 4: {aircraft_properties['Aircraft 4']['Runway Requirement']}")
 
+model.write("model.lp")
+
 model.optimize()
+
 
 if model.status == GRB.OPTIMAL:
     # Print the optimal objective value
